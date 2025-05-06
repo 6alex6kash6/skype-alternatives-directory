@@ -1,3 +1,4 @@
+'use client';
 
 import React, { useState } from 'react';
 import { Review } from '@/data/software';
@@ -8,7 +9,12 @@ interface ReviewCardProps {
   review: Review;
 }
 
-const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
+const ReviewCard: React.FC<{
+  children?: React.ReactNode;
+}> = ({
+  review,
+  children
+}) => {
   const [helpful, setHelpful] = useState(review.helpful);
   const [notHelpful, setNotHelpful] = useState(review.notHelpful);
   const [userVote, setUserVote] = useState<'helpful' | 'not-helpful' | null>(null);

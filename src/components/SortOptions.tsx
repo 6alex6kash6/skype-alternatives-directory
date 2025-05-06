@@ -1,3 +1,4 @@
+'use client';
 
 import React from 'react';
 
@@ -6,7 +7,13 @@ interface SortOptionsProps {
   onSortChange: (option: string) => void;
 }
 
-const SortOptions: React.FC<SortOptionsProps> = ({ sortOption, onSortChange }) => {
+const SortOptions: React.FC<{
+  children?: React.ReactNode;
+}> = ({
+  sortOption,
+  onSortChange,
+  children
+}) => {
   return (
     <div className="flex items-center space-x-2">
       <label htmlFor="sort-reviews" className="text-sm text-gray-600">

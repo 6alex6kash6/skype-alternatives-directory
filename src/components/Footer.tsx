@@ -1,8 +1,14 @@
 
+import Link from "next/link";
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Footer: React.FC = () => {
+const Footer: React.FC<{
+  children?: React.ReactNode;
+}> = (
+  {
+    children
+  }
+) => {
   return (
     <footer className="bg-gray-100 pt-12 pb-8 mt-12">
       <div className="container mx-auto px-4">
@@ -15,20 +21,20 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-800">Categories</h3>
             <ul className="space-y-2 text-gray-600">
-              <li><Link to="/" className="hover:text-purple-600">Video Conferencing</Link></li>
-              <li><Link to="/" className="hover:text-purple-600">Team Collaboration</Link></li>
-              <li><Link to="/" className="hover:text-purple-600">Voice Calls</Link></li>
-              <li><Link to="/" className="hover:text-purple-600">Screen Sharing</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Video Conferencing</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Team Collaboration</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Voice Calls</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Screen Sharing</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-800">Company</h3>
             <ul className="space-y-2 text-gray-600">
-              <li><Link to="/" className="hover:text-purple-600">About Us</Link></li>
-              <li><Link to="/" className="hover:text-purple-600">Contact</Link></li>
-              <li><Link to="/" className="hover:text-purple-600">Privacy Policy</Link></li>
-              <li><Link to="/" className="hover:text-purple-600">Terms of Service</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">About Us</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Contact</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Privacy Policy</Link></li>
+              <li><Link href="/" className="hover:text-purple-600">Terms of Service</Link></li>
             </ul>
           </div>
           

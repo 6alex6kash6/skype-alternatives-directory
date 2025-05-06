@@ -1,20 +1,26 @@
 
+import Link from "next/link";
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Header: React.FC = () => {
+const Header: React.FC<{
+  children?: React.ReactNode;
+}> = (
+  {
+    children
+  }
+) => {
   return (
     <header className="bg-white border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-3">
+        <Link href="/" className="flex items-center space-x-3">
           <span className="text-purple-600 text-2xl font-bold">SkypeAlternatives</span>
         </Link>
         
         <nav className="hidden md:flex space-x-8">
-          <Link to="/" className="text-gray-600 hover:text-purple-600 font-medium">Home</Link>
-          <Link to="/" className="text-gray-600 hover:text-purple-600 font-medium">Compare</Link>
-          <Link to="/" className="text-gray-600 hover:text-purple-600 font-medium">Categories</Link>
-          <Link to="/" className="text-gray-600 hover:text-purple-600 font-medium">About</Link>
+          <Link href="/" className="text-gray-600 hover:text-purple-600 font-medium">Home</Link>
+          <Link href="/" className="text-gray-600 hover:text-purple-600 font-medium">Compare</Link>
+          <Link href="/" className="text-gray-600 hover:text-purple-600 font-medium">Categories</Link>
+          <Link href="/" className="text-gray-600 hover:text-purple-600 font-medium">About</Link>
         </nav>
         
         <div className="flex items-center space-x-4">

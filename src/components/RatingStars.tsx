@@ -8,7 +8,14 @@ interface RatingStarsProps {
   className?: string;
 }
 
-const RatingStars: React.FC<RatingStarsProps> = ({ rating, size = 20, className = '' }) => {
+const RatingStars: React.FC<{
+  children?: React.ReactNode;
+}> = ({
+  rating,
+  size = 20,
+  className = '',
+  children
+}) => {
   // Convert rating to stars (full, half, empty)
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 >= 0.5;
