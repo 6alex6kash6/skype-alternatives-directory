@@ -1,5 +1,14 @@
 {
-  "node": {},
+  "node": {
+    "24669295a8c9b154cd5d67475db77c23e2024512": {
+      "workers": {
+        "app/software/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmrn%2FDocuments%2Fwork%2Fmy-projects%2Fskype-alternatives-reviews-hub-47%2Fsrc%2Fhooks%2Fuse-server-mobile.ts%22%2C%5B%22useServerMobile%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/software/[id]/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "Es5dc2+WZR/jt2SwkABDT3AejSSo4qBb2884YM5OxSo="
+  "encryptionKey": "WteXtjYCf8LuYIv+ducS9TFUczGRC7xhtBR5nKI8xyk="
 }

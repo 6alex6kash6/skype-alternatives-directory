@@ -5,13 +5,24 @@ import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getSoftwareBySlug } from "@/data/software";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { cn } from "@/lib/utils";
 
-const SoftwareDetail = () => {
+interface SoftwareDetailProps {
+  initialIsMobile: boolean;
+}
+
+const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
   const software = getSoftwareBySlug(id || "");
+  const isClientMobile = useIsMobile();
+  const [mounted, setMounted] = React.useState(false);
 
-  // Redirect to 404 if software not found
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
   React.useEffect(() => {
     if (!software) {
       router.push("/not-found");
@@ -22,6 +33,8 @@ const SoftwareDetail = () => {
     return null; // Will redirect via useEffect
   }
 
+  const isMobile = mounted ? isClientMobile : initialIsMobile;
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
@@ -29,7 +42,10 @@ const SoftwareDetail = () => {
       <main className="flex-grow container mx-auto px-4 py-8">
         {/* Software header */}
         <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 mb-8">
-          <div className="flex flex-row items-center">
+          <div className={cn(
+            "flex items-center",
+            isMobile ? "flex-col" : "flex-row"
+          )}>
             <img
               src={
                 software.images ||
@@ -38,7 +54,10 @@ const SoftwareDetail = () => {
                 ""
               }
               alt={`${software.title} logo`}
-              className="w-20 h-20 object-contain mr-6"
+              className={cn(
+                "w-20 h-20 object-contain",
+                !isMobile && "mr-6"
+              )}
             />
 
             <div className="flex-grow min-w-0">
@@ -63,7 +82,10 @@ const SoftwareDetail = () => {
               href={software.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-6 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 whitespace-nowrap"
+              className={cn(
+                "bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 whitespace-nowrap",
+                !isMobile && "ml-6"
+              )}
             >
               Visit {software.title}
             </a>

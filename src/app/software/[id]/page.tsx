@@ -1,3 +1,5 @@
+import SoftwareDetailWrapper from "@/components/SoftwareDetailWrapper";
 
-      import SoftwareDetail from '@/components/SoftwareDetail';
-      export default SoftwareDetail;
+export default function SoftwarePage() {
+  return <SoftwareDetailWrapper />;
+}
