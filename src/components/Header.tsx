@@ -44,7 +44,7 @@ const Header: React.FC<{
             Categories
           </Link>
           <Link
-            href="/"
+            href="/about"
             className="text-gray-600 hover:text-purple-600 font-medium"
           >
             About
