@@ -1,0 +1,169 @@
+import {Review} from "@/data/reviews.ts";
+
+export const yollaReviews: Review[] = [
+  {
+    id: 1,
+    author: "James L.",
+    avatar: "/avatars/yolla-user1.jpg",
+    rating: 5,
+    date: "2025-04-15",
+    title: "Unbelievably low international rates",
+    content: "I've tried numerous VoIP services, and Yolla offers by far the best rates for calling my family in Southeast Asia. At less than half a cent per minute to some countries, I can talk for hours without worrying about the cost. The app is straightforward to use as well.",
+    helpful: 78,
+    notHelpful: 4
+  },
+  {
+    id: 2,
+    author: "Fatima H.",
+    avatar: "/avatars/yolla-user2.jpg",
+    rating: 2,
+    date: "2025-04-22",
+    title: "Frequent connection problems",
+    content: "While the rates are attractive, I experience constant connection issues that make calls frustrating. Calls drop unexpectedly or have such poor quality that conversations become impossible. When it works, it's great, but that's becoming increasingly rare.",
+    helpful: 53,
+    notHelpful: 7
+  },
+  {
+    id: 3,
+    author: "Daniel K.",
+    avatar: "/avatars/yolla-user3.jpg",
+    rating: 4,
+    date: "2025-04-07",
+    title: "Simple interface, great for occasional calls",
+    content: "Yolla has a clean, no-frills interface that makes it easy to place international calls. I don't call overseas often, but when I do, the rates are excellent and the quality is generally good. Customer support responded quickly when I had a question about billing.",
+    helpful: 45,
+    notHelpful: 3
+  },
+  {
+    id: 4,
+    author: "Lin W.",
+    avatar: "/avatars/yolla-user4.jpg",
+    rating: 1,
+    date: "2025-03-29",
+    title: "Charged more than advertised",
+    content: "I was attracted by the low advertised rates, but my actual charges were nearly triple what was expected. When I contacted support with screenshots of the advertised rates, they claimed 'network surcharges' were applied. This feels like a bait-and-switch tactic.",
+    helpful: 92,
+    notHelpful: 5
+  },
+  {
+    id: 5,
+    author: "Gabriela M.",
+    avatar: "/avatars/yolla-user5.jpg",
+    rating: 3,
+    date: "2025-04-18",
+    title: "Good rates but inconsistent quality",
+    content: "Yolla offers great international rates, especially to Latin America. However, the call quality varies dramatically - sometimes crystal clear, other times with echoes and delays. I continue to use it for the cost savings, but I wish the quality was more consistent.",
+    helpful: 36,
+    notHelpful: 4
+  },
+  {
+    id: 6,
+    author: "Andrei P.",
+    avatar: "/avatars/yolla-user6.jpg",
+    rating: 5,
+    date: "2025-04-03",
+    title: "Excellent support team",
+    content: "I had an issue with my account that was resolved promptly by Yolla's support team. They were responsive, courteous, and actually solved my problem instead of giving generic responses. Combined with their low rates, this level of service makes Yolla my top choice.",
+    helpful: 61,
+    notHelpful: 8
+  },
+  {
+    id: 7,
+    author: "Sophie T.",
+    avatar: "/avatars/yolla-user7.jpg",
+    rating: 2,
+    date: "2025-04-11",
+    title: "Web version barely functions",
+    content: "The mobile app works adequately, but the web version is practically useless. It constantly disconnects, has audio quality issues, and lacks many features present in the app. If you need to use Yolla from a computer, be prepared for frustration.",
+    helpful: 42,
+    notHelpful: 3
+  },
+  {
+    id: 8,
+    author: "Ahmed A.",
+    avatar: "/avatars/yolla-user8.jpg",
+    rating: 4,
+    date: "2025-03-25",
+    title: "Perfect for calling family overseas",
+    content: "I use Yolla weekly to call my elderly parents in Egypt, and it's been reliable and affordable. The interface is simple enough that I could explain it to them over the phone, and the call quality is generally clear. The ability to keep my existing number is a huge plus.",
+    helpful: 57,
+    notHelpful: 5
+  },
+  {
+    id: 9,
+    author: "Isabella C.",
+    avatar: "/avatars/yolla-user9.jpg",
+    rating: 1,
+    date: "2025-04-20",
+    title: "Terrible connection quality",
+    content: "While the rates are low, the connection quality makes conversations nearly impossible. There's constant echo, delay, and calls drop frequently. I tried troubleshooting with support but got nowhere. I've switched to a slightly more expensive service that actually works.",
+    helpful: 73,
+    notHelpful: 12
+  },
+  {
+    id: 10,
+    author: "Johan S.",
+    avatar: "/avatars/yolla-user10.jpg",
+    rating: 3,
+    date: "2025-04-05",
+    title: "Good enough for basic needs",
+    content: "Yolla does what it promises - provides cheap international calls with acceptable quality. It's not perfect - occasional connection issues occur, and the app could be more intuitive, but for the price point, it delivers reasonable value. I use it primarily for short check-in calls.",
+    helpful: 38,
+    notHelpful: 6
+  },
+  {
+    id: 11,
+    author: "Mei L.",
+    avatar: "/avatars/yolla-user11.jpg",
+    rating: 5,
+    date: "2025-03-18",
+    title: "Best rates for calling China",
+    content: "I've tried multiple services for calling family in China, and Yolla offers by far the best combination of quality and price. The connection is stable, the audio is clear, and the rates are incredibly affordable. The app is easy to use even for someone not very tech-savvy.",
+    helpful: 82,
+    notHelpful: 3
+  },
+  {
+    id: 12,
+    author: "Victor O.",
+    avatar: "/avatars/yolla-user12.jpg",
+    rating: 2,
+    date: "2025-04-17",
+    title: "Overcharged my account repeatedly",
+    content: "I've had multiple instances where my account was charged more than the advertised rates. When I've contacted support, they've been dismissive and unhelpful. The service works technically, but I can't trust a company that isn't transparent about its billing practices.",
+    helpful: 65,
+    notHelpful: 9
+  },
+  {
+    id: 13,
+    author: "Hannah J.",
+    avatar: "/avatars/yolla-user13.jpg",
+    rating: 4,
+    date: "2025-04-09",
+    title: "Simple and effective",
+    content: "Yolla doesn't try to be everything to everyone - it focuses on providing affordable international calls and does that job well. The interface is straightforward, calls connect quickly, and the quality is generally good. The occasional technical hiccup is a small price to pay for the savings.",
+    helpful: 41,
+    notHelpful: 4
+  },
+  {
+    id: 14,
+    author: "Pavel R.",
+    avatar: "/avatars/yolla-user14.jpg",
+    rating: 2,
+    date: "2025-03-27",
+    title: "Poor audio quality ruins calls",
+    content: "Despite multiple attempts and troubleshooting with support, the audio quality on my calls is consistently poor. There's echoing, delay, and sometimes the call drops entirely. The rates are attractive, but what's the point if you can't have a proper conversation?",
+    helpful: 48,
+    notHelpful: 6
+  },
+  {
+    id: 15,
+    author: "Zoe K.",
+    avatar: "/avatars/yolla-user15.jpg",
+    rating: 5,
+    date: "2025-04-14",
+    title: "Reliable service with excellent rates",
+    content: "As someone who makes frequent international calls for both personal and business reasons, Yolla has been a game-changer. The rates are truly competitive, the call quality is consistent, and the app is intuitive. Customer service was also helpful when I needed assistance with a payment issue.",
+    helpful: 69,
+    notHelpful: 3
+  },
+];

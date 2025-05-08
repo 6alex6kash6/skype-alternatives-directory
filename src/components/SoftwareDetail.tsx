@@ -1,12 +1,16 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import React from "react";
+import React, { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getSoftwareBySlug } from "@/data/software";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
+import ReviewsList from "@/components/ReviewsList";
+import { getReviewsBySlug, getAverageRating, getReviewCount } from "@/data/reviews";
+import RatingStars from "@/components/RatingStars";
+import SortOptions from "@/components/SortOptions";
 
 interface SoftwareDetailProps {
   initialIsMobile: boolean;
@@ -18,6 +22,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
   const software = getSoftwareBySlug(id || "");
   const isClientMobile = useIsMobile();
   const [mounted, setMounted] = React.useState(false);
+  const [sortOption, setSortOption] = useState('most-recent');
 
   React.useEffect(() => {
     setMounted(true);
@@ -34,6 +39,9 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
   }
 
   const isMobile = mounted ? isClientMobile : initialIsMobile;
+  const reviews = getReviewsBySlug(software.slug);
+  const averageRating = getAverageRating(software.slug);
+  const reviewCount = getReviewCount(software.slug);
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
@@ -65,6 +73,15 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                 {software.title}
               </h1>
               <div className="flex items-center gap-2 mt-2">
+                {reviewCount > 0 ? (
+                  <>
+                    <RatingStars rating={averageRating} size={20} />
+                    <span className="text-lg font-medium text-gray-900">{averageRating.toFixed(1)}</span>
+                    <span className="text-sm text-gray-600">({reviewCount} reviews)</span>
+                  </>
+                ) : (
+                  <span className="text-sm text-gray-500">No reviews yet</span>
+                )}
                 {software.verified && (
                   <span className="text-sm bg-green-100 text-green-800 px-2 py-1 rounded-full">
                     Verified
@@ -178,8 +195,8 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
             </div>
           </div>
 
-          {/* Right column - Screenshot */}
-          <div className="lg:col-span-2">
+          {/* Right column - Screenshot and Reviews */}
+          <div className="lg:col-span-2 space-y-8">
             <div className="bg-white rounded-xl shadow-sm p-6">
               {software.screenshotUrl && (
                 <img
@@ -187,6 +204,25 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                   alt={`${software.title} screenshot`}
                   className="w-full rounded-lg"
                 />
+              )}
+            </div>
+
+            {/* Reviews section */}
+            <div className="bg-white rounded-xl shadow-sm p-6">
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-xl font-semibold text-gray-900">
+                  User Reviews
+                </h2>
+                {reviewCount > 0 && (
+                  <SortOptions sortOption={sortOption} onSortChange={setSortOption} />
+                )}
+              </div>
+              {reviewCount > 0 ? (
+                <ReviewsList reviews={reviews} sortOption={sortOption} />
+              ) : (
+                <div className="text-center py-8">
+                  <p className="text-gray-500">No reviews yet</p>
+                </div>
               )}
             </div>
           </div>

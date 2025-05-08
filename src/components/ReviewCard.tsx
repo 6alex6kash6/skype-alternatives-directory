@@ -1,20 +1,15 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Review } from '@/data/software';
 import RatingStars from './RatingStars';
 import { ThumbsUp, ThumbsDown } from 'lucide-react';
+import { Review } from "@/data/reviews";
 
 interface ReviewCardProps {
   review: Review;
 }
 
-const ReviewCard: React.FC<{
-  children?: React.ReactNode;
-}> = ({
-  review,
-  children
-}) => {
+const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
   const [helpful, setHelpful] = useState(review.helpful);
   const [notHelpful, setNotHelpful] = useState(review.notHelpful);
   const [userVote, setUserVote] = useState<'helpful' | 'not-helpful' | null>(null);
@@ -78,7 +73,7 @@ const ReviewCard: React.FC<{
           <h3 className="text-xl font-semibold mt-3 mb-2 text-gray-800">{review.title}</h3>
           <p className="text-gray-700">{review.content}</p>
           
-          <div className="mt-4 flex items-center space-x-6">
+          {/* <div className="mt-4 flex items-center space-x-6">
             <button 
               onClick={handleHelpfulClick}
               className={`flex items-center space-x-1 text-sm ${userVote === 'helpful' ? 'text-purple-600' : 'text-gray-500 hover:text-gray-700'}`}
@@ -94,7 +89,7 @@ const ReviewCard: React.FC<{
               <ThumbsDown size={16} />
               <span>Not Helpful ({notHelpful})</span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

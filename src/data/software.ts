@@ -1,15 +1,3 @@
-export interface Review {
-  id: number;
-  author: string;
-  avatar: string;
-  rating: number;
-  date: string;
-  title: string;
-  content: string;
-  helpful: number;
-  notHelpful: number;
-}
-
 export interface Software {
   title: string;
   url: string;

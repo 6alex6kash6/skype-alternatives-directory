@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Star, StarHalf } from 'lucide-react';
 
@@ -8,13 +7,10 @@ interface RatingStarsProps {
   className?: string;
 }
 
-const RatingStars: React.FC<{
-  children?: React.ReactNode;
-}> = ({
+const RatingStars: React.FC<RatingStarsProps> = ({
   rating,
   size = 20,
-  className = '',
-  children
+  className = ''
 }) => {
   // Convert rating to stars (full, half, empty)
   const fullStars = Math.floor(rating);
