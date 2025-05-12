@@ -1,5 +1,3 @@
-import { viberReviews } from "./viber";
-import { yollaReviews } from "./yolla";
 import { zadarmaReviews } from "./zadarma";
 import { webexReviews } from "./webex";
 import { voipbusterReviews } from "./voipbuster";
@@ -26,6 +24,8 @@ import { brosixReviews } from "./brosix";
 import { aircallReviews } from "./aircall";
 import { sipgateReviews } from "./sipgate_com_sipgate_brings_voip_to_your_iphone";
 import { eightXEightReviews } from "./8x8";
+import { viberReviews } from "./viber";
+import { yollaReviews } from "./yolla";
 
 export interface Review {
   id: number;
@@ -65,9 +65,9 @@ export const allReviews: Record<string, Review[]> = {
   dingtone: dingtoneReviews,
   chanty: chantyReviews,
   brosix: brosixReviews,
-  aircall: aircallReviews,
   sipgate: sipgateReviews,
   "8x8": eightXEightReviews,
+  aircall: aircallReviews,
 };
 
 export const getReviewsBySlug = (slug: string): Review[] => {
