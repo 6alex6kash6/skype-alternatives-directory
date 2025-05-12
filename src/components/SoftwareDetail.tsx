@@ -8,7 +8,11 @@ import { getSoftwareBySlug } from "@/data/software";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 import ReviewsList from "@/components/ReviewsList";
-import { getReviewsBySlug, getAverageRating, getReviewCount } from "@/data/reviews";
+import {
+  getReviewsBySlug,
+  getAverageRating,
+  getReviewCount,
+} from "@/data/reviews";
 import RatingStars from "@/components/RatingStars";
 import SortOptions from "@/components/SortOptions";
 
@@ -22,7 +26,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
   const software = getSoftwareBySlug(id || "");
   const isClientMobile = useIsMobile();
   const [mounted, setMounted] = React.useState(false);
-  const [sortOption, setSortOption] = useState('most-recent');
+  const [sortOption, setSortOption] = useState("most-recent");
 
   React.useEffect(() => {
     setMounted(true);
@@ -50,10 +54,12 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
       <main className="flex-grow container mx-auto px-4 py-8">
         {/* Software header */}
         <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 mb-8">
-          <div className={cn(
-            "flex items-center",
-            isMobile ? "flex-col" : "flex-row"
-          )}>
+          <div
+            className={cn(
+              "flex items-center",
+              isMobile ? "flex-col" : "flex-row"
+            )}
+          >
             <img
               src={
                 software.images ||
@@ -62,10 +68,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                 ""
               }
               alt={`${software.title} logo`}
-              className={cn(
-                "w-20 h-20 object-contain",
-                !isMobile && "mr-6"
-              )}
+              className={cn("w-20 h-20 object-contain", !isMobile && "mr-6")}
             />
 
             <div className="flex-grow min-w-0">
@@ -76,8 +79,12 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                 {reviewCount > 0 ? (
                   <>
                     <RatingStars rating={averageRating} size={20} />
-                    <span className="text-lg font-medium text-gray-900">{averageRating.toFixed(1)}</span>
-                    <span className="text-sm text-gray-600">({reviewCount} reviews)</span>
+                    <span className="text-lg font-medium text-gray-900">
+                      {averageRating.toFixed(1)}
+                    </span>
+                    <span className="text-sm text-gray-600">
+                      ({reviewCount} reviews)
+                    </span>
                   </>
                 ) : (
                   <span className="text-sm text-gray-500">No reviews yet</span>
@@ -214,7 +221,10 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                   User Reviews
                 </h2>
                 {reviewCount > 0 && (
-                  <SortOptions sortOption={sortOption} onSortChange={setSortOption} />
+                  <SortOptions
+                    sortOption={sortOption}
+                    onSortChange={setSortOption}
+                  />
                 )}
               </div>
               {reviewCount > 0 ? (

@@ -1,0 +1,224 @@
+import {Review} from "@/data/reviews.ts";
+
+export const phone_comReviews: Review[] = [
+  {
+    id: 1,
+    author: "Kendall U.",
+    avatar: "/avatars/user1.jpg",
+    rating: 3,
+    date: "2025-05-10",
+    title: "Abysmal service and rude agents!",
+    content: "Abysmal service and rude agents!  If they can't answer your questions immediately they just cut you off! \n\n",
+    helpful: 68,
+    notHelpful: 2
+  },
+  {
+    id: 2,
+    author: "Cameron W.",
+    avatar: "/avatars/user10.jpg",
+    rating: 4,
+    date: "2025-04-21",
+    title: "I cancelled the service because I was switching to a different company...",
+    content: "I cancelled the service because I was switching to a different company to be able to use new features for my business they are offering.  \nCalled the end of November 2024 to cancel the service when my new company notified me my number had been ported and after spending a long time on hold I was told everyone I need to talk to had left the office. I called back on December 2, 2024 to again cancel the service. I was put on hold, cut off or dropped call on transfer. Called back was put on hold. Recording said my wait time was 6 minutes however it was 36 minutes. After not being able to use the reference number the guy gave me in November and not being able to use my phone number to find my account the lady finally found my account and then insisted my number had not been ported.  I was put on hold (Again) so she could check to see if the number had been ported. She finally returned and said yes it had been ported. I stated I wanted to cancel the account and asked for a refund of the last 4 month of the yearly subscription.  The  yearly started on 3/20/2024 for $475.80 and was set to renew the end of February 25.  She then informed me I would not get the refund for December, January, February, and March because they do not give refunds. After spending  2+ hrs. on the phone just to find out I am being ripped off for the money I paid in good faith does not set well with me and I will never recommend Phone.com to anyone.  I will not give Phone.com a good review.  EXTREMELY POOR CUSTOMER CARE",
+    helpful: 31,
+    notHelpful: 4
+  },
+  {
+    id: 3,
+    author: "Alex N.",
+    avatar: "/avatars/user2.jpg",
+    rating: 4,
+    date: "2025-03-17",
+    title: "encountered a significant discrepancy in pricing while attempting to s...",
+    content: " encountered a significant discrepancy in pricing while attempting to sign up for this service. Initially, the price was displayed as $27 per user during the account creation process. However, upon reaching the checkout stage, the total unexpectedly jumped to $82 per user after taxes and additional charges.\n\nThis lack of transparency in pricing feels misleading and unprofessional. Potential users should exercise caution when considering this service. I would recommend looking into alternative options that are more upfront and clear about their pricing.\"",
+    helpful: 50,
+    notHelpful: 6
+  },
+  {
+    id: 4,
+    author: "Sage E.",
+    avatar: "/avatars/user10.jpg",
+    rating: 3,
+    date: "2025-05-03",
+    title: "a rip off that will continue charging for no service.",
+    content: "a rip off that will continue charging for no service. Easy to sign up, nearly impossible to cancel. They want me to pay over $160 more for a service I've never used. I'm going to court if this shows up on my credit. ",
+    helpful: 64,
+    notHelpful: 4
+  },
+  {
+    id: 5,
+    author: "Avery K.",
+    avatar: "/avatars/user10.jpg",
+    rating: 3,
+    date: "2025-03-31",
+    title: "DO NOT USE! Why?",
+    content: "Horrible and incompetent.  Stay away from this dumpster fire of a company.  Spiraling into the abyss of eventual bankruptcy!\nPromised to fix my billing issue and follow-up on adding new lines.\nInstead, didn't fix the billing issue\nDidn't Follow up with next steps\nDISCONNECTED MY MAIN LINE!!!",
+    helpful: 46,
+    notHelpful: 9
+  },
+  {
+    id: 6,
+    author: "Sam F.",
+    avatar: "/avatars/user7.jpg",
+    rating: 3,
+    date: "2025-03-26",
+    title: "TRASH Company!",
+    content: "TRASH Company! They disabled our account and phone without a legit reason. I wish I saw their rating before signing up with them.",
+    helpful: 77,
+    notHelpful: 4
+  },
+  {
+    id: 7,
+    author: "Madison G.",
+    avatar: "/avatars/user7.jpg",
+    rating: 3,
+    date: "2025-04-22",
+    title: "Worst service ever.",
+    content: "Worst service ever. The phone never rings, then Ihave to call back the customer every time. Not to mention the customer support techs are idiots.",
+    helpful: 64,
+    notHelpful: 10
+  },
+  {
+    id: 8,
+    author: "Sam Y.",
+    avatar: "/avatars/user6.jpg",
+    rating: 4,
+    date: "2025-03-18",
+    title: "I have been using them for 4 years using Polycom VVX500, no problems.",
+    content: "I have been using them for 4 years using Polycom VVX500, no problems. Just reset my phone today(been using for 4 years) and called support.  In the past, I called support 2 years ago and was great. Today, I talked to support, no clue about phone, could not tell what was wrong, could see my MAC address, but could not send config file.  Now, I have to look for new provider. Anyone have Ideas.  If phone.com has a solution I will stay (if you are reading this).  Going to keep till end of month have app on cell phone.  \nHope this helps.",
+    helpful: 79,
+    notHelpful: 7
+  },
+  {
+    id: 9,
+    author: "Sam J.",
+    avatar: "/avatars/user1.jpg",
+    rating: 3,
+    date: "2025-04-12",
+    title: "I've been using Phone.com for the last 3+ years.",
+    content: "I've been using Phone.com for the last 3+ years. We recently increased our # of phones/lines from 3 to 7. In doing so, Phone.com did not program them properly and then there was an issue with their network which prevented us from being able to set them up. We spent countless hours on the phone with Phone.com's support to no avail. They seemed clueless. Finally we hired an IT company to help us, who successfully got them working. We asked Phone.com for reimbursement on this invoice and they refused because we should have followed their support team's instructions .... which was to reset the internet equipment over and over again until we became tired of sitting on the phone with them. Phone.com is not worth the expense, hassle or poor excuse of a support team. ",
+    helpful: 34,
+    notHelpful: 1
+  },
+  {
+    id: 10,
+    author: "Pat P.",
+    avatar: "/avatars/user8.jpg",
+    rating: 4,
+    date: "2025-04-03",
+    title: "What crap!",
+    content: "What crap! The app sucks, the interface is worse, it goes down constantly! And they make it as hard to cancel as they can. I will never give them a cent of my money again and strongly recommend that neither do you. They exploit the elderly and technically illiterate in hopes of fading into one of the many subscriptions that people keep but don’t use \n\nABSOLUTE GARBAGE! ",
+    helpful: 75,
+    notHelpful: 6
+  },
+  {
+    id: 11,
+    author: "Morgan S.",
+    avatar: "/avatars/user3.jpg",
+    rating: 4,
+    date: "2025-05-04",
+    title: "Phones were trash, service was trash.",
+    content: "Phones were trash, service was trash.  Terrible experience all around.  I absolutely would not recommend.  I spent multiple hours on the phone and they could still not get my phones to work.  Great sales team but not so great service team.",
+    helpful: 64,
+    notHelpful: 6
+  },
+  {
+    id: 12,
+    author: "Casey J.",
+    avatar: "/avatars/user8.jpg",
+    rating: 3,
+    date: "2025-03-23",
+    title: "I don't know how they found and called me but this feels like scam.",
+    content: "I don't know how they found and called me but this feels like scam.",
+    helpful: 77,
+    notHelpful: 7
+  },
+  {
+    id: 13,
+    author: "Hayden E.",
+    avatar: "/avatars/user14.jpg",
+    rating: 4,
+    date: "2025-03-14",
+    title: "I've had the service for 6 years and it use to be good..",
+    content: "I've had the service for 6 years and it use to be good.. they changed their customer service to a third party in India so now it is impossible to get anything fixed... I use to call and customer service was fast and efficient. They also changed the receptionist service I've had for 3 years my billing was always consistent no issue and now I am being billed 2-4x's the amount. My bill went from $300-$350 to all of a sudden $1300 for the same services!",
+    helpful: 23,
+    notHelpful: 2
+  },
+  {
+    id: 14,
+    author: "Jamie Y.",
+    avatar: "/avatars/user2.jpg",
+    rating: 3,
+    date: "2025-04-10",
+    title: "crap does not work r...",
+    content: "crap does not work ripoff \n",
+    helpful: 38,
+    notHelpful: 8
+  },
+  {
+    id: 15,
+    author: "Cameron V.",
+    avatar: "/avatars/user15.jpg",
+    rating: 3,
+    date: "2025-04-06",
+    title: "My  old Samsung A14 stopped charging.",
+    content: "My  old Samsung A14 stopped charging.  I was forced to purchase a new phone which upon opening the retail box found NO charging unit to connect to the electrical power thus leaving me NO way to charge the phone.  Samsung's excuse was to state I should have purchased it from them instead of a retail store.  \n\nRest assured, Samsung, my next phone won't be one of your brands.  ",
+    helpful: 82,
+    notHelpful: 9
+  },
+  {
+    id: 16,
+    author: "Addison C.",
+    avatar: "/avatars/user10.jpg",
+    rating: 3,
+    date: "2025-03-18",
+    title: "Total waste of time.",
+    content: "Total waste of time. Used them for years for my business. They then decided that since I am not incorporated that they can't provide service to me because they \" can't verify me\". They sure didn't have a problem for years taking my money. Went to a free app that makes calls and sends and received texts. Saved hundreds a year . ",
+    helpful: 64,
+    notHelpful: 5
+  },
+  {
+    id: 17,
+    author: "Harper X.",
+    avatar: "/avatars/user5.jpg",
+    rating: 3,
+    date: "2025-04-07",
+    title: "CANCELLING AWFUL AWF...",
+    content: "CANCELLING AWFUL AWFUL SERVICE",
+    helpful: 16,
+    notHelpful: 3
+  },
+  {
+    id: 18,
+    author: "Charlie N.",
+    avatar: "/avatars/user14.jpg",
+    rating: 3,
+    date: "2025-05-01",
+    title: "Awful customer service.",
+    content: "Awful customer service. They very rude and unbelievable unprofessional. I took my business elsewhere. I wish I can give zero star!",
+    helpful: 58,
+    notHelpful: 5
+  },
+  {
+    id: 19,
+    author: "Mason V.",
+    avatar: "/avatars/user13.jpg",
+    rating: 3,
+    date: "2025-04-22",
+    title: "The service was fine.",
+    content: "The service was fine. The customer service is non existent. I had to change my debit card due to fraud. I can't update my new payment method! The online form they provide can't be used. They can't help via chat. They can't answer your calls within 30 minutes of being on hold!! I can't update my payment method, so my account will just close itself for non payment!!! What a joke of a company!!",
+    helpful: 27,
+    notHelpful: 3
+  },
+  {
+    id: 20,
+    author: "Jaden J.",
+    avatar: "/avatars/user3.jpg",
+    rating: 4,
+    date: "2025-04-18",
+    title: "Awesome when it works but overall very glitchy.",
+    content: "Awesome when it works but overall very glitchy.  In the 2nd half of 2024 it has glitched or gone completely down in the middle of client calls more often than it has worked.",
+    helpful: 36,
+    notHelpful: 2
+  }
+];

@@ -1,0 +1,235 @@
+import {Review} from "@/data/reviews.ts";
+
+export const nextivaReviews: Review[] = [
+  {
+    id: 1,
+    author: "Morgan G.",
+    avatar: "/avatars/user10.jpg",
+    rating: 4,
+    date: "2025-04-23",
+    title: "Nick @ CR was AMAZING, so helpful and went above and beyond listening,...",
+    content: "Nick @ CR was AMAZING, so helpful and went above and beyond listening, fixing my problem, and going the extra mile to be sure all of our account set up was correct and up to date.",
+    helpful: 45,
+    notHelpful: 3
+  },
+  {
+    id: 2,
+    author: "Taylor O.",
+    avatar: "/avatars/user15.jpg",
+    rating: 4,
+    date: "2025-05-01",
+    title: "A huge thank you to Julio Sandoval for helping me through this unfortu...",
+    content: "A huge thank you to Julio Sandoval for helping me through this unfortunate situation with our phones being canceled. Julio was very patient, kind and extremely helpful even going out of his way to help.\nThanks Julio",
+    helpful: 92,
+    notHelpful: 8
+  },
+  {
+    id: 3,
+    author: "Hayden W.",
+    avatar: "/avatars/user9.jpg",
+    rating: 4,
+    date: "2025-03-27",
+    title: "LEO LUNA IS GREAT! S...",
+    content: "LEO LUNA IS GREAT! SMOOTH AND QUICK.",
+    helpful: 33,
+    notHelpful: 7
+  },
+  {
+    id: 4,
+    author: "Robin O.",
+    avatar: "/avatars/user8.jpg",
+    rating: 4,
+    date: "2025-04-02",
+    title: "Denys with Nextiva was super helpful and patient. He helped me get everything set up. thank you!",
+    content: "Denys with Nextiva was super helpful and patient. He helped me get everything set up. thank you!",
+    helpful: 68,
+    notHelpful: 7
+  },
+  {
+    id: 5,
+    author: "Sydney B.",
+    avatar: "/avatars/user14.jpg",
+    rating: 4,
+    date: "2025-03-30",
+    title: "Ivan has been amazing through this process. He has been patient, friendly, and helpful.",
+    content: "Ivan has been amazing through this process. He has been patient, friendly, and helpful. ",
+    helpful: 61,
+    notHelpful: 4
+  },
+  {
+    id: 6,
+    author: "Avery E.",
+    avatar: "/avatars/user3.jpg",
+    rating: 4,
+    date: "2025-05-08",
+    title: "It was a pleasure speaking with the representatives, very helpful!",
+    content: "It was a pleasure speaking with the representatives, very helpful!",
+    helpful: 38,
+    notHelpful: 2
+  },
+  {
+    id: 7,
+    author: "Peyton D.",
+    avatar: "/avatars/user6.jpg",
+    rating: 3,
+    date: "2025-03-18",
+    title: "We signed up for Nextiva expecting a straightforward business-phone so...",
+    content: "We signed up for Nextiva expecting a straightforward business-phone solution. Instead, we spent seven mind-numbing days chasing their ever-shifting demands—forms, legal boilerplate, and contradictory “compliance” rules they can’t even explain. Each support ticket spawned a new hurdle, grinding our rollout to a halt while our other vendors sailed through approval in hours.\n\nEndless Red Tape: They insisted on SMS disclosures we don’t legally need—and then changed their requirements mid-process.\n\nSlow, Disconnected Support: Every “specialist” handed us off to someone else; no one read the previous notes, so we repeated the same story on loop.\n\nProductivity Black Hole: We lost a full workweek, delayed client calls, and burned staff hours just trying to get a phone number activated.\n\nIf you value your time (and sanity), steer clear of Nextiva. We’ve already moved on to a competing provider that did in one afternoon what Nextiva couldn’t handle in seven days of excuses.",
+    helpful: 74,
+    notHelpful: 4
+  },
+  {
+    id: 8,
+    author: "Kendall S.",
+    avatar: "/avatars/user1.jpg",
+    rating: 4,
+    date: "2025-05-07",
+    title: "service was helpful,...",
+    content: "service was helpful, friendly, and respectful!!!!",
+    helpful: 33,
+    notHelpful: 5
+  },
+  {
+    id: 9,
+    author: "Rowan N.",
+    avatar: "/avatars/user5.jpg",
+    rating: 3,
+    date: "2025-04-03",
+    title: "Amanda was very knowledgeable and knew what she was doing.",
+    content: "Amanda was very knowledgeable and knew what she was doing.  The setup went very smoothly.  Only critic is that her audio sounded like she was in an empty room, far away from the mic, making it hard to understand at times. ",
+    helpful: 84,
+    notHelpful: 10
+  },
+  {
+    id: 10,
+    author: "Jamie J.",
+    avatar: "/avatars/user10.jpg",
+    rating: 4,
+    date: "2025-04-17",
+    title: "Nick @ CR was very helpful with my needs and was able to save me money as well. Thank you sir!",
+    content: "Nick @ CR was very helpful with my needs and was able to save me money as well. Thank you sir!",
+    helpful: 62,
+    notHelpful: 8
+  },
+  {
+    id: 11,
+    author: "Jamie B.",
+    avatar: "/avatars/user14.jpg",
+    rating: 4,
+    date: "2025-04-16",
+    title: "Julio is awesome!",
+    content: "Julio is awesome! Great customer service, quick, and knowledgeable. I would prefer to speak to him every time I call Nextiva to be frank.    (Julio B.) and ref #04438570",
+    helpful: 74,
+    notHelpful: 8
+  },
+  {
+    id: 12,
+    author: "Logan G.",
+    avatar: "/avatars/user1.jpg",
+    rating: 3,
+    date: "2025-05-11",
+    title: "After my business failed, and I had to cancel all the services I was u...",
+    content: "After my business failed, and I had to cancel all the services I was using, including Nextiva, Alejandra was very understanding and helped me out. He was calm on the phone even when I was upset.",
+    helpful: 46,
+    notHelpful: 3
+  },
+  {
+    id: 13,
+    author: "Morgan V.",
+    avatar: "/avatars/user11.jpg",
+    rating: 4,
+    date: "2025-05-04",
+    title: "Ed G was amazing, great representative of your company.",
+    content: "Ed G was amazing, great representative of your company. ",
+    helpful: 81,
+    notHelpful: 9
+  },
+  {
+    id: 14,
+    author: "Sage R.",
+    avatar: "/avatars/user10.jpg",
+    rating: 4,
+    date: "2025-05-09",
+    title: "I received wonderful service from Dennys Kosarev.",
+    content: "I received wonderful service from Dennys Kosarev.  He patiently walked me through the entire process of activating my phone and setting up voicemail.  I was in need of special attention and instruction, as I am very low tech, and he provided that.  I am an extremely happy customer now, and will recommend this company to anyone in need of a business phone.",
+    helpful: 79,
+    notHelpful: 6
+  },
+  {
+    id: 15,
+    author: "Kendall V.",
+    avatar: "/avatars/user4.jpg",
+    rating: 4,
+    date: "2025-03-14",
+    title: "Excellent service!!! Vaneesa helped us with all our questions.",
+    content: "Excellent service!!! Vaneesa helped us with all our questions.",
+    helpful: 71,
+    notHelpful: 5
+  },
+  {
+    id: 16,
+    author: "Kendall S.",
+    avatar: "/avatars/user14.jpg",
+    rating: 3,
+    date: "2025-04-16",
+    title: "I have been paying for there service for almost a year, never once bee...",
+    content: "I have been paying for there service for almost a year, never once been able to use it. They wont let me cancel. No technical service for non technical people. No concern for my needs, just work to get me off of the phone and seem very put out generally because I do not understand. ",
+    helpful: 35,
+    notHelpful: 3
+  },
+  {
+    id: 17,
+    author: "Finley S.",
+    avatar: "/avatars/user2.jpg",
+    rating: 4,
+    date: "2025-03-25",
+    title: "Natalia was very helpful and patient throughout the entire process. Very thorough and informative!",
+    content: "Natalia was very helpful and patient throughout the entire process. Very thorough and informative!",
+    helpful: 45,
+    notHelpful: 8
+  },
+  {
+    id: 18,
+    author: "Cameron A.",
+    avatar: "/avatars/user1.jpg",
+    rating: 4,
+    date: "2025-04-16",
+    title: "Alejandro J helped me work out why my account was getting charged twic...",
+    content: "Alejandro J helped me work out why my account was getting charged twice a month. He was very helpful and very informative.",
+    helpful: 60,
+    notHelpful: 5
+  },
+  {
+    id: 19,
+    author: "Charlie I.",
+    avatar: "/avatars/user10.jpg",
+    rating: 3,
+    date: "2025-04-12",
+    title: "Set up and implementation were as seamless as it gets.",
+    content: "Set up and implementation were as seamless as it gets. I'm no IT wiz but with the help of the Nextiva team, I was able to get all new systems for our office implemented. The process of collecting information was precise and efficient, and as an accounting office we appreciate efficiencies.\n\nThanks Nextiva! ",
+    helpful: 93,
+    notHelpful: 8
+  },
+  {
+    id: 20,
+    author: "Cameron L.",
+    avatar: "/avatars/user4.jpg",
+    rating: 4,
+    date: "2025-04-02",
+    title: "Outstanding customer...",
+    content: "Outstanding customer service.",
+    helpful: 56,
+    notHelpful: 9
+  },
+  {
+    id: 21,
+    author: "Charlie L.",
+    avatar: "/avatars/user11.jpg",
+    rating: 3,
+    date: "2025-04-30",
+    title: "Leo Luna, was the only representative that got it.",
+    content: "Leo Luna, was the only representative that got it. I wanted to scream but he preached team work. Nobody on the staff except Leo could find the conversation to remove 7 lines from the contract months ago. And he tried to do a little selling which was a fair trade...",
+    helpful: 67,
+    notHelpful: 4
+  }
+];

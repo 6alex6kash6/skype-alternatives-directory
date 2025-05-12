@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import RatingStars from './RatingStars';
-import { ThumbsUp, ThumbsDown } from 'lucide-react';
+import React, { useState } from "react";
+import RatingStars from "./RatingStars";
+import { ThumbsUp, ThumbsDown } from "lucide-react";
 import { Review } from "@/data/reviews";
 
 interface ReviewCardProps {
@@ -12,53 +12,50 @@ interface ReviewCardProps {
 const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
   const [helpful, setHelpful] = useState(review.helpful);
   const [notHelpful, setNotHelpful] = useState(review.notHelpful);
-  const [userVote, setUserVote] = useState<'helpful' | 'not-helpful' | null>(null);
-  
+  const [userVote, setUserVote] = useState<"helpful" | "not-helpful" | null>(
+    null
+  );
+
   // Format the date
-  const formattedDate = new Date(review.date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
+  const formattedDate = new Date(review.date).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
   });
-  
+
   const handleHelpfulClick = () => {
-    if (userVote === 'helpful') {
+    if (userVote === "helpful") {
       // User is un-voting
       setHelpful(helpful - 1);
       setUserVote(null);
     } else {
       // User is voting helpful
       setHelpful(helpful + 1);
-      if (userVote === 'not-helpful') {
+      if (userVote === "not-helpful") {
         setNotHelpful(notHelpful - 1);
       }
-      setUserVote('helpful');
+      setUserVote("helpful");
     }
   };
-  
+
   const handleNotHelpfulClick = () => {
-    if (userVote === 'not-helpful') {
+    if (userVote === "not-helpful") {
       // User is un-voting
       setNotHelpful(notHelpful - 1);
       setUserVote(null);
     } else {
       // User is voting not helpful
       setNotHelpful(notHelpful + 1);
-      if (userVote === 'helpful') {
+      if (userVote === "helpful") {
         setHelpful(helpful - 1);
       }
-      setUserVote('not-helpful');
+      setUserVote("not-helpful");
     }
   };
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-6">
       <div className="flex items-start">
-        <img 
-          src={review.avatar} 
-          alt={`${review.author}'s avatar`}
-          className="w-12 h-12 rounded-full mr-4 object-cover"
-        />
         <div className="flex-1">
           <div className="flex justify-between items-start">
             <div>
@@ -69,10 +66,12 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
               </div>
             </div>
           </div>
-          
-          <h3 className="text-xl font-semibold mt-3 mb-2 text-gray-800">{review.title}</h3>
+
+          <h3 className="text-xl font-semibold mt-3 mb-2 text-gray-800">
+            {review.title}
+          </h3>
           <p className="text-gray-700">{review.content}</p>
-          
+
           {/* <div className="mt-4 flex items-center space-x-6">
             <button 
               onClick={handleHelpfulClick}
