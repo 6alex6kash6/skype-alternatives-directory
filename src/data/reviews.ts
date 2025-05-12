@@ -1,5 +1,6 @@
 import {viberReviews} from "./viber";
 import {yollaReviews} from "./yolla";
+import {aircallReviews} from "@/data/aircall.ts";
 
 export interface Review {
   id: number;
@@ -16,6 +17,7 @@ export interface Review {
 export const allReviews: Record<string, Review[]> = {
   "viber": viberReviews,
   "yolla": yollaReviews,
+  "aircall": aircallReviews,
 };
 
 export const getReviewsBySlug = (slug: string): Review[] => {
