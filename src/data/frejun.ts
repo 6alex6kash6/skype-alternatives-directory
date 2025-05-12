@@ -1,4 +1,4 @@
-import {Review} from "@/data/reviews.ts";
+import { Review } from "@/data/reviews";
 
 export const frejunReviews: Review[] = [
   {
@@ -8,9 +8,10 @@ export const frejunReviews: Review[] = [
     rating: 4,
     date: "2025-05-08",
     title: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
-    content: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
+    content:
+      "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
     helpful: 27,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ export const frejunReviews: Review[] = [
     title: "Product is good, Use...",
     content: "Product is good, User friendly.",
     helpful: 70,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 3,
@@ -29,10 +30,12 @@ export const frejunReviews: Review[] = [
     avatar: "/avatars/user1.jpg",
     rating: 3,
     date: "2025-04-11",
-    title: "Every day, each person faces such disruption - so many Zoom calls and ...",
-    content: "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
+    title:
+      "Every day, each person faces such disruption - so many Zoom calls and ...",
+    content:
+      "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
     helpful: 36,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 4,
@@ -41,9 +44,10 @@ export const frejunReviews: Review[] = [
     rating: 4,
     date: "2025-04-14",
     title: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
-    content: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
+    content:
+      "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
     helpful: 53,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 5,
@@ -54,7 +58,7 @@ export const frejunReviews: Review[] = [
     title: "Product is good, Use...",
     content: "Product is good, User friendly.",
     helpful: 42,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 6,
@@ -62,10 +66,12 @@ export const frejunReviews: Review[] = [
     avatar: "/avatars/user10.jpg",
     rating: 3,
     date: "2025-04-10",
-    title: "Every day, each person faces such disruption - so many Zoom calls and ...",
-    content: "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
+    title:
+      "Every day, each person faces such disruption - so many Zoom calls and ...",
+    content:
+      "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
     helpful: 59,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 7,
@@ -74,9 +80,10 @@ export const frejunReviews: Review[] = [
     rating: 4,
     date: "2025-03-26",
     title: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
-    content: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
+    content:
+      "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
     helpful: 60,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 8,
@@ -87,7 +94,7 @@ export const frejunReviews: Review[] = [
     title: "Product is good, Use...",
     content: "Product is good, User friendly.",
     helpful: 53,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 9,
@@ -95,10 +102,12 @@ export const frejunReviews: Review[] = [
     avatar: "/avatars/user6.jpg",
     rating: 3,
     date: "2025-04-23",
-    title: "Every day, each person faces such disruption - so many Zoom calls and ...",
-    content: "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
+    title:
+      "Every day, each person faces such disruption - so many Zoom calls and ...",
+    content:
+      "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
     helpful: 57,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 10,
@@ -106,10 +115,12 @@ export const frejunReviews: Review[] = [
     avatar: "/avatars/user4.jpg",
     rating: 3,
     date: "2025-03-25",
-    title: "Every day, each person faces such disruption - so many Zoom calls and ...",
-    content: "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
+    title:
+      "Every day, each person faces such disruption - so many Zoom calls and ...",
+    content:
+      "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
     helpful: 85,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 11,
@@ -118,9 +129,10 @@ export const frejunReviews: Review[] = [
     rating: 4,
     date: "2025-04-11",
     title: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
-    content: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
+    content:
+      "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
     helpful: 28,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 12,
@@ -131,7 +143,7 @@ export const frejunReviews: Review[] = [
     title: "Product is good, Use...",
     content: "Product is good, User friendly.",
     helpful: 74,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 13,
@@ -139,10 +151,12 @@ export const frejunReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 3,
     date: "2025-05-11",
-    title: "Every day, each person faces such disruption - so many Zoom calls and ...",
-    content: "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
+    title:
+      "Every day, each person faces such disruption - so many Zoom calls and ...",
+    content:
+      "Every day, each person faces such disruption - so many Zoom calls and meetings. Every time we have to send you recordings. It's a daily hassle! I will rate you 0.",
     helpful: 79,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 14,
@@ -151,9 +165,10 @@ export const frejunReviews: Review[] = [
     rating: 4,
     date: "2025-05-08",
     title: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
-    content: "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
+    content:
+      "FREJUN IS A GOOD PRODUCT AND THE STAFF RESPONCE IS AISO VERY NICE",
     helpful: 77,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 15,
@@ -164,6 +179,6 @@ export const frejunReviews: Review[] = [
     title: "Product is good, Use...",
     content: "Product is good, User friendly.",
     helpful: 84,
-    notHelpful: 6
-  }
+    notHelpful: 6,
+  },
 ];

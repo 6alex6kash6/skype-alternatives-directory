@@ -1,4 +1,4 @@
-import { Review } from "@/data/reviews.ts";
+import { Review } from "@/data/reviews";
 
 export const aircallReviews: Review[] = [
   {

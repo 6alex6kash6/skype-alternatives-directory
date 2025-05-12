@@ -1,4 +1,4 @@
-import {Review} from "@/data/reviews.ts";
+import { Review } from "@/data/reviews";
 
 export const ringcentralReviews: Review[] = [
   {
@@ -7,10 +7,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user13.jpg",
     rating: 4,
     date: "2025-04-08",
-    title: "I am writing this to express my deep dissatisfaction with a recent cus...",
-    content: "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
+    title:
+      "I am writing this to express my deep dissatisfaction with a recent cus...",
+    content:
+      "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
     helpful: 97,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 2,
@@ -21,7 +23,7 @@ export const ringcentralReviews: Review[] = [
     title: "Real terrible",
     content: "Real terrible",
     helpful: 38,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 3,
@@ -29,10 +31,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user6.jpg",
     rating: 3,
     date: "2025-04-25",
-    title: "Called up the sales line to organise voip for my businesses here and a...",
-    content: "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
+    title:
+      "Called up the sales line to organise voip for my businesses here and a...",
+    content:
+      "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
     helpful: 54,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 4,
@@ -40,10 +44,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user10.jpg",
     rating: 4,
     date: "2025-04-17",
-    title: "Very satisfied with how we transitioned from our old phone vendor to R...",
-    content: "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
+    title:
+      "Very satisfied with how we transitioned from our old phone vendor to R...",
+    content:
+      "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
     helpful: 68,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 5,
@@ -52,9 +58,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-06",
     title: "BUYER BEWARE. Will force you into contracts.",
-    content: "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
+    content:
+      "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
     helpful: 34,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 6,
@@ -63,9 +70,10 @@ export const ringcentralReviews: Review[] = [
     rating: 2,
     date: "2025-04-24",
     title: "Literally the worst.",
-    content: "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
+    content:
+      "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
     helpful: 15,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 7,
@@ -73,10 +81,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user12.jpg",
     rating: 3,
     date: "2025-05-03",
-    title: "I have been trying to get my billing resolved with this company since ...",
-    content: "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
+    title:
+      "I have been trying to get my billing resolved with this company since ...",
+    content:
+      "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
     helpful: 69,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 8,
@@ -85,9 +95,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-22",
     title: "This company does not care about their customers.",
-    content: "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
+    content:
+      "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
     helpful: 65,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 9,
@@ -96,9 +107,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-16",
     title: "VERY UNTRUSTWORTHY, DO NOT DO NOT USE IT.",
-    content: "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
+    content:
+      "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
     helpful: 29,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 10,
@@ -106,10 +118,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user2.jpg",
     rating: 4,
     date: "2025-04-24",
-    title: "I am not a heavy user and i only have one user but its my 3rd year wit...",
-    content: "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
+    title:
+      "I am not a heavy user and i only have one user but its my 3rd year wit...",
+    content:
+      "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
     helpful: 58,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 11,
@@ -120,7 +134,7 @@ export const ringcentralReviews: Review[] = [
     title: "RingCentral has been able to meet my business needs.",
     content: "RingCentral has been able to meet my business needs.",
     helpful: 63,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 12,
@@ -129,9 +143,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-11",
     title: "Small business guys stay away.",
-    content: "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
+    content:
+      "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
     helpful: 31,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 13,
@@ -140,9 +155,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-31",
     title: "If I could do ZERO stars I would.",
-    content: "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
+    content:
+      "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
     helpful: 46,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 14,
@@ -153,7 +169,7 @@ export const ringcentralReviews: Review[] = [
     title: "Real terrible",
     content: "Real terrible",
     helpful: 89,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 15,
@@ -161,10 +177,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 3,
     date: "2025-03-21",
-    title: "Called up the sales line to organise voip for my businesses here and a...",
-    content: "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
+    title:
+      "Called up the sales line to organise voip for my businesses here and a...",
+    content:
+      "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
     helpful: 49,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 16,
@@ -172,10 +190,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 4,
     date: "2025-04-04",
-    title: "Very satisfied with how we transitioned from our old phone vendor to R...",
-    content: "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
+    title:
+      "Very satisfied with how we transitioned from our old phone vendor to R...",
+    content:
+      "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
     helpful: 48,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 17,
@@ -184,9 +204,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-08",
     title: "BUYER BEWARE. Will force you into contracts.",
-    content: "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
+    content:
+      "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
     helpful: 95,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 18,
@@ -195,9 +216,10 @@ export const ringcentralReviews: Review[] = [
     rating: 2,
     date: "2025-04-02",
     title: "Literally the worst.",
-    content: "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
+    content:
+      "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
     helpful: 18,
-    notHelpful: 19
+    notHelpful: 19,
   },
   {
     id: 19,
@@ -206,9 +228,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-19",
     title: "VERY UNTRUSTWORTHY, DO NOT DO NOT USE IT.",
-    content: "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
+    content:
+      "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
     helpful: 60,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 20,
@@ -216,10 +239,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 4,
     date: "2025-04-11",
-    title: "I am not a heavy user and i only have one user but its my 3rd year wit...",
-    content: "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
+    title:
+      "I am not a heavy user and i only have one user but its my 3rd year wit...",
+    content:
+      "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
     helpful: 68,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 21,
@@ -227,10 +252,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user7.jpg",
     rating: 4,
     date: "2025-04-18",
-    title: "I am writing this to express my deep dissatisfaction with a recent cus...",
-    content: "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
+    title:
+      "I am writing this to express my deep dissatisfaction with a recent cus...",
+    content:
+      "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
     helpful: 47,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 22,
@@ -238,10 +265,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user7.jpg",
     rating: 3,
     date: "2025-04-09",
-    title: "I have been trying to get my billing resolved with this company since ...",
-    content: "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
+    title:
+      "I have been trying to get my billing resolved with this company since ...",
+    content:
+      "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
     helpful: 60,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 23,
@@ -252,7 +281,7 @@ export const ringcentralReviews: Review[] = [
     title: "RingCentral has been able to meet my business needs.",
     content: "RingCentral has been able to meet my business needs.",
     helpful: 44,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 24,
@@ -260,10 +289,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 3,
     date: "2025-05-12",
-    title: "Have been on the phone for over 1.5 hours, no one was able to guide on...",
-    content: "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
+    title:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on...",
+    content:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
     helpful: 59,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 25,
@@ -272,9 +303,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-16",
     title: "Small business guys stay away.",
-    content: "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
+    content:
+      "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
     helpful: 69,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 26,
@@ -283,9 +315,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-30",
     title: "If I could do ZERO stars I would.",
-    content: "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
+    content:
+      "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
     helpful: 43,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 27,
@@ -294,9 +327,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-02",
     title: "This company does not care about their customers.",
-    content: "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
+    content:
+      "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
     helpful: 88,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 28,
@@ -304,10 +338,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user6.jpg",
     rating: 3,
     date: "2025-03-28",
-    title: "Called up the sales line to organise voip for my businesses here and a...",
-    content: "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
+    title:
+      "Called up the sales line to organise voip for my businesses here and a...",
+    content:
+      "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
     helpful: 84,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 29,
@@ -315,10 +351,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user2.jpg",
     rating: 4,
     date: "2025-04-16",
-    title: "Very satisfied with how we transitioned from our old phone vendor to R...",
-    content: "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
+    title:
+      "Very satisfied with how we transitioned from our old phone vendor to R...",
+    content:
+      "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
     helpful: 63,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 30,
@@ -327,9 +365,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-15",
     title: "BUYER BEWARE. Will force you into contracts.",
-    content: "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
+    content:
+      "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
     helpful: 29,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 31,
@@ -338,9 +377,10 @@ export const ringcentralReviews: Review[] = [
     rating: 2,
     date: "2025-03-16",
     title: "Literally the worst.",
-    content: "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
+    content:
+      "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
     helpful: 22,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 32,
@@ -348,10 +388,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 3,
     date: "2025-04-01",
-    title: "I have been trying to get my billing resolved with this company since ...",
-    content: "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
+    title:
+      "I have been trying to get my billing resolved with this company since ...",
+    content:
+      "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
     helpful: 55,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 33,
@@ -359,10 +401,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user8.jpg",
     rating: 4,
     date: "2025-04-30",
-    title: "I am not a heavy user and i only have one user but its my 3rd year wit...",
-    content: "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
+    title:
+      "I am not a heavy user and i only have one user but its my 3rd year wit...",
+    content:
+      "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
     helpful: 45,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 34,
@@ -370,10 +414,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user10.jpg",
     rating: 4,
     date: "2025-05-09",
-    title: "I am writing this to express my deep dissatisfaction with a recent cus...",
-    content: "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
+    title:
+      "I am writing this to express my deep dissatisfaction with a recent cus...",
+    content:
+      "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
     helpful: 16,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 35,
@@ -384,7 +430,7 @@ export const ringcentralReviews: Review[] = [
     title: "Real terrible",
     content: "Real terrible",
     helpful: 85,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 36,
@@ -395,7 +441,7 @@ export const ringcentralReviews: Review[] = [
     title: "RingCentral has been able to meet my business needs.",
     content: "RingCentral has been able to meet my business needs.",
     helpful: 101,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 37,
@@ -403,10 +449,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 3,
     date: "2025-03-12",
-    title: "Have been on the phone for over 1.5 hours, no one was able to guide on...",
-    content: "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
+    title:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on...",
+    content:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
     helpful: 65,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 38,
@@ -415,9 +463,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-05-09",
     title: "Small business guys stay away.",
-    content: "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
+    content:
+      "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
     helpful: 78,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 39,
@@ -426,9 +475,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-17",
     title: "If I could do ZERO stars I would.",
-    content: "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
+    content:
+      "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
     helpful: 46,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 40,
@@ -437,9 +487,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-11",
     title: "This company does not care about their customers.",
-    content: "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
+    content:
+      "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
     helpful: 83,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 41,
@@ -448,9 +499,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-23",
     title: "VERY UNTRUSTWORTHY, DO NOT DO NOT USE IT.",
-    content: "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
+    content:
+      "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
     helpful: 24,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 42,
@@ -459,9 +511,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-17",
     title: "I have been a RingCentral customer for over a decade.",
-    content: "I have been a RingCentral customer for over a decade.  Generally, the phone system has been reliable and delivered what we needed in terms of call routing and management of incoming calls.  The issue with RingCentral has been the poor customer service.  Over the years, I have requested that they reach out to me via email as my primary form of communication.  They refuse to do so and leave dozens of voice mails on my cell phone for simple items, that I don't have the time for phone calls for, that can easily be addressed in a simple email.\n\nSince then, the new SMS requirements have become a point of contention with RingCentral.  They have a rejection committee that charges you for each submission to reject every attempt to get SMS approval.  We have been attempting to get this resolved for nearly 8 months now and continue to get the same generalized rejection responses.  In the meantime, we have already had 2 other 3rd party SMS communication systems approved.  Mind you, they have the same SMS regulatory requirements.\n\nMy only reason for not already changing providers is the time commitment and difficulty in changing phone providers when it is a critical business operation.  I am reaching the point where that will be less of a hurdle because working with RingCentral is the bigger hurdle.  If you aren't a current RingCentral customer, I recommend you shop elsewhere for a provider.",
+    content:
+      "I have been a RingCentral customer for over a decade.  Generally, the phone system has been reliable and delivered what we needed in terms of call routing and management of incoming calls.  The issue with RingCentral has been the poor customer service.  Over the years, I have requested that they reach out to me via email as my primary form of communication.  They refuse to do so and leave dozens of voice mails on my cell phone for simple items, that I don't have the time for phone calls for, that can easily be addressed in a simple email.\n\nSince then, the new SMS requirements have become a point of contention with RingCentral.  They have a rejection committee that charges you for each submission to reject every attempt to get SMS approval.  We have been attempting to get this resolved for nearly 8 months now and continue to get the same generalized rejection responses.  In the meantime, we have already had 2 other 3rd party SMS communication systems approved.  Mind you, they have the same SMS regulatory requirements.\n\nMy only reason for not already changing providers is the time commitment and difficulty in changing phone providers when it is a critical business operation.  I am reaching the point where that will be less of a hurdle because working with RingCentral is the bigger hurdle.  If you aren't a current RingCentral customer, I recommend you shop elsewhere for a provider.",
     helpful: 47,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 43,
@@ -470,9 +523,10 @@ export const ringcentralReviews: Review[] = [
     rating: 2,
     date: "2025-03-30",
     title: "Literally the worst.",
-    content: "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
+    content:
+      "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
     helpful: 51,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 44,
@@ -480,10 +534,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user14.jpg",
     rating: 3,
     date: "2025-05-01",
-    title: "I have been trying to get my billing resolved with this company since ...",
-    content: "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
+    title:
+      "I have been trying to get my billing resolved with this company since ...",
+    content:
+      "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
     helpful: 49,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 45,
@@ -494,7 +550,7 @@ export const ringcentralReviews: Review[] = [
     title: "RingCentral has been able to meet my business needs.",
     content: "RingCentral has been able to meet my business needs.",
     helpful: 89,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 46,
@@ -502,10 +558,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user7.jpg",
     rating: 3,
     date: "2025-03-24",
-    title: "Have been on the phone for over 1.5 hours, no one was able to guide on...",
-    content: "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
+    title:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on...",
+    content:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
     helpful: 64,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 47,
@@ -516,7 +574,7 @@ export const ringcentralReviews: Review[] = [
     title: "Real terrible",
     content: "Real terrible",
     helpful: 41,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 48,
@@ -524,10 +582,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user5.jpg",
     rating: 3,
     date: "2025-04-21",
-    title: "Called up the sales line to organise voip for my businesses here and a...",
-    content: "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
+    title:
+      "Called up the sales line to organise voip for my businesses here and a...",
+    content:
+      "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
     helpful: 94,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 49,
@@ -535,10 +595,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user13.jpg",
     rating: 4,
     date: "2025-04-26",
-    title: "Very satisfied with how we transitioned from our old phone vendor to R...",
-    content: "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
+    title:
+      "Very satisfied with how we transitioned from our old phone vendor to R...",
+    content:
+      "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
     helpful: 30,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 50,
@@ -547,9 +609,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-26",
     title: "BUYER BEWARE. Will force you into contracts.",
-    content: "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
+    content:
+      "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
     helpful: 102,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 51,
@@ -558,9 +621,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-17",
     title: "This company does not care about their customers.",
-    content: "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
+    content:
+      "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
     helpful: 50,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 52,
@@ -569,9 +633,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-18",
     title: "VERY UNTRUSTWORTHY, DO NOT DO NOT USE IT.",
-    content: "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
+    content:
+      "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
     helpful: 79,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 53,
@@ -579,10 +644,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user10.jpg",
     rating: 4,
     date: "2025-05-10",
-    title: "I am not a heavy user and i only have one user but its my 3rd year wit...",
-    content: "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
+    title:
+      "I am not a heavy user and i only have one user but its my 3rd year wit...",
+    content:
+      "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
     helpful: 71,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 54,
@@ -590,10 +657,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user10.jpg",
     rating: 4,
     date: "2025-04-29",
-    title: "I am writing this to express my deep dissatisfaction with a recent cus...",
-    content: "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
+    title:
+      "I am writing this to express my deep dissatisfaction with a recent cus...",
+    content:
+      "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
     helpful: 47,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 55,
@@ -602,9 +671,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-08",
     title: "Small business guys stay away.",
-    content: "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
+    content:
+      "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
     helpful: 32,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 56,
@@ -613,9 +683,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-25",
     title: "If I could do ZERO stars I would.",
-    content: "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
+    content:
+      "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
     helpful: 34,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 57,
@@ -624,9 +695,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-27",
     title: "Worst customer service, hold times are outrageous.",
-    content: "Worst customer service, hold times are outrageous. Cannot be connected to management. Uneducated reps. ",
+    content:
+      "Worst customer service, hold times are outrageous. Cannot be connected to management. Uneducated reps. ",
     helpful: 56,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 58,
@@ -634,10 +706,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 3,
     date: "2025-04-27",
-    title: "I have been a customer for a few months and their services have been e...",
-    content: "I have been a customer for a few months and their services have been extremely frustrating. They have an application for the business texting program (The Campaign Registry) and they have a dedicated support line to help you complete this application. I have now been through 4 application process with a fee for each one. For three of these, I followed specific instructions from their support line and my application was still rejected. It's so frustrating to pay over $60 in application fees without receiving any service. I reached out to my contact at the company via phone and email and received no response. ",
+    title:
+      "I have been a customer for a few months and their services have been e...",
+    content:
+      "I have been a customer for a few months and their services have been extremely frustrating. They have an application for the business texting program (The Campaign Registry) and they have a dedicated support line to help you complete this application. I have now been through 4 application process with a fee for each one. For three of these, I followed specific instructions from their support line and my application was still rejected. It's so frustrating to pay over $60 in application fees without receiving any service. I reached out to my contact at the company via phone and email and received no response. ",
     helpful: 48,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 59,
@@ -648,7 +722,7 @@ export const ringcentralReviews: Review[] = [
     title: "The technology is sound, and Paige's support is outstanding!",
     content: "The technology is sound, and Paige's support is outstanding!",
     helpful: 73,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 60,
@@ -656,10 +730,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 3,
     date: "2025-04-20",
-    title: "I struggled with it and still couldn’t get the messaging to work — and...",
-    content: "I struggled with it and still couldn’t get the messaging to work — and that’s a really important part of my business. So, I decided to switch to another app where I was able to easily set up messaging and calls without a bunch of unnecessary steps.",
+    title:
+      "I struggled with it and still couldn’t get the messaging to work — and...",
+    content:
+      "I struggled with it and still couldn’t get the messaging to work — and that’s a really important part of my business. So, I decided to switch to another app where I was able to easily set up messaging and calls without a bunch of unnecessary steps.",
     helpful: 94,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 61,
@@ -668,9 +744,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-07",
     title: "A 1 only because a 0 isn't an option.",
-    content: "A 1 only because a 0 isn't an option.  First  off i have never been a customer however someone used my debit card to make 12 purchases in the middle of the night totaling $2,500 dollars.  I contacted the company twice while the charges were pending and then after they went through.  Provided all the information requested both on phone and email and they said “we cant understand how you were charged this”.  No offer to trace the money/transaction.  Company is a joke and imo, willing participates in fraud and deceit.  Lucky for me the bank will refund my money and law enforcement have the case.  Beware this company!",
+    content:
+      "A 1 only because a 0 isn't an option.  First  off i have never been a customer however someone used my debit card to make 12 purchases in the middle of the night totaling $2,500 dollars.  I contacted the company twice while the charges were pending and then after they went through.  Provided all the information requested both on phone and email and they said “we cant understand how you were charged this”.  No offer to trace the money/transaction.  Company is a joke and imo, willing participates in fraud and deceit.  Lucky for me the bank will refund my money and law enforcement have the case.  Beware this company!",
     helpful: 83,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 62,
@@ -678,10 +755,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user12.jpg",
     rating: 3,
     date: "2025-04-24",
-    title: "Support personnel do not understand issues when explained multiple tim...",
-    content: "Support personnel do not understand issues when explained multiple times.  They avoid escalation to second tier support when first Teir cannot help.  They implement solutions contrary to the request, which is like breaking the phones, ",
+    title:
+      "Support personnel do not understand issues when explained multiple tim...",
+    content:
+      "Support personnel do not understand issues when explained multiple times.  They avoid escalation to second tier support when first Teir cannot help.  They implement solutions contrary to the request, which is like breaking the phones, ",
     helpful: 78,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 63,
@@ -692,7 +771,7 @@ export const ringcentralReviews: Review[] = [
     title: "Your customer suppor...",
     content: "Your customer support is shocking!!!!!",
     helpful: 51,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 64,
@@ -703,7 +782,7 @@ export const ringcentralReviews: Review[] = [
     title: "WORST COMPANY EVER. ...",
     content: "WORST COMPANY EVER.  Seriously bad.",
     helpful: 46,
-    notHelpful: 15
+    notHelpful: 15,
   },
   {
     id: 65,
@@ -714,7 +793,7 @@ export const ringcentralReviews: Review[] = [
     title: "was valuable help du...",
     content: "was valuable help during the process",
     helpful: 105,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 66,
@@ -722,10 +801,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user14.jpg",
     rating: 3,
     date: "2025-05-05",
-    title: "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIM...",
-    content: "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIME YOU MUST PAY DESPITE CANCELLATION REQUEST. On or around October 26th, a transactional sale was performed by me with a RingCentral sales representative. On a recorded line the representative did not highlight and mention in the disclosures any fees for early termination. Upon cancellation, I find there is a contractual agreement to pay for 12 months and the $408 I have paid thus far will not be allowed to complete said agreement. I am halfway through the contract and I would like the original sales call record to be pulled for me and an attorney to review for misconduct. The electronic signature process was done with a representative over the phone but no disclosures were completed and specifically, the termination and fees of the contract were not highlighted and reviewed on the sales call. Additionally, RingCentral violates conduct under the FTC by not providing a clickable cancellation button that performs the act of cancellation. To cancel, I had to wait 45 minutes on hold to speak with an aggressive and pretentious representative who without warning disconnected the call without answering my questions. The RingCentral rep I spoke to on 4/4/2025 would not give me a name or employee id because she knew her attitude was being recorded and refused to be identified by hanging up. These are the acts RingCentral has violated just to name a few:\n\nCalifornia's Consumer Legal Remedies Act (CLRA):\nCalifornia's CLRA requires businesses to disclose all costs and fees upfront and in their ads, including potential termination fee\n\nFTC's Click-to-Cancel Rule:\nThe Federal Trade Commission (FTC) has implemented a \"click-to-cancel\" rule, requiring businesses to make it easy for consumers to cancel subscriptions, and this includes clearly disclosing cancellation terms and fees. The Admin Portal does not allow you to click-to-cancel. There is a button but it forces you to call and does not show any terms or conditions and the cancellation button is non-clickable. \n\nFTC Negative Option\n",
+    title:
+      "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIM...",
+    content:
+      "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIME YOU MUST PAY DESPITE CANCELLATION REQUEST. On or around October 26th, a transactional sale was performed by me with a RingCentral sales representative. On a recorded line the representative did not highlight and mention in the disclosures any fees for early termination. Upon cancellation, I find there is a contractual agreement to pay for 12 months and the $408 I have paid thus far will not be allowed to complete said agreement. I am halfway through the contract and I would like the original sales call record to be pulled for me and an attorney to review for misconduct. The electronic signature process was done with a representative over the phone but no disclosures were completed and specifically, the termination and fees of the contract were not highlighted and reviewed on the sales call. Additionally, RingCentral violates conduct under the FTC by not providing a clickable cancellation button that performs the act of cancellation. To cancel, I had to wait 45 minutes on hold to speak with an aggressive and pretentious representative who without warning disconnected the call without answering my questions. The RingCentral rep I spoke to on 4/4/2025 would not give me a name or employee id because she knew her attitude was being recorded and refused to be identified by hanging up. These are the acts RingCentral has violated just to name a few:\n\nCalifornia's Consumer Legal Remedies Act (CLRA):\nCalifornia's CLRA requires businesses to disclose all costs and fees upfront and in their ads, including potential termination fee\n\nFTC's Click-to-Cancel Rule:\nThe Federal Trade Commission (FTC) has implemented a \"click-to-cancel\" rule, requiring businesses to make it easy for consumers to cancel subscriptions, and this includes clearly disclosing cancellation terms and fees. The Admin Portal does not allow you to click-to-cancel. There is a button but it forces you to call and does not show any terms or conditions and the cancellation button is non-clickable. \n\nFTC Negative Option\n",
     helpful: 64,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 67,
@@ -734,9 +815,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-19",
     title: "6 years.",
-    content: "6 years. Phone got progressively worse. meetings sucks. Text kept going out. HORRIBLE CUSTOMER SUPPORT",
+    content:
+      "6 years. Phone got progressively worse. meetings sucks. Text kept going out. HORRIBLE CUSTOMER SUPPORT",
     helpful: 42,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 68,
@@ -744,10 +826,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user2.jpg",
     rating: 3,
     date: "2025-05-10",
-    title: "I recently signed up for a service involving 15 numbers, and it's been...",
-    content: "I recently signed up for a service involving 15 numbers, and it's been over 7 days without a completed integration. The support experience has been one of the worst I’ve encountered in my life.\n\nThe support team appears completely untrained. They don’t know how to resolve issues, and multiple times they simply hung up on me. Calls last a minimum of 45 minutes, and even after all that time, you get nowhere. No supervisors are ever available, and requests to escalate are ignored or delayed until the call drops.\n\nTo make matters worse, they are closing tickets without even responding. Then, when I follow up, they refer me back to those same closed tickets—it's a complete disaster and beyond frustrating.\n\nIt feels like the company has outsourced support without any quality control. The whole experience is unprofessional, disorganized, and unacceptable. It’s shocking that a company would allow this level of service and continue to operate this way.\n\nI cannot recommend this service to anyone. It’s been 7 days of absolute nightmare, and I still have no answers or resolution.\n\nThey are definitely not available 24/7 as claimed. It's misleading, being 24/7 should mean providing real help and solutions, not just ignoring chats and calls.",
+    title:
+      "I recently signed up for a service involving 15 numbers, and it's been...",
+    content:
+      "I recently signed up for a service involving 15 numbers, and it's been over 7 days without a completed integration. The support experience has been one of the worst I’ve encountered in my life.\n\nThe support team appears completely untrained. They don’t know how to resolve issues, and multiple times they simply hung up on me. Calls last a minimum of 45 minutes, and even after all that time, you get nowhere. No supervisors are ever available, and requests to escalate are ignored or delayed until the call drops.\n\nTo make matters worse, they are closing tickets without even responding. Then, when I follow up, they refer me back to those same closed tickets—it's a complete disaster and beyond frustrating.\n\nIt feels like the company has outsourced support without any quality control. The whole experience is unprofessional, disorganized, and unacceptable. It’s shocking that a company would allow this level of service and continue to operate this way.\n\nI cannot recommend this service to anyone. It’s been 7 days of absolute nightmare, and I still have no answers or resolution.\n\nThey are definitely not available 24/7 as claimed. It's misleading, being 24/7 should mean providing real help and solutions, not just ignoring chats and calls.",
     helpful: 90,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 69,
@@ -755,10 +839,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user14.jpg",
     rating: 3,
     date: "2025-04-04",
-    title: "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
-    content: "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
+    title:
+      "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
+    content:
+      "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
     helpful: 72,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 70,
@@ -767,9 +853,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-16",
     title: "I have been a RingCentral customer for over a decade.",
-    content: "I have been a RingCentral customer for over a decade.  Generally, the phone system has been reliable and delivered what we needed in terms of call routing and management of incoming calls.  The issue with RingCentral has been the poor customer service.  Over the years, I have requested that they reach out to me via email as my primary form of communication.  They refuse to do so and leave dozens of voice mails on my cell phone for simple items, that I don't have the time for phone calls for, that can easily be addressed in a simple email.\n\nSince then, the new SMS requirements have become a point of contention with RingCentral.  They have a rejection committee that charges you for each submission to reject every attempt to get SMS approval.  We have been attempting to get this resolved for nearly 8 months now and continue to get the same generalized rejection responses.  In the meantime, we have already had 2 other 3rd party SMS communication systems approved.  Mind you, they have the same SMS regulatory requirements.\n\nMy only reason for not already changing providers is the time commitment and difficulty in changing phone providers when it is a critical business operation.  I am reaching the point where that will be less of a hurdle because working with RingCentral is the bigger hurdle.  If you aren't a current RingCentral customer, I recommend you shop elsewhere for a provider.",
+    content:
+      "I have been a RingCentral customer for over a decade.  Generally, the phone system has been reliable and delivered what we needed in terms of call routing and management of incoming calls.  The issue with RingCentral has been the poor customer service.  Over the years, I have requested that they reach out to me via email as my primary form of communication.  They refuse to do so and leave dozens of voice mails on my cell phone for simple items, that I don't have the time for phone calls for, that can easily be addressed in a simple email.\n\nSince then, the new SMS requirements have become a point of contention with RingCentral.  They have a rejection committee that charges you for each submission to reject every attempt to get SMS approval.  We have been attempting to get this resolved for nearly 8 months now and continue to get the same generalized rejection responses.  In the meantime, we have already had 2 other 3rd party SMS communication systems approved.  Mind you, they have the same SMS regulatory requirements.\n\nMy only reason for not already changing providers is the time commitment and difficulty in changing phone providers when it is a critical business operation.  I am reaching the point where that will be less of a hurdle because working with RingCentral is the bigger hurdle.  If you aren't a current RingCentral customer, I recommend you shop elsewhere for a provider.",
     helpful: 65,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 71,
@@ -778,9 +865,10 @@ export const ringcentralReviews: Review[] = [
     rating: 2,
     date: "2025-04-19",
     title: "Literally the worst.",
-    content: "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
+    content:
+      "Literally the worst. Got a phone quick enough but they sent me a phone that WOULD NOT WORK over wifi even though I was clearly trying to set up a VOIP phone. Sat on the phone with their customer reps for FOUR HOURS trying to set it up and he just kept telling me to press the same buttons or unplug and replug it over and over again like some terrible episode of groundhog day. It was so maddening I broke down in tears.\n\nI email saying cancel and refund me bc you can't even get the service running. \n\nAnd then they WANT TO CALL ME and have a 15-minute long conversation just to cancel (OMG I've already had enough talking to this dumb company on the phone, that's literally the last thing I want to do right now). Why can't I just email to cancel? Why do I have to verify using my RingCentral extension number that I don't even know because IT NEVER GOT SET UP. \n\nGot charged. Had to call. Promised a refund but who the heck knows if I'll ever see that. Might just have to cancel my card and call that charge fraud because this company is scam.",
     helpful: 30,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 72,
@@ -788,10 +876,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user8.jpg",
     rating: 3,
     date: "2025-03-17",
-    title: "I have been trying to get my billing resolved with this company since ...",
-    content: "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
+    title:
+      "I have been trying to get my billing resolved with this company since ...",
+    content:
+      "I have been trying to get my billing resolved with this company since September of 2024. Not once has it been right. I have made too many calls and requests to get this made right, told by representatives that it would be, and then it is not. I am extremely dissatisfied. ",
     helpful: 44,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 73,
@@ -802,7 +892,7 @@ export const ringcentralReviews: Review[] = [
     title: "RingCentral has been able to meet my business needs.",
     content: "RingCentral has been able to meet my business needs.",
     helpful: 59,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 74,
@@ -810,10 +900,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 3,
     date: "2025-04-01",
-    title: "Have been on the phone for over 1.5 hours, no one was able to guide on...",
-    content: "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
+    title:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on...",
+    content:
+      "Have been on the phone for over 1.5 hours, no one was able to guide on how to obtain a phone number or do onboarding, got shuffled around. I signed docusign earlier this morning, and am now taking that and mailing it to them in writing to cancel, not 3 hours later.\nHuge regrets. \n\nEdit: Your review team did not want to do anything for us. We couldn't get a hold of anyone to help with onboarding. We are going with a different system.",
     helpful: 60,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 75,
@@ -824,7 +916,7 @@ export const ringcentralReviews: Review[] = [
     title: "Real terrible",
     content: "Real terrible",
     helpful: 78,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 76,
@@ -832,10 +924,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user8.jpg",
     rating: 3,
     date: "2025-03-13",
-    title: "Called up the sales line to organise voip for my businesses here and a...",
-    content: "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
+    title:
+      "Called up the sales line to organise voip for my businesses here and a...",
+    content:
+      "Called up the sales line to organise voip for my businesses here and abroad. After waiting on hold for what must have been about 20 minutes, I had the option to press '1' and for someone in sales to call me back. No one ever did. If a communications company can't practice what they preach, I am glad I learned early on. You have lost a customer, not that I think it will bother you in the slightest judging by how you deal with potential customers. ",
     helpful: 64,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 77,
@@ -843,10 +937,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user4.jpg",
     rating: 4,
     date: "2025-03-31",
-    title: "Very satisfied with how we transitioned from our old phone vendor to R...",
-    content: "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
+    title:
+      "Very satisfied with how we transitioned from our old phone vendor to R...",
+    content:
+      "Very satisfied with how we transitioned from our old phone vendor to RingCentral. Our project manager, Yuri, and engineer, AJ, were very professional, organized, and helpful. Moving to RingCentral was less stressful than previous projects.",
     helpful: 48,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 78,
@@ -855,9 +951,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-25",
     title: "BUYER BEWARE. Will force you into contracts.",
-    content: "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
+    content:
+      "Absolutely terrible service and customer service. I signed up for a cloud phone solution and realized I couldn't pay monthly. It's a 12 month contract, which I signed up for willingly.\n\nThen as our needs changed and we added more lines, they enforced those new lines onto to original 12 month contract! Without making me aware. \n\nNow I'm trying to downgrade as our needs changed again and they're enforcing the 12 months on services I didn't even originally sign up with.\n\nI gave them more business as it was a grave mistake.\n\nAlso their customer support is terrible as of late. Before it was okay. Now they don't even reply to your customer tickets. You have to follow-up 5 times. Nightmare.",
     helpful: 50,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 79,
@@ -866,9 +963,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-16",
     title: "Small business guys stay away.",
-    content: "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
+    content:
+      "Small business guys stay away. If you have to talk to anybody besides sales. 2 hour wait . To many downsides.",
     helpful: 62,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 80,
@@ -877,9 +975,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-27",
     title: "If I could do ZERO stars I would.",
-    content: "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
+    content:
+      "If I could do ZERO stars I would.  I tried canceling three lines and the agent Haddid stopped replying to my messages and I know he sees them cause I can see when he opens the chat and almost looks like he is writting a reply.  After I told him I do not have a contract with the company he ignored me.  for almost 15 min. I have texted him to reply and he stops texting.  I only need to cancel some lines I am not currently using.",
     helpful: 58,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 81,
@@ -888,9 +987,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-21",
     title: "This company does not care about their customers.",
-    content: "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
+    content:
+      "This company does not care about their customers. We have struggled with them for over 4 years, but it was so tough to switch everyone in our company to another carrier, that we muddled along with them until it came time to have to work on getting our company set up with the new rules to enroll in texting campaigns. We called literally over 20 times to try to get help on this. They kept giving us really vague things, but never helped us to successfully get our text message campaigns through. Then they took away our ability to text message our clients. Instead of trying to help us, they tried to sell us more products. I went to a different provider and told them what the issue was. They literally helped us with our text campaign and within 24 hours we had our text campaign approved. So we moved all of our numbers over to the new provider, and let Ring Central know. They proceeded to tell me that they will charge me for THE FULL YEAR since my contract just renewed with them, despite them not being able to help us for over a year. Shame on them.",
     helpful: 39,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 82,
@@ -899,9 +999,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-05",
     title: "VERY UNTRUSTWORTHY, DO NOT DO NOT USE IT.",
-    content: "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
+    content:
+      "They began with the best onboarding service you can imagine, except that it is deceptive to get you sign a contract that includes product you have no idea what it serves, and how good the service is \"ringSense\". despite my repeatedly ask whether this is something i can cancel anytime, they said yes, but then when i was displeased with the product & wasted 10h seeking support, and wanted to cancel two months later, they told me i'm bounded to 1 year contract and can not leave the contract at all. \n\nThen when i began using it, it suddenly told me that all my texts can't be delivered to the existing customers whom i have been talking to. our customers were angry, confused, and had to email us. that includes more new clients couldn't even reach us. called the technical support, after 40 minutes, the guy said he will follow up. no follow-up. no resolution. not even a ticket being created!\n\nI had to create a ticket myself again the next day. and then no one called to follow up or try to solve the issue, more than 48 hours now, no solutions.   \n\nAccount executive called me, and no solution. i asked him to follow up with someone to cancel my membership, and complaint, no help. give me more numbers to call, no solution. And they will keep making you pay for more and more services (pay for 100 texts, 1000 texts and more). Pay for our AI system ringSense (terrible and silly AI, got the summary totally wrong). And once you opt in for any product, you can't cancel anything for the next 12 months. and i swear to god, they explicitly DID not tell you that when you are about to make a payment. \n\nPLESAE PLEASE DON'T USE IT",
     helpful: 49,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 83,
@@ -909,10 +1010,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 4,
     date: "2025-04-25",
-    title: "I am not a heavy user and i only have one user but its my 3rd year wit...",
-    content: "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
+    title:
+      "I am not a heavy user and i only have one user but its my 3rd year wit...",
+    content:
+      "I am not a heavy user and i only have one user but its my 3rd year with them and its going great, i have never experienced any issues till now, hoping this service will remain the same or getting even better. \nThank you. ",
     helpful: 49,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 84,
@@ -920,10 +1023,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user1.jpg",
     rating: 4,
     date: "2025-03-16",
-    title: "I am writing this to express my deep dissatisfaction with a recent cus...",
-    content: "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
+    title:
+      "I am writing this to express my deep dissatisfaction with a recent cus...",
+    content:
+      "I am writing this to express my deep dissatisfaction with a recent customer support experience, as well as ongoing critical service issues with RingCentral.\n\nWe experienced a major disruption where we were unable to receive incoming calls, a core function essential to our business operations. I reached out to RingCentral support and was connected with a representative whose conduct was highly unprofessional. The agent appeared disengaged, yawning audibly and making odd noises during the call, possibly under the impression he was muted.\n\nUnfortunately, he was unable to provide a helpful solution. He advised that I log out and back into the system, but after doing so, I was unable to log back in and became completely locked out. The only access I had was through a browser session that remained active.\n\nThe representative attempted to send me a login code via email, but due to delays in the RingCentral system, the code did not arrive in time (it was consistently delayed by over five minutes, while the login code times out after 120 seconds). When I suggested alternative solutions or escalation to another support agent, he abruptly ended the call without any further communication. Notably, no call-back information was taken, nor was there any follow-up attempt from your team.\n\nI called back and was connected with another representative named John, who was more competent and able to help me find a temporary workaround. However, the underlying issue remains unresolved if I revert to our original workflow.\n\nTo add to the frustration, there appears to be no formal escalation path, and no platform to publicly share feedback such as Google Reviews. I am left with no other option but to voice my experience here, in hopes that it reaches someone within RingCentral who takes customer service and platform reliability seriously.\n\nThis level of service is simply unacceptable for a business-critical platform. I am now actively seeking alternatives to RingCentral and anticipate transitioning our business communications to another provider very soon.\n\nI don't know the exact date it happened, but am sure RingCentral can find it in their logs - it was late March I believe.",
     helpful: 64,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 85,
@@ -932,9 +1037,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-05-05",
     title: "Worst customer service, hold times are outrageous.",
-    content: "Worst customer service, hold times are outrageous. Cannot be connected to management. Uneducated reps. ",
+    content:
+      "Worst customer service, hold times are outrageous. Cannot be connected to management. Uneducated reps. ",
     helpful: 54,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 86,
@@ -945,7 +1051,7 @@ export const ringcentralReviews: Review[] = [
     title: "WORST COMPANY EVER. ...",
     content: "WORST COMPANY EVER.  Seriously bad.",
     helpful: 56,
-    notHelpful: 15
+    notHelpful: 15,
   },
   {
     id: 87,
@@ -953,10 +1059,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 3,
     date: "2025-04-04",
-    title: "I have been a customer for a few months and their services have been e...",
-    content: "I have been a customer for a few months and their services have been extremely frustrating. They have an application for the business texting program (The Campaign Registry) and they have a dedicated support line to help you complete this application. I have now been through 4 application process with a fee for each one. For three of these, I followed specific instructions from their support line and my application was still rejected. It's so frustrating to pay over $60 in application fees without receiving any service. I reached out to my contact at the company via phone and email and received no response. ",
+    title:
+      "I have been a customer for a few months and their services have been e...",
+    content:
+      "I have been a customer for a few months and their services have been extremely frustrating. They have an application for the business texting program (The Campaign Registry) and they have a dedicated support line to help you complete this application. I have now been through 4 application process with a fee for each one. For three of these, I followed specific instructions from their support line and my application was still rejected. It's so frustrating to pay over $60 in application fees without receiving any service. I reached out to my contact at the company via phone and email and received no response. ",
     helpful: 87,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 88,
@@ -967,7 +1075,7 @@ export const ringcentralReviews: Review[] = [
     title: "The technology is sound, and Paige's support is outstanding!",
     content: "The technology is sound, and Paige's support is outstanding!",
     helpful: 68,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 89,
@@ -975,10 +1083,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 3,
     date: "2025-04-30",
-    title: "I struggled with it and still couldn’t get the messaging to work — and...",
-    content: "I struggled with it and still couldn’t get the messaging to work — and that’s a really important part of my business. So, I decided to switch to another app where I was able to easily set up messaging and calls without a bunch of unnecessary steps.",
+    title:
+      "I struggled with it and still couldn’t get the messaging to work — and...",
+    content:
+      "I struggled with it and still couldn’t get the messaging to work — and that’s a really important part of my business. So, I decided to switch to another app where I was able to easily set up messaging and calls without a bunch of unnecessary steps.",
     helpful: 86,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 90,
@@ -987,9 +1097,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-04-26",
     title: "A 1 only because a 0 isn't an option.",
-    content: "A 1 only because a 0 isn't an option.  First  off i have never been a customer however someone used my debit card to make 12 purchases in the middle of the night totaling $2,500 dollars.  I contacted the company twice while the charges were pending and then after they went through.  Provided all the information requested both on phone and email and they said “we cant understand how you were charged this”.  No offer to trace the money/transaction.  Company is a joke and imo, willing participates in fraud and deceit.  Lucky for me the bank will refund my money and law enforcement have the case.  Beware this company!",
+    content:
+      "A 1 only because a 0 isn't an option.  First  off i have never been a customer however someone used my debit card to make 12 purchases in the middle of the night totaling $2,500 dollars.  I contacted the company twice while the charges were pending and then after they went through.  Provided all the information requested both on phone and email and they said “we cant understand how you were charged this”.  No offer to trace the money/transaction.  Company is a joke and imo, willing participates in fraud and deceit.  Lucky for me the bank will refund my money and law enforcement have the case.  Beware this company!",
     helpful: 83,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 91,
@@ -997,10 +1108,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user12.jpg",
     rating: 3,
     date: "2025-03-30",
-    title: "Support personnel do not understand issues when explained multiple tim...",
-    content: "Support personnel do not understand issues when explained multiple times.  They avoid escalation to second tier support when first Teir cannot help.  They implement solutions contrary to the request, which is like breaking the phones, ",
+    title:
+      "Support personnel do not understand issues when explained multiple tim...",
+    content:
+      "Support personnel do not understand issues when explained multiple times.  They avoid escalation to second tier support when first Teir cannot help.  They implement solutions contrary to the request, which is like breaking the phones, ",
     helpful: 61,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 92,
@@ -1011,7 +1124,7 @@ export const ringcentralReviews: Review[] = [
     title: "Your customer suppor...",
     content: "Your customer support is shocking!!!!!",
     helpful: 76,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 93,
@@ -1019,10 +1132,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user11.jpg",
     rating: 3,
     date: "2025-03-15",
-    title: "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
-    content: "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
+    title:
+      "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
+    content:
+      "Worst customer service haven’t been able to fix a phone issue and caller id issue for a year !!",
     helpful: 64,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 94,
@@ -1033,7 +1148,7 @@ export const ringcentralReviews: Review[] = [
     title: "was valuable help du...",
     content: "was valuable help during the process",
     helpful: 74,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 95,
@@ -1041,10 +1156,12 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user4.jpg",
     rating: 3,
     date: "2025-05-07",
-    title: "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIM...",
-    content: "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIME YOU MUST PAY DESPITE CANCELLATION REQUEST. On or around October 26th, a transactional sale was performed by me with a RingCentral sales representative. On a recorded line the representative did not highlight and mention in the disclosures any fees for early termination. Upon cancellation, I find there is a contractual agreement to pay for 12 months and the $408 I have paid thus far will not be allowed to complete said agreement. I am halfway through the contract and I would like the original sales call record to be pulled for me and an attorney to review for misconduct. The electronic signature process was done with a representative over the phone but no disclosures were completed and specifically, the termination and fees of the contract were not highlighted and reviewed on the sales call. Additionally, RingCentral violates conduct under the FTC by not providing a clickable cancellation button that performs the act of cancellation. To cancel, I had to wait 45 minutes on hold to speak with an aggressive and pretentious representative who without warning disconnected the call without answering my questions. The RingCentral rep I spoke to on 4/4/2025 would not give me a name or employee id because she knew her attitude was being recorded and refused to be identified by hanging up. These are the acts RingCentral has violated just to name a few:\n\nCalifornia's Consumer Legal Remedies Act (CLRA):\nCalifornia's CLRA requires businesses to disclose all costs and fees upfront and in their ads, including potential termination fee\n\nFTC's Click-to-Cancel Rule:\nThe Federal Trade Commission (FTC) has implemented a \"click-to-cancel\" rule, requiring businesses to make it easy for consumers to cancel subscriptions, and this includes clearly disclosing cancellation terms and fees. The Admin Portal does not allow you to click-to-cancel. There is a button but it forces you to call and does not show any terms or conditions and the cancellation button is non-clickable. \n\nFTC Negative Option\n",
+    title:
+      "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIM...",
+    content:
+      "DO NOT SIGN ANY AGREEMENT - CONTRACT IS NOT CLEAR ON THE LENGTH OF TIME YOU MUST PAY DESPITE CANCELLATION REQUEST. On or around October 26th, a transactional sale was performed by me with a RingCentral sales representative. On a recorded line the representative did not highlight and mention in the disclosures any fees for early termination. Upon cancellation, I find there is a contractual agreement to pay for 12 months and the $408 I have paid thus far will not be allowed to complete said agreement. I am halfway through the contract and I would like the original sales call record to be pulled for me and an attorney to review for misconduct. The electronic signature process was done with a representative over the phone but no disclosures were completed and specifically, the termination and fees of the contract were not highlighted and reviewed on the sales call. Additionally, RingCentral violates conduct under the FTC by not providing a clickable cancellation button that performs the act of cancellation. To cancel, I had to wait 45 minutes on hold to speak with an aggressive and pretentious representative who without warning disconnected the call without answering my questions. The RingCentral rep I spoke to on 4/4/2025 would not give me a name or employee id because she knew her attitude was being recorded and refused to be identified by hanging up. These are the acts RingCentral has violated just to name a few:\n\nCalifornia's Consumer Legal Remedies Act (CLRA):\nCalifornia's CLRA requires businesses to disclose all costs and fees upfront and in their ads, including potential termination fee\n\nFTC's Click-to-Cancel Rule:\nThe Federal Trade Commission (FTC) has implemented a \"click-to-cancel\" rule, requiring businesses to make it easy for consumers to cancel subscriptions, and this includes clearly disclosing cancellation terms and fees. The Admin Portal does not allow you to click-to-cancel. There is a button but it forces you to call and does not show any terms or conditions and the cancellation button is non-clickable. \n\nFTC Negative Option\n",
     helpful: 78,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 96,
@@ -1053,9 +1170,10 @@ export const ringcentralReviews: Review[] = [
     rating: 3,
     date: "2025-03-30",
     title: "6 years.",
-    content: "6 years. Phone got progressively worse. meetings sucks. Text kept going out. HORRIBLE CUSTOMER SUPPORT",
+    content:
+      "6 years. Phone got progressively worse. meetings sucks. Text kept going out. HORRIBLE CUSTOMER SUPPORT",
     helpful: 64,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 97,
@@ -1063,9 +1181,11 @@ export const ringcentralReviews: Review[] = [
     avatar: "/avatars/user7.jpg",
     rating: 3,
     date: "2025-04-14",
-    title: "I recently signed up for a service involving 15 numbers, and it's been...",
-    content: "I recently signed up for a service involving 15 numbers, and it's been over 7 days without a completed integration. The support experience has been one of the worst I’ve encountered in my life.\n\nThe support team appears completely untrained. They don’t know how to resolve issues, and multiple times they simply hung up on me. Calls last a minimum of 45 minutes, and even after all that time, you get nowhere. No supervisors are ever available, and requests to escalate are ignored or delayed until the call drops.\n\nTo make matters worse, they are closing tickets without even responding. Then, when I follow up, they refer me back to those same closed tickets—it's a complete disaster and beyond frustrating.\n\nIt feels like the company has outsourced support without any quality control. The whole experience is unprofessional, disorganized, and unacceptable. It’s shocking that a company would allow this level of service and continue to operate this way.\n\nI cannot recommend this service to anyone. It’s been 7 days of absolute nightmare, and I still have no answers or resolution.\n\nThey are definitely not available 24/7 as claimed. It's misleading, being 24/7 should mean providing real help and solutions, not just ignoring chats and calls.",
+    title:
+      "I recently signed up for a service involving 15 numbers, and it's been...",
+    content:
+      "I recently signed up for a service involving 15 numbers, and it's been over 7 days without a completed integration. The support experience has been one of the worst I’ve encountered in my life.\n\nThe support team appears completely untrained. They don’t know how to resolve issues, and multiple times they simply hung up on me. Calls last a minimum of 45 minutes, and even after all that time, you get nowhere. No supervisors are ever available, and requests to escalate are ignored or delayed until the call drops.\n\nTo make matters worse, they are closing tickets without even responding. Then, when I follow up, they refer me back to those same closed tickets—it's a complete disaster and beyond frustrating.\n\nIt feels like the company has outsourced support without any quality control. The whole experience is unprofessional, disorganized, and unacceptable. It’s shocking that a company would allow this level of service and continue to operate this way.\n\nI cannot recommend this service to anyone. It’s been 7 days of absolute nightmare, and I still have no answers or resolution.\n\nThey are definitely not available 24/7 as claimed. It's misleading, being 24/7 should mean providing real help and solutions, not just ignoring chats and calls.",
     helpful: 47,
-    notHelpful: 8
-  }
+    notHelpful: 8,
+  },
 ];

@@ -1,4 +1,4 @@
-import {Review} from "@/data/reviews.ts";
+import { Review } from "@/data/reviews";
 
 export const yolla_calls_international_oReviews: Review[] = [
   {
@@ -10,7 +10,7 @@ export const yolla_calls_international_oReviews: Review[] = [
     title: "Overcharges and call...",
     content: "Overcharges and calls drop out",
     helpful: 62,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 2,
@@ -18,10 +18,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user14.jpg",
     rating: 3,
     date: "2025-05-06",
-    title: "Yolla App does not connect with other Yolla app users except by using ...",
-    content: "Yolla App does not connect with other Yolla app users except by using paid call. Free calls to between Yolla Users does not work . Specifically between Japan and Australia and visa versa.\nApp does not provide log data to troubleshoot the problem.",
+    title:
+      "Yolla App does not connect with other Yolla app users except by using ...",
+    content:
+      "Yolla App does not connect with other Yolla app users except by using paid call. Free calls to between Yolla Users does not work . Specifically between Japan and Australia and visa versa.\nApp does not provide log data to troubleshoot the problem.",
     helpful: 57,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 3,
@@ -32,7 +34,7 @@ export const yolla_calls_international_oReviews: Review[] = [
     title: "Excellent  5Stars",
     content: "Excellent  5Stars",
     helpful: 83,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 4,
@@ -43,7 +45,7 @@ export const yolla_calls_international_oReviews: Review[] = [
     title: "long Airtime minutes...",
     content: "long Airtime minutes.",
     helpful: 72,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 5,
@@ -51,10 +53,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user7.jpg",
     rating: 3,
     date: "2025-04-19",
-    title: "Installed no problems, Used several times New Zealand to Canada and Ne...",
-    content: "Installed no problems, Used several times New Zealand to Canada and New Zealand to Australia several times,call quality up and down a bit but similar to a cell call. Happy so far, use over next 6 months will give a better picture.",
+    title:
+      "Installed no problems, Used several times New Zealand to Canada and Ne...",
+    content:
+      "Installed no problems, Used several times New Zealand to Canada and New Zealand to Australia several times,call quality up and down a bit but similar to a cell call. Happy so far, use over next 6 months will give a better picture.",
     helpful: 61,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 6,
@@ -62,10 +66,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user13.jpg",
     rating: 3,
     date: "2025-03-24",
-    title: "Can’t hear call ring can’t hear the person your calling this app is giving scam",
-    content: "Can’t hear call ring can’t hear the person your calling this app is giving scam",
+    title:
+      "Can't hear call ring can't hear the person your calling this app is giving scam",
+    content:
+      "Can't hear call ring can't hear the person your calling this app is giving scam",
     helpful: 57,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 7,
@@ -73,10 +79,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user6.jpg",
     rating: 4,
     date: "2025-04-12",
-    title: "With Skype being shut down, I needed a replacement for cheap internati...",
-    content: "With Skype being shut down, I needed a replacement for cheap international calling. Yolla does the job very well (better than Skype under Microsoft, to be honest). It's easy to use. And their customer support is great -- I had a question that was answered by a human agent within minutes. ",
+    title:
+      "With Skype being shut down, I needed a replacement for cheap internati...",
+    content:
+      "With Skype being shut down, I needed a replacement for cheap international calling. Yolla does the job very well (better than Skype under Microsoft, to be honest). It's easy to use. And their customer support is great -- I had a question that was answered by a human agent within minutes. ",
     helpful: 53,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 8,
@@ -87,7 +95,7 @@ export const yolla_calls_international_oReviews: Review[] = [
     title: "Yolla na the best to...",
     content: "Yolla na the best to call",
     helpful: 45,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 9,
@@ -96,9 +104,10 @@ export const yolla_calls_international_oReviews: Review[] = [
     rating: 3,
     date: "2025-03-30",
     title: "Its impossible to hear the person due to constant cracking noises.",
-    content: "Its impossible to hear the person due to constant cracking noises. Phoned a landline in Germany twice. No luck.",
+    content:
+      "Its impossible to hear the person due to constant cracking noises. Phoned a landline in Germany twice. No luck.",
     helpful: 49,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 10,
@@ -106,10 +115,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user2.jpg",
     rating: 3,
     date: "2025-04-15",
-    title: "I've been using yolla for more than six months now, and the app is hap...",
-    content: "I've been using yolla for more than six months now, and the app is happy to open quickly on older devices, low prices, and regular feature improvements. Also, the support team responds very quickly and helps solve problems!",
+    title:
+      "I've been using yolla for more than six months now, and the app is hap...",
+    content:
+      "I've been using yolla for more than six months now, and the app is happy to open quickly on older devices, low prices, and regular feature improvements. Also, the support team responds very quickly and helps solve problems!",
     helpful: 80,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 11,
@@ -118,9 +129,10 @@ export const yolla_calls_international_oReviews: Review[] = [
     rating: 3,
     date: "2025-04-02",
     title: "Used the app for several months now.",
-    content: "Used the app for several months now. Works as expected, was able to reach friend in different countries! ",
+    content:
+      "Used the app for several months now. Works as expected, was able to reach friend in different countries! ",
     helpful: 23,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 12,
@@ -128,10 +140,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user12.jpg",
     rating: 4,
     date: "2025-03-26",
-    title: "On the good side , responses were very quick although not very helpful...",
-    content: "On the good side , responses were very quick although not very helpful. Comparing with Skype , they only have one bank account and its in USD even though the company is Estonian. Skype can accept payments in all major currencies , and i was expecting the same from such a competitor. Even now more alarming as the Dollar is being disowned in so many financial arenas. Biggest issue is to pay these in USD means commission payments to banks and exchange rates varying dramatically, even more so currently. A \"buyer beware\" notification in this respect for anyone not using USD as their standard currency should be flagged.",
+    title:
+      "On the good side , responses were very quick although not very helpful...",
+    content:
+      'On the good side , responses were very quick although not very helpful. Comparing with Skype , they only have one bank account and its in USD even though the company is Estonian. Skype can accept payments in all major currencies , and i was expecting the same from such a competitor. Even now more alarming as the Dollar is being disowned in so many financial arenas. Biggest issue is to pay these in USD means commission payments to banks and exchange rates varying dramatically, even more so currently. A "buyer beware" notification in this respect for anyone not using USD as their standard currency should be flagged.',
     helpful: 61,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 13,
@@ -139,10 +153,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user11.jpg",
     rating: 3,
     date: "2025-03-29",
-    title: "I had a few issues with my bank approving the transaction and contact ...",
-    content: "I had a few issues with my bank approving the transaction and contact support. A gentleman named Marcus responded. If was done through texting. It took two days for my bank to get things right",
+    title:
+      "I had a few issues with my bank approving the transaction and contact ...",
+    content:
+      "I had a few issues with my bank approving the transaction and contact support. A gentleman named Marcus responded. If was done through texting. It took two days for my bank to get things right",
     helpful: 45,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 14,
@@ -151,9 +167,10 @@ export const yolla_calls_international_oReviews: Review[] = [
     rating: 2,
     date: "2025-03-30",
     title: "This service is USELESS.",
-    content: "This service is USELESS. Lots of fake reviews on here to increase their rating. Why don't they work on the service instead?! Muffled audio on calls, recipient can't hear me for periods then line cuts off even on fast WiFi. The people on chat just send you round in circles with copy and paste replies. Absolute waste of money! ",
+    content:
+      "This service is USELESS. Lots of fake reviews on here to increase their rating. Why don't they work on the service instead?! Muffled audio on calls, recipient can't hear me for periods then line cuts off even on fast WiFi. The people on chat just send you round in circles with copy and paste replies. Absolute waste of money! ",
     helpful: 22,
-    notHelpful: 14
+    notHelpful: 14,
   },
   {
     id: 15,
@@ -162,9 +179,10 @@ export const yolla_calls_international_oReviews: Review[] = [
     rating: 3,
     date: "2025-03-13",
     title: "No contact list for web version makes it unusable for me.",
-    content: "No contact list for web version makes it unusable for me.  To get refund for credits already charged, the process is so convoluted and difficult, I let it go.  Trying to delete my account, but that is also nearly impossible.  No verification of my account came through and now I suspect the whole operation is fraudulent.  I will likely have to cancel my credit card through the bank.",
+    content:
+      "No contact list for web version makes it unusable for me.  To get refund for credits already charged, the process is so convoluted and difficult, I let it go.  Trying to delete my account, but that is also nearly impossible.  No verification of my account came through and now I suspect the whole operation is fraudulent.  I will likely have to cancel my credit card through the bank.",
     helpful: 78,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 16,
@@ -172,10 +190,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user2.jpg",
     rating: 2,
     date: "2025-03-16",
-    title: "Shitty service, call qauility is bad, and other end can hear nothing f...",
-    content: "Shitty service, call qauility is bad, and other end can hear nothing for period of time and finally lead to cut off, please avoid",
+    title:
+      "Shitty service, call qauility is bad, and other end can hear nothing f...",
+    content:
+      "Shitty service, call qauility is bad, and other end can hear nothing for period of time and finally lead to cut off, please avoid",
     helpful: 19,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 17,
@@ -183,10 +203,12 @@ export const yolla_calls_international_oReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 3,
     date: "2025-05-04",
-    title: "It as never disappointed me for once, it always give me joy when ever I used the app",
-    content: "It as never disappointed me for once, it always give me joy when ever I used the app ",
+    title:
+      "It as never disappointed me for once, it always give me joy when ever I used the app",
+    content:
+      "It as never disappointed me for once, it always give me joy when ever I used the app ",
     helpful: 74,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 18,
@@ -197,7 +219,7 @@ export const yolla_calls_international_oReviews: Review[] = [
     title: "Network is better an...",
     content: "Network is better and app is good now.",
     helpful: 64,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 19,
@@ -208,7 +230,7 @@ export const yolla_calls_international_oReviews: Review[] = [
     title: "Good communication w...",
     content: "Good communication when needed",
     helpful: 59,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 20,
@@ -217,8 +239,9 @@ export const yolla_calls_international_oReviews: Review[] = [
     rating: 4,
     date: "2025-04-16",
     title: "It works well for USD$0.01/min calls to the USA.",
-    content: "It works well for USD$0.01/min calls to the USA.  Better than most other options. A good replacement for Skype.",
+    content:
+      "It works well for USD$0.01/min calls to the USA.  Better than most other options. A good replacement for Skype.",
     helpful: 90,
-    notHelpful: 7
-  }
+    notHelpful: 7,
+  },
 ];

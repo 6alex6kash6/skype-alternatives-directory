@@ -1,4 +1,4 @@
-import {Review} from "@/data/reviews.ts";
+import { Review } from "@/data/reviews";
 
 export const googleReviews: Review[] = [
   {
@@ -7,10 +7,12 @@ export const googleReviews: Review[] = [
     avatar: "/avatars/user8.jpg",
     rating: 4,
     date: "2025-03-20",
-    title: "Excellent!  Low international rates.  Been using for several years.",
-    content: "Excellent!  Low international rates.  Been using for several years.",
+    title:
+      "Excellent!  Low international rates.  Been using for several years.",
+    content:
+      "Excellent!  Low international rates.  Been using for several years.",
     helpful: 23,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 2,
@@ -21,7 +23,7 @@ export const googleReviews: Review[] = [
     title: "a bad website",
     content: "a bad website",
     helpful: 60,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 3,
@@ -32,7 +34,7 @@ export const googleReviews: Review[] = [
     title: "i love google",
     content: "i love google",
     helpful: 103,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 4,
@@ -40,10 +42,12 @@ export const googleReviews: Review[] = [
     avatar: "/avatars/user7.jpg",
     rating: 3,
     date: "2025-05-12",
-    title: "I wanted to get a number on it and google requested a sms verification...",
-    content: "I wanted to get a number on it and google requested a sms verification to link my phone number to it. I verified but nothing happened. I tried with my another phone number but failed to get google voice number. very bad experience",
+    title:
+      "I wanted to get a number on it and google requested a sms verification...",
+    content:
+      "I wanted to get a number on it and google requested a sms verification to link my phone number to it. I verified but nothing happened. I tried with my another phone number but failed to get google voice number. very bad experience",
     helpful: 53,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 5,
@@ -54,6 +58,6 @@ export const googleReviews: Review[] = [
     title: "How can someone give negative review of this? Strange.",
     content: "How can someone give negative review of this? Strange.",
     helpful: 46,
-    notHelpful: 5
-  }
+    notHelpful: 5,
+  },
 ];

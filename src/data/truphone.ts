@@ -1,4 +1,4 @@
-import {Review} from "@/data/reviews.ts";
+import { Review } from "@/data/reviews";
 
 export const truphoneReviews: Review[] = [
   {
@@ -8,9 +8,10 @@ export const truphoneReviews: Review[] = [
     rating: 2,
     date: "2025-03-16",
     title: "Used them for more than a decade and felt held hostage.",
-    content: "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
+    content:
+      "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
     helpful: 37,
-    notHelpful: 17
+    notHelpful: 17,
   },
   {
     id: 2,
@@ -18,10 +19,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 4,
     date: "2025-03-22",
-    title: "I wished I had seen these reviews before I purchased a 20GB plan for m...",
-    content: "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
+    title:
+      "I wished I had seen these reviews before I purchased a 20GB plan for m...",
+    content:
+      "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
     helpful: 49,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 3,
@@ -30,9 +33,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-03-24",
     title: "Pretty much the same as pre House reviews.",
-    content: "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
+    content:
+      "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
     helpful: 54,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 4,
@@ -40,10 +44,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user11.jpg",
     rating: 3,
     date: "2025-05-07",
-    title: "I've used Truphone a number of times while travelling with mixed resul...",
-    content: "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
+    title:
+      "I've used Truphone a number of times while travelling with mixed resul...",
+    content:
+      "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
     helpful: 90,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 5,
@@ -52,9 +58,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-03",
     title: "Very bad service.",
-    content: "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
+    content:
+      "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
     helpful: 39,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 6,
@@ -63,9 +70,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-28",
     title: "Its a SCAM company.",
-    content: "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
+    content:
+      "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
     helpful: 84,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 7,
@@ -74,9 +82,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-04",
     title: "Disgusting!",
-    content: "Purchased an esim after emailing a few times back and forth to make sure it would work on my phone and suit my needs. When I got to my country, the sim did not work. I emailed them, and they replied once and once only, with instructions set for a smartphone scientist. I had 4 people try and make the esim work, I emailed thru phone every day for 6 days and no reply.\nDisgusting.\nI will be doing a chargeback for this product as what I purchased I was assured would work, and what I got did not work. \nDisgusting.",
+    content:
+      "Purchased an esim after emailing a few times back and forth to make sure it would work on my phone and suit my needs. When I got to my country, the sim did not work. I emailed them, and they replied once and once only, with instructions set for a smartphone scientist. I had 4 people try and make the esim work, I emailed thru phone every day for 6 days and no reply.\nDisgusting.\nI will be doing a chargeback for this product as what I purchased I was assured would work, and what I got did not work. \nDisgusting.",
     helpful: 42,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 8,
@@ -85,9 +94,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-09",
     title: "This is a SCAM ! Beware.",
-    content: "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
+    content:
+      "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
     helpful: 64,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 9,
@@ -96,9 +106,10 @@ export const truphoneReviews: Review[] = [
     rating: 2,
     date: "2025-04-19",
     title: "Used them for more than a decade and felt held hostage.",
-    content: "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
+    content:
+      "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
     helpful: 31,
-    notHelpful: 13
+    notHelpful: 13,
   },
   {
     id: 10,
@@ -106,10 +117,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user11.jpg",
     rating: 4,
     date: "2025-04-14",
-    title: "I wished I had seen these reviews before I purchased a 20GB plan for m...",
-    content: "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
+    title:
+      "I wished I had seen these reviews before I purchased a 20GB plan for m...",
+    content:
+      "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
     helpful: 84,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 11,
@@ -118,9 +131,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-05-06",
     title: "Pretty much the same as pre House reviews.",
-    content: "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
+    content:
+      "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
     helpful: 30,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 12,
@@ -128,10 +142,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user12.jpg",
     rating: 3,
     date: "2025-04-17",
-    title: "I've used Truphone a number of times while travelling with mixed resul...",
-    content: "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
+    title:
+      "I've used Truphone a number of times while travelling with mixed resul...",
+    content:
+      "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
     helpful: 71,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 13,
@@ -140,9 +156,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-28",
     title: "Very bad service.",
-    content: "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
+    content:
+      "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
     helpful: 60,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 14,
@@ -151,9 +168,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-15",
     title: "Its a SCAM company.",
-    content: "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
+    content:
+      "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
     helpful: 72,
-    notHelpful: 4
+    notHelpful: 4,
   },
   {
     id: 15,
@@ -162,9 +180,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-02",
     title: "This is a SCAM ! Beware.",
-    content: "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
+    content:
+      "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
     helpful: 63,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 16,
@@ -172,10 +191,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user14.jpg",
     rating: 3,
     date: "2025-05-08",
-    title: "Apple watch for child worked perfectly for 1 week (conveniently the 7 ...",
-    content: "Apple watch for child worked perfectly for 1 week (conveniently the 7 day trial period) before \"No Connection\" issue started. No response from customer support despite multiple communications and cases with them. (02143463, 02143080, 02142062). \n\nCanceling service and expect a full refund as this tactic is clearly a scam to get subscribers then drop service.",
+    title:
+      "Apple watch for child worked perfectly for 1 week (conveniently the 7 ...",
+    content:
+      'Apple watch for child worked perfectly for 1 week (conveniently the 7 day trial period) before "No Connection" issue started. No response from customer support despite multiple communications and cases with them. (02143463, 02143080, 02142062). \n\nCanceling service and expect a full refund as this tactic is clearly a scam to get subscribers then drop service.',
     helpful: 60,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 17,
@@ -184,9 +205,10 @@ export const truphoneReviews: Review[] = [
     rating: 2,
     date: "2025-03-30",
     title: "Used them for more than a decade and felt held hostage.",
-    content: "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
+    content:
+      "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
     helpful: 59,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 18,
@@ -194,10 +216,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user1.jpg",
     rating: 4,
     date: "2025-04-21",
-    title: "I wished I had seen these reviews before I purchased a 20GB plan for m...",
-    content: "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
+    title:
+      "I wished I had seen these reviews before I purchased a 20GB plan for m...",
+    content:
+      "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
     helpful: 64,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 19,
@@ -206,9 +230,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-22",
     title: "Pretty much the same as pre House reviews.",
-    content: "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
+    content:
+      "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
     helpful: 74,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 20,
@@ -216,10 +241,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 3,
     date: "2025-05-04",
-    title: "I've used Truphone a number of times while travelling with mixed resul...",
-    content: "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
+    title:
+      "I've used Truphone a number of times while travelling with mixed resul...",
+    content:
+      "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
     helpful: 41,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 21,
@@ -228,9 +255,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-03-14",
     title: "Very bad service.",
-    content: "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
+    content:
+      "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
     helpful: 83,
-    notHelpful: 10
+    notHelpful: 10,
   },
   {
     id: 22,
@@ -239,9 +267,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-03-26",
     title: "Its a SCAM company.",
-    content: "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
+    content:
+      "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
     helpful: 57,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 23,
@@ -250,9 +279,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-25",
     title: "This is a SCAM ! Beware.",
-    content: "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
+    content:
+      "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
     helpful: 44,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 24,
@@ -260,10 +290,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user9.jpg",
     rating: 3,
     date: "2025-04-20",
-    title: "Apple watch for child worked perfectly for 1 week (conveniently the 7 ...",
-    content: "Apple watch for child worked perfectly for 1 week (conveniently the 7 day trial period) before \"No Connection\" issue started. No response from customer support despite multiple communications and cases with them. (02143463, 02143080, 02142062). \n\nCanceling service and expect a full refund as this tactic is clearly a scam to get subscribers then drop service.",
+    title:
+      "Apple watch for child worked perfectly for 1 week (conveniently the 7 ...",
+    content:
+      'Apple watch for child worked perfectly for 1 week (conveniently the 7 day trial period) before "No Connection" issue started. No response from customer support despite multiple communications and cases with them. (02143463, 02143080, 02142062). \n\nCanceling service and expect a full refund as this tactic is clearly a scam to get subscribers then drop service.',
     helpful: 24,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 25,
@@ -272,9 +304,10 @@ export const truphoneReviews: Review[] = [
     rating: 2,
     date: "2025-03-13",
     title: "Used them for more than a decade and felt held hostage.",
-    content: "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
+    content:
+      "Used them for more than a decade and felt held hostage.  Customer service beyond awful, pricey for limited data (and frequent bill shocks), billing and accounting the worst I've ever seen - aggressively chasing inacutate bills with threats of disconnection..and then proven to be wrong with no apologies. So glad to escape this firm, such a good idea, but such terrible execution.  Finally found a better service at less than half the price.",
     helpful: 13,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 26,
@@ -282,10 +315,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 4,
     date: "2025-04-15",
-    title: "I wished I had seen these reviews before I purchased a 20GB plan for m...",
-    content: "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
+    title:
+      "I wished I had seen these reviews before I purchased a 20GB plan for m...",
+    content:
+      "I wished I had seen these reviews before I purchased a 20GB plan for my iPad. I signed up & paid my $35, got my confirmation & my receipt.  I created an account & read where TruPhone is to appear in the upper left corner.  Never happened!  I’ve been trying to reach customer service for help but how?  There’s no number, no link.  Every email comes back undeliverable.  Any help would be greatly appreciated!",
     helpful: 46,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 27,
@@ -294,9 +329,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-05-07",
     title: "Pretty much the same as pre House reviews.",
-    content: "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
+    content:
+      "Pretty much the same as pre House reviews. Impossible to log in. Impossible to install esim. No response from Turksim helpline. Complete rip off.",
     helpful: 78,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 28,
@@ -304,10 +340,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user15.jpg",
     rating: 3,
     date: "2025-04-24",
-    title: "I've used Truphone a number of times while travelling with mixed resul...",
-    content: "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
+    title:
+      "I've used Truphone a number of times while travelling with mixed resul...",
+    content:
+      "I've used Truphone a number of times while travelling with mixed results. In Cyprus - worked fine, no issues. Thailand also ok. Just back from Germany/Austria. Worked with ok in Germany, but really struggled to get any kind of connection in Austria, which was a pain as I was only in Germany for 8 hours, Austria for 7 days. Support responded to requests, but solutions provided didn't help.",
     helpful: 53,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 29,
@@ -316,9 +354,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-03-17",
     title: "Very bad service.",
-    content: "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
+    content:
+      "Very bad service. Each time I am in another country I have to contact customer service because the network does not work. I have to write several E-Mails until I receive the necessary information to set up in the new country. 2-3 days pass until it works. If you are doing a weekend trip abroad, I do not recommend to buy an e-Sim with this company.",
     helpful: 68,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 30,
@@ -327,9 +366,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-03-29",
     title: "Its a SCAM company.",
-    content: "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
+    content:
+      "Its a SCAM company. I used truphone before. Customer service was good and I really liked it. However this time (I guess management company changed ), they changed the service and charged me for many month without sending me receipt. ( I received only first month) It was from the account I only use for my trip. I didnt realised that they are charging me every month for a few months. It was not easy to find the way to cancel from the app and also reaching out to customer service. In the end THEY BLOCK MY EMAIL!! unbelievable!!! Do not use this company!!!",
     helpful: 68,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 31,
@@ -338,9 +378,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-05-05",
     title: "Disgusting!",
-    content: "Purchased an esim after emailing a few times back and forth to make sure it would work on my phone and suit my needs. When I got to my country, the sim did not work. I emailed them, and they replied once and once only, with instructions set for a smartphone scientist. I had 4 people try and make the esim work, I emailed thru phone every day for 6 days and no reply.\nDisgusting.\nI will be doing a chargeback for this product as what I purchased I was assured would work, and what I got did not work. \nDisgusting.",
+    content:
+      "Purchased an esim after emailing a few times back and forth to make sure it would work on my phone and suit my needs. When I got to my country, the sim did not work. I emailed them, and they replied once and once only, with instructions set for a smartphone scientist. I had 4 people try and make the esim work, I emailed thru phone every day for 6 days and no reply.\nDisgusting.\nI will be doing a chargeback for this product as what I purchased I was assured would work, and what I got did not work. \nDisgusting.",
     helpful: 39,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 32,
@@ -349,9 +390,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-04",
     title: "This is a SCAM ! Beware.",
-    content: "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
+    content:
+      "I’m in france. Subscribed for a full year data plan for my Apple Watch. Couldn’t make it work with a normal set up on my watch. So I’ve asked for a refund (  the law in Europe gives us 14 days to ask for a refund without any reason, it’s actually even written on their own website ) . I’ve asked for the refund just a few hours after I’ve paid. And after dozens of emails, they now pretend not having read the email back then, and won’t give me a refund. Keep saying they close the ticket even though the problem wasn’t solved at all. This is a well organized scam and I will not let it go.",
     helpful: 73,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 33,
@@ -359,10 +401,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user10.jpg",
     rating: 3,
     date: "2025-04-12",
-    title: "Apple watch for child worked perfectly for 1 week (conveniently the 7 ...",
-    content: "Apple watch for child worked perfectly for 1 week (conveniently the 7 day trial period) before \"No Connection\" issue started. No response from customer support despite multiple communications and cases with them. (02143463, 02143080, 02142062). \n\nCanceling service and expect a full refund as this tactic is clearly a scam to get subscribers then drop service.",
+    title:
+      "Apple watch for child worked perfectly for 1 week (conveniently the 7 ...",
+    content:
+      'Apple watch for child worked perfectly for 1 week (conveniently the 7 day trial period) before "No Connection" issue started. No response from customer support despite multiple communications and cases with them. (02143463, 02143080, 02142062). \n\nCanceling service and expect a full refund as this tactic is clearly a scam to get subscribers then drop service.',
     helpful: 50,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 34,
@@ -371,9 +415,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-05",
     title: "Got a sim that should be 10 years valid for IoT, 3 months ago.",
-    content: "Got a sim that should be 10 years valid for IoT, 3 months ago. Device was offline for more then a month.  result no working sim any more, and my account is canceled, stay a way . \nIt is now 1global.com, they acquired truphone.com",
+    content:
+      "Got a sim that should be 10 years valid for IoT, 3 months ago. Device was offline for more then a month.  result no working sim any more, and my account is canceled, stay a way . \nIt is now 1global.com, they acquired truphone.com",
     helpful: 49,
-    notHelpful: 7
+    notHelpful: 7,
   },
   {
     id: 35,
@@ -381,10 +426,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 3,
     date: "2025-05-10",
-    title: "Complete rubbish, even for B2B - with the acquisition of Truphone by T...",
-    content: "Complete rubbish, even for B2B - with the acquisition of Truphone by TP Global things have gone even worse. By all means shy away from them, really not worth the pain. Our company is owed >£2k for almost half a year now.",
+    title:
+      "Complete rubbish, even for B2B - with the acquisition of Truphone by T...",
+    content:
+      "Complete rubbish, even for B2B - with the acquisition of Truphone by TP Global things have gone even worse. By all means shy away from them, really not worth the pain. Our company is owed >£2k for almost half a year now.",
     helpful: 58,
-    notHelpful: 2
+    notHelpful: 2,
   },
   {
     id: 36,
@@ -393,9 +440,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-05-01",
     title: "I have not been able to install this eSIM Card on my iPhone.",
-    content: "I have not been able to install this eSIM Card on my iPhone. I have followed all the instructions watch the video and tried for over two hours, sending multiple screenshots to customer service, who did not help the outcome. When entering the required information manually, the Apple phone asked for a confirmation number. Which I don’t have and they don’t have the iPhone says to contact your carrier. I can’t contact my carrier because I’m in another country. What a mess.",
+    content:
+      "I have not been able to install this eSIM Card on my iPhone. I have followed all the instructions watch the video and tried for over two hours, sending multiple screenshots to customer service, who did not help the outcome. When entering the required information manually, the Apple phone asked for a confirmation number. Which I don’t have and they don’t have the iPhone says to contact your carrier. I can’t contact my carrier because I’m in another country. What a mess.",
     helpful: 71,
-    notHelpful: 1
+    notHelpful: 1,
   },
   {
     id: 37,
@@ -406,7 +454,7 @@ export const truphoneReviews: Review[] = [
     title: "Bought to use in Anchorage AK.",
     content: "Not working at all even down town.",
     helpful: 43,
-    notHelpful: 5
+    notHelpful: 5,
   },
   {
     id: 38,
@@ -415,9 +463,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-09",
     title: "Appalling customer service!",
-    content: "Appalling customer service! Forced to use Truphone on family share Apple Watch. Bought prepaid annual plan which would not activate, wasted a week on back and forth emails with customer service (they kept closing the ticket without resolving the issue). After 3 months the Apple Watch stopped working and was replaced, and can’t get the plan to transfer to new watch. Have had zero response from customer “service” other than to send me a “simple link” which naturally didn’t work! SORT OUT THIS PRoBLEM WITH YOUR PRODUCT , TRUPHONE! PLEASE RESPOND",
+    content:
+      "Appalling customer service! Forced to use Truphone on family share Apple Watch. Bought prepaid annual plan which would not activate, wasted a week on back and forth emails with customer service (they kept closing the ticket without resolving the issue). After 3 months the Apple Watch stopped working and was replaced, and can’t get the plan to transfer to new watch. Have had zero response from customer “service” other than to send me a “simple link” which naturally didn’t work! SORT OUT THIS PRoBLEM WITH YOUR PRODUCT , TRUPHONE! PLEASE RESPOND",
     helpful: 32,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 39,
@@ -425,10 +474,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user12.jpg",
     rating: 3,
     date: "2025-04-06",
-    title: "TRUPHONE  will steal money from your account long after your service h...",
-    content: "TRUPHONE  will steal money from your account long after your service has been cancelled. I cancelled all services with them in September 2022 and they continued to take funds from my account right through to March 2023. I have been trying for 2 months to get them to refund and they just take you in circles and won’t pay the money back. Terrible company to deal with!",
+    title:
+      "TRUPHONE  will steal money from your account long after your service h...",
+    content:
+      "TRUPHONE  will steal money from your account long after your service has been cancelled. I cancelled all services with them in September 2022 and they continued to take funds from my account right through to March 2023. I have been trying for 2 months to get them to refund and they just take you in circles and won’t pay the money back. Terrible company to deal with!",
     helpful: 74,
-    notHelpful: 6
+    notHelpful: 6,
   },
   {
     id: 40,
@@ -436,10 +487,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user8.jpg",
     rating: 3,
     date: "2025-04-13",
-    title: "data plan does not work when crossing into Germany. Non-existent support.",
-    content: "data plan does not work when crossing into Germany. Non-existent support.",
+    title:
+      "data plan does not work when crossing into Germany. Non-existent support.",
+    content:
+      "data plan does not work when crossing into Germany. Non-existent support.",
     helpful: 60,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 41,
@@ -447,10 +500,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user3.jpg",
     rating: 3,
     date: "2025-04-19",
-    title: "They conveniently forgot to highlight that should you not use their se...",
-    content: "They conveniently forgot to highlight that should you not use their services for 180 days then they terminate your service and do not refund any balance that you may have left!!!! Totally unacceptable and theft 🤬🤬🤬👎👎👎👎",
+    title:
+      "They conveniently forgot to highlight that should you not use their se...",
+    content:
+      "They conveniently forgot to highlight that should you not use their services for 180 days then they terminate your service and do not refund any balance that you may have left!!!! Totally unacceptable and theft 🤬🤬🤬👎👎👎👎",
     helpful: 55,
-    notHelpful: 9
+    notHelpful: 9,
   },
   {
     id: 42,
@@ -458,10 +513,12 @@ export const truphoneReviews: Review[] = [
     avatar: "/avatars/user6.jpg",
     rating: 5,
     date: "2025-03-28",
-    title: "My girlfriend and I have used Truphone for nearly a year now whilst we...",
-    content: "My girlfriend and I have used Truphone for nearly a year now whilst we travel through Central America. The country options are superb and connectivity is nearly always excellent. The customer service team has helped me with a couple of issues I had and resolved all of my issues. I'd recommend Truphone vs. alternatives like Airalo. The service is better and it's easy to manage. \n\nIf you're travelling the world, Truphone is a great solution to accessing the internet wherever you are and I will continue using it as we continue our way through South America. \n\nThank you Truphone!",
+    title:
+      "My girlfriend and I have used Truphone for nearly a year now whilst we...",
+    content:
+      "My girlfriend and I have used Truphone for nearly a year now whilst we travel through Central America. The country options are superb and connectivity is nearly always excellent. The customer service team has helped me with a couple of issues I had and resolved all of my issues. I'd recommend Truphone vs. alternatives like Airalo. The service is better and it's easy to manage. \n\nIf you're travelling the world, Truphone is a great solution to accessing the internet wherever you are and I will continue using it as we continue our way through South America. \n\nThank you Truphone!",
     helpful: 81,
-    notHelpful: 3
+    notHelpful: 3,
   },
   {
     id: 43,
@@ -470,9 +527,10 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-18",
     title: "My emails to Customer Support are now being blocked by Truphone.",
-    content: "My emails to Customer Support are now being blocked by Truphone. I have been chasing them for 6 months to refund money of mine. Thery say it is being done, constantly, and then nothing ever happens. Their pursuit of this issue is frankly apalling...",
+    content:
+      "My emails to Customer Support are now being blocked by Truphone. I have been chasing them for 6 months to refund money of mine. Thery say it is being done, constantly, and then nothing ever happens. Their pursuit of this issue is frankly apalling...",
     helpful: 48,
-    notHelpful: 8
+    notHelpful: 8,
   },
   {
     id: 44,
@@ -481,8 +539,9 @@ export const truphoneReviews: Review[] = [
     rating: 3,
     date: "2025-04-24",
     title: "I was moving across the U.S.",
-    content: "I was moving across the U.S. and needed to do some online banking during my weeklong travel. Purchased eSIM for my iPad with cellular. Was able to connect and verify at my home in CA. Travelled across 8 states and was never able to connect again. Their “award winning support” is via email, where they will get back to you within a day or two. They have never been able to help me. There may be application where this works, but for me it was a complete failure.",
+    content:
+      "I was moving across the U.S. and needed to do some online banking during my weeklong travel. Purchased eSIM for my iPad with cellular. Was able to connect and verify at my home in CA. Travelled across 8 states and was never able to connect again. Their “award winning support” is via email, where they will get back to you within a day or two. They have never been able to help me. There may be application where this works, but for me it was a complete failure.",
     helpful: 42,
-    notHelpful: 3
-  }
+    notHelpful: 3,
+  },
 ];
