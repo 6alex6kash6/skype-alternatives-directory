@@ -68,7 +68,7 @@ const SoftwareList = () => {
 
           return (
             <Link
-              href={`/software/${software.slug}`}
+              href={`/items/${software.slug}`}
               key={software.slug}
               className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden border border-gray-100"
             >
