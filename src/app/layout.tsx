@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: "Best Skype Alternatives 2025 | Video Call Apps Comparison",
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
         <TooltipProvider>
           <GoogleAnalytics />
+          <Analytics />
           <Toaster />
           <Sonner />
           {children}
