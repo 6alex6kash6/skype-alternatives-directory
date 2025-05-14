@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import MicrosoftClarity from "@/components/MicrosoftClarity";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body>
         <TooltipProvider>
           <GoogleAnalytics />
+          <MicrosoftClarity />
           <Analytics />
           <Toaster />
           <Sonner />
