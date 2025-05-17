@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { softwareData } from "@/data/software";
 import RatingStars from "@/components/RatingStars";
@@ -10,6 +10,13 @@ import { getAverageRating, getReviewCount } from "@/data/reviews";
 const SoftwareList = () => {
   const searchParams = useSearchParams();
   const searchQuery = searchParams.get("q") || "";
+  // Add state to track how many items to display
+  const [displayCount, setDisplayCount] = useState(20);
+
+  // Function to load more items
+  const handleShowMore = () => {
+    setDisplayCount((prevCount) => prevCount + 20);
+  };
 
   const filteredSoftware = useMemo(() => {
     if (!searchQuery.trim()) return softwareData;
@@ -53,6 +60,9 @@ const SoftwareList = () => {
       .sort((a, b) => b.score - a.score);
   }, [searchQuery]);
 
+  // Only display the number of items specified by displayCount
+  const itemsToDisplay = filteredSoftware.slice(0, displayCount);
+
   return (
     <section className="container mx-auto py-12 px-4">
       <h2 className="text-3xl font-bold text-center mb-12">
@@ -62,7 +72,7 @@ const SoftwareList = () => {
       </h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredSoftware.map((software) => {
+        {itemsToDisplay.map((software) => {
           const averageRating = getAverageRating(software.slug);
           const reviewCount = getReviewCount(software.slug);
 
@@ -148,6 +158,18 @@ const SoftwareList = () => {
           );
         })}
       </div>
+
+      {/* Show more button - only visible if there are more items to display */}
+      {displayCount < filteredSoftware.length && (
+        <div className="text-center mt-8">
+          <button
+            onClick={handleShowMore}
+            className="bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200"
+          >
+            Show More
+          </button>
+        </div>
+      )}
 
       {filteredSoftware.length === 0 && (
         <div className="text-center py-12">
