@@ -15,6 +15,7 @@ import {
 } from "@/data/reviews";
 import RatingStars from "@/components/RatingStars";
 import SortOptions from "@/components/SortOptions";
+import { CATEGORY_DELIMITER, PROS_CONS_DELIMITER } from "@/const";
 
 interface SoftwareDetailProps {
   initialIsMobile: boolean;
@@ -130,7 +131,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                 Categories
               </h3>
               <div className="flex flex-wrap gap-2 mb-4">
-                {software.Category.split(";").map((category, index) => (
+                {software.Category.split(CATEGORY_DELIMITER).map((category, index) => (
                   <span
                     key={index}
                     className="text-sm bg-gray-100 text-gray-800 px-3 py-1 rounded-full"
@@ -166,7 +167,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                     Pros
                   </h3>
                   <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    {software.pros.split("|").map((pro, index) => (
+                    {software.pros.split(PROS_CONS_DELIMITER).map((pro, index) => (
                       <li key={index}>{pro}</li>
                     ))}
                   </ul>
@@ -193,7 +194,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
                     Cons
                   </h3>
                   <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    {software.cons.split("|").map((con, index) => (
+                    {software.cons.split(PROS_CONS_DELIMITER).map((con, index) => (
                       <li key={index}>{con}</li>
                     ))}
                   </ul>

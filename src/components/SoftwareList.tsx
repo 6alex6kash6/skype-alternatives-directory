@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { softwareData } from "@/data/software";
 import RatingStars from "@/components/RatingStars";
 import { getAverageRating, getReviewCount } from "@/data/reviews";
+import { CATEGORY_DELIMITER } from "@/const";
 
 const SoftwareList = () => {
   const searchParams = useSearchParams();
@@ -82,7 +83,7 @@ const SoftwareList = () => {
               key={software.slug}
               className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden border border-gray-100"
             >
-              <div className="p-6">
+              <div className="p-6 flex flex-col h-full">
                 <div className="flex items-center mb-4">
                   <img
                     src={
@@ -133,7 +134,7 @@ const SoftwareList = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {software.Category.split(";")
+                  {software.Category.split(CATEGORY_DELIMITER)
                     .slice(0, 3)
                     .map((category, index) => (
                       <span
@@ -143,14 +144,14 @@ const SoftwareList = () => {
                         {category.trim()}
                       </span>
                     ))}
-                  {software.Category.split(";").length > 3 && (
+                  {software.Category.split(CATEGORY_DELIMITER).length > 3 && (
                     <span className="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded-full">
-                      +{software.Category.split(";").length - 3} more
+                      +{software.Category.split(CATEGORY_DELIMITER).length - 3} more
                     </span>
                   )}
                 </div>
 
-                <div className="text-purple-600 font-medium text-sm hover:text-purple-700">
+                <div className="text-purple-600 font-medium text-sm hover:text-purple-700 mt-auto">
                   View Details
                 </div>
               </div>
