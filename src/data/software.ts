@@ -1487,28 +1487,6 @@ export const softwareData: Software[] = [
     cons: "Subscription required|Business-oriented (less suited for personal use)|May require setup and configuration|Potential learning curve|Feature overwhelm possible",
   },
   {
-    title: "Chanty",
-    url: "https://chanty.com/",
-    custom_redirect: "",
-    slug: "chanty",
-    text: "Chanty is an all-in-one team collaboration tool that enhances productivity with features like messaging, video calling, and task management.",
-    Category: "Team Collaboration, Secure Messaging, Video Conferencing",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    images:
-      "https://cdn.chanty.com/landing/202503261923/images/chanty-social.png",
-    thumbnail: "https://cdn.chanty.com/favicon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313728170.www-eztalk.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Chanty is an all-in-one team collaboration tool that boasts unlimited message history and powerful features. It is designed to help teams enhance their productivity with a seamless interface for messaging, video calling, and task management. With Chanty, teams can supercharge their communication and collaboration.",
-    pros: "Unlimited message history|Combined messaging, video, and task management|Team-focused productivity features|Seamless interface|All-in-one collaboration solution",
-    cons: "Primarily business-focused|Paid subscription model|Requires team-wide adoption for best results|Potential learning curve|May have limited integration with some tools",
-  },
-  {
     title: "DANIAN",
     url: "https://www.danian.co/",
     custom_redirect: "",

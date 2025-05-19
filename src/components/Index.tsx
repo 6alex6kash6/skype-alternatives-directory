@@ -7,7 +7,6 @@ import SearchBar from "@/components/SearchBar";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
       <main className="flex-grow">
         {/* Hero section */}
         <section className="bg-gradient-to-r from-purple-700 to-purple-900 text-white py-16 px-4">
@@ -36,7 +35,6 @@ const Index = () => {
           <SoftwareList />
         </Suspense>
       </main>
-      <Footer />
     </div>
   );
 };

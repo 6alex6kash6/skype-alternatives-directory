@@ -23,5 +23,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: currentDate,
   }));
 
-  return [...mainRoutes, ...itemRoutes];
+  // Generate routes for each category
+  const categories = new Set<string>();
+  softwareData.forEach((software) => {
+    software.Category.split(", ").forEach((category) => {
+      categories.add(category);
+    });
+  });
+
+  const categoryRoutes = Array.from(categories).map((category) => ({
+    url: `${baseUrl}/categories/${category
+      .toLowerCase()
+      .replace(/\s+/g, "-")}/`,
+    lastModified: currentDate,
+  }));
+
+  return [...mainRoutes, ...itemRoutes, ...categoryRoutes];
 }
