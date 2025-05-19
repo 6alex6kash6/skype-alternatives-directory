@@ -12,12 +12,6 @@ import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Skype Alternatives - Find the Best Communication Tools",
-  description:
-    "Discover the best alternatives to Skype for video calls, messaging, and team collaboration.",
-};
-
 export default function RootLayout({
   children,
 }: {
