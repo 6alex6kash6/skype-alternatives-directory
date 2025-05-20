@@ -62,6 +62,26 @@ export const softwareData: Software[] = [
     cons: "Requires phone number|Limited features compared to some alternatives|Occasional sync issues|Smaller user base than mainstream apps",
   },
   {
+    title: "GlobalDial",
+    url: "https://globaldial.co/",
+    custom_redirect: "",
+    slug: "globaldial",
+    text: "GlobalDial is an affordable solution for international calls, providing the ability to connect with loved ones and essential services worldwide without a subscription.",
+    Category: "Budget International Calling, Personal Communication",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    pros: "No subscription required|Affordable international rates|Credits never expire|Connects to landlines and mobiles|Flexible pay-as-you-go model|Simple to use|No hidden fees|Global coverage",
+    images: "https://globaldial.co/og.png",
+    thumbnail: "https://globaldial.co/og.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747757275930.globaldial.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "GlobalDial offers an affordable alternative for international calling, especially relevant with the impending end of Skype's international calls in May 2025. This service ensures users stay connected to family, friends, landlines, and essential services across the globe. With no subscription requirement and credits that never expire, it is designed for those who want a flexible calling solution.",
+  },
+  {
     title: "Tox",
     url: "https://tox.chat/",
     custom_redirect: null,
