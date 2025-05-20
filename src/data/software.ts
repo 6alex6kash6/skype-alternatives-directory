@@ -4563,7 +4563,7 @@ export const softwareData: Software[] = [
     custom_redirect: "",
     slug: "redcoolmedia",
     text: "RedcoolMedia is an online platform that enables users to edit videos, audios, and various media files for free.",
-    Category: "Audio & Video, Images & Graphics, Productivity",
+    Category: "Productivity",
     Rank: null,
     Hide: false,
     isFree: false,
