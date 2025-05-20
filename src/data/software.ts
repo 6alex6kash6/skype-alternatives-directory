@@ -83,6 +83,27 @@ export const softwareData: Software[] = [
     cons: "Less polished UI|Smaller user base|Limited features|No message history when offline|No official mobile apps",
   },
   {
+    title: "WhatsApp",
+    url: "https://www.whatsapp.com/",
+    custom_redirect: "",
+    slug: "whatsapp",
+    text: "WhatsApp is a free messaging and calling service that allows users to communicate securely and reliably across the globe.",
+    Category: "Budget International Calling, Personal Communication",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    pros: "End-to-end encryption|Free messaging and calls|Large user base|Cross-platform support|Group chat features|Media sharing|Voice and video calls|Business features",
+    cons: "Requires phone number|Limited file size|No desktop-first experience|No message scheduling|Limited customization|No cloud backup by default|Requires internet connection",
+    images: "https://static.whatsapp.net/rsrc.php/v4/yR/r/y8-PTBaP90a.png",
+    thumbnail: "https://static.whatsapp.net/rsrc.php/v4/yq/r/mdQNdcFMi0p.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747754650121.www-whatsa.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "WhatsApp is a messaging service that enables users to stay connected with their friends and family through simple, secure, and reliable messaging and calling. It is available for free on phones all around the world, making communication accessible for everyone. WhatsApp ensures privacy through its end-to-end encryption, empowering users to message privately and confidently.",
+  },
+  {
     title: "Element",
     url: "https://element.io/",
     custom_redirect: null,
