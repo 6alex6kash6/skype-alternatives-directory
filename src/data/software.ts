@@ -41,6 +41,115 @@ export const softwareData: Software[] = [
     cons: "Privacy concerns|Resource-intensive|Can be overwhelming for new users|Limited video call quality for larger groups",
   },
   {
+    title: "Zoom",
+    url: "https://www.zoom.com/",
+    custom_redirect: "",
+    slug: "zoom",
+    text: "Zoom offers a comprehensive platform for modern collaboration including video meetings, team chat, and webinars.",
+    Category: "Team Collaboration",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    images: "https://st1.zoom.us/homepage/publish/static-image/thumb.png",
+    thumbnail:
+      "https://st1.zoom.us/homepage/publish/static-image/zoom-logo.svg",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747843107347.www-zoom-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Zoom is recognized for its trusted collaboration tools designed to modernize workflows. These tools encompass a variety of functionalities, including video meetings, team chat, VoIP phone services, webinars, and event management. The platform enhances productivity and facilitates seamless communication across teams and individuals.",
+    pros: "Intuitive user interface|Reliable high-quality video|Free tier availability|Cross-platform support|Robust webinar capabilities",
+    cons: "40-minute limit on free group calls|Past security concerns|Requires app download for best experience|Premium features need subscription|Can be resource-intensive",
+  },
+  {
+    title: "Microsoft Teams",
+    url: "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+    custom_redirect: "",
+    slug: "microsoft-teams",
+    text: "Microsoft Teams is a collaboration platform designed to facilitate communication and organization, bringing tools and files into one accessible location.",
+    Category: "Team Collaboration",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    images:
+      "https://icon2.cleanpng.com/20190506/rqo/kisspng-microsoft-teams-office-365-microsoft-office-micros-1713893117588.webp",
+    thumbnail: "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747843123565.www-micros.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Microsoft Teams is a collaboration platform that simplifies working together by integrating tools and files in one accessible location. It is specifically designed to enable users to connect naturally and stay organized while bringing their ideas to life. This tool enhances both communication and collaboration, making remote work easier and more efficient.",
+    pros: "Deep Microsoft 365 integration|Comprehensive collaboration features|Enterprise-grade security|Unlimited chat storage|Extensive third-party app integrations",
+    cons: "Steeper learning curve|Resource-intensive application|Works best within Microsoft ecosystem|Interface can feel cluttered|Limited functionality in free version",
+  },
+  {
+    title: "Telegram",
+    url: "https://web.telegram.org/z/",
+    custom_redirect: "",
+    slug: "telegram",
+    text: "Telegram is a cloud-based messaging app that prioritizes security and speed.",
+    Category: "Secure Messaging, Team Collaboration",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    images:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
+    thumbnail: "https://web.telegram.org/favicon.svg",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747314491189.web-telegr.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Telegram is a cloud-based mobile and desktop messaging application known for its emphasis on security and speed. The app enables users to communicate seamlessly through messages, voice calls, and media sharing. Its features make it a popular choice for individuals and groups seeking a reliable messaging solution.",
+    pros: "Free to use|Strong security features|Cloud-based synchronization|Cross-platform availability|Large file sharing capability",
+    cons: "Limited video calling features|Encryption not default for all chats|Potential privacy concerns|Group call limitations|Less established than some competitors",
+  },
+  {
+    title: "Viber",
+    url: "https://www.viber.com",
+    custom_redirect: null,
+    slug: "viber",
+    text: "Viber offers free and secure calls and messages to anyone, anywhere.",
+    Category: "Personal Communication, Budget International Calling",
+    Rank: null,
+    Hide: null,
+    isFree: null,
+    verified: null,
+    premium: null,
+    images: null,
+    thumbnail:
+      "https://www.viber.com/app/themes/viber/assets/images/logov2.svg",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1745329715193.www-viber.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Viber enables users to make free and secure calls and send messages to anyone, anywhere. The platform allows seamless communication with high-quality voice and video calls, group chats, and various messaging features, ensuring that conversations continue uninterrupted. This service is designed for users looking for a reliable way to keep in touch no matter their location.",
+    pros: "Good value call plans|Useful for international calls",
+    cons: "Account activation issues|Payment processing problems|Too many advertisements|Poor customer support|Technical issues|Subscription problems|Refund difficulties",
+  },
+  {
+    title: "WhatsApp",
+    url: "https://www.whatsapp.com/",
+    custom_redirect: "",
+    slug: "whatsapp",
+    text: "WhatsApp is a free messaging and calling service that allows users to communicate securely and reliably across the globe.",
+    Category: "Budget International Calling, Personal Communication",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    pros: "End-to-end encryption|Free messaging and calls|Large user base|Cross-platform support|Group chat features|Media sharing|Voice and video calls|Business features",
+    cons: "Requires phone number|Limited file size|No desktop-first experience|No message scheduling|Limited customization|No cloud backup by default|Requires internet connection",
+    images: "https://static.whatsapp.net/rsrc.php/v4/yR/r/y8-PTBaP90a.png",
+    thumbnail: "https://static.whatsapp.net/rsrc.php/v4/yq/r/mdQNdcFMi0p.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747754650121.www-whatsa.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "WhatsApp is a messaging service that enables users to stay connected with their friends and family through simple, secure, and reliable messaging and calling. It is available for free on phones all around the world, making communication accessible for everyone. WhatsApp ensures privacy through its end-to-end encryption, empowering users to message privately and confidently.",
+  },
+  {
     title: "Signal",
     url: "https://signal.org/",
     custom_redirect: null,
@@ -125,27 +234,7 @@ export const softwareData: Software[] = [
     pros: "Fully encrypted|No central servers|Open source|No accounts needed|Free forever|Simple to use",
     cons: "Less polished UI|Smaller user base|Limited features|No message history when offline|No official mobile apps",
   },
-  {
-    title: "WhatsApp",
-    url: "https://www.whatsapp.com/",
-    custom_redirect: "",
-    slug: "whatsapp",
-    text: "WhatsApp is a free messaging and calling service that allows users to communicate securely and reliably across the globe.",
-    Category: "Budget International Calling, Personal Communication",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    pros: "End-to-end encryption|Free messaging and calls|Large user base|Cross-platform support|Group chat features|Media sharing|Voice and video calls|Business features",
-    cons: "Requires phone number|Limited file size|No desktop-first experience|No message scheduling|Limited customization|No cloud backup by default|Requires internet connection",
-    images: "https://static.whatsapp.net/rsrc.php/v4/yR/r/y8-PTBaP90a.png",
-    thumbnail: "https://static.whatsapp.net/rsrc.php/v4/yq/r/mdQNdcFMi0p.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747754650121.www-whatsa.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "WhatsApp is a messaging service that enables users to stay connected with their friends and family through simple, secure, and reliable messaging and calling. It is available for free on phones all around the world, making communication accessible for everyone. WhatsApp ensures privacy through its end-to-end encryption, empowering users to message privately and confidently.",
-  },
+
   {
     title: "Element",
     url: "https://element.io/",
@@ -510,28 +599,7 @@ export const softwareData: Software[] = [
     pros: "Comprehensive communication suite|Good integration capabilities|Advanced call features|Business-oriented tools|Mobile support",
     cons: "Complex setup|Enterprise pricing|Learning curve|Less known than major competitors",
   },
-  {
-    title: "Viber",
-    url: "https://www.viber.com",
-    custom_redirect: null,
-    slug: "viber",
-    text: "Viber offers free and secure calls and messages to anyone, anywhere.",
-    Category: "Personal Communication, Budget International Calling",
-    Rank: null,
-    Hide: null,
-    isFree: null,
-    verified: null,
-    premium: null,
-    images: null,
-    thumbnail:
-      "https://www.viber.com/app/themes/viber/assets/images/logov2.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329715193.www-viber.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Viber enables users to make free and secure calls and send messages to anyone, anywhere. The platform allows seamless communication with high-quality voice and video calls, group chats, and various messaging features, ensuring that conversations continue uninterrupted. This service is designed for users looking for a reliable way to keep in touch no matter their location.",
-    pros: "Good value call plans|Useful for international calls",
-    cons: "Account activation issues|Payment processing problems|Too many advertisements|Poor customer support|Technical issues|Subscription problems|Refund difficulties",
-  },
+
   {
     title: "Yolla",
     url: "https://yollacalls.com",
@@ -3079,28 +3147,7 @@ export const softwareData: Software[] = [
     pros: "Comprehensive video conferencing tools|Location-independent communication|Educational resources (Vidyo University)|Chat integration|Established solution provider",
     cons: "Subscription likely required|Corporate focus (less personal)|Potential learning curve|May have bandwidth requirements|Less known than major platforms",
   },
-  {
-    title: "Telegram",
-    url: "https://web.telegram.org/z/",
-    custom_redirect: "",
-    slug: "telegram",
-    text: "Telegram is a cloud-based messaging app that prioritizes security and speed.",
-    Category: "Secure Messaging, Team Collaboration",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    images:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
-    thumbnail: "https://web.telegram.org/favicon.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314491189.web-telegr.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Telegram is a cloud-based mobile and desktop messaging application known for its emphasis on security and speed. The app enables users to communicate seamlessly through messages, voice calls, and media sharing. Its features make it a popular choice for individuals and groups seeking a reliable messaging solution.",
-    pros: "Free to use|Strong security features|Cloud-based synchronization|Cross-platform availability|Large file sharing capability",
-    cons: "Limited video calling features|Encryption not default for all chats|Potential privacy concerns|Group call limitations|Less established than some competitors",
-  },
+
   {
     title: "Toasty",
     url: "https://toasty.ai/",
