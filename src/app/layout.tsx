@@ -8,6 +8,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import MicrosoftClarity from "@/components/MicrosoftClarity";
+import TinyAdz from "@/components/TinyAdz";
 import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,6 +27,7 @@ export default function RootLayout({
             <TooltipProvider>
               <GoogleAnalytics />
               <MicrosoftClarity />
+              <TinyAdz />
               <Analytics />
               <Toaster />
               <Sonner />
