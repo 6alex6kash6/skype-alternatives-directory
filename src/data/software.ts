@@ -67,19 +67,42 @@ export const softwareData: Software[] = [
     custom_redirect: "",
     slug: "globaldial",
     text: "GlobalDial is an affordable solution for international calls, providing the ability to connect with loved ones and essential services worldwide without a subscription.",
-    Category: "Budget International Calling, Personal Communication",
+    Category:
+      "Budget International Calling, Personal Communication, Landline calling",
     Rank: null,
     Hide: false,
     isFree: false,
     verified: false,
     premium: false,
     pros: "No subscription required|Affordable international rates|Credits never expire|Connects to landlines and mobiles|Flexible pay-as-you-go model|Simple to use|No hidden fees|Global coverage",
-    images: "https://globaldial.co/og.png",
+    images: null,
     thumbnail: "https://globaldial.co/og.png",
     screenshotUrl:
       "https://mars-images.imgix.net/aiscraper/anon/1747757275930.globaldial.jpeg?auto=format&w=1200&fit=max&w=1000",
     fullDescription:
       "GlobalDial offers an affordable alternative for international calling, especially relevant with the impending end of Skype's international calls in May 2025. This service ensures users stay connected to family, friends, landlines, and essential services across the globe. With no subscription requirement and credits that never expire, it is designed for those who want a flexible calling solution.",
+  },
+  {
+    title: "Callshake",
+    url: "https://callshake.com/",
+    custom_redirect: "",
+    slug: "callshake",
+    text: "Callshake offers a cost-effective way to make international calls to landlines and mobiles from anywhere globally.",
+    Category:
+      "Budget International Calling, Personal Communication, Landline calling",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    images: null,
+    thumbnail:
+      "https://callshake.com/assets/logo-e099bc4a3add1afc87e2075a1d7d771b4f343859342bf25cd125ba4b70b1db0a.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747833708112.callshake.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Callshake serves as a viable alternative to traditional calling services, allowing users to connect with anyone, anywhere, with superior audio quality at rates that can be up to 80% cheaper than traditional carriers. This service operates without the need for contracts or downloads, making it exceptionally user-friendly and convenient for international calls. Whether using a laptop, tablet, or phone, Callshake ensures easy access to seamless communication.",
+    pros: "Affordable international calls with rates up to 80% cheaper than traditional carriers.|No contracts or downloads required, enhancing user convenience.|Superior audio quality for seamless communication across devices.",
   },
   {
     title: "Tox",

@@ -21,7 +21,6 @@ export const generateMetadata = (): Metadata => {
       description:
         "Compare top Skype alternatives for video calling, messaging, and screen sharing. Find your ideal communication tool today.",
     },
-    viewport: "width=device-width, initial-scale=1.0",
     appleWebApp: {
       capable: true,
     },
