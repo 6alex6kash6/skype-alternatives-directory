@@ -112,7 +112,7 @@ export const softwareData: Software[] = [
     custom_redirect: null,
     slug: "viber",
     text: "Viber offers free and secure calls and messages to anyone, anywhere.",
-    Category: "Personal Communication, International Calling,Landline calling",
+    Category: "Personal Communication, International Calling, Landline calling",
     Rank: null,
     Hide: null,
     isFree: null,
