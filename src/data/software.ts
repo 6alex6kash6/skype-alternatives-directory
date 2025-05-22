@@ -4510,29 +4510,6 @@ export const softwareData: Software[] = [
     cons: "Remote control focus rather than communication|Regional emphasis (primarily Asia)|Different core purpose than messaging|May require technical knowledge|Complex for casual users",
   },
   {
-    title: "Talkatone",
-    url: "http://www.talkatone.com/",
-    custom_redirect: "",
-    slug: "talkatone",
-    text: "Talkatone enables users to make free calls and send texts over WiFi or mobile data without using cell minutes.",
-    Category:
-      "Personal Communication, International Calling, Business Phone Systems",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    images: "",
-    thumbnail:
-      "http://www.talkatone.com/wp-content/themes/talkatone/img/talkatone-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315460181.www-talkat.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Talkatone is a calling app that allows users to make free calls and send texts over WiFi or mobile data, eliminating the use of cell minutes. It provides users with their own US phone number for unlimited texting and calling to most US numbers, including landlines. Millions of people worldwide utilize the Talkatone app to communicate without incurring additional costs.",
-    pros: "Free calls and texts over WiFi/data|Provides a US phone number|No cell minutes used|Unlimited texting capability|Works on both mobile and WiFi",
-    cons: "Primarily US-focused service|May include advertisements|Limited international features|Quality depends on connection|Less robust than premium options",
-  },
-  {
     title: "TheONE",
     url: "https://www.calltheone.com/",
     custom_redirect: "",
