@@ -4,26 +4,36 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
 
-function Table({ data }) {
+function Table({ data, className = "" }) {
+  const defaultStyles = "w-full border-collapse border border-gray-300 mb-6";
+  const headerStyles = "bg-gray-100 border border-gray-300 px-4 py-2 text-left font-semibold";
+  const cellStyles = "border border-gray-300 px-4 py-2";
+  const rowStyles = "even:bg-gray-50";
+
   let headers = data.headers.map((header, index) => (
-    <th key={index}>{header}</th>
-  ))
+      <th key={index} className={headerStyles}>
+        {header}
+      </th>
+  ));
+
   let rows = data.rows.map((row, index) => (
-    <tr key={index}>
-      {row.map((cell, cellIndex) => (
-        <td key={cellIndex}>{cell}</td>
-      ))}
-    </tr>
-  ))
+      <tr key={index} className={rowStyles}>
+        {row.map((cell, cellIndex) => (
+            <td key={cellIndex} className={cellStyles}>
+              {cell}
+            </td>
+        ))}
+      </tr>
+  ));
 
   return (
-    <table>
-      <thead>
+      <table className={`${defaultStyles} ${className}`}>
+        <thead>
         <tr>{headers}</tr>
-      </thead>
-      <tbody>{rows}</tbody>
-    </table>
-  )
+        </thead>
+        <tbody>{rows}</tbody>
+      </table>
+  );
 }
 
 function CustomLink(props) {
