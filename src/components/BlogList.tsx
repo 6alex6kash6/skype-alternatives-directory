@@ -44,6 +44,9 @@ export default function BlogList({ posts }: BlogListProps) {
                     {post.title}
                   </CardTitle>
                 </Link>
+                <CardDescription className="text-gray-600 line-clamp-3">
+                  {post.description}
+                </CardDescription>
               </CardHeader>
               <CardFooter className="p-6 pt-0">
                 <Link href={`/blog/${post.slug}`}>
