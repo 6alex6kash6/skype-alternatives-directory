@@ -212,6 +212,25 @@ export const softwareData: Software[] = [
     pros: "Affordable international calls with rates up to 80% cheaper than traditional carriers.|No contracts or downloads required, enhancing user convenience.|Superior audio quality for seamless communication across devices.",
   },
   {
+    title: "Webbphone",
+    url: "https://www.webbphone.com/",
+    custom_redirect: "",
+    slug: "webbphone",
+    text: "Webbphone enables international calls directly from a browser without contracts or hidden fees.",
+    Category: "International Calling, Personal Communication, Landline calling",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    images: "https://webbphone.com/logo.png",
+    thumbnail: "https://www.webbphone.com/logo.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1747997002426.www-webbph.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Webbphone allows users to make international calls directly from their browser, simplifying the process with its flexible pay-per-use credit system. Whether it’s connecting with clients, banks, or government offices, there are no contracts or hidden fees involved. The service offers a cost-effective way to communicate worldwide without any geographical restrictions.",
+  },
+  {
     title: "Tox",
     url: "https://tox.chat/",
     custom_redirect: null,

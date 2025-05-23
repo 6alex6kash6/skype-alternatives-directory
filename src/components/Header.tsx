@@ -31,16 +31,16 @@ const Header: React.FC<{
   }, [isMenuOpen, isCategoriesOpen]);
 
   return (
-    <header className="bg-white border-b border-gray-200 relative">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-3">
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+        <Link href="/" className="flex items-center">
           <span className="text-purple-600 text-2xl font-bold">
             SkypeAlternatives
           </span>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex items-center space-x-8">
           <Link
             href="/"
             className="text-gray-600 hover:text-purple-600 font-medium"
@@ -93,6 +93,25 @@ const Header: React.FC<{
             className="text-gray-600 hover:text-purple-600 font-medium"
           >
             About
+          </Link>
+          <Link
+            href="/"
+            className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-2"
+          >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+            Submit Tool
           </Link>
         </nav>
 
@@ -177,6 +196,26 @@ const Header: React.FC<{
             onClick={() => setIsMenuOpen(false)}
           >
             About
+          </Link>
+          <Link
+            href="/submit-tool"
+            className="text-2xl bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-3"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+            Submit Tool
           </Link>
         </nav>
       </div>
