@@ -24,23 +24,33 @@ const Footer: React.FC<{
             </h3>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <Link href="/" className="hover:text-purple-600">
+                <Link href="/categories/personal-communication" className="hover:text-purple-600">
+                  Personal Communication
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/video-conferencing" className="hover:text-purple-600">
                   Video Conferencing
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-purple-600">
+                <Link href="/categories/international-calling" className="hover:text-purple-600">
+                  International Calling
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/secure-messaging" className="hover:text-purple-600">
+                  Secure Messaging
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/landline-calling" className="hover:text-purple-600">
+                  Landline Calling
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/team-collaboration" className="hover:text-purple-600">
                   Team Collaboration
-                </Link>
-              </li>
-              <li>
-                <Link href="/" className="hover:text-purple-600">
-                  Voice Calls
-                </Link>
-              </li>
-              <li>
-                <Link href="/" className="hover:text-purple-600">
-                  Screen Sharing
                 </Link>
               </li>
             </ul>
