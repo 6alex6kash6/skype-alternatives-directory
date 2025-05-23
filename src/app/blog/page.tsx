@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogList from "@/components/BlogList";
 import { getBlogPosts } from "@/app/blog/utils";
@@ -13,7 +12,6 @@ export default async function BlogPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
       <main className="flex-grow">
         <div className="bg-gradient-to-r from-purple-700 to-purple-900 text-white py-12 px-4">
           <div className="container mx-auto max-w-4xl text-center">
@@ -25,7 +23,11 @@ export default async function BlogPage() {
             </p>
           </div>
         </div>
-        <BlogList posts={posts} />
+        <section className="py-16 px-4 bg-white">
+          <div className="container mx-auto max-w-6xl">
+            <BlogList posts={posts} />
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

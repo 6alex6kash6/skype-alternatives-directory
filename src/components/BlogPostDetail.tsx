@@ -1,5 +1,4 @@
 import { formatDate } from "@/lib/utils";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 interface BlogPost {
@@ -18,7 +17,6 @@ interface BlogPostDetailProps {
 export default function BlogPostDetail({ post }: BlogPostDetailProps) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
       <main className="flex-grow">
         {/* Hero section with featured image */}
         <div className="w-full h-64 md:h-96 bg-gray-200 relative">

@@ -1,6 +1,4 @@
 import React, { Suspense } from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import SoftwareList from "@/components/SoftwareList";
 import SearchBar from "@/components/SearchBar";
 import BlogList from "@/components/BlogList";
