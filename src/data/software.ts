@@ -212,6 +212,25 @@ export const softwareData: Software[] = [
     pros: "Affordable international calls with rates up to 80% cheaper than traditional carriers.|No contracts or downloads required, enhancing user convenience.|Superior audio quality for seamless communication across devices.",
   },
   {
+    title: "Dial Anyone",
+    url: "https://dialanyone.com/",
+    custom_redirect: "",
+    slug: "dial-anyone",
+    text: "Dial Anyone allows users to make and receive calls and text messages from any browser at affordable rates worldwide.",
+    Category: "International Calling, Personal Communication, Landline calling",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    images: "https://dialanyone.com/assets/img/og-image.jpg",
+    thumbnail: "https://dialanyone.com/assets/img/favicon/apple-touch-icon.png",
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1748013289836.dialanyone.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "Dial Anyone offers a service that enables users to call and text any phone number globally, including landlines and toll-free numbers. The platform supports over 210 countries and provides a free number for users to start calling immediately. With an emphasis on privacy and security, Dial Anyone ensures encrypted conversations and efficient handling of 2FA and OTP messages.",
+  },
+  {
     title: "Webbphone",
     url: "https://www.webbphone.com/",
     custom_redirect: "",
