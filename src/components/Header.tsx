@@ -89,6 +89,12 @@ const Header: React.FC<{
             </div>
           </div>
           <Link
+            href="/blog"
+            className="text-gray-600 hover:text-purple-600 font-medium"
+          >
+            Blog
+          </Link>
+          <Link
             href="/about"
             className="text-gray-600 hover:text-purple-600 font-medium"
           >
@@ -190,6 +196,13 @@ const Header: React.FC<{
               />
             </svg>
           </button>
+          <Link
+            href="/blog"
+            className="text-2xl text-gray-600 hover:text-purple-600 font-medium"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Blog
+          </Link>
           <Link
             href="/about"
             className="text-2xl text-gray-600 hover:text-purple-600 font-medium"
