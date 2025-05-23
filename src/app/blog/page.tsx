@@ -1,10 +1,16 @@
-
 import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogList from "@/components/BlogList";
+import { getBlogPosts } from "@/app/blog/utils";
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  const posts = getBlogPosts().map(post => ({
+    ...post.metadata,
+    id: post.slug,
+    slug: post.slug,
+  }));
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
@@ -19,7 +25,7 @@ export default function BlogPage() {
             </p>
           </div>
         </div>
-        <BlogList />
+        <BlogList posts={posts} />
       </main>
       <Footer />
     </div>
