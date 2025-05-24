@@ -1,4 +1,21 @@
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Skype Alternatives",
+  description: "Why we created Skype alternatives. We provide unbiased reviews and comparisons of communication tools.",
+  openGraph: {
+    title: "About Us | Skype Alternatives",
+    description: "Why we created Skype alternatives. We provide unbiased reviews and comparisons of communication tools.",
+    type: "website",
+    url: "https://skypealternativelist.com/about",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | Skype Alternatives",
+    description: "Why we created Skype alternatives. We provide unbiased reviews and comparisons of communication tools.",
+  },
+};
 
 export default function AboutPage() {
   return (

@@ -1,3 +1,5 @@
+import React from "react";
+import { Metadata } from "next";
 import { softwareData } from "@/data/software";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,6 +10,26 @@ import { CATEGORY_DELIMITER } from "@/const";
 interface CategoryPageProps {
   params: {
     category: string;
+  };
+}
+
+export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
+  const category = params.category.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  
+  return {
+    title: `${category} Alternatives to Skype | Skype Alternatives`,
+    description: `Find the best ${category.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+    openGraph: {
+      title: `${category} Alternatives to Skype | Skype Alternatives`,
+      description: `Find the best ${category.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+      type: "website",
+      url: `https://skypealternativelist.com/categories/${params.category}`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${category} Alternatives to Skype | Skype Alternatives`,
+      description: `Find the best ${category.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+    },
   };
 }
 
