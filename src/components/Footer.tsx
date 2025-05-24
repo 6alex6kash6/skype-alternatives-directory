@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { POPULAR_CATEGORIES, getCategoryInfo } from "@/lib/categories";
 
 const Footer: React.FC<{
   children?: React.ReactNode;
@@ -20,39 +21,19 @@ const Footer: React.FC<{
 
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-800">
-              Categories
+              🔥 Popular Categories
             </h3>
             <ul className="space-y-2 text-gray-600">
-              <li>
-                <Link href="/categories/personal-communication" className="hover:text-purple-600">
-                  Personal Communication
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/video-conferencing" className="hover:text-purple-600">
-                  Video Conferencing
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/international-calling" className="hover:text-purple-600">
-                  International Calling
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/secure-messaging" className="hover:text-purple-600">
-                  Secure Messaging
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/landline-calling" className="hover:text-purple-600">
-                  Landline Calling
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories/team-collaboration" className="hover:text-purple-600">
-                  Team Collaboration
-                </Link>
-              </li>
+              {POPULAR_CATEGORIES.map((category) => {
+                const info = getCategoryInfo(category);
+                return (
+                  <li key={category}>
+                    <Link href={`/categories/${info.slug}`} className="hover:text-purple-600">
+                      {info.emoji} {info.displayName}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { softwareData } from "@/data/software";
+import { POPULAR_CATEGORIES, getCategoryInfo, isPopularCategory } from "@/lib/categories";
 
 const Header: React.FC<{
   children?: React.ReactNode;
@@ -47,12 +48,20 @@ const Header: React.FC<{
           >
             Home
           </Link>
+          <Link
+            href="/categories/international-calling"
+            className="text-gray-600 hover:text-purple-600 font-medium flex items-center"
+          >
+            <span className="mr-1">🌍</span>
+            International Calling
+          </Link>
           <div className="relative group">
             <button
               className="text-gray-600 hover:text-purple-600 font-medium flex items-center"
               onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}
             >
-              Categories
+              <span className="mr-1">📂</span>
+              More Categories
               <svg
                 className={`ml-1 w-4 h-4 transition-transform ${
                   isCategoriesOpen ? "rotate-180" : ""
@@ -70,22 +79,44 @@ const Header: React.FC<{
               </svg>
             </button>
             <div
-              className={`absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 ${
+              className={`absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 z-50 ${
                 isCategoriesOpen ? "block" : "hidden"
               }`}
             >
-              {Array.from(categories).map((category) => (
-                <Link
-                  key={category}
-                  href={`/categories/${category
-                    .toLowerCase()
-                    .replace(/\s+/g, "-")}`}
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-600"
-                  onClick={() => setIsCategoriesOpen(false)}
-                >
-                  {category}
-                </Link>
-              ))}
+              <div className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-gray-100">
+                🔥 Popular Categories
+              </div>
+              {POPULAR_CATEGORIES.map((category) => {
+                const info = getCategoryInfo(category);
+                return (
+                  <Link
+                    key={category}
+                    href={`/categories/${info.slug}`}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-600"
+                    onClick={() => setIsCategoriesOpen(false)}
+                  >
+                    {info.emoji} {info.displayName}
+                  </Link>
+                );
+              })}
+              <div className="px-4 py-3 text-sm font-semibold text-gray-700 border-t border-gray-100 mt-2">
+                All Categories
+              </div>
+              {Array.from(categories)
+                .filter(category => !isPopularCategory(category))
+                .map((category) => {
+                  const info = getCategoryInfo(category);
+                  return (
+                    <Link
+                      key={category}
+                      href={`/categories/${info.slug}`}
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-600"
+                      onClick={() => setIsCategoriesOpen(false)}
+                    >
+                      {info.emoji} {info.displayName}
+                    </Link>
+                  );
+                })}
             </div>
           </div>
           <Link
@@ -174,6 +205,14 @@ const Header: React.FC<{
           >
             Home
           </Link>
+          <Link
+            href="/categories/international-calling"
+            className="text-2xl text-gray-600 hover:text-purple-600 font-medium flex items-center"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <span className="mr-1">🌍</span>
+            International Calling
+          </Link>
           <button
             className="text-2xl text-gray-600 hover:text-purple-600 font-medium flex items-center"
             onClick={() => {
@@ -181,7 +220,8 @@ const Header: React.FC<{
               setIsCategoriesOpen(true);
             }}
           >
-            Categories
+            <span className="mr-1">📂</span>
+            More Categories
             <svg
               className="ml-1 w-5 h-5"
               fill="none"
@@ -268,18 +308,48 @@ const Header: React.FC<{
               </h2>
               <div className="flex-1 overflow-y-auto px-4 pb-4">
                 <nav className="flex flex-col space-y-4">
-                  {Array.from(categories).map((category) => (
-                    <Link
-                      key={category}
-                      href={`/categories/${category
-                        .toLowerCase()
-                        .replace(/\s+/g, "-")}`}
-                      className="text-xl text-gray-600 hover:text-purple-600 py-2"
-                      onClick={() => setIsCategoriesOpen(false)}
-                    >
-                      {category}
-                    </Link>
-                  ))}
+                  <div className="mb-4">
+                    <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                      🔥 Popular Categories
+                    </h3>
+                    <div className="border-t border-gray-200 pt-2 space-y-2">
+                      {POPULAR_CATEGORIES.map((category) => {
+                        const info = getCategoryInfo(category);
+                        return (
+                          <Link
+                            key={category}
+                            href={`/categories/${info.slug}`}
+                            className="block text-xl text-gray-600 hover:text-purple-600 py-2"
+                            onClick={() => setIsCategoriesOpen(false)}
+                          >
+                            {info.emoji} {info.displayName}
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  <div className="border-gray-200 pt-4">
+                    <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                      All Categories
+                    </h3>
+                    <div className="border-t border-gray-200 pt-2 space-y-2">
+                      {Array.from(categories)
+                        .filter(category => !isPopularCategory(category))
+                        .map((category) => {
+                          const info = getCategoryInfo(category);
+                          return (
+                            <Link
+                              key={category}
+                              href={`/categories/${info.slug}`}
+                              className="block text-xl text-gray-600 hover:text-purple-600 py-2"
+                              onClick={() => setIsCategoriesOpen(false)}
+                            >
+                              {info.emoji} {info.displayName}
+                            </Link>
+                          );
+                        })}
+                    </div>
+                  </div>
                 </nav>
               </div>
             </div>

@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import RatingStars from "@/components/RatingStars";
 import { getAverageRating, getReviewCount } from "@/data/reviews";
 import { CATEGORY_DELIMITER } from "@/const";
+import { getCategoryInfo } from "@/lib/categories";
 
 interface CategoryPageProps {
   params: {
@@ -15,20 +16,21 @@ interface CategoryPageProps {
 
 export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
   const category = params.category.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const info = getCategoryInfo(category);
   
   return {
-    title: `${category} Alternatives to Skype | Skype Alternatives`,
-    description: `Find the best ${category.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+    title: `${info.displayName} Alternatives to Skype | Skype Alternatives`,
+    description: `Find the best ${info.displayName.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
     openGraph: {
-      title: `${category} Alternatives to Skype | Skype Alternatives`,
-      description: `Find the best ${category.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+      title: `${info.displayName} Alternatives to Skype | Skype Alternatives`,
+      description: `Find the best ${info.displayName.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
       type: "website",
-      url: `https://skypealternativelist.com/categories/${params.category}`,
+      url: `https://skypealternativelist.com/categories/${info.slug}`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `${category} Alternatives to Skype | Skype Alternatives`,
-      description: `Find the best ${category.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+      title: `${info.displayName} Alternatives to Skype | Skype Alternatives`,
+      description: `Find the best ${info.displayName.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
     },
   };
 }
@@ -59,12 +61,14 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   });
 
   const categoryName = Array.from(categories).find(
-    (cat) => cat.toLowerCase().replace(/\s+/g, "-") === categorySlug
+    (cat) => getCategoryInfo(cat).slug === categorySlug
   );
 
   if (!categoryName) {
     notFound();
   }
+
+  const categoryInfo = getCategoryInfo(categoryName);
 
   // Filter software items that belong to this category
   const categoryItems = softwareData.filter((software) =>
@@ -74,7 +78,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   return (
     <section className="container mx-auto py-12 px-4">
       <h2 className="text-3xl font-bold text-center mb-12">
-        {categoryName} Software
+        {categoryInfo.emoji} {categoryInfo.displayName} Software
       </h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
