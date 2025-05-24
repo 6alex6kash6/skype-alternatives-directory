@@ -6,6 +6,7 @@ import { getSoftwareBySlug } from "@/data/software";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 import ReviewsList from "@/components/ReviewsList";
+import SimilarTools from "@/components/SimilarTools";
 import {
   getReviewsBySlug,
   getAverageRating,
@@ -220,6 +221,13 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
               />
             )}
           </div>
+
+          {/* Similar Tools */}
+          <SimilarTools 
+            currentSlug={software.slug}
+            categories={software.Category.split(CATEGORY_DELIMITER).map(cat => cat.trim())}
+            isMobile={isMobile}
+          />
 
           {/* Reviews section */}
           <div className="bg-white rounded-xl shadow-sm p-6">
