@@ -6,22 +6,25 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog | Skype Alternatives",
-  description: "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
+  description:
+    "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
   openGraph: {
     title: "Blog | Skype Alternatives",
-    description: "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
+    description:
+      "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
     type: "website",
     url: "https://skypealternativelist.com/blog",
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog | Skype Alternatives",
-    description: "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
+    description:
+      "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
   },
 };
 
 export default async function BlogPage() {
-  const posts = getBlogPosts().map(post => ({
+  const posts = getBlogPosts().map((post) => ({
     ...post.metadata,
     id: post.slug,
     slug: post.slug,
@@ -36,7 +39,8 @@ export default async function BlogPage() {
               Blog & Resources
             </h1>
             <p className="text-xl md:text-2xl text-purple-100">
-              Expert insights, tips, and comparisons to help you choose the perfect communication tools
+              Expert insights, tips, and comparisons to help you choose the
+              perfect communication tools
             </p>
           </div>
         </div>
@@ -46,7 +50,6 @@ export default async function BlogPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }
