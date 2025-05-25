@@ -4,7 +4,7 @@ import { useParams, useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { getSoftwareBySlug } from "@/data/software";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { cn } from "@/lib/utils";
+import { cn, getReferralUrl } from "@/lib/utils";
 import ReviewsList from "@/components/ReviewsList";
 import SimilarTools from "@/components/SimilarTools";
 import {
@@ -101,7 +101,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
           </div>
 
           <a
-            href={software.url}
+            href={getReferralUrl(software.url)}
             target="_blank"
             rel="noopener noreferrer"
             className={cn(

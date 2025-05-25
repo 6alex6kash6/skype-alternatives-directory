@@ -1,4 +1,3 @@
-
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 
@@ -14,4 +13,15 @@ export function formatDate(dateString: string): string {
     month: 'long', 
     day: 'numeric' 
   });
+}
+
+export function getReferralUrl(url: string): string {
+  try {
+    const urlObj = new URL(url);
+    urlObj.searchParams.set('ref', 'skypealternativelist.com');
+    return urlObj.toString();
+  } catch {
+    // If URL is invalid, return original
+    return url;
+  }
 }
