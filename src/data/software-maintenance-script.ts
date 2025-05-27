@@ -2,6 +2,7 @@
 
 import readline from 'readline';
 import {Software, softwareData as originalData} from './software.ts';
+import { writeFileSync } from 'fs';
 
 // Create readline interface for interactive CLI
 const rl = readline.createInterface({
@@ -10,7 +11,7 @@ const rl = readline.createInterface({
 });
 
 // Helper function to ask questions
-const question = (query) => new Promise((resolve) => rl.question(query, resolve));
+const question = (query: string): Promise<string> => new Promise((resolve) => rl.question(query, resolve));
 
 // Colors for console output
 const colors = {
@@ -45,12 +46,24 @@ const MAIN_CATEGORIES = [
   'Landline Calling'
 ];
 
+interface SoftwareWithIndex extends Software {
+  originalIndex: number;
+}
+
+interface TitleGroups {
+  [key: string]: SoftwareWithIndex[];
+}
+
+interface CategoryStats {
+  [key: string]: number;
+}
+
 class SoftwareDataMaintainer {
   data: Software[];
-  changes: [];
+  changes: string[];
 
-  constructor(data) {
-    this.data = [...data]; // Create a copy to work with
+  constructor(data: Software[]) {
+    this.data = [...data];
     this.changes = [];
   }
 
@@ -58,7 +71,7 @@ class SoftwareDataMaintainer {
   async handleDuplicates() {
     console.log(`\n${colors.cyan}=== Checking for duplicates ===${colors.reset}`);
     
-    const titleGroups = {};
+    const titleGroups: TitleGroups = {};
     this.data.forEach((item, index) => {
       const title = item.title.toLowerCase();
       if (!titleGroups[title]) {
@@ -76,6 +89,9 @@ class SoftwareDataMaintainer {
 
     console.log(`${colors.yellow}Found ${duplicates.length} duplicate groups:${colors.reset}`);
     
+    // Сначала соберем все индексы для удаления
+    const indicesToRemove: number[] = [];
+    
     for (const [title, items] of duplicates) {
       console.log(`\n${colors.yellow}Duplicates for "${items[0].title}":${colors.reset}`);
       
@@ -88,24 +104,34 @@ class SoftwareDataMaintainer {
 
       const answer = await question(`\nWhich one to keep? (1-${items.length}, or 'skip' to keep all): `);
       
-      if (answer.toLowerCase() !== 'skip') {
-        const keepIndex = parseInt(answer) - 1;
-        if (keepIndex >= 0 && keepIndex < items.length) {
-          const keepItem = items[keepIndex];
-          const removeIndices = items
-            .filter((_, i) => i !== keepIndex)
-            .map(item => item.originalIndex)
-            .sort((a, b) => b - a); // Sort descending to remove from end
-          
-          for (const index of removeIndices) {
-            this.data.splice(index, 1);
-            this.changes.push(`Removed duplicate: ${items[0].title} at index ${index}`);
-          }
-          
-          console.log(`${colors.green}✓ Kept option ${keepIndex + 1}${colors.reset}`);
-        }
+      if (answer.toLowerCase() === 'skip') {
+        console.log(`${colors.green}✓ Keeping all duplicates${colors.reset}`);
+        continue;
+      }
+
+      const keepIndex = parseInt(answer) - 1;
+      if (keepIndex >= 0 && keepIndex < items.length) {
+        const keepItem = items[keepIndex];
+        // Добавляем индексы для удаления в общий массив
+        const removeIndices = items
+          .filter((_, i) => i !== keepIndex)
+          .map(item => item.originalIndex);
+        
+        indicesToRemove.push(...removeIndices);
+        console.log(`${colors.gray}Keeping item at index ${keepItem.originalIndex}${colors.reset}`);
+        console.log(`${colors.gray}Will remove items at indices: ${removeIndices.join(', ')}${colors.reset}`);
+      } else {
+        console.log(`${colors.yellow}Invalid option, keeping all duplicates${colors.reset}`);
       }
     }
+
+    // Удаляем все дубликаты за один проход, начиная с конца
+    indicesToRemove
+      .sort((a, b) => b - a) // Сортируем по убыванию
+      .forEach(index => {
+        this.data.splice(index, 1);
+        this.changes.push(`Removed duplicate at index ${index}`);
+      });
   }
 
   // 2. Fix separators
@@ -290,7 +316,7 @@ class SoftwareDataMaintainer {
     
     const stats = {
       total: this.data.length,
-      categories: {},
+      categories: {} as CategoryStats,
       withPros: 0,
       withCons: 0,
       withScreenshots: 0,
@@ -320,13 +346,35 @@ class SoftwareDataMaintainer {
     console.log(`\nCategories:`);
     
     Object.entries(stats.categories)
-      .sort(([,a], [,b]) => b - a)
+      .sort(([,a], [,b]) => (b as number) - (a as number))
       .forEach(([cat, count]) => {
         console.log(`  ${cat}: ${count}`);
       });
   }
 
-  // Generate output
+  // Simple formatter that removes quotes from keys
+  private formatValue(value: any, indent: number = 0): string {
+    const spaces = '  '.repeat(indent);
+    
+    if (value === null) return 'null';
+    if (typeof value === 'string') return `"${value}"`;
+    if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+    
+    if (Array.isArray(value)) {
+      if (value.length === 0) return '[]';
+      return `[\n${spaces}  ${value.map(v => this.formatValue(v, indent + 1)).join(',\n' + spaces + '  ')},\n${spaces}]`;
+    }
+    
+    if (typeof value === 'object') {
+      const entries = Object.entries(value);
+      if (entries.length === 0) return '{}';
+      return `{\n${spaces}  ${entries.map(([k, v]) => `${k}: ${this.formatValue(v, indent + 1)}`).join(',\n' + spaces + '  ')},\n${spaces}}`;
+    }
+    
+    return String(value);
+  }
+
+  // Generate outputц
   generateOutput() {
     console.log(`\n${colors.cyan}=== Generating output ===${colors.reset}`);
     
@@ -350,7 +398,12 @@ class SoftwareDataMaintainer {
   cons?: string | null;
 }
 
-export const softwareData: Software[] = ${JSON.stringify(this.data, null, 2)};`;
+export const softwareData: Software[] = ${this.formatValue(this.data)};
+
+export const getSoftwareBySlug = (slug: string): Software | undefined => {
+  return softwareData.find((software) => software.slug === slug);
+};
+`;
 
     return output;
   }
@@ -379,8 +432,8 @@ async function main() {
 
   // Run all maintenance tasks
   await maintainer.handleDuplicates();
-  maintainer.fixSeparators();
-  maintainer.enforceOrder();
+  // maintainer.fixSeparators();
+  // maintainer.enforceOrder();
   await maintainer.autoFix();
   await maintainer.additionalChecks();
 
@@ -403,9 +456,8 @@ async function main() {
     console.log(`node maintain-software.js > software.ts`);
     
     // Option 3: If you want to write directly (uncomment):
-    // import { writeFileSync } from 'fs';
-    // writeFileSync('./software.ts', output);
-    // console.log(`${colors.green}✓ Saved to software.ts${colors.reset}`);
+    writeFileSync('./software.ts', output);
+    console.log(`${colors.green}✓ Saved to software.ts${colors.reset}`);
   }
 
   rl.close();
