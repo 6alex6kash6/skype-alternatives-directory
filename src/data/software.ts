@@ -21,7 +21,7 @@ export interface Software {
 export const softwareData: Software[] = [
   {
     title: "Discord",
-    url: "https://discord.com/",
+    url: "https://discord.com",
     custom_redirect: null,
     slug: "discord",
     text: "Discord is an exceptional platform for gaming, chatting, and building communities.",
@@ -33,16 +33,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://pngimg.com/d/discord_PNG8.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231798951.discord-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Discord is a versatile platform that enables users to chat, play games, and foster communities. It is designed to provide a space for friends to chill together, while also allowing for the customization of personal chat environments. With features tailored to facilitate communication, Discord is an ideal choice for socializing and connecting with others.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231798951.discord-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Discord is a versatile platform that enables users to chat, play games, and foster communities. It is designed to provide a space for friends to chill together, while also allowing for the customization of personal chat environments. With features tailored to facilitate communication, Discord is an ideal choice for socializing and connecting with others.",
     pros: "Free to use|Excellent for community building|Great voice quality|Robust permission system|Extensive bot ecosystem|Screen sharing capabilities",
     cons: "Privacy concerns|Resource-intensive|Can be overwhelming for new users|Limited video call quality for larger groups",
   },
   {
     title: "Zoom",
-    url: "https://www.zoom.com/",
+    url: "https://www.zoom.com",
     custom_redirect: "",
     slug: "zoom",
     text: "Zoom offers a comprehensive platform for modern collaboration including video meetings, team chat, and webinars.",
@@ -53,12 +51,9 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://st1.zoom.us/homepage/publish/static-image/thumb.png",
-    thumbnail:
-      "https://st1.zoom.us/homepage/publish/static-image/zoom-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747843107347.www-zoom-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Zoom is recognized for its trusted collaboration tools designed to modernize workflows. These tools encompass a variety of functionalities, including video meetings, team chat, VoIP phone services, webinars, and event management. The platform enhances productivity and facilitates seamless communication across teams and individuals.",
+    thumbnail: "https://st1.zoom.us/homepage/publish/static-image/zoom-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747843107347.www-zoom-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Zoom is recognized for its trusted collaboration tools designed to modernize workflows. These tools encompass a variety of functionalities, including video meetings, team chat, VoIP phone services, webinars, and event management. The platform enhances productivity and facilitates seamless communication across teams and individuals.",
     pros: "Intuitive user interface|Reliable high-quality video|Free tier availability|Cross-platform support|Robust webinar capabilities",
     cons: "40-minute limit on free group calls|Past security concerns|Requires app download for best experience|Premium features need subscription|Can be resource-intensive",
   },
@@ -74,19 +69,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://icon2.cleanpng.com/20190506/rqo/kisspng-microsoft-teams-office-365-microsoft-office-micros-1713893117588.webp",
+    images: "https://icon2.cleanpng.com/20190506/rqo/kisspng-microsoft-teams-office-365-microsoft-office-micros-1713893117588.webp",
     thumbnail: "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747843123565.www-micros.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Microsoft Teams is a collaboration platform that simplifies working together by integrating tools and files in one accessible location. It is specifically designed to enable users to connect naturally and stay organized while bringing their ideas to life. This tool enhances both communication and collaboration, making remote work easier and more efficient.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747843123565.www-micros.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Microsoft Teams is a collaboration platform that simplifies working together by integrating tools and files in one accessible location. It is specifically designed to enable users to connect naturally and stay organized while bringing their ideas to life. This tool enhances both communication and collaboration, making remote work easier and more efficient.",
     pros: "Deep Microsoft 365 integration|Comprehensive collaboration features|Enterprise-grade security|Unlimited chat storage|Extensive third-party app integrations",
     cons: "Steeper learning curve|Resource-intensive application|Works best within Microsoft ecosystem|Interface can feel cluttered|Limited functionality in free version",
   },
   {
     title: "Telegram",
-    url: "https://web.telegram.org/z/",
+    url: "https://web.telegram.org/z",
     custom_redirect: "",
     slug: "telegram",
     text: "Telegram is a cloud-based messaging app that prioritizes security and speed.",
@@ -96,13 +88,10 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
+    images: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
     thumbnail: "https://web.telegram.org/favicon.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314491189.web-telegr.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Telegram is a cloud-based mobile and desktop messaging application known for its emphasis on security and speed. The app enables users to communicate seamlessly through messages, voice calls, and media sharing. Its features make it a popular choice for individuals and groups seeking a reliable messaging solution.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314491189.web-telegr.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Telegram is a cloud-based mobile and desktop messaging application known for its emphasis on security and speed. The app enables users to communicate seamlessly through messages, voice calls, and media sharing. Its features make it a popular choice for individuals and groups seeking a reliable messaging solution.",
     pros: "Free to use|Strong security features|Cloud-based synchronization|Cross-platform availability|Large file sharing capability",
     cons: "Limited video calling features|Encryption not default for all chats|Potential privacy concerns|Group call limitations|Less established than some competitors",
   },
@@ -119,18 +108,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://www.viber.com/app/themes/viber/assets/images/logov2.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329715193.www-viber.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Viber enables users to make free and secure calls and send messages to anyone, anywhere. The platform allows seamless communication with high-quality voice and video calls, group chats, and various messaging features, ensuring that conversations continue uninterrupted. This service is designed for users looking for a reliable way to keep in touch no matter their location.",
+    thumbnail: "https://www.viber.com/app/themes/viber/assets/images/logov2.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329715193.www-viber.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Viber enables users to make free and secure calls and send messages to anyone, anywhere. The platform allows seamless communication with high-quality voice and video calls, group chats, and various messaging features, ensuring that conversations continue uninterrupted. This service is designed for users looking for a reliable way to keep in touch no matter their location.",
     pros: "Good value call plans|Useful for international calls",
     cons: "Account activation issues|Payment processing problems|Too many advertisements|Poor customer support|Technical issues|Subscription problems|Refund difficulties",
   },
   {
     title: "WhatsApp",
-    url: "https://www.whatsapp.com/",
+    url: "https://www.whatsapp.com",
     custom_redirect: "",
     slug: "whatsapp",
     text: "WhatsApp is a free messaging and calling service that allows users to communicate securely and reliably across the globe.",
@@ -144,14 +130,12 @@ export const softwareData: Software[] = [
     cons: "Requires phone number|Limited file size|No desktop-first experience|No message scheduling|Limited customization|No cloud backup by default|Requires internet connection",
     images: "https://static.whatsapp.net/rsrc.php/v4/yR/r/y8-PTBaP90a.png",
     thumbnail: "https://static.whatsapp.net/rsrc.php/v4/yq/r/mdQNdcFMi0p.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747754650121.www-whatsa.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "WhatsApp is a messaging service that enables users to stay connected with their friends and family through simple, secure, and reliable messaging and calling. It is available for free on phones all around the world, making communication accessible for everyone. WhatsApp ensures privacy through its end-to-end encryption, empowering users to message privately and confidently.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747754650121.www-whatsa.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "WhatsApp is a messaging service that enables users to stay connected with their friends and family through simple, secure, and reliable messaging and calling. It is available for free on phones all around the world, making communication accessible for everyone. WhatsApp ensures privacy through its end-to-end encryption, empowering users to message privately and confidently.",
   },
   {
     title: "Signal",
-    url: "https://signal.org/",
+    url: "https://signal.org",
     custom_redirect: null,
     slug: "signal",
     text: "Signal is a secure messaging app that prioritizes privacy while offering smooth communication features.",
@@ -163,16 +147,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://signal.org/assets/images/header/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231795908.signal-org.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Signal is a messaging application that combines an unexpected focus on privacy with all the features users expect from a messaging platform. It offers state-of-the-art end-to-end encryption, ensuring that conversations remain private. With Signal, users can share messages, make voice and video calls, and avoid SMS fees while enjoying a secure messaging experience.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231795908.signal-org.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Signal is a messaging application that combines an unexpected focus on privacy with all the features users expect from a messaging platform. It offers state-of-the-art end-to-end encryption, ensuring that conversations remain private. With Signal, users can share messages, make voice and video calls, and avoid SMS fees while enjoying a secure messaging experience.",
     pros: "Strong end-to-end encryption|Open source|No ads|Simple interface|Self-destructing messages|Cross-platform support",
     cons: "Requires phone number|Limited features compared to some alternatives|Occasional sync issues|Smaller user base than mainstream apps",
   },
   {
     title: "GlobalDial",
-    url: "https://globaldial.co/",
+    url: "https://globaldial.co",
     custom_redirect: "",
     slug: "globaldial",
     text: "GlobalDial is an affordable solution for international calls, providing the ability to connect with loved ones and essential services worldwide without a subscription.",
@@ -185,14 +167,12 @@ export const softwareData: Software[] = [
     pros: "No subscription required|Affordable international rates|Credits never expire|Connects to landlines and mobiles|Flexible pay-as-you-go model|Simple to use|No hidden fees|Global coverage",
     images: null,
     thumbnail: "https://globaldial.co/og.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747757275930.globaldial.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "GlobalDial offers an affordable alternative for international calling, especially relevant with the impending end of Skype's international calls in May 2025. This service ensures users stay connected to family, friends, landlines, and essential services across the globe. With no subscription requirement and credits that never expire, it is designed for those who want a flexible calling solution.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747757275930.globaldial.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "GlobalDial offers an affordable alternative for international calling, especially relevant with the impending end of Skype's international calls in May 2025. This service ensures users stay connected to family, friends, landlines, and essential services across the globe. With no subscription requirement and credits that never expire, it is designed for those who want a flexible calling solution.",
   },
   {
     title: "Callshake",
-    url: "https://callshake.com/",
+    url: "https://callshake.com",
     custom_redirect: "",
     slug: "callshake",
     text: "Callshake offers a cost-effective way to make international calls to landlines and mobiles from anywhere globally.",
@@ -203,17 +183,14 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: null,
-    thumbnail:
-      "https://callshake.com/assets/logo-e099bc4a3add1afc87e2075a1d7d771b4f343859342bf25cd125ba4b70b1db0a.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747833708112.callshake.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Callshake serves as a viable alternative to traditional calling services, allowing users to connect with anyone, anywhere, with superior audio quality at rates that can be up to 80% cheaper than traditional carriers. This service operates without the need for contracts or downloads, making it exceptionally user-friendly and convenient for international calls. Whether using a laptop, tablet, or phone, Callshake ensures easy access to seamless communication.",
+    thumbnail: "https://callshake.com/assets/logo-e099bc4a3add1afc87e2075a1d7d771b4f343859342bf25cd125ba4b70b1db0a.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747833708112.callshake.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Callshake serves as a viable alternative to traditional calling services, allowing users to connect with anyone, anywhere, with superior audio quality at rates that can be up to 80% cheaper than traditional carriers. This service operates without the need for contracts or downloads, making it exceptionally user-friendly and convenient for international calls. Whether using a laptop, tablet, or phone, Callshake ensures easy access to seamless communication.",
     pros: "Affordable international calls with rates up to 80% cheaper than traditional carriers.|No contracts or downloads required, enhancing user convenience.|Superior audio quality for seamless communication across devices.",
   },
   {
     title: "Dial Anyone",
-    url: "https://dialanyone.com/",
+    url: "https://dialanyone.com",
     custom_redirect: "",
     slug: "dial-anyone",
     text: "Dial Anyone allows users to make and receive calls and text messages from any browser at affordable rates worldwide.",
@@ -225,14 +202,12 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://dialanyone.com/assets/img/og-image.jpg",
     thumbnail: "https://dialanyone.com/assets/img/favicon/apple-touch-icon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1748013289836.dialanyone.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Dial Anyone offers a service that enables users to call and text any phone number globally, including landlines and toll-free numbers. The platform supports over 210 countries and provides a free number for users to start calling immediately. With an emphasis on privacy and security, Dial Anyone ensures encrypted conversations and efficient handling of 2FA and OTP messages.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1748013289836.dialanyone.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Dial Anyone offers a service that enables users to call and text any phone number globally, including landlines and toll-free numbers. The platform supports over 210 countries and provides a free number for users to start calling immediately. With an emphasis on privacy and security, Dial Anyone ensures encrypted conversations and efficient handling of 2FA and OTP messages.",
   },
   {
     title: "Webbphone",
-    url: "https://www.webbphone.com/",
+    url: "https://www.webbphone.com",
     custom_redirect: "",
     slug: "webbphone",
     text: "Webbphone enables international calls directly from a browser without contracts or hidden fees.",
@@ -244,14 +219,12 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://webbphone.com/logo.png",
     thumbnail: "https://www.webbphone.com/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747997002426.www-webbph.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Webbphone allows users to make international calls directly from their browser, simplifying the process with its flexible pay-per-use credit system. Whether it’s connecting with clients, banks, or government offices, there are no contracts or hidden fees involved. The service offers a cost-effective way to communicate worldwide without any geographical restrictions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747997002426.www-webbph.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Webbphone allows users to make international calls directly from their browser, simplifying the process with its flexible pay-per-use credit system. Whether it’s connecting with clients, banks, or government offices, there are no contracts or hidden fees involved. The service offers a cost-effective way to communicate worldwide without any geographical restrictions.",
   },
   {
     title: "Tox",
-    url: "https://tox.chat/",
+    url: "https://tox.chat",
     custom_redirect: null,
     slug: "tox",
     text: "Tox is an easy-to-use and free application that enables secure communication without surveillance.",
@@ -263,17 +236,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://tox.chat/theme/img/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231796322.tox-chat.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Tox is an easy-to-use application that connects individuals with friends and family without anyone else listening in. It is completely free and offers services without advertising, while ensuring users' conversations remain private from digital surveillance. Unlike other prominent services, Tox prioritizes secure and private communication.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231796322.tox-chat.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Tox is an easy-to-use application that connects individuals with friends and family without anyone else listening in. It is completely free and offers services without advertising, while ensuring users' conversations remain private from digital surveillance. Unlike other prominent services, Tox prioritizes secure and private communication.",
     pros: "Fully encrypted|No central servers|Open source|No accounts needed|Free forever|Simple to use",
     cons: "Less polished UI|Smaller user base|Limited features|No message history when offline|No official mobile apps",
   },
-
   {
     title: "Element",
-    url: "https://element.io/",
+    url: "https://element.io",
     custom_redirect: null,
     slug: "element",
     text: "Element is a decentralized, end-to-end encrypted messaging and collaboration platform.",
@@ -285,16 +255,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://static.element.io/images/open-graph-large.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231808883.element-io.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app that prioritizes user privacy and data sovereignty. It operates on a decentralized network, allowing users to host their own instances or use a hosting service. Built by the creators of Matrix, Element ensures interoperability and seamless communication across various platforms.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231808883.element-io.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app that prioritizes user privacy and data sovereignty. It operates on a decentralized network, allowing users to host their own instances or use a hosting service. Built by the creators of Matrix, Element ensures interoperability and seamless communication across various platforms.",
     pros: "Decentralized architecture|End-to-end encryption|Open source|Cross-platform|Self-hosting option|Bridges to other platforms",
     cons: "Complex setup for self-hosting|Can be resource intensive|Occasional sync issues|Steeper learning curve than mainstream apps",
   },
   {
     title: "Wire",
-    url: "https://wire.com/",
+    url: "https://wire.com",
     custom_redirect: null,
     slug: "wire",
     text: "Wire offers secure collaboration tools with end-to-end encryption for messaging, calling, and file sharing.",
@@ -306,16 +274,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://brand.wire.com/public/Wire%20logo.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231810878.wire-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Wire is a trusted platform for millions around the world, facilitating secure collaboration without compromise. The product combines an intuitive user interface with end-to-end encryption, ensuring that communication remains private and protected. Users can connect, message, and share files seamlessly, boosting productivity while retaining control over their data.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231810878.wire-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Wire is a trusted platform for millions around the world, facilitating secure collaboration without compromise. The product combines an intuitive user interface with end-to-end encryption, ensuring that communication remains private and protected. Users can connect, message, and share files seamlessly, boosting productivity while retaining control over their data.",
     pros: "Strong encryption|Clean interface|Cross-platform support|Group video calls|Screen sharing|Guest access feature",
     cons: "Limited free tier|Less popular than alternatives|Occasional connection issues|Basic file sharing limitations",
   },
   {
     title: "Jami",
-    url: "https://jami.net/",
+    url: "https://jami.net",
     custom_redirect: null,
     slug: "jami",
     text: "Jami is a free and private communication software that offers end-to-end encryption.",
@@ -327,16 +293,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://jami.net/assets/images/logo-jami.webp",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231817435.jami-net.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Jami is a free, distributed, and open-source communication platform designed for privacy and security. It provides users with a range of features including instant messaging, audio and video calls, and group chats, all supported by end-to-end encryption. This powerful tool offers a peer-to-peer architecture, ensuring that users can communicate freely and privately without the need for a centralized server.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231817435.jami-net.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Jami is a free, distributed, and open-source communication platform designed for privacy and security. It provides users with a range of features including instant messaging, audio and video calls, and group chats, all supported by end-to-end encryption. This powerful tool offers a peer-to-peer architecture, ensuring that users can communicate freely and privately without the need for a centralized server.",
     pros: "Fully distributed P2P|No central servers|Open source|End-to-end encryption|No personal data collection|Free to use",
     cons: "Occasional reliability issues|Less polished than commercial alternatives|Smaller user base|Higher battery consumption",
   },
   {
     title: "Mumble",
-    url: "https://www.mumble.info/",
+    url: "https://www.mumble.info",
     custom_redirect: null,
     slug: "mumble",
     text: "Mumble is a free, open source voice chat application known for its low latency and high audio quality.",
@@ -348,16 +312,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://www.mumble.info/css/mumble.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231821890.www-mumble.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Mumble is a free, open source voice chat application that offers low latency and high quality audio capabilities. Originally designed for gaming, it serves multiple user groups including podcasters, workplaces, and hobby users. The application emphasizes data security and privacy, allowing users to self-host and maintain control over their communications.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231821890.www-mumble.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Mumble is a free, open source voice chat application that offers low latency and high quality audio capabilities. Originally designed for gaming, it serves multiple user groups including podcasters, workplaces, and hobby users. The application emphasizes data security and privacy, allowing users to self-host and maintain control over their communications.",
     pros: "Extremely low latency|Open source|Self-hosting option|Excellent audio quality|Lightweight|Advanced permission system",
     cons: "Dated interface|Steep learning curve|Limited to voice communication|Setup complexity for servers",
   },
   {
     title: "Matrix",
-    url: "https://matrix.org/",
+    url: "https://matrix.org",
     custom_redirect: null,
     slug: "matrix",
     text: "Matrix is an open network for secure, decentralised communication.",
@@ -369,10 +331,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://matrix.org/blog/img/matrix-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231822315.matrix-org.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Matrix is an open protocol designed for secure and decentralised communications. It enables users to chat with friends, family, and communities while also providing a robust platform for building rich communication applications. Its versatility allows it to serve various use cases, from personal chats to advanced app development.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231822315.matrix-org.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Matrix is an open protocol designed for secure and decentralised communications. It enables users to chat with friends, family, and communities while also providing a robust platform for building rich communication applications. Its versatility allows it to serve various use cases, from personal chats to advanced app development.",
     pros: "Open standard protocol|Decentralized network|Bridges to other platforms|End-to-end encryption|Self-hosting option|Active development",
     cons: "Technical complexity for setup|Resource intensive|Occasional sync issues|Learning curve for administration",
   },
@@ -389,18 +349,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://jitsi.org/wp-content/themes/jitsi/images/logo-web-2020.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231830995.jitsi-org.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Jitsi Meet offers free, secure, and open-source video conferencing that allows users to connect video chat with their entire team or invite anyone they know. Fully encrypted and developer-friendly, this solution can be utilized all day, every day, without requiring an account. It includes features like screen sharing, integrated chat, and custom URLs for meetings.",
+    thumbnail: "https://jitsi.org/wp-content/themes/jitsi/images/logo-web-2020.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231830995.jitsi-org.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Jitsi Meet offers free, secure, and open-source video conferencing that allows users to connect video chat with their entire team or invite anyone they know. Fully encrypted and developer-friendly, this solution can be utilized all day, every day, without requiring an account. It includes features like screen sharing, integrated chat, and custom URLs for meetings.",
     pros: "No account required|Free to use|Open source|Self-hosting option|End-to-end encryption|Screen sharing",
     cons: "Less reliable with many participants|Limited features compared to paid solutions|Occasional audio/video quality issues|Mobile app limitations",
   },
   {
     title: "Linphone",
-    url: "http://www.linphone.org/",
+    url: "https://www.linphone.org",
     custom_redirect: null,
     slug: "linphone",
     text: "Linphone is a complete softphone for VoIP, video calls, and instant messaging.",
@@ -411,18 +368,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://www.linphone.org/wp-content/uploads/2024/07/logo_linphone-2.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231850517.www-linpho.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Linphone is a comprehensive softphone designed for VoIP, video calls, and instant messaging. It provides a user-friendly interface and advanced features that enhance communication, making it suitable for both personal and business use. With its flexibility and open-source nature, Linphone meets diverse communication needs efficiently.",
+    thumbnail: "https://www.linphone.org/wp-content/uploads/2024/07/logo_linphone-2.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231850517.www-linpho.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Linphone is a comprehensive softphone designed for VoIP, video calls, and instant messaging. It provides a user-friendly interface and advanced features that enhance communication, making it suitable for both personal and business use. With its flexibility and open-source nature, Linphone meets diverse communication needs efficiently.",
     pros: "Open source|Cross-platform support|SIP compatible|End-to-end encryption|Audio/video calls|Self-hosting option",
     cons: "Dated interface|Occasional call quality issues|Complex setup for advanced features|Limited support resources",
   },
   {
     title: "Mattermost",
-    url: "https://www.mattermost.com/",
+    url: "https://www.mattermost.com",
     custom_redirect: null,
     slug: "mattermost",
     text: "Mattermost is designed for secure collaboration and mission-critical workflows in complex environments.",
@@ -433,18 +387,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/mattermost-logo-horizontal.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231847948.www-matter.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Mattermost provides a collaboration platform that is built for command and control over secure data and vital work in complex environments. It supports adaptable, focused, and resilient collaboration, ensuring teams stay connected when missions are at stake. With deep integrations and robust security features, it caters to the needs of organizations that require a reliable communication solution.",
+    thumbnail: "https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/mattermost-logo-horizontal.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231847948.www-matter.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Mattermost provides a collaboration platform that is built for command and control over secure data and vital work in complex environments. It supports adaptable, focused, and resilient collaboration, ensuring teams stay connected when missions are at stake. With deep integrations and robust security features, it caters to the needs of organizations that require a reliable communication solution.",
     pros: "Self-hosting option|Enterprise-grade security|Extensive integration options|Open source|Customizable|File sharing",
     cons: "Free tier limitations|Setup complexity|Resource intensive for self-hosting|Less intuitive than some alternatives",
   },
   {
     title: "Zulip",
-    url: "https://zulip.com/",
+    url: "https://zulip.com",
     custom_redirect: null,
     slug: "zulip",
     text: "Zulip is an organized team chat app designed for distributed teams of all sizes.",
@@ -455,18 +406,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://static.zulipchat.com/static/images/logo/zulip-icon-128x128.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231845960.zulip-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Zulip is an organized team chat application that facilitates communication for distributed teams of all sizes. It is designed to help users manage conversations with ease, ensuring that teams can communicate effectively regardless of their location. With its unique threaded chat feature, Zulip enables organized discussions that are accessible over time.",
+    thumbnail: "https://static.zulipchat.com/static/images/logo/zulip-icon-128x128.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231845960.zulip-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Zulip is an organized team chat application that facilitates communication for distributed teams of all sizes. It is designed to help users manage conversations with ease, ensuring that teams can communicate effectively regardless of their location. With its unique threaded chat feature, Zulip enables organized discussions that are accessible over time.",
     pros: "Threaded conversations|Powerful search|Open source|Self-hosting option|Good integrations|Cross-platform",
     cons: "Smaller user base|Learning curve for thread model|Limited video/voice features|Complex self-hosting setup",
   },
   {
     title: "TeamSpeak",
-    url: "https://www.teamspeak.com/",
+    url: "https://www.teamspeak.com",
     custom_redirect: null,
     slug: "teamspeak",
     text: "TeamSpeak is a premier VoIP communication system designed for online gaming, offering military-grade security and crystal-clear audio quality.",
@@ -477,18 +425,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://www.teamspeak.com/user/themes/teamspeak/images/logo_inverse.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231863278.www-teamsp.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TeamSpeak is recognized as the leading VoIP communication system for online gaming, known for its crystal-clear sound quality and exceptional reliability. It is designed to provide users with military-grade security and lag-free performance. The platform ensures that users have complete control over their communication environment, allowing them to customize their experience and prioritize privacy.",
+    thumbnail: "https://www.teamspeak.com/user/themes/teamspeak/images/logo_inverse.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231863278.www-teamsp.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TeamSpeak is recognized as the leading VoIP communication system for online gaming, known for its crystal-clear sound quality and exceptional reliability. It is designed to provide users with military-grade security and lag-free performance. The platform ensures that users have complete control over their communication environment, allowing them to customize their experience and prioritize privacy.",
     pros: "Excellent audio quality|Low latency|Highly customizable|Strong permission system|Self-hosting option|Low bandwidth usage",
     cons: "Dated interface|Setup complexity|Limited free tier|Learning curve|Less features than modern alternatives",
   },
   {
     title: "Guilded",
-    url: "https://www.guilded.gg/",
+    url: "https://www.guilded.gg",
     custom_redirect: null,
     slug: "guilded",
     text: "Guilded enhances group chat with integrated event calendars and forums, all for free.",
@@ -500,10 +445,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://www.guilded.gg/asset/Favicons/favicon-16x16.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231864160.www-guilde.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Guilded provides an upgraded group chat experience, designed for gaming communities. It equips servers with integrated event calendars, forums, and more, allowing for seamless communication and organization. This platform is entirely free to use, making it an accessible choice for anyone looking to enhance their community's interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231864160.www-guilde.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Guilded provides an upgraded group chat experience, designed for gaming communities. It equips servers with integrated event calendars, forums, and more, allowing for seamless communication and organization. This platform is entirely free to use, making it an accessible choice for anyone looking to enhance their community's interactions.",
     pros: "Free premium features|Calendar integration|Forum capabilities|Media hosting|Robust role system|Discord-like familiarity",
     cons: "Smaller user base|Occasional bugs|Less third-party integrations|Limited mobile experience",
   },
@@ -521,16 +464,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231865278.nextcloud.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Nextcloud Talk offers a privacy-respecting collaboration platform that facilitates online meetings, chat, and webinars all within a single application. This service is designed to enhance productivity and connectivity for hybrid teams, making it an ideal solution for secure communication. Users can enjoy a seamless and private experience while engaging with colleagues, customers, and partners.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231865278.nextcloud.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Nextcloud Talk offers a privacy-respecting collaboration platform that facilitates online meetings, chat, and webinars all within a single application. This service is designed to enhance productivity and connectivity for hybrid teams, making it an ideal solution for secure communication. Users can enjoy a seamless and private experience while engaging with colleagues, customers, and partners.",
     pros: "Self-hosting option|Privacy-focused|Integrated with Nextcloud ecosystem|Open source|End-to-end encryption|File sharing",
     cons: "Setup complexity|Performance issues with many users|Resource intensive|Limited features compared to dedicated solutions",
   },
   {
     title: "Whereby",
-    url: "https://whereby.com/",
+    url: "https://whereby.com",
     custom_redirect: null,
     slug: "whereby",
     text: "Whereby offers an API and SDK that allows seamless integration of customizable video calls into websites and applications.",
@@ -541,18 +482,15 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://framerusercontent.com/modules/4vhu5auio1F3btB69Kmz/OapwzfVmkVCDhgRB42g1/assets/byWcaCNWWZsZnXvSlFAudEUbl0.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231877957.whereby-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Whereby provides an API and SDK for developers to easily integrate WebRTC video calls into their websites or applications. This service is designed for various use cases, enabling organizations to enhance their platforms with customizable video calling features. Its usability extends to sectors like Telehealth and Digital Mental Health, making it a flexible solution for video communication needs.",
+    thumbnail: "https://framerusercontent.com/modules/4vhu5auio1F3btB69Kmz/OapwzfVmkVCDhgRB42g1/assets/byWcaCNWWZsZnXvSlFAudEUbl0.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231877957.whereby-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Whereby provides an API and SDK for developers to easily integrate WebRTC video calls into their websites or applications. This service is designed for various use cases, enabling organizations to enhance their platforms with customizable video calling features. Its usability extends to sectors like Telehealth and Digital Mental Health, making it a flexible solution for video communication needs.",
     pros: "No downloads required|Easy to use|Good free tier|Custom branding options|Reliable connection|Recording capability",
     cons: "Limited participant count on free tier|Less features than enterprise solutions|Occasional browser compatibility issues|Mobile limitations",
   },
   {
     title: "Trillian",
-    url: "https://www.trillian.im/",
+    url: "https://www.trillian.im",
     custom_redirect: null,
     slug: "trillian",
     text: "Trillian provides secure, HIPAA-compliant instant messaging tailored for individuals, businesses, and healthcare professionals.",
@@ -564,16 +502,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231875010.www-trilli.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Trillian is a modern and secure instant messaging platform that specializes in HIPAA-compliant communication for individuals, businesses, and healthcare. With over 20 years of experience, it enables users to send messages, share files, and stay connected seamlessly. This platform aims to meet the needs of diverse users, ensuring security in all messaging interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231875010.www-trilli.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Trillian is a modern and secure instant messaging platform that specializes in HIPAA-compliant communication for individuals, businesses, and healthcare. With over 20 years of experience, it enables users to send messages, share files, and stay connected seamlessly. This platform aims to meet the needs of diverse users, ensuring security in all messaging interactions.",
     pros: "Multi-protocol support|Cross-platform|Message history sync|HIPAA compliant|Clean interface|One-time purchase option",
     cons: "Less active development|Declining user base|Limited voice/video features|Some protocols no longer supported",
   },
   {
     title: "MiroTalk",
-    url: "https://p2p.mirotalk.com/",
+    url: "https://p2p.mirotalk.com",
     custom_redirect: null,
     slug: "mirotalk",
     text: "MiroTalk offers free, secure, and fast video calls, chats, and screen sharing directly in the browser.",
@@ -585,10 +521,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://p2p.mirotalk.com/images/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231880863.p2p-mirota.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "MiroTalk is a free platform that enables secure and fast video calls, chat, and screen sharing directly from a browser without the need for downloads or plugins. With capabilities powered by WebRTC, it provides real-time communication that is simple and efficient on both mobile and desktop devices. Users can start video calls quickly and easily, ensuring a seamless communication experience.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231880863.p2p-mirota.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "MiroTalk is a free platform that enables secure and fast video calls, chat, and screen sharing directly from a browser without the need for downloads or plugins. With capabilities powered by WebRTC, it provides real-time communication that is simple and efficient on both mobile and desktop devices. Users can start video calls quickly and easily, ensuring a seamless communication experience.",
     pros: "No account required|Open source|End-to-end encryption|Screen sharing|Recording features|Self-hosting option",
     cons: "Limited participant scaling|Less feature-rich than alternatives|Occasional connection stability issues|Basic interface",
   },
@@ -605,12 +539,9 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747231889071.https-brie-fi-favicon-ico-image.x-icon",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231885732.brie-fi-ng.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Briefing is a secure video chat platform designed for privacy. Utilizing technologies like WebRTC, it creates direct peer-to-peer connections, ensuring conversations remain confidential without relying on central servers. This innovative approach minimizes data storage and eliminates the need for accounts or cookies.",
+    thumbnail: "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747231889071.https-brie-fi-favicon-ico-image.x-icon",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231885732.brie-fi-ng.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Briefing is a secure video chat platform designed for privacy. Utilizing technologies like WebRTC, it creates direct peer-to-peer connections, ensuring conversations remain confidential without relying on central servers. This innovative approach minimizes data storage and eliminates the need for accounts or cookies.",
     pros: "No account required|Privacy-focused|Browser-based|Simple interface|No installation needed|Free to use",
     cons: "Limited features|Basic interface|Less reliable with many participants|No persistent rooms or settings",
   },
@@ -628,34 +559,10 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://www.thirdlane.com/themes/custom/thirdlane/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747231893488.www-thirdl.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Thirdlane Connect is a comprehensive communication and collaboration solution that transforms how teams interact. It seamlessly integrates voice, video, and messaging, offering advanced features such as chat, conferencing, and file sharing. This application enhances productivity by connecting with CRM and other business applications, ultimately driving efficiency and improving customer interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747231893488.www-thirdl.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Thirdlane Connect is a comprehensive communication and collaboration solution that transforms how teams interact. It seamlessly integrates voice, video, and messaging, offering advanced features such as chat, conferencing, and file sharing. This application enhances productivity by connecting with CRM and other business applications, ultimately driving efficiency and improving customer interactions.",
     pros: "Comprehensive communication suite|Good integration capabilities|Advanced call features|Business-oriented tools|Mobile support",
     cons: "Complex setup|Enterprise pricing|Learning curve|Less known than major competitors",
-  },
-
-  {
-    title: "Yolla",
-    url: "https://yollacalls.com",
-    custom_redirect: null,
-    slug: "yolla",
-    text: "Viber offers free and secure calls and messages to anyone, anywhere.",
-    Category: "International Calling",
-    Rank: null,
-    Hide: null,
-    isFree: null,
-    verified: null,
-    premium: null,
-    images: null,
-    thumbnail: "https://yollacalls.com/assets/favicon/apple-touch-icon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329717602.yollacalls.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Yolla is an application designed for making affordable international calls to any mobile or landline phone worldwide. The app provides rates starting as low as $0.004 per minute. Users can keep their existing phone numbers while making calls, ensuring that those they contact recognize it is them calling.",
-    pros: "Low call rates|Easy to use|Good support mentioned by some",
-    cons: "Call quality issues|Overcharging complaints|Connection problems|Limited web version functionality",
   },
   {
     title: "AI Phone Translator",
@@ -671,10 +578,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://www.aiphone.ai/images/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329735288.www-aiphon.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "AI Phone Translator provides an AI-powered solution for live phone call translation and transcription across more than 100 languages. It aims to help users overcome language barriers and ensures that critical information is not missed during calls. The application is ideal for various scenarios including daily conversations for immigrants, travel needs, and international communications.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329735288.www-aiphon.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "AI Phone Translator provides an AI-powered solution for live phone call translation and transcription across more than 100 languages. It aims to help users overcome language barriers and ensures that critical information is not missed during calls. The application is ideal for various scenarios including daily conversations for immigrants, travel needs, and international communications.",
     pros: null,
     cons: null,
   },
@@ -691,12 +596,9 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/6384ff50fe6feee653bfd044_openphone-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329736903.www-openph.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "OpenPhone is a collaborative business phone system that integrates calls, texts, and contacts into a single, intuitive interface. This AI-powered application works seamlessly across devices, ensuring that businesses can communicate effectively at all times. Empowering startups and small businesses, OpenPhone has garnered trust from over 50,000 organizations.",
+    thumbnail: "https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/6384ff50fe6feee653bfd044_openphone-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329736903.www-openph.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "OpenPhone is a collaborative business phone system that integrates calls, texts, and contacts into a single, intuitive interface. This AI-powered application works seamlessly across devices, ensuring that businesses can communicate effectively at all times. Empowering startups and small businesses, OpenPhone has garnered trust from over 50,000 organizations.",
     pros: "Outstanding support|User-friendly interface|Smooth setup process|Good Skype replacement|Useful feature set",
     cons: "Call quality issues (static)|Account closure complaints|Verification process problems",
   },
@@ -712,14 +614,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.webex.com/content/dam/www/us/en/images/home/og-webex-home-page.jpg",
-    thumbnail:
-      "https://www.webex.com/content/dam/www/us/en/logos/Logo_Webex.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329747367.www-webex.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Webex is a comprehensive solution that offers industry-leading video conferencing, calling, and contact center capabilities. It is designed to facilitate hybrid work for businesses of all sizes, enabling seamless communication and collaboration. With a focus on enhancing customer and employee experiences, Webex stands out as a leader in the collaboration space.",
+    images: "https://www.webex.com/content/dam/www/us/en/images/home/og-webex-home-page.jpg",
+    thumbnail: "https://www.webex.com/content/dam/www/us/en/logos/Logo_Webex.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329747367.www-webex.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Webex is a comprehensive solution that offers industry-leading video conferencing, calling, and contact center capabilities. It is designed to facilitate hybrid work for businesses of all sizes, enabling seamless communication and collaboration. With a focus on enhancing customer and employee experiences, Webex stands out as a leader in the collaboration space.",
     pros: "Good for enterprise webinars|Stable for large audiences",
     cons: "Interface complaints|Camera freeze issues|Technical problems|Difficult to use|Poor user experience|Cancellation difficulties|Customer service issues|Device compatibility problems",
   },
@@ -735,14 +633,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.goto.com/-/media/images/shared/global/open-graph/og1.jpg",
-    thumbnail:
-      "https://www.goto.com/-/media/images/shared/logos/goto/goat-favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329755050.www-goto-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "GoTo Connect is the market-leading cloud phone system and customer engagement software that modernizes and centralizes conversations for businesses. This all-in-one communication platform integrates voice, video, messaging, and collaboration tools into a single solution. Users can streamline their communication processes, enhancing productivity and engagement.",
+    images: "https://www.goto.com/-/media/images/shared/global/open-graph/og1.jpg",
+    thumbnail: "https://www.goto.com/-/media/images/shared/logos/goto/goat-favicon.ico",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329755050.www-goto-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "GoTo Connect is the market-leading cloud phone system and customer engagement software that modernizes and centralizes conversations for businesses. This all-in-one communication platform integrates voice, video, messaging, and collaboration tools into a single solution. Users can streamline their communication processes, enhancing productivity and engagement.",
     pros: "Good customer service from specific reps|Helpful for transitions from other systems",
     cons: "Difficult subscription cancellation|Automatic renewal issues|Poor overall customer service|Technical issues|Higher cost than alternatives|Inflexible contract enforcement",
   },
@@ -758,13 +652,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://images.g2crowd.com/uploads/report_medal/image/1004651/medal.svg",
+    images: "https://images.g2crowd.com/uploads/report_medal/image/1004651/medal.svg",
     thumbnail: "https://frejun.com/wp-content/uploads/2021/04/Frejun-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329750535.frejun-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "FreJun is designed to automate calling and streamline business communications. It offers features for logging calls and providing insights, all integrated with popular workflow tools for easy access. This functionality enhances the productivity of teams by simplifying the calling process.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329750535.frejun-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "FreJun is designed to automate calling and streamline business communications. It offers features for logging calls and providing insights, all integrated with popular workflow tools for easy access. This functionality enhances the productivity of teams by simplifying the calling process.",
     pros: "User-friendly interface|Responsive staff support",
     cons: "Complaints about service disruptions|Limited reviews available",
   },
@@ -780,14 +671,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://line.me/static/a83a28aa13ec25daa7b25a9d20e55d66/aca38/og.png",
-    thumbnail:
-      "https://line.me/static/0d83b930b5aea21458844be1f39fdfaf/15377/icon-line-w.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329771994.line-me.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "LINE is more than just a messenger app; it represents a new level of communication and serves as an essential infrastructure in everyday life. With its innovative features, LINE facilitates seamless communication for users, enhancing their ability to connect with others. This app is designed to enrich the communication experience, making it an integral part of users' lives.",
+    images: "https://line.me/static/a83a28aa13ec25daa7b25a9d20e55d66/aca38/og.png",
+    thumbnail: "https://line.me/static/0d83b930b5aea21458844be1f39fdfaf/15377/icon-line-w.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329771994.line-me.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "LINE is more than just a messenger app; it represents a new level of communication and serves as an essential infrastructure in everyday life. With its innovative features, LINE facilitates seamless communication for users, enhancing their ability to connect with others. This app is designed to enrich the communication experience, making it an integral part of users' lives.",
     pros: "Free calling feature",
     cons: "Account suspension without clear reasons|Data security concerns|Non-responsive support|Verification difficulties|Device transfer problems|Connection issues",
   },
@@ -803,14 +690,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://sonetel.com/wp-content/uploads/2019/09/home-page-featured-image.png",
-    thumbnail:
-      "https://sonetel.com/wp-content/uploads/2019/09/home-page-featured-image.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329770338.www-sonete.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Sonetel offers business phone numbers that can be used in any city and country of choice. This service allows entrepreneurs to answer calls from anywhere, ensuring seamless communication. With plans starting at just $1.79 per month, it provides an affordable solution for growing businesses.",
+    images: "https://sonetel.com/wp-content/uploads/2019/09/home-page-featured-image.png",
+    thumbnail: "https://sonetel.com/wp-content/uploads/2019/09/home-page-featured-image.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329770338.www-sonete.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Sonetel offers business phone numbers that can be used in any city and country of choice. This service allows entrepreneurs to answer calls from anywhere, ensuring seamless communication. With plans starting at just $1.79 per month, it provides an affordable solution for growing businesses.",
     pros: "Positive customer service mentions|Simple to use|Reasonable service quality",
     cons: "Connection issues|Technical problems|Non-functioning numbers|Support response problems|Account verification difficulties",
   },
@@ -826,13 +709,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://static-web.imoim.net/as/indigo-static/official/graphics/imo_banner.png",
+    images: "https://static-web.imoim.net/as/indigo-static/official/graphics/imo_banner.png",
     thumbnail: "https://static-act.imoim.net/assets-s/imo-official/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329768945.imo-im.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "imo provides a free video calling application that allows users to stay connected with family and friends through high-definition video chats and messages. It offers options for both one-on-one and group calls, as well as secure messaging features. Users can also enjoy free international calls, making it an ideal choice for communication across distances.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329768945.imo-im.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "imo provides a free video calling application that allows users to stay connected with family and friends through high-definition video chats and messages. It offers options for both one-on-one and group calls, as well as secure messaging features. Users can also enjoy free international calls, making it an ideal choice for communication across distances.",
     pros: "Good call quality for some|Multi-platform availability|Easy to use",
     cons: "Excessive advertisements|Poor customer support|Login problems|Inappropriate message complaints|Limited functionality",
   },
@@ -849,12 +729,9 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: "https://www.ooma.com/wp-content/uploads/ooma-home-banner-1.jpg",
-    thumbnail:
-      "https://www.ooma.com/wp-content/themes/ooma/images/icons/ooma-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329793223.www-ooma-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Ooma is recognized as a leading VoIP phone service provider suitable for both business and home use. Not only does it offer cutting-edge phone service, but it also features integrated smart security systems. Users can call 877-353-5168 to discover more about its innovative solutions.",
+    thumbnail: "https://www.ooma.com/wp-content/themes/ooma/images/icons/ooma-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329793223.www-ooma-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Ooma is recognized as a leading VoIP phone service provider suitable for both business and home use. Not only does it offer cutting-edge phone service, but it also features integrated smart security systems. Users can call 877-353-5168 to discover more about its innovative solutions.",
     pros: "Easy installation|Clear instructions|Good call quality for some",
     cons: "Address book functionality issues|Unexpected charges|Price increases without notice|Poor customer support|Difficult cancellation|Device compatibility problems|Service activation issues",
   },
@@ -872,10 +749,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: "https://store.magicjack.com/mj/common/img/go-new/go_device.jpg",
     thumbnail: "https://www.magicjack.com/mj/common/img/mj-logo.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329792275.www-magicj.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "magicJack offers a VoIP phone service that allows users to enjoy uncompromised calling without the burden of traditional phone bills. The service includes free unlimited calling to the US and Canada while enabling users to keep their existing phone numbers. Users can easily connect their magicJack devices using high-speed internet for high-quality communications.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329792275.www-magicj.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "magicJack offers a VoIP phone service that allows users to enjoy uncompromised calling without the burden of traditional phone bills. The service includes free unlimited calling to the US and Canada while enabling users to keep their existing phone numbers. Users can easily connect their magicJack devices using high-speed internet for high-quality communications.",
     pros: "Easy installation|Basic home phone functionality|Clear signal mentioned by some",
     cons: "Poor/non-existent customer service|Technical failures|Automatic renewal problems|Refund issues|Sound quality problems|Setup difficulties|Billing complaints",
   },
@@ -891,14 +766,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://rebtel.imgix.net/upload/v2/logo/rebtel-logo-fb.png?auto=compress,format",
-    thumbnail:
-      "https://rebtel.imgix.net/upload/v2/logo/rebtel-logo-fb.png?auto=compress,format",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329793740.www-rebtel.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Rebtel provides a cost-effective solution for making international calls to any mobile or landline. Users can enjoy high-quality connections without the need for an internet connection, making it convenient for those looking to stay connected globally. The service allows users to try their first call for free, demonstrating their commitment to delivering value and quality.",
+    images: "https://rebtel.imgix.net/upload/v2/logo/rebtel-logo-fb.png?auto=compress,format",
+    thumbnail: "https://rebtel.imgix.net/upload/v2/logo/rebtel-logo-fb.png?auto=compress,format",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329793740.www-rebtel.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Rebtel provides a cost-effective solution for making international calls to any mobile or landline. Users can enjoy high-quality connections without the need for an internet connection, making it convenient for those looking to stay connected globally. The service allows users to try their first call for free, demonstrating their commitment to delivering value and quality.",
     pros: "Reliable for some users|Good value mentioned by some|No hidden costs for some|Works well for international calls for some",
     cons: "Described as scam by multiple users|Call quality issues|Poor customer service|Arbitrary account restrictions|Refund difficulties|Roaming charges problems|Functionality issues",
   },
@@ -914,14 +785,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.datocms-assets.com/50740/1642586127-truphone-social.png?w=1000&fit=max&fm=jpg",
-    thumbnail:
-      "https://www.datocms-assets.com/50740/1629889302-favicon.png?w=192&h=192",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329813758.www-trupho.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Truphone focuses on enhancing connectivity through smarter, more efficient solutions. Established in 2006, it has developed state-of-the-art SIM software and platforms that enable seamless global communication. With a commitment to connectivity, Truphone aims to keep everyone connected to their loved ones wherever they are.",
+    images: "https://www.datocms-assets.com/50740/1642586127-truphone-social.png?w=1000&fit=max&fm=jpg",
+    thumbnail: "https://www.datocms-assets.com/50740/1629889302-favicon.png?w=192&h=192",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329813758.www-trupho.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Truphone focuses on enhancing connectivity through smarter, more efficient solutions. Established in 2006, it has developed state-of-the-art SIM software and platforms that enable seamless global communication. With a commitment to connectivity, Truphone aims to keep everyone connected to their loved ones wherever they are.",
     pros: "Works in some countries (Cyprus, Thailand)|e-SIM functionality|International coverage",
     cons: "Poor customer service|Expensive with frequent bill shocks|Billing issues and inaccuracies|Network connectivity problems in certain regions|Long setup times (2-3 days for new countries)|Refund issues|Some describe as a 'scam'",
   },
@@ -937,14 +804,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://images.contentstack.io/v3/assets/blte621f0a2bd0e9f69/bltc5f9c56db2c5d47a/67be1326f5cfb37fa1d6b26d/8x8_SEO.png?cache=1744620095&tr=fo-auto,w-1200,h-628",
-    thumbnail:
-      "https://www.8x8.com/favicon-32x32.png?v=08f6c0d4416b9ec10a53adc96d3d4d8e",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329824075.www-8x8-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "The platform known as 8x8 combines contact center services, global telecommunications, video messaging, and low-code APIs into a single AI-powered ecosystem. This integration is designed to improve customer experiences and increase operational efficiency for businesses. It eliminates siloed operations, allowing for a seamless flow of communication and data.",
+    images: "https://images.contentstack.io/v3/assets/blte621f0a2bd0e9f69/bltc5f9c56db2c5d47a/67be1326f5cfb37fa1d6b26d/8x8_SEO.png?cache=1744620095&tr=fo-auto,w-1200,h-628",
+    thumbnail: "https://www.8x8.com/favicon-32x32.png?v=08f6c0d4416b9ec10a53adc96d3d4d8e",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329824075.www-8x8-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "The platform known as 8x8 combines contact center services, global telecommunications, video messaging, and low-code APIs into a single AI-powered ecosystem. This integration is designed to improve customer experiences and increase operational efficiency for businesses. It eliminates siloed operations, allowing for a seamless flow of communication and data.",
     pros: "Reliable for some users|Helpful account managers|Good for medium businesses",
     cons: "Poor customer support|Persistent bugs and feature gaps|Contract issues|Call quality problems|UI/UX complaints|Technical difficulties|SMS service problems",
   },
@@ -961,12 +824,9 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://www.talkatone.com/wp-content/themes/talkatone/img/talkatone-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329828460.www-talkat.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Talkatone is a calling app that enables users to make unlimited free calls and send texts using a free U.S. phone number, without relying on traditional cellular services. With Talkatone, millions of users can connect with family and friends anywhere, using WiFi or cellular data. The app allows communication without incurring regular cell phone minute charges, providing a cost-effective alternative for phone calls and messaging.",
+    thumbnail: "https://www.talkatone.com/wp-content/themes/talkatone/img/talkatone-logo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329828460.www-talkat.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Talkatone is a calling app that enables users to make unlimited free calls and send texts using a free U.S. phone number, without relying on traditional cellular services. With Talkatone, millions of users can connect with family and friends anywhere, using WiFi or cellular data. The app allows communication without incurring regular cell phone minute charges, providing a cost-effective alternative for phone calls and messaging.",
     pros: "Free US phone number|Wi-Fi calling capability|Text messaging|No cell plan required|Ad-supported free tier|International calling",
     cons: "Call quality varies|Ads in free version|Number recycling policy|Limited customer support|Occasional reliability issues",
   },
@@ -984,10 +844,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://textfree.us/wp-content/uploads/TextFree_Wordmark.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329829972.www-textfr.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TextFree offers unlimited free texting and WiFi calling from a complimentary phone number. The app is available for download on multiple platforms, allowing many users to communicate without worrying about costs. With over 130 million downloads, TextFree has become a popular choice for those seeking a reliable communication solution.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329829972.www-textfr.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TextFree offers unlimited free texting and WiFi calling from a complimentary phone number. The app is available for download on multiple platforms, allowing many users to communicate without worrying about costs. With over 130 million downloads, TextFree has become a popular choice for those seeking a reliable communication solution.",
     pros: "Free service ($0/month)|Real human customer service|Privacy features (described as untraceable)|Works without traditional cellular service",
     cons: "Poor customer support (chatbot described as useless)|Slow load times|Account blocking issues|Cannot receive verification codes|Some users describe it as virus-like|Access and verification problems",
   },
@@ -1005,10 +863,8 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329836940.www-dingto.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Dingtone is a service that offers users a second phone number for calling and texting. This app enables cheap calls and texts using WiFi or cellular data, helping users manage their communications without using cell minutes. It also includes features such as call forwarding, voicemail, and spam call blocking, making it a comprehensive solution for phone services.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329836940.www-dingto.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Dingtone is a service that offers users a second phone number for calling and texting. This app enables cheap calls and texts using WiFi or cellular data, helping users manage their communications without using cell minutes. It also includes features such as call forwarding, voicemail, and spam call blocking, making it a comprehensive solution for phone services.",
     pros: "Saves on phone bills for some|Free calls between Dingtone users",
     cons: "Privacy concerns|Unexpected charges|Verification code issues|Difficult subscription cancellation|Described as scam by many|Credit usage problems",
   },
@@ -1024,14 +880,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.nextiva.com/wp-content/uploads/2024/05/Nextiva-Logo-Social.webp",
-    thumbnail:
-      "https://www.nextiva.com/wp-content/themes/nextiva-2024-v2/assets/images/nextiva-logo-lite.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329861112.www-nextiv.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Nextiva is a unified business communication platform that connects all aspects of customer interactions throughout their journey. It encompasses voice and video communications, chat, social media, and email, providing a holistic approach to customer experience management. This platform is designed to streamline communication and improve overall engagement for businesses.",
+    images: "https://www.nextiva.com/wp-content/uploads/2024/05/Nextiva-Logo-Social.webp",
+    thumbnail: "https://www.nextiva.com/wp-content/themes/nextiva-2024-v2/assets/images/nextiva-logo-lite.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329861112.www-nextiv.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Nextiva is a unified business communication platform that connects all aspects of customer interactions throughout their journey. It encompasses voice and video communications, chat, social media, and email, providing a holistic approach to customer experience management. This platform is designed to streamline communication and improve overall engagement for businesses.",
     pros: "Comprehensive business solution|Good call quality|Advanced analytics|Multi-channel communications|Reliable uptime|Mobile apps",
     cons: "Higher price point|Long-term contracts|Setup complexity|Customer service response times|Learning curve",
   },
@@ -1047,14 +899,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.phone.com/wp-content/uploads/2022/05/phone_dot_com_OG_image.png",
-    thumbnail:
-      "https://pdc-marketing-cdn.s3.us-east-1.amazonaws.com/logos/Phonecom_Logo_With_Tagline.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329849678.www-phone.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Phone.com is an affordable VoIP virtual business phone system designed to deliver cloud-based voice, video, SMS, and MMS capabilities. The service aims to empower businesses by offering a dedicated business phone number separate from personal lines, facilitating seamless communication from any device, anywhere. With a simple setup process and a 30-day money-back guarantee, Phone.com makes it easy for businesses to enhance their communication without hefty upfront investments.",
+    images: "https://www.phone.com/wp-content/uploads/2022/05/phone_dot_com_OG_image.png",
+    thumbnail: "https://pdc-marketing-cdn.s3.us-east-1.amazonaws.com/logos/Phonecom_Logo_With_Tagline.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329849678.www-phone.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Phone.com is an affordable VoIP virtual business phone system designed to deliver cloud-based voice, video, SMS, and MMS capabilities. The service aims to empower businesses by offering a dedicated business phone number separate from personal lines, facilitating seamless communication from any device, anywhere. With a simple setup process and a 30-day money-back guarantee, Phone.com makes it easy for businesses to enhance their communication without hefty upfront investments.",
     pros: "Few positive mentions",
     cons: "Poor customer support|Billing issues for unused services|Difficult cancellation|Pricing transparency problems|Technical issues|Reliability concerns",
   },
@@ -1070,14 +918,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/home_b/og-img.jpg",
-    thumbnail:
-      "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/home_b/og-img.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329857558.www-ringce.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "RingCentral is recognized as a leader in AI-powered communications, enabling businesses to connect seamlessly through various channels including calls, messages, meetings, and events. This innovative solution enhances communication efficiency for organizations worldwide. The platform is designed to streamline business interactions and foster collaboration.",
+    images: "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/home_b/og-img.jpg",
+    thumbnail: "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/ab-tests/homepages/home_b/og-img.jpg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329857558.www-ringce.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "RingCentral is recognized as a leader in AI-powered communications, enabling businesses to connect seamlessly through various channels including calls, messages, meetings, and events. This innovative solution enhances communication efficiency for organizations worldwide. The platform is designed to streamline business interactions and foster collaboration.",
     pros: "Smooth transition from other providers for some|Professional onboarding in some cases|Meets basic business needs",
     cons: "Extremely poor customer support|Long support wait times|Forced contracts and difficult cancellation|Technical setup issues|Billing problems|Messaging/texting limitations|Call quality problems",
   },
@@ -1093,14 +937,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.mightycall.com/wp-content/uploads/2022/02/MightyCall-logo-G2.png",
-    thumbnail:
-      "https://www.mightycall.com/wp-content/themes/mightycall2021/img/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329878842.www-mighty.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "MightyCall provides cloud call center software designed specifically for small and mid-sized businesses. It stands out as an industry leader due to its reliable and intuitive nature, exceptional customer support, and ease of setup, making it an ideal solution for companies looking to enhance their customer service capabilities.",
+    images: "https://www.mightycall.com/wp-content/uploads/2022/02/MightyCall-logo-G2.png",
+    thumbnail: "https://www.mightycall.com/wp-content/themes/mightycall2021/img/logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329878842.www-mighty.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "MightyCall provides cloud call center software designed specifically for small and mid-sized businesses. It stands out as an industry leader due to its reliable and intuitive nature, exceptional customer support, and ease of setup, making it an ideal solution for companies looking to enhance their customer service capabilities.",
     pros: "User-friendly interface|Good customer support for some|Useful small business features|Responsive support team",
     cons: "Mobile app issues|Billing problems|Difficult cancellation|Technical limitations|Web phone hearing issues|Inflexible contracts",
   },
@@ -1116,13 +956,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://cdn.justcall.io/assets-marketing/images/temp/home-hero.webp",
+    images: "https://cdn.justcall.io/assets-marketing/images/temp/home-hero.webp",
     thumbnail: "https://cdn.justcall.io/assets-marketing/images/svg/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329884533.justcall-i.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "JustCall is a leading business communication platform that provides AI-powered phone systems and SMS solutions. It enhances sales pipelines and facilitates fast, customer-centric support. With a free trial available for 14 days, businesses can experience seamless connectivity and improve customer interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329884533.justcall-i.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "JustCall is a leading business communication platform that provides AI-powered phone systems and SMS solutions. It enhances sales pipelines and facilitates fast, customer-centric support. With a free trial available for 14 days, businesses can experience seamless connectivity and improve customer interactions.",
     pros: "Quick support response|Detailed customer attention|Easy to use|Good sound quality",
     cons: "AI-dependent support|Compliance form issues|Some fraudulent behavior complaints",
   },
@@ -1138,13 +975,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://a.storyblok.com/f/157376/1200x630/e9706cdc7b/og-image-en_1200x630.png/m/1200x0",
+    images: "https://a.storyblok.com/f/157376/1200x630/e9706cdc7b/og-image-en_1200x630.png/m/1200x0",
     thumbnail: "https://a.storyblok.com/f/157376/x/b49272a5df/aircall-icon.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329886125.aircall-io.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Aircall is an AI-powered customer communications platform designed to unify communication channels, automate tasks, and provide insights. It serves as a business phone system tailored for high-performing teams and integrates seamlessly with CRM and helpdesk systems. This solution enhances the efficiency of communication processes within organizations.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329886125.aircall-io.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Aircall is an AI-powered customer communications platform designed to unify communication channels, automate tasks, and provide insights. It serves as a business phone system tailored for high-performing teams and integrates seamlessly with CRM and helpdesk systems. This solution enhances the efficiency of communication processes within organizations.",
     pros: "Good onboarding experience|Integration with CRM systems|Some helpful account managers",
     cons: "Poor customer support|Criticized UI changes|Connection quality issues|SMS limitations (no short-code messages)|Data privacy concerns|Difficult cancellation process|Regional verification problems",
   },
@@ -1160,14 +994,10 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://cdn.prod.website-files.com/678900e941dcd8f65b4519f8/67f368f73f855673966ffbf7_Social-Image-Smarte-Telefonie-Home.png",
-    thumbnail:
-      "https://cdn.prod.website-files.com/678900e941dcd8f65b4519f8/678900e941dcd8f65b451a42_sipgate_logo_black.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329901873.www-sipgat.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "sipgate offers cloud telephony that intelligently connects teams, automates routine tasks, and strengthens customer relationships. It also enables deep CRM integrations, enhancing the overall communication experience for businesses. This solution caters specifically to the needs of businesses looking for a comprehensive communication tool.",
+    images: "https://cdn.prod.website-files.com/678900e941dcd8f65b4519f8/67f368f73f855673966ffbf7_Social-Image-Smarte-Telefonie-Home.png",
+    thumbnail: "https://cdn.prod.website-files.com/678900e941dcd8f65b4519f8/678900e941dcd8f65b451a42_sipgate_logo_black.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329901873.www-sipgat.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "sipgate offers cloud telephony that intelligently connects teams, automates routine tasks, and strengthens customer relationships. It also enables deep CRM integrations, enhancing the overall communication experience for businesses. This solution caters specifically to the needs of businesses looking for a comprehensive communication tool.",
     pros: "Reasonable pricing for VOIP|DE/EU Flat options available|No major problems reported",
     cons: "Mobile service not price competitive|Limited English-language support|Few reviews available",
   },
@@ -1185,16 +1015,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745329902673.www-voipbu.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "VoipBuster offers a software solution that enables users to make free and high-quality voice communications globally. The application allows free calls to selected destinations and extremely low rates for any other international calls. Additionally, users can call their online contacts at no cost.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745329902673.www-voipbu.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "VoipBuster offers a software solution that enables users to make free and high-quality voice communications globally. The application allows free calls to selected destinations and extremely low rates for any other international calls. Additionally, users can call their online contacts at no cost.",
     pros: "Low international call rates|Free calls to some destinations|No special hardware required|Cross-platform|Prepaid credit system",
     cons: "Interface could be more modern|Variable call quality|Limited customer support|Credit expiration policies",
   },
   {
     title: "Zadarma",
-    url: "https://zadarma.com/",
+    url: "https://zadarma.com",
     custom_redirect: null,
     slug: "zadarma",
     text: "Zadarma provides virtual phone numbers, a free cloud PBX, and various communication tools across 100+ countries.",
@@ -1206,16 +1034,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: "https://zadarma.com/images/content/news/zadarma_300_200.png?v2",
     thumbnail: "https://zadarma.com/v2/img/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522824643.zadarma-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Zadarma offers virtual phone numbers in over 100 countries, along with a free cloud PBX and CRM systems. Users can benefit from video conferencing, call tracking, and speech analytics. This service is designed to enhance business communication and optimize call management.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522824643.zadarma-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Zadarma offers virtual phone numbers in over 100 countries, along with a free cloud PBX and CRM systems. Users can benefit from video conferencing, call tracking, and speech analytics. This service is designed to enhance business communication and optimize call management.",
     pros: "Easy setup for new users|Stable video conferencing|Useful voicemail features|Good mobile functionality",
     cons: "Privacy concerns|Poor customer service|Unexplained account blocking|Verification difficulties|Data collection issues",
   },
   {
     title: "Chanty",
-    url: "https://www.chanty.com/",
+    url: "https://www.chanty.com",
     custom_redirect: null,
     slug: "chanty",
     text: "Chanty is an all-in-one team collaboration tool designed to enhance productivity with messaging, video calling, and task management features.",
@@ -1225,19 +1051,16 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://cdn.chanty.com/landing/202503261923/images/chanty-social.png",
+    images: "https://cdn.chanty.com/landing/202503261923/images/chanty-social.png",
     thumbnail: "https://cdn.chanty.com/favicon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/mars-default.jpg?auto=compress",
-    fullDescription:
-      "Chanty is an all-in-one team collaboration tool that simplifies communication and aids productivity. It offers unlimited message history and powerful features including video calls and task management. The platform is designed to significantly improve team collaboration and efficiency.",
+    screenshotUrl: "https://mars-images.imgix.net/mars-default.jpg?auto=compress",
+    fullDescription: "Chanty is an all-in-one team collaboration tool that simplifies communication and aids productivity. It offers unlimited message history and powerful features including video calls and task management. The platform is designed to significantly improve team collaboration and efficiency.",
     pros: "Easy-to-use interface|Good team collaboration features|Task management capabilities|Good service integrations|Simple and straightforward",
     cons: "Some complaints about fake reviews|Limited negative feedback available",
   },
   {
     title: "Rocket.Chat",
-    url: "https://www.rocket.chat/",
+    url: "https://www.rocket.chat",
     custom_redirect: null,
     slug: "rocketchat",
     text: "Rocket.Chat is a platform for secure, reliable, and unified communication, enabling real-time messaging, voice, video, and AI functionalities for internal and external stakeholders.",
@@ -1247,43 +1070,35 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://cdn.prod.website-files.com/611a19b9853b7414a0f6b3f6/67e2c083148c38ccdee0d489_Secure%20comms%20os%20hero%20rocket%20chat.png",
-    thumbnail:
-      "https://cdn.prod.website-files.com/611a19b9853b7414a0f6b3f6/611bbb87319adfd903b90f24_logoRC.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522840280.www-rocket.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Rocket.Chat is a comprehensive communication platform that centralizes real-time messaging, voice, video, AI, and applications, promoting secure and reliable collaboration among internal and external stakeholders. The platform is designed for mission-critical operations, ensuring seamless communication and data sovereignty. Its robust features offer businesses an efficient solution for maintaining secure interactions while enhancing operational efficiency.",
+    images: "https://cdn.prod.website-files.com/611a19b9853b7414a0f6b3f6/67e2c083148c38ccdee0d489_Secure%20comms%20os%20hero%20rocket%20chat.png",
+    thumbnail: "https://cdn.prod.website-files.com/611a19b9853b7414a0f6b3f6/611bbb87319adfd903b90f24_logoRC.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522840280.www-rocket.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Rocket.Chat is a comprehensive communication platform that centralizes real-time messaging, voice, video, AI, and applications, promoting secure and reliable collaboration among internal and external stakeholders. The platform is designed for mission-critical operations, ensuring seamless communication and data sovereignty. Its robust features offer businesses an efficient solution for maintaining secure interactions while enhancing operational efficiency.",
     pros: null,
     cons: null,
   },
   {
     title: "Brosix",
-    url: "https://www.brosix.com/",
+    url: "https://www.brosix.com",
     custom_redirect: null,
     slug: "brosix",
     text: "Brosix Instant Messenger enhances business efficiency and reduces costs through various chat features.",
-    Category: "Team Collaboration",
+    Category: "Team Collaboration, Secure Messaging",
     Rank: null,
     Hide: null,
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://www.brosix.com/wp-content/uploads/2019/02/home-page-image.png",
-    thumbnail:
-      "https://www.brosix.com/wp-content/themes/bootscore-child-main/img/logo/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522838050.www-brosix.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Brosix Instant Messenger is designed to improve business efficiency while decreasing expenses by providing multiple chat features. This comprehensive tool allows teams to communicate securely, ensuring that all exchanges are private and streamlined. Users can benefit from various functionalities tailored to enhance collaboration in professional settings.",
+    images: "https://www.brosix.com/wp-content/uploads/2019/02/home-page-image.png",
+    thumbnail: "https://www.brosix.com/wp-content/themes/bootscore-child-main/img/logo/logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522838050.www-brosix.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Brosix Instant Messenger is designed to improve business efficiency while decreasing expenses by providing multiple chat features. This comprehensive tool allows teams to communicate securely, ensuring that all exchanges are private and streamlined. Users can benefit from various functionalities tailored to enhance collaboration in professional settings.",
     pros: "Effective screen sharing|HIPAA compliance|Multi-platform support|Responsive customer service|Good video/audio quality",
     cons: "Occasional login issues|Mobile app limitations|Periodic technical problems",
   },
   {
     title: "Google Meet",
-    url: "https://meet.google.com/",
+    url: "https://meet.google.com",
     custom_redirect: null,
     slug: "google-meet",
     text: "Google Meet enables secure audio and video conferencing through Google Workspace.",
@@ -1293,20 +1108,16 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://lh3.googleusercontent.com/y7QLXoHdD1ZX1NqtEi_0SJbd7XrcX_nyIrsYqIMM3i9I5LB5YkB8RoiBvnothJuXOLfpTb0yFn-Mp0ERz98FrUTY8TxYFD9KiBH5=w1600-rj-e365",
-    thumbnail:
-      "https://storage.googleapis.com/gweb-workspace-assets/uploads/7uffzv9dk4sn-3dAGxdfnn2dy6LPNvOTYRx-8be390cd801f65e46a67dec3941d7c86-Google_Meet_Logo_x2.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522845834.meet-googl.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Google Meet, provided by Google Workspace, facilitates secure audio and video conferencing for users. It allows individuals and teams to connect effectively, enhancing collaboration in both personal and professional settings. This tool is designed to provide a seamless meeting experience, whether for formal business discussions or casual gatherings.",
+    images: "https://lh3.googleusercontent.com/y7QLXoHdD1ZX1NqtEi_0SJbd7XrcX_nyIrsYqIMM3i9I5LB5YkB8RoiBvnothJuXOLfpTb0yFn-Mp0ERz98FrUTY8TxYFD9KiBH5=w1600-rj-e365",
+    thumbnail: "https://storage.googleapis.com/gweb-workspace-assets/uploads/7uffzv9dk4sn-3dAGxdfnn2dy6LPNvOTYRx-8be390cd801f65e46a67dec3941d7c86-Google_Meet_Logo_x2.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522845834.meet-googl.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Google Meet, provided by Google Workspace, facilitates secure audio and video conferencing for users. It allows individuals and teams to connect effectively, enhancing collaboration in both personal and professional settings. This tool is designed to provide a seamless meeting experience, whether for formal business discussions or casual gatherings.",
     pros: "Low international rates|Long-term reliability",
     cons: "Verification issues|Limited features|Setup difficulties",
   },
   {
     title: "FaceTime",
-    url: "https://www.apple.com/facetime/",
+    url: "https://www.apple.com/facetime",
     custom_redirect: null,
     slug: "facetime",
     text: "FaceTime enables video and audio calling on iPhone and iPad devices.",
@@ -1318,16 +1129,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://www.apple.com/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522853391.www-apple.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "FaceTime is a service that allows users to make high-quality video and audio calls using their iPhone or iPad. This seamless communication tool enhances connectivity, enabling users to stay in touch with family and friends through live interactions. With its easy-to-use interface, FaceTime offers an intuitive calling experience for iOS device users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522853391.www-apple.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "FaceTime is a service that allows users to make high-quality video and audio calls using their iPhone or iPad. This seamless communication tool enhances connectivity, enabling users to stay in touch with family and friends through live interactions. With its easy-to-use interface, FaceTime offers an intuitive calling experience for iOS device users.",
     pros: "Seamless Apple ecosystem integration|High quality video|Easy to use|Group calls|End-to-end encryption|Screen sharing",
     cons: "Apple devices only|No Android or Windows support|Requires Apple ID|Network-dependent quality|Limited to 32 participants",
   },
   {
-    title: "Voice",
-    url: "https://voice.google.com/",
+    title: "Google Voice",
+    url: "https://voice.google.com",
     custom_redirect: null,
     slug: "voice",
     text: "Google Voice offers smart voice calling across various devices.",
@@ -1338,12 +1147,9 @@ export const softwareData: Software[] = [
     verified: null,
     premium: null,
     images: null,
-    thumbnail:
-      "https://fonts.gstatic.com/s/i/productlogos/voice_2020q4/v1/web-96dp/logo_voice_2020q4_color_2x_web_96dp.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522850440.voice-goog.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Google Voice provides a smarter phone number that works on both smartphones and the web, enabling users to place and receive calls from anywhere. It streamlines communication with features like voicemail transcription and allows users to easily manage incoming calls, including blocking spam calls. This service is designed to enhance connectivity and control over calls for both personal and business use.",
+    thumbnail: "https://fonts.gstatic.com/s/i/productlogos/voice_2020q4/v1/web-96dp/logo_voice_2020q4_color_2x_web_96dp.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522850440.voice-goog.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Google Voice provides a smarter phone number that works on both smartphones and the web, enabling users to place and receive calls from anywhere. It streamlines communication with features like voicemail transcription and allows users to easily manage incoming calls, including blocking spam calls. This service is designed to enhance connectivity and control over calls for both personal and business use.",
     pros: "Google ecosystem integration|Transcription capability|Spam filtering|Multi-device sync|Reasonable international rates|Free US calls",
     cons: "Privacy concerns|Google account required|Variable call quality|Limited international coverage|Occasional syncing issues",
   },
@@ -1359,20 +1165,16 @@ export const softwareData: Software[] = [
     isFree: null,
     verified: null,
     premium: null,
-    images:
-      "https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/6800d5714df8b264054c4a01_2OpenGraph-Sona-Landing-page%20(1).jpg",
-    thumbnail:
-      "https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/67f3dd80b34d4d5654987e96_Logo%20(6).svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1745522864773.www-openph.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Sona is a 24/7 AI voice agent designed to ensure businesses never miss a customer. It efficiently handles calls, captures leads, and provides answers to frequently asked questions, thereby preventing missed opportunities. This AI solution allows for seamless customer interaction, making it an essential tool for modern business communication.",
+    images: "https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/6800d5714df8b264054c4a01_2OpenGraph-Sona-Landing-page%20(1).jpg",
+    thumbnail: "https://cdn.prod.website-files.com/6384fdd9fd42380b529fc942/67f3dd80b34d4d5654987e96_Logo%20(6).svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1745522864773.www-openph.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Sona is a 24/7 AI voice agent designed to ensure businesses never miss a customer. It efficiently handles calls, captures leads, and provides answers to frequently asked questions, thereby preventing missed opportunities. This AI solution allows for seamless customer interaction, making it an essential tool for modern business communication.",
     pros: "24/7 availability|AI-powered responses|Lead capture automation|Integration capabilities|Reduced missed calls|Natural voice quality",
     cons: "Limited personalization|May miss complex queries|Setup complexity|Potential customer frustration with AI|Subscription costs",
   },
   {
     title: "Zkypee",
-    url: "https://www.zkypee.com/",
+    url: "https://www.zkypee.com",
     custom_redirect: null,
     slug: "zkypee",
     text: "Zkypee is a free Skype alternative that offers high-quality voice and video calls globally.",
@@ -1384,16 +1186,14 @@ export const softwareData: Software[] = [
     premium: null,
     images: null,
     thumbnail: "https://www.zkypee.com/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1746025146843.www-zkypee.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Zkypee is presented as the ideal free replacement for Skype, especially as the original service faces shutdown. It enables users to make high-quality voice and video calls to anyone around the world, essentially bringing back the classic communication experience. The platform also provides messaging capabilities, making it a versatile solution for staying connected.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1746025146843.www-zkypee.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Zkypee is presented as the ideal free replacement for Skype, especially as the original service faces shutdown. It enables users to make high-quality voice and video calls to anyone around the world, essentially bringing back the classic communication experience. The platform also provides messaging capabilities, making it a versatile solution for staying connected.",
     pros: "Familiar Skype-like interface|Free to use|Cross-platform|Voice and video calling|Messaging capabilities|No account required",
     cons: "New service with smaller user base|Limited track record|Fewer features than established platforms|Occasional stability issues",
   },
   {
     title: "QuickBlox",
-    url: "https://quickblox.com/",
+    url: "https://quickblox.com",
     custom_redirect: "",
     slug: "quickblox",
     text: "QuickBlox provides APIs and SDKs for adding instant messaging and video calling functionality to any web or mobile application.",
@@ -1405,16 +1205,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313654567.quickblox.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "QuickBlox offers a comprehensive suite of instant messaging and video calling APIs that enable developers to seamlessly integrate these functionalities into their applications. This solution caters to Android, iOS, and web platforms, empowering businesses to enhance user engagement through real-time communication. With QuickBlox, companies can accelerate their product development process by leveraging robust and reliable communication tools.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313654567.quickblox.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "QuickBlox offers a comprehensive suite of instant messaging and video calling APIs that enable developers to seamlessly integrate these functionalities into their applications. This solution caters to Android, iOS, and web platforms, empowering businesses to enhance user engagement through real-time communication. With QuickBlox, companies can accelerate their product development process by leveraging robust and reliable communication tools.",
     pros: "Cross-platform support for Android, iOS, and web|Robust API and SDK availability|Accelerates development time|Reliable real-time communication tools|Seamless integration capabilities",
     cons: "Not free to use|Requires technical expertise to implement|May be complex for small businesses|Learning curve for developers|Limited customization for non-developers",
   },
   {
     title: "iPlum",
-    url: "http://iplum.com/",
+    url: "https://iplum.com",
     custom_redirect: "",
     slug: "iplum",
     text: "iPlum is a mobile app designed for businesses to manage calls and texts securely and efficiently.",
@@ -1424,20 +1222,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://cdn.prod.website-files.com/645421dcfd5ae54a7cd03b76/646f6627ad579b0dcaf7807d_iplum%20OG.png",
-    thumbnail:
-      "https://cdn.prod.website-files.com/645421dcfd5ae54a7cd03b76/645421dcfd5ae52fd7d03bc9_favicon-32x32.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313651133.iplum-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "iPlum is a mobile app that enables businesses to manage their calls and texts efficiently. It provides features like HIPAA-compliant secure texting, call recording, and a phone tree with extensions. With a focus on security and privacy, iPlum ensures that user data is protected through advanced encryption technology.",
+    images: "https://cdn.prod.website-files.com/645421dcfd5ae54a7cd03b76/646f6627ad579b0dcaf7807d_iplum%20OG.png",
+    thumbnail: "https://cdn.prod.website-files.com/645421dcfd5ae54a7cd03b76/645421dcfd5ae52fd7d03bc9_favicon-32x32.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313651133.iplum-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "iPlum is a mobile app that enables businesses to manage their calls and texts efficiently. It provides features like HIPAA-compliant secure texting, call recording, and a phone tree with extensions. With a focus on security and privacy, iPlum ensures that user data is protected through advanced encryption technology.",
     pros: "HIPAA-compliant secure texting|Call recording functionality|Phone tree with extensions|Advanced encryption for privacy|Business-focused features",
     cons: "Subscription required (not free)|Limited to mobile platforms|May have usage limitations|Potentially complex for casual users|Less video-focused than competitors",
   },
   {
     title: "Purism",
-    url: "https://puri.sm/",
+    url: "https://puri.sm",
     custom_redirect: "",
     slug: "purism",
     text: "Purism creates secure and privacy-respecting devices, including premium phones and laptops running free software on PureOS.",
@@ -1447,19 +1241,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://puri.sm/wp-content/uploads/2024/01/startengine-l5-disconnect.jpg",
+    images: "https://puri.sm/wp-content/uploads/2024/01/startengine-l5-disconnect.jpg",
     thumbnail: "https://puri.sm/wp-content/themes/wp-purism/images/brand.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313648624.puri-sm.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Purism is renowned for its premium phones, laptops, mini PCs, and servers that operate on PureOS, a free software platform. Each device is designed with a keen focus on privacy, freedom, and security, ensuring that users can control their digital lives without compromise. Committed to advocating for personal privacy and cyber security, Purism exemplifies a new type of technology company.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313648624.puri-sm.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Purism is renowned for its premium phones, laptops, mini PCs, and servers that operate on PureOS, a free software platform. Each device is designed with a keen focus on privacy, freedom, and security, ensuring that users can control their digital lives without compromise. Committed to advocating for personal privacy and cyber security, Purism exemplifies a new type of technology company.",
     pros: "Strong privacy and security focus|Free software (PureOS) platform|User control over digital privacy|Premium hardware quality|Hardware-level security features",
     cons: "Higher price point than competitors|Limited app ecosystem compared to mainstream options|Smaller user base|Learning curve for PureOS|Hardware focus rather than just communications",
   },
   {
     title: "CloudTalk",
-    url: "https://www.cloudtalk.io/",
+    url: "https://www.cloudtalk.io",
     custom_redirect: "",
     slug: "cloudtalk",
     text: "CloudTalk is an AI call center software that allows users to make and receive calls seamlessly with their favorite business tools.",
@@ -1469,20 +1260,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.cloudtalk.io/wp-content/uploads/2023/05/social_logo_share.png",
-    thumbnail:
-      "https://www.cloudtalk.io/wp-content/uploads/2024/12/cloudtalk-logo-black.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313683831.www-cloudt.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "CloudTalk is a powerful AI call center software that facilitates making and receiving calls, seamlessly integrating with preferred business tools. It streamlines communication processes, enhancing efficiency for organizations. With an emphasis on user experience, CloudTalk simplifies call management for teams, empowering them to connect with clients and customers effectively.",
+    images: "https://www.cloudtalk.io/wp-content/uploads/2023/05/social_logo_share.png",
+    thumbnail: "https://www.cloudtalk.io/wp-content/uploads/2024/12/cloudtalk-logo-black.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313683831.www-cloudt.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "CloudTalk is a powerful AI call center software that facilitates making and receiving calls, seamlessly integrating with preferred business tools. It streamlines communication processes, enhancing efficiency for organizations. With an emphasis on user experience, CloudTalk simplifies call management for teams, empowering them to connect with clients and customers effectively.",
     pros: "AI-powered capabilities|Seamless integration with business tools|Streamlined communication processes|User-friendly interface|Efficient team collaboration features",
     cons: "Business-focused (not ideal for personal use)|Paid subscription required|May require configuration setup|Limited video capabilities|Potential learning curve for new users",
   },
   {
     title: "Conduit",
-    url: "https://conduit.rs/",
+    url: "https://conduit.rs",
     custom_redirect: "",
     slug: "conduit",
     text: "Conduit is a simple, fast, and reliable chat server powered by Matrix, designed for easy setup and low system requirements.",
@@ -1494,16 +1281,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://conduit.rs/conduit.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313664281.conduit-rs.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Conduit is a simple, fast, and reliable chat server powered by Matrix. It serves as an alternative to Synapse and is lightweight and easy to install, making it ideal for those seeking to host their own chat server. Although still in development, Conduit offers users an efficient solution for secure and decentralized communication.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313664281.conduit-rs.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Conduit is a simple, fast, and reliable chat server powered by Matrix. It serves as an alternative to Synapse and is lightweight and easy to install, making it ideal for those seeking to host their own chat server. Although still in development, Conduit offers users an efficient solution for secure and decentralized communication.",
     pros: "Lightweight with low system requirements|Matrix protocol integration|Easy to install|Self-hosting capability|Efficient decentralized communication",
     cons: "Still in development|Technical knowledge required for setup|Self-hosting maintenance needs|Limited support compared to commercial options|Smaller community than mainstream alternatives",
   },
   {
     title: "We-talk",
-    url: "https://www.we-talk.co/",
+    url: "https://www.we-talk.co",
     custom_redirect: "",
     slug: "wetalk",
     text: "We-talk is a free online chat platform that allows users to meet new friends and engage in group and private chat rooms.",
@@ -1515,16 +1300,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.we-talk.co/content/themes/default/images/og-image.jpg",
     thumbnail: "https://www.we-talk.co/content/themes/default/images/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313668380.www-we-tal.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "We-talk is a versatile free online chat service that provides users with the opportunity to connect and make new friends across the globe. This platform allows users to engage in both group chats and private chat rooms, making it easy to participate in discussions that align with personal interests. With features focused on enhancing communication, We-talk aims to foster community and creativity among its users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313668380.www-we-tal.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "We-talk is a versatile free online chat service that provides users with the opportunity to connect and make new friends across the globe. This platform allows users to engage in both group chats and private chat rooms, making it easy to participate in discussions that align with personal interests. With features focused on enhancing communication, We-talk aims to foster community and creativity among its users.",
     pros: "Free to use|Both group and private chat options|Global networking opportunities|Interest-based discussions|User-friendly interface",
     cons: "Potential privacy concerns|Possible unwanted interactions|Limited business-oriented features|May have less robust security|Limited video capabilities",
   },
   {
     title: "3veta",
-    url: "https://3veta.com/",
+    url: "https://3veta.com",
     custom_redirect: "",
     slug: "3veta",
     text: "3veta offers integrated tools for appointment scheduling and video calls.",
@@ -1535,18 +1318,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://3veta.com/wp-content/uploads/2023/03/3veta-OG-Image.png",
-    thumbnail:
-      "https://3veta.com/wp-content/uploads/2021/12/GRAPHIC_noborder_gradient_transparent-300x300.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313697832.3veta-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "3veta simplifies the process of managing appointments and hosting video calls by combining both functionalities into a seamless solution. This platform caters to remote work needs, providing users with efficient scheduling tools and convenient video conferencing features. It is designed for individuals and teams who seek streamlined communication and coordinated booking processes.",
+    thumbnail: "https://3veta.com/wp-content/uploads/2021/12/GRAPHIC_noborder_gradient_transparent-300x300.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313697832.3veta-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "3veta simplifies the process of managing appointments and hosting video calls by combining both functionalities into a seamless solution. This platform caters to remote work needs, providing users with efficient scheduling tools and convenient video conferencing features. It is designed for individuals and teams who seek streamlined communication and coordinated booking processes.",
     pros: "Combined scheduling and video functionality|Remote work optimization|Streamlined communication|Coordinated booking process|User-friendly interface",
     cons: "Paid subscription required|Limited to specific use cases|May lack advanced features of specialized tools|Potential learning curve|Limited integration options",
   },
   {
     title: "Channels",
-    url: "https://www.channels.app/",
+    url: "https://www.channels.app",
     custom_redirect: "",
     slug: "channels",
     text: "Channels is a data-driven phone system designed to enhance customer service interactions.",
@@ -1557,18 +1337,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.channels.app/wp-content/themes/shapely/assets/images/channels-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313688680.www-channe.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Channels is a phone system designed to enhance customer service by utilizing data to identify callers, ensuring businesses are always prepared for interactions. It aims to eliminate the frustration of interview-like support calls, providing a level of service that meets both business and customer expectations. The system empowers teams to deliver superior support efficiently.",
+    thumbnail: "https://www.channels.app/wp-content/themes/shapely/assets/images/channels-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313688680.www-channe.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Channels is a phone system designed to enhance customer service by utilizing data to identify callers, ensuring businesses are always prepared for interactions. It aims to eliminate the frustration of interview-like support calls, providing a level of service that meets both business and customer expectations. The system empowers teams to deliver superior support efficiently.",
     pros: "Data-driven caller identification|Improved customer service efficiency|Elimination of repetitive questioning|Business-oriented features|Streamlined support calls",
     cons: "Business-focused (not for personal use)|Subscription cost|Possible integration complexity|More focused on calling than video|May require setup configuration",
   },
   {
     title: "HelloChat",
-    url: "https://www.hellochat.com/",
+    url: "https://www.hellochat.com",
     custom_redirect: "",
     slug: "hellochat",
     text: "HelloChat is a social payment platform and instant messaging service designed for sending and receiving money swiftly and safely in Canada.",
@@ -1579,18 +1356,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://hellochat.com/wp-content/uploads/2022/12/HelloChat-TM1.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313714882.www-helloc.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "HelloChat is recognized as the only social payment platform in Canada, providing a seamless way to send and receive money between friends and family. The platform ensures secure transactions and instant communication, making it easy to manage financial exchanges with others. It stands out due to its user-friendly interface and comprehensive features for quick payment processing.",
+    thumbnail: "https://hellochat.com/wp-content/uploads/2022/12/HelloChat-TM1.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313714882.www-helloc.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "HelloChat is recognized as the only social payment platform in Canada, providing a seamless way to send and receive money between friends and family. The platform ensures secure transactions and instant communication, making it easy to manage financial exchanges with others. It stands out due to its user-friendly interface and comprehensive features for quick payment processing.",
     pros: "Combined messaging and payment features|Secure transaction processing|Instant communication capabilities|User-friendly interface|Social payment innovation",
     cons: "Limited to Canada for payments|May have transaction fees|Less global reach than competitors|Limited video calling features|Not primarily designed for business use",
   },
   {
     title: "Confrere",
-    url: "https://confrere.com/",
+    url: "https://confrere.com",
     custom_redirect: "",
     slug: "confrere",
     text: "Confrere offers secure video calls with multiple participants, designed especially for healthcare professionals and their patients.",
@@ -1601,18 +1375,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://cdn.sanity.io/images/grlgmwgm/production/adab07a07d0076588f62e1ceb29bcfe6bef4dde9-1031x278.svg?auto=format",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313711139.confrere-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Confrere provides an easy-to-use platform for conducting highly secure video calls that accommodate multiple participants. Developed with input from healthcare professionals, it has proven to be reliable, with over 1 million calls made and a success rate of 99%. This service is tailored specifically for healthcare settings, ensuring safety and accessibility for both practitioners and patients.",
+    thumbnail: "https://cdn.sanity.io/images/grlgmwgm/production/adab07a07d0076588f62e1ceb29bcfe6bef4dde9-1031x278.svg?auto=format",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313711139.confrere-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Confrere provides an easy-to-use platform for conducting highly secure video calls that accommodate multiple participants. Developed with input from healthcare professionals, it has proven to be reliable, with over 1 million calls made and a success rate of 99%. This service is tailored specifically for healthcare settings, ensuring safety and accessibility for both practitioners and patients.",
     pros: "Highly secure for sensitive communications|Healthcare industry optimization|99% call success rate|Multiple participant support|Developed with practitioner input",
     cons: "Healthcare focus limits general appeal|Paid subscription model|May lack features for non-healthcare contexts|Specialized interface|Learning curve for non-healthcare users",
   },
   {
     title: "Numbers Station",
-    url: "https://www.numbersstation.app/",
+    url: "https://www.numbersstation.app",
     custom_redirect: "",
     slug: "numbers-station",
     text: "Numbers Station offers private protection and advanced spyware detection tools for government and enterprise clients.",
@@ -1622,20 +1393,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://lh6.googleusercontent.com/N0U3PNcb3CEbw2kh9UHmsh9LZ0pc1FNXkxvdZjbeD5jabk-M0OG5clIlc-dIlkj109eRWIawpyDcgogRKe119DA=w16383",
-    thumbnail:
-      "https://lh6.googleusercontent.com/N0U3PNcb3CEbw2kh9UHmsh9LZ0pc1FNXkxvdZjbeD5jabk-M0OG5clIlc-dIlkj109eRWIawpyDcgogRKe119DA=w16383",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313726158.www-number.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Numbers Station provides private protection for mobile devices, specifically designed for heads of state, cabinet officials, and government agencies. This service offers individuals and organizations access to the same level of security to detect the latest and most advanced mobile spyware on the market. With its focus on on-premises analysis tools, it is tailored for both government and large enterprise needs.",
+    images: "https://lh6.googleusercontent.com/N0U3PNcb3CEbw2kh9UHmsh9LZ0pc1FNXkxvdZjbeD5jabk-M0OG5clIlc-dIlkj109eRWIawpyDcgogRKe119DA=w16383",
+    thumbnail: "https://lh6.googleusercontent.com/N0U3PNcb3CEbw2kh9UHmsh9LZ0pc1FNXkxvdZjbeD5jabk-M0OG5clIlc-dIlkj109eRWIawpyDcgogRKe119DA=w16383",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313726158.www-number.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Numbers Station provides private protection for mobile devices, specifically designed for heads of state, cabinet officials, and government agencies. This service offers individuals and organizations access to the same level of security to detect the latest and most advanced mobile spyware on the market. With its focus on on-premises analysis tools, it is tailored for both government and large enterprise needs.",
     pros: "Advanced mobile spyware detection|High-level security features|Government and enterprise-grade protection|On-premises analysis tools|Specialized security focus",
     cons: "Limited to enterprise/government clients|Likely expensive|Not designed for average consumers|Requires technical expertise|Specialized use case with limited broader features",
   },
   {
     title: "eztalks",
-    url: "https://www.eztalks.com/",
+    url: "https://www.eztalks.com",
     custom_redirect: "",
     slug: "eztalks",
     text: "eztalks is an all-in-one online platform that allows businesses to send and receive SMS messages, make calls, and send and receive faxes globally.",
@@ -1647,16 +1414,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://image.eztalks.com/web/eztalks_social.webp",
     thumbnail: "https://image.eztalks.com/public/eztalks_logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313728170.www-eztalk.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "eztalks is an all-in-one online platform designed to help businesses effectively communicate with customers and partners. It allows for the sending and receiving of SMS messages, making voice calls, and sending and receiving faxes on a global scale. With its user-friendly features, it supports seamless communication and enhances business engagement.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313728170.www-eztalk.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "eztalks is an all-in-one online platform designed to help businesses effectively communicate with customers and partners. It allows for the sending and receiving of SMS messages, making voice calls, and sending and receiving faxes on a global scale. With its user-friendly features, it supports seamless communication and enhances business engagement.",
     pros: "Multiple communication methods (SMS, calls, fax)|Global service reach|All-in-one business solution|User-friendly interface|Seamless communication features",
     cons: "Subscription required|Business-oriented (less suited for personal use)|May require setup and configuration|Potential learning curve|Feature overwhelm possible",
   },
   {
     title: "DANIAN",
-    url: "https://www.danian.co/",
+    url: "https://www.danian.co",
     custom_redirect: "",
     slug: "danian",
     text: "DANIAN offers fully managed software solutions tailored for business owners, providing over 150 applications to enhance productivity.",
@@ -1668,16 +1433,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://danian.co/files/DANIAN-Headerpng.png",
     thumbnail: "https://www.danian.co/files/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313741910.www-danian.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "DANIAN provides a comprehensive suite of over 150 fully managed software applications designed for business owners. The service ensures a hassle-free management experience, allowing users to focus on growing their business while leaving software security, updates, and maintenance to the experts. With a commitment to stable performance and predictable pricing, DANIAN empowers businesses to scale effectively.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313741910.www-danian.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "DANIAN provides a comprehensive suite of over 150 fully managed software applications designed for business owners. The service ensures a hassle-free management experience, allowing users to focus on growing their business while leaving software security, updates, and maintenance to the experts. With a commitment to stable performance and predictable pricing, DANIAN empowers businesses to scale effectively.",
     pros: "Over 150 managed applications|Hassle-free management|Security and maintenance handled|Stable performance|Predictable pricing structure",
     cons: "Business-focused (not for personal use)|Subscription cost|Potentially complex to navigate many applications|Limited customization options|Provider dependency",
   },
   {
     title: "palava.tv",
-    url: "https://palava.tv/",
+    url: "https://palava.tv",
     custom_redirect: "",
     slug: "palavatv",
     text: "Palava.tv is a cost-free and secure platform for video calls built on WebRTC technology.",
@@ -1689,21 +1452,18 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://palava.tv/favicons/palava-favicon-16.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313749402.palava-tv.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Palava.tv is a cost-free, user-friendly, and secure open-source platform designed for video calls. Utilizing the advanced capabilities of WebRTC technology, it offers an efficient solution for online communication. The platform is designed to be simple to use, catering to a wide audience seeking reliable video conferencing tools.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313749402.palava-tv.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Palava.tv is a cost-free, user-friendly, and secure open-source platform designed for video calls. Utilizing the advanced capabilities of WebRTC technology, it offers an efficient solution for online communication. The platform is designed to be simple to use, catering to a wide audience seeking reliable video conferencing tools.",
     pros: "Free to use|Built on secure WebRTC technology|Open-source platform|User-friendly interface|No account required",
     cons: "May lack advanced features|Smaller user base than mainstream services|Potentially limited customer support|Possible browser compatibility issues|Less feature-rich than paid alternatives",
   },
   {
-    title: "Quickcall",
-    url: "https://www.quickcall.com/",
+    title: "Quickcall (AI Assistant)",
+    url: "https://www.quickcall.com",
     custom_redirect: "",
-    slug: "quickcall",
+    slug: "quickcall-com",
     text: "Quickcall is an AI-powered voice assistant that manages calls and appointments 24/7.",
-    Category:
-      "Team Collaboration, Personal Communication, Business Phone Systems",
+    Category: "Team Collaboration, Personal Communication, Business Phone Systems",
     Rank: null,
     Hide: false,
     isFree: false,
@@ -1711,16 +1471,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313753319.www-quickc.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Quickcall is an intelligent AI voice assistant designed to manage calls and appointments around the clock. It offers features like automatic calendar synchronization, ensuring users never miss an important call. Clients benefit from a natural human voice and a seamless integration of various communication methods.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313753319.www-quickc.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Quickcall is an intelligent AI voice assistant designed to manage calls and appointments around the clock. It offers features like automatic calendar synchronization, ensuring users never miss an important call. Clients benefit from a natural human voice and a seamless integration of various communication methods.",
     pros: "24/7 call management|AI-powered capabilities|Automatic calendar synchronization|Natural human voice feature|Seamless communication integration",
     cons: "Subscription required|Limited to call management (not video-focused)|Potential privacy concerns with AI|May lack human touch for complex issues|Possible setup complexity",
   },
   {
     title: "R-HUB",
-    url: "https://www.rhubcom.com/",
+    url: "https://www.rhubcom.com",
     custom_redirect: "",
     slug: "rhub",
     text: "R-HUB offers secure on-premises video conferencing and remote support servers with unlimited users and no monthly fees.",
@@ -1731,12 +1489,9 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747313782775.https-www-rhubcom-com-favicon-ico-image.x-icon",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313777022.www-rhubco.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "R-HUB provides on-premises secure servers ideal for web conferencing, video conferencing, remote support, and remote access. Starting at $395, these solutions support unlimited users and ensure that organizations maintain full ownership over their systems without monthly fees. The platform has served over 4 million users since its inception in 2005.",
+    thumbnail: "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747313782775.https-www-rhubcom-com-favicon-ico-image.x-icon",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313777022.www-rhubco.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "R-HUB provides on-premises secure servers ideal for web conferencing, video conferencing, remote support, and remote access. Starting at $395, these solutions support unlimited users and ensure that organizations maintain full ownership over their systems without monthly fees. The platform has served over 4 million users since its inception in 2005.",
     pros: "On-premises secure hosting|Unlimited users support|No monthly fees (one-time cost)|Full ownership of system|Established service since 2005",
     cons: "Higher upfront cost|Requires technical setup and maintenance|Hardware requirements|Less scalable than cloud solutions|Potential update complexity",
   },
@@ -1754,16 +1509,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://nsoft-s.com/img/logo.png",
     thumbnail: "https://nsoft-s.com/img/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313770739.nsoft-s-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "MyChat is a client/server chat program intended for sending messages and exchanging files within local and enterprise networks. It offers a secure alternative to public instant messaging systems, catering to companies that require controlled and confidential communication. With MyChat, organizations can set up their own servers, ensuring total control over messaging and data security.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313770739.nsoft-s-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "MyChat is a client/server chat program intended for sending messages and exchanging files within local and enterprise networks. It offers a secure alternative to public instant messaging systems, catering to companies that require controlled and confidential communication. With MyChat, organizations can set up their own servers, ensuring total control over messaging and data security.",
     pros: "Controlled and confidential communication|Own server ownership option|Secure file exchange capabilities|Organization-focused features|Alternative to public messaging",
     cons: "Setup and maintenance required|Subscription cost|Technical knowledge needed|Limited integration with other tools|Smaller user base than mainstream options",
   },
   {
     title: "Gruveo",
-    url: "https://www.gruveo.com/",
+    url: "https://www.gruveo.com",
     custom_redirect: "",
     slug: "gruveo",
     text: "Gruveo offers seamless video conferencing that eliminates hurdles, allowing users to connect effortlessly through a single click.",
@@ -1775,16 +1528,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.gruveo.com/assets/og-image.7d37fa37.png",
     thumbnail: "https://www.gruveo.com/assets/favicon-196x196.51dd1509.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313775537.www-gruveo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Gruveo is a video conferencing platform that simplifies customer interactions by enabling face-to-face communication with just a single click on a video call link. It operates directly in the browser, eliminating the need for app downloads and ensuring a user-friendly experience. With no account required, it removes barriers for customers seeking to connect, making it an ideal tool for effective communication.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313775537.www-gruveo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Gruveo is a video conferencing platform that simplifies customer interactions by enabling face-to-face communication with just a single click on a video call link. It operates directly in the browser, eliminating the need for app downloads and ensuring a user-friendly experience. With no account required, it removes barriers for customers seeking to connect, making it an ideal tool for effective communication.",
     pros: "One-click video meeting initiation|No app downloads required|Browser-based simplicity|No account required|User-friendly design",
     cons: "Possible browser compatibility issues|May lack advanced features|Limited customization options|Potential quality variations|Fewer integrations than enterprise solutions",
   },
   {
     title: "WorkHub Connect",
-    url: "https://www.workhub.ai/connect/",
+    url: "https://www.workhub.ai/connect",
     custom_redirect: "",
     slug: "workhub-connect",
     text: "WorkHub Connect is a team collaboration software that centralizes communication on a single platform.",
@@ -1794,20 +1545,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://workhub.ai/wp-content/uploads/2023/01/Multi-Featured-Team-Collaboration-Software.jpg",
-    thumbnail:
-      "https://workhub.ai/wp-content/uploads/2023/05/workhub-logo-horizontal.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313787587.www-workhu.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "WorkHub Connect is a team collaboration software designed to unify internal and external communication in one platform. This innovative tool helps teams and businesses stay connected efficiently. With its user-friendly interface, it makes managing communications a seamless experience.",
+    images: "https://workhub.ai/wp-content/uploads/2023/01/Multi-Featured-Team-Collaboration-Software.jpg",
+    thumbnail: "https://workhub.ai/wp-content/uploads/2023/05/workhub-logo-horizontal.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313787587.www-workhu.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "WorkHub Connect is a team collaboration software designed to unify internal and external communication in one platform. This innovative tool helps teams and businesses stay connected efficiently. With its user-friendly interface, it makes managing communications a seamless experience.",
     pros: "Unified communication platform|Internal and external channel integration|Team efficiency enhancement|User-friendly interface|Seamless communication experience",
     cons: "Subscription required|Learning curve for full utilization|May require company-wide adoption|Potential integration limitations|Could lack specialized features",
   },
   {
     title: "OctaMeet",
-    url: "https://octapull.com/en/octameet/",
+    url: "https://octapull.com/en/octameet",
     custom_redirect: "",
     slug: "octameet",
     text: "OctaMeet is a video conferencing solution that caters to individual and corporate users with high-quality and seamless meeting experiences.",
@@ -1817,20 +1564,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://mllklgouhypj.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://octapull.com/wp-content/uploads/2023/10/Group-video-rafiki-e1697535694707.png",
-    thumbnail:
-      "https://octapull.com/wp-content/uploads/2022/04/Octa-Logo-Web.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313797179.octapull-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "OctaMeet is a video conferencing solution designed for both individual and corporate users, effectively addressing a broad spectrum of needs—from daily meetings to professional business discussions. This application provides a high-quality, seamless video conferencing experience and is ideal for remote work, online education, and virtual team collaboration. With a 30-day free trial, users can explore its advanced features without commitment.",
+    images: "https://mllklgouhypj.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://octapull.com/wp-content/uploads/2023/10/Group-video-rafiki-e1697535694707.png",
+    thumbnail: "https://octapull.com/wp-content/uploads/2022/04/Octa-Logo-Web.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313797179.octapull-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "OctaMeet is a video conferencing solution designed for both individual and corporate users, effectively addressing a broad spectrum of needs—from daily meetings to professional business discussions. This application provides a high-quality, seamless video conferencing experience and is ideal for remote work, online education, and virtual team collaboration. With a 30-day free trial, users can explore its advanced features without commitment.",
     pros: "Suitable for both individual and corporate use|High-quality video conferencing|Versatile for various meeting types|30-day free trial available|Remote work and education optimization",
     cons: "Not free after trial period|May lack some enterprise-level features|Potential learning curve|Possible integration limitations|Newer platform compared to established alternatives",
   },
   {
     title: "Multi",
-    url: "https://www.remotion.com/",
+    url: "https://www.remotion.com",
     custom_redirect: "",
     slug: "multi",
     text: "Multi enables teams to collaborate through multiplayer app sharing, allowing seamless pointing, drawing, and editing in real-time.",
@@ -1840,25 +1583,20 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://framerusercontent.com/images/1vHwr77193gnCsSk2stCCxibo.png",
-    thumbnail:
-      "https://framerusercontent.com/images/oyE10bkzwR5El5hmPX8EDM6Bj4U.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313800302.www-remoti.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Multi is a multiplayer collaboration tool designed for MacOS that enhances team productivity by enabling users to point, draw, and edit in shared applications as though they are on their computer. This beautifully crafted native MacOS app provides a seamless experience for teams looking to collaborate efficiently without the constraints of traditional meetings. Teams are empowered to work together faster and more effectively with this innovative solution.",
+    images: "https://framerusercontent.com/images/1vHwr77193gnCsSk2stCCxibo.png",
+    thumbnail: "https://framerusercontent.com/images/oyE10bkzwR5El5hmPX8EDM6Bj4U.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313800302.www-remoti.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Multi is a multiplayer collaboration tool designed for MacOS that enhances team productivity by enabling users to point, draw, and edit in shared applications as though they are on their computer. This beautifully crafted native MacOS app provides a seamless experience for teams looking to collaborate efficiently without the constraints of traditional meetings. Teams are empowered to work together faster and more effectively with this innovative solution.",
     pros: "Real-time collaborative editing|Seamless pointing and drawing functionality|Native MacOS app|Beautiful interface design|Enhanced team productivity",
     cons: "Limited to MacOS platform|Paid service|Limited cross-platform capabilities|Potential integration limitations|Smaller user base than mainstream tools",
   },
   {
     title: "Vonage",
-    url: "https://www.vonageforhome.com/",
+    url: "https://www.vonageforhome.com",
     custom_redirect: "",
     slug: "vonage",
     text: "Vonage offers reliable home phone services with low rates for domestic and international calling plans.",
-    Category:
-      "Business Phone Systems, International Calling, Personal Communication",
+    Category: "Business Phone Systems, International Calling, Personal Communication",
     Rank: null,
     Hide: false,
     isFree: false,
@@ -1866,16 +1604,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313807515.www-vonage.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Vonage provides a dependable home phone service that enables users to connect with friends and family anywhere. It offers low rates on domestic and international calling plans, making it an affordable option for users. The service features various calling plans starting at $9.99 per month, with no annual contracts, ensuring flexibility for users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313807515.www-vonage.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Vonage provides a dependable home phone service that enables users to connect with friends and family anywhere. It offers low rates on domestic and international calling plans, making it an affordable option for users. The service features various calling plans starting at $9.99 per month, with no annual contracts, ensuring flexibility for users.",
     pros: "Low international calling rates|Reliable service quality|No annual contracts required|Affordable starting price|Flexible calling plans",
     cons: "Limited to calling features|Less comprehensive than all-in-one platforms|May require additional hardware|Limited video capabilities|Monthly subscription required",
   },
   {
     title: "Cisco",
-    url: "https://www.cisco.com/",
+    url: "https://www.cisco.com",
     custom_redirect: "",
     slug: "cisco",
     text: "Cisco is a technology leader providing secure networking and software solutions for a simplified, inclusive future.",
@@ -1887,16 +1623,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.cisco.com/web/fw/i/logo-open-graph.gif",
     thumbnail: "https://www.cisco.com/web/fw/i/logo-open-graph.gif",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313820016.www-cisco.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Cisco is renowned as a global technology leader dedicated to empowering an inclusive future for everyone. Their diverse range of products and services includes innovative solutions in secure networking and software, aimed at transforming how businesses operate. The brand continuously introduces cutting-edge technologies that deliver significant value and enhancements to industrial processes.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313820016.www-cisco.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Cisco is renowned as a global technology leader dedicated to empowering an inclusive future for everyone. Their diverse range of products and services includes innovative solutions in secure networking and software, aimed at transforming how businesses operate. The brand continuously introduces cutting-edge technologies that deliver significant value and enhancements to industrial processes.",
     pros: "Enterprise-grade security|Comprehensive product suite|Established global brand|Cutting-edge technology|Extensive support resources",
     cons: "Higher price point|Complex for small businesses|Enterprise focus limits personal use|Steep learning curve|May require professional implementation",
   },
   {
     title: "Silent Phone",
-    url: "https://www.silentcircle.com/products-and-solutions/software/",
+    url: "https://www.silentcircle.com/products-and-solutions/software",
     custom_redirect: "",
     slug: "silent-phone",
     text: "Silent Phone enables secure phone calls and messaging for iOS and Android devices with enterprise-grade security.",
@@ -1906,20 +1640,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.silentcircle.com/products-and-solutions/silent-phone/images/meta-silent-phone.jpg",
-    thumbnail:
-      "https://www.silentcircle.com/images/logo-white.svg?sha256=88A6sha3KoY9KTxzIOxmGDhl0tbo1mUfOhL01OoChXY",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313816282.www-silent.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Silent Phone is designed to provide secure phone calls and messaging for iOS, Android, and Silent iOS devices. It enhances privacy with enterprise-grade security, ensuring that all communications remain confidential. Users can communicate freely without the need for special hardware, making it accessible and easy to deploy in various environments.",
+    images: "https://www.silentcircle.com/products-and-solutions/silent-phone/images/meta-silent-phone.jpg",
+    thumbnail: "https://www.silentcircle.com/images/logo-white.svg?sha256=88A6sha3KoY9KTxzIOxmGDhl0tbo1mUfOhL01OoChXY",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313816282.www-silent.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Silent Phone is designed to provide secure phone calls and messaging for iOS, Android, and Silent iOS devices. It enhances privacy with enterprise-grade security, ensuring that all communications remain confidential. Users can communicate freely without the need for special hardware, making it accessible and easy to deploy in various environments.",
     pros: "Enterprise-grade security|End-to-end encryption|Cross-platform compatibility|No special hardware required|Privacy-focused design",
     cons: "Subscription required|Limited integration with other services|Smaller user base than mainstream apps|May lack some consumer-friendly features|Security focus may reduce convenience",
   },
   {
     title: "Yodel",
-    url: "https://www.yodel.io/",
+    url: "https://www.yodel.io",
     custom_redirect: "",
     slug: "yodel",
     text: "Yodel is a cloud-based business phone system designed for agencies, customer support, remote teams, and software businesses, featuring seamless integration with Slack.",
@@ -1931,16 +1661,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.yodel.io/assets/favicon/favicon-32x32.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313820317.www-yodel.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Yodel is an ultimate cloud-based business phone system that offers solutions tailored for agencies, customer support teams, and remote organizations. It enhances communication efficiency and collaboration through unique features, including the renowned Slack integration. With Yodel, organizations can streamline their phone system while improving connectivity.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313820317.www-yodel.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Yodel is an ultimate cloud-based business phone system that offers solutions tailored for agencies, customer support teams, and remote organizations. It enhances communication efficiency and collaboration through unique features, including the renowned Slack integration. With Yodel, organizations can streamline their phone system while improving connectivity.",
     pros: "Seamless Slack integration|Cloud-based flexibility|Tailored for various business types|Enhanced communication efficiency|Streamlined phone system",
     cons: "Business-focused (not for personal use)|Subscription required|Limited video capabilities|May require configuration|Best with existing Slack implementation",
   },
   {
     title: "FaceFlow",
-    url: "http://www.faceflow.com/",
+    url: "https://www.faceflow.com",
     custom_redirect: "",
     slug: "faceflow",
     text: "FaceFlow is a platform that facilitates random video and voice chats, allowing users to connect and make friends worldwide without downloading any applications.",
@@ -1952,16 +1680,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.faceflow.com/img/logo_200x200.png",
     thumbnail: "https://www.faceflow.com/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313835828.www-facefl.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "FaceFlow is an innovative platform that enables individuals to engage in random video and voice chats, fostering connections with people from across the globe. Users can create a free account to access features such as a personalized contact list and vibrant chatrooms. The service offers instant communication without the need for downloads, making friendship-building more accessible than ever.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313835828.www-facefl.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "FaceFlow is an innovative platform that enables individuals to engage in random video and voice chats, fostering connections with people from across the globe. Users can create a free account to access features such as a personalized contact list and vibrant chatrooms. The service offers instant communication without the need for downloads, making friendship-building more accessible than ever.",
     pros: "No application download required|Free service|Group chat capabilities|Global connectivity options|Personalized contact list feature",
     cons: "Potential privacy concerns|May include unwanted interactions|Limited business features|Possible security issues|Less reliable than dedicated apps",
   },
   {
     title: "Provide Support",
-    url: "https://www.providesupport.com/",
+    url: "https://www.providesupport.com",
     custom_redirect: "",
     slug: "provide-support",
     text: "Provide Support offers a seamless live chat solution for websites with easy integration and customizable options.",
@@ -1971,20 +1697,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://download.providesupport.com/images/Provide_Support_Live_Chat.png",
-    thumbnail:
-      "https://www.providesupport.com/s/1sb4y2/root/images/provide-support-live-chat-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313838581.www-provid.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Provide Support is a live chat solution designed for websites, offering an easy setup and integration process. The software ensures a seamless experience for users while enhancing customer service. With features like automatic chat translation and 24/7 personalized support, it allows businesses to engage effectively with their clientele.",
+    images: "https://download.providesupport.com/images/Provide_Support_Live_Chat.png",
+    thumbnail: "https://www.providesupport.com/s/1sb4y2/root/images/provide-support-live-chat-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313838581.www-provid.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Provide Support is a live chat solution designed for websites, offering an easy setup and integration process. The software ensures a seamless experience for users while enhancing customer service. With features like automatic chat translation and 24/7 personalized support, it allows businesses to engage effectively with their clientele.",
     pros: "Easy website integration|Customizable interface options|Automatic chat translation|24/7 personalized support|Enhanced customer service tools",
     cons: "Website-focused (not for general communication)|Subscription required|Limited video capabilities|Specific business use case|Lacks personal communication focus",
   },
   {
     title: "AnywhereWorks",
-    url: "https://www.anywhereworks.com/",
+    url: "https://www.anywhereworks.com",
     custom_redirect: "",
     slug: "anywhereworks",
     text: "AnywhereWorks provides collaboration tools designed to support remote work and enhance team productivity.",
@@ -1994,19 +1716,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://storage.googleapis.com/full-assets/anywhereworks/images/og_cover.webp",
+    images: "https://storage.googleapis.com/full-assets/anywhereworks/images/og_cover.webp",
     thumbnail: "https://www.anywhereworks.com/core/web/favicon-32x32.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313841129.www-anywhe.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "AnywhereWorks is dedicated to fostering real connections and enhancing productivity through its suite of collaboration tools. The platform enables teams to work flexibly and efficiently, regardless of their physical location, by supporting remote collaboration. It emphasizes the importance of human connections in a digital workspace while advocating for sustainability and business growth.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313841129.www-anywhe.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "AnywhereWorks is dedicated to fostering real connections and enhancing productivity through its suite of collaboration tools. The platform enables teams to work flexibly and efficiently, regardless of their physical location, by supporting remote collaboration. It emphasizes the importance of human connections in a digital workspace while advocating for sustainability and business growth.",
     pros: "Remote work optimization|Comprehensive collaboration features|Flexible work environment|Human connection emphasis|Sustainability focus",
     cons: "Subscription cost|May require team-wide adoption|Possible learning curve|Potential integration limitations|Less established than major platforms",
   },
   {
     title: "fairkom",
-    url: "https://fairkom.eu/",
+    url: "https://fairkom.eu",
     custom_redirect: "",
     slug: "fairkom",
     text: "fairkom provides open source solutions for digital communication, offering tailored IT consulting services.",
@@ -2016,19 +1735,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://fairkom.eu/sites/default/files/twitterimg/fairkom-front-twitter-sm.jpg",
+    images: "https://fairkom.eu/sites/default/files/twitterimg/fairkom-front-twitter-sm.jpg",
     thumbnail: "https://fairkom.eu/themes/fairkom2018/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313852506.fairkom-eu.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "fairkom specializes in open source solutions for digital communication and offers consulting services for cloud and hosting tailored to individual IT needs. With a strong emphasis on secure and sustainable practices, the company ensures compliance with data protection regulations, providing reliable solutions for video conferencing, chat platforms, and more. These offerings are designed to meet unique IT requirements, harnessing the power of proven open-source tools.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313852506.fairkom-eu.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "fairkom specializes in open source solutions for digital communication and offers consulting services for cloud and hosting tailored to individual IT needs. With a strong emphasis on secure and sustainable practices, the company ensures compliance with data protection regulations, providing reliable solutions for video conferencing, chat platforms, and more. These offerings are designed to meet unique IT requirements, harnessing the power of proven open-source tools.",
     pros: "Open source solutions|Data protection compliance|Sustainable practices|Tailored for specific IT needs|Expert consulting available",
     cons: "Requires technical knowledge|Not consumer-focused|Limited global presence|May lack plug-and-play convenience|Consultation likely necessary",
   },
   {
     title: "DieFi",
-    url: "https://fortknoxster.com/",
+    url: "https://fortknoxster.com",
     custom_redirect: "",
     slug: "diefi",
     text: "DieFi is a non-custodial crypto recovery and inheritance platform that helps secure digital assets with its innovative number sequence conversion method.",
@@ -2038,20 +1754,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://fortknoxster.com/wp-content/uploads/2023/01/FortKnoxster-Icon-Blue.png",
-    thumbnail:
-      "https://fortknoxster.com/wp-content/uploads/2022/12/FortKnoxster-Logo-Blue-Icon-2.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313859873.fortknoxst.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "DieFi is a non-custodial crypto recovery and inheritance platform that utilizes an innovative method to convert vulnerable seed phrases into unique number sequences. This allows users to securely store their digital asset access information offline, minimizing the risk of loss in cases of emergencies or unforeseen circumstances. The platform is designed to safeguard users' crypto assets while ensuring they remain easily accessible to beneficiaries in the event of memory loss, device failure, or death.",
+    images: "https://fortknoxster.com/wp-content/uploads/2023/01/FortKnoxster-Icon-Blue.png",
+    thumbnail: "https://fortknoxster.com/wp-content/uploads/2022/12/FortKnoxster-Logo-Blue-Icon-2.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313859873.fortknoxst.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "DieFi is a non-custodial crypto recovery and inheritance platform that utilizes an innovative method to convert vulnerable seed phrases into unique number sequences. This allows users to securely store their digital asset access information offline, minimizing the risk of loss in cases of emergencies or unforeseen circumstances. The platform is designed to safeguard users' crypto assets while ensuring they remain easily accessible to beneficiaries in the event of memory loss, device failure, or death.",
     pros: "Non-custodial security approach|Innovative seed phrase protection|Digital asset recovery solution|Offline storage capabilities|Emergency access planning",
     cons: "Crypto-specific focus|Less general communication features|May have learning curve|Specialized use case|Limited mainstream appeal",
   },
   {
     title: "Zoho",
-    url: "https://www.zoho.com/",
+    url: "https://www.zoho.com",
     custom_redirect: "",
     slug: "zoho",
     text: "Zoho is a powerful cloud software suite designed to transform the way businesses operate, catering to companies of all sizes.",
@@ -2061,20 +1773,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.zohowebstatic.com/sites/zweb/images/ogimage/zoho-logo.png",
-    thumbnail:
-      "https://www.zohowebstatic.com/sites/zweb/images/ogimage/zoho-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313867376.www-zoho-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Zoho is a unique and powerful software suite that transforms the way businesses operate. It is developed for companies of all sizes by a company that values privacy. This suite offers various tools aimed at improving organizational efficiency and collaboration.",
+    images: "https://www.zohowebstatic.com/sites/zweb/images/ogimage/zoho-logo.png",
+    thumbnail: "https://www.zohowebstatic.com/sites/zweb/images/ogimage/zoho-logo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313867376.www-zoho-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Zoho is a unique and powerful software suite that transforms the way businesses operate. It is developed for companies of all sizes by a company that values privacy. This suite offers various tools aimed at improving organizational efficiency and collaboration.",
     pros: "Comprehensive business suite|Privacy-focused company|Suitable for all company sizes|Improves operational efficiency|Multiple integrated tools",
     cons: "Potentially overwhelming feature set|Learning curve for full adoption|Premium features require subscription|Less personal-use focused|May require company-wide implementation",
   },
   {
     title: "Airmeet",
-    url: "https://www.airmeet.com/",
+    url: "https://www.airmeet.com",
     custom_redirect: "",
     slug: "airmeet",
     text: "Airmeet is an AI-powered platform for hosting highly customizable virtual and hybrid events, providing immersive and interactive experiences.",
@@ -2084,20 +1792,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.airmeet.com/hub/wp-content/uploads/2023/03/Airmeet-Featured-Image.png",
-    thumbnail:
-      "https://cdn-cpdoj.nitrocdn.com/bdPRQtAGdEdDThAkFvaCqXUlcEqEsAJN/assets/images/optimized/rev-857c0b3/www.airmeet.com/hub/wp-content/uploads/2022/10/AM_Logo_Dark_WM.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313900068.www-airmee.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Airmeet is an AI-powered webinar platform designed for hosting highly customizable virtual and hybrid events. It delivers immersive and interactive experiences to audiences, enhancing engagement through innovative features. It aims to provide deep insights that help optimize event performance.",
+    images: "https://www.airmeet.com/hub/wp-content/uploads/2023/03/Airmeet-Featured-Image.png",
+    thumbnail: "https://cdn-cpdoj.nitrocdn.com/bdPRQtAGdEdDThAkFvaCqXUlcEqEsAJN/assets/images/optimized/rev-857c0b3/www.airmeet.com/hub/wp-content/uploads/2022/10/AM_Logo_Dark_WM.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313900068.www-airmee.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Airmeet is an AI-powered webinar platform designed for hosting highly customizable virtual and hybrid events. It delivers immersive and interactive experiences to audiences, enhancing engagement through innovative features. It aims to provide deep insights that help optimize event performance.",
     pros: "AI-powered event features|Highly customizable platform|Immersive audience experience|Hybrid event capabilities|Performance analytics",
     cons: "Event-focused rather than daily communication|Learning curve for hosts|Subscription required|Less suited for small team meetings|May require setup time",
   },
   {
     title: "alfaview",
-    url: "https://alfaview.com/en/",
+    url: "https://alfaview.com/en",
     custom_redirect: "",
     slug: "alfaview",
     text: "alfaview is a video conferencing software that provides secure and GDPR-compliant online meetings, webinars, and virtual events.",
@@ -2108,18 +1812,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://alfaview.com/wp-content/uploads/2024/07/logo_alfaview.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313885078.alfaview-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "alfaview is a video conferencing software designed for professional use, offering secure and GDPR-compliant solutions for online meetings, webinars, and virtual events. It utilizes over 500 dedicated servers located in Germany and ensures data protection through the highest standards of security, including ISO certifications. Users can engage in seamless collaboration regardless of location, making it ideal for modern businesses.",
+    thumbnail: "https://alfaview.com/wp-content/uploads/2024/07/logo_alfaview.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313885078.alfaview-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "alfaview is a video conferencing software designed for professional use, offering secure and GDPR-compliant solutions for online meetings, webinars, and virtual events. It utilizes over 500 dedicated servers located in Germany and ensures data protection through the highest standards of security, including ISO certifications. Users can engage in seamless collaboration regardless of location, making it ideal for modern businesses.",
     pros: "GDPR-compliant security|Dedicated servers in Germany|ISO-certified data protection|Professional meeting tools|Seamless location-independent collaboration",
     cons: "Professional focus limits casual use|European-centric infrastructure|Likely subscription required|May lack consumer-friendly features|Less global recognition than competitors",
   },
   {
     title: "菊风公司",
-    url: "https://www.juphoon.com/",
+    url: "https://www.juphoon.com",
     custom_redirect: "",
     slug: "",
     text: "菊风公司 offers a secure and stable audio and video communication cloud service, providing a global VoIP instant communication network and real-time audio and video call SDK.",
@@ -2131,16 +1832,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.juphoon.com/images/index_images/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313902565.www-juphoo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "菊风公司 provides a secure and stable audio and video communication cloud, catering to developers and enterprise users with a global VoIP instant communication network and real-time audio and video call SDK. It also offers video conferencing and enterprise-level financial-grade video recording software, with a business scope that covers rich media commercial messaging, social live streaming, enterprise meetings, and banking customer service.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313902565.www-juphoo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "菊风公司 provides a secure and stable audio and video communication cloud, catering to developers and enterprise users with a global VoIP instant communication network and real-time audio and video call SDK. It also offers video conferencing and enterprise-level financial-grade video recording software, with a business scope that covers rich media commercial messaging, social live streaming, enterprise meetings, and banking customer service.",
     pros: "Global VoIP network|Developer-focused SDK tools|Enterprise-level security|Financial-grade recording features|Diverse business applications",
     cons: "Primarily for developers/enterprise|Likely complex implementation|May have language barriers|Less consumer-friendly|Technical expertise required",
   },
   {
     title: "Toky",
-    url: "https://toky.co/en/",
+    url: "https://toky.co/en",
     custom_redirect: "",
     slug: "toky",
     text: "Toky is an easy-to-set-up business phone system that integrates seamlessly for calling and messaging customers via various platforms.",
@@ -2152,16 +1851,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://tokystorage.s3.amazonaws.com/images/new-cover-image.jpg",
     thumbnail: "https://toky.co/img/toky-system/logo--white.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313918145.toky-co-en.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Toky offers a modern phone system designed to fit the way businesses operate. It can be easily set up and integrates with various platforms, allowing users to call and message customers through mobile and desktop apps. This versatile service is available at a fair price, making it a suitable choice for businesses of all sizes.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313918145.toky-co-en.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Toky offers a modern phone system designed to fit the way businesses operate. It can be easily set up and integrates with various platforms, allowing users to call and message customers through mobile and desktop apps. This versatile service is available at a fair price, making it a suitable choice for businesses of all sizes.",
     pros: "Easy setup process|Cross-platform integration|Mobile and desktop apps available|Fair pricing structure|Suitable for various business sizes",
     cons: "Business-focused (less personal use)|Limited video capabilities|Subscription required|May have feature limitations|Less known than major competitors",
   },
   {
     title: "Keychat",
-    url: "https://www.keychat.io/",
+    url: "https://www.keychat.io",
     custom_redirect: "",
     slug: "keychat",
     text: "Keychat is a chat app built on Bitcoin ecash, Nostr protocol, and Signal protocol, providing secure communication and integrated mini apps for Bitcoin users.",
@@ -2173,16 +1870,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.keychat.io/assets/img/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313922058.www-keycha.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Keychat is a chat app designed specifically for Bitcoin enthusiasts. It combines a Bitcoin ecash wallet, autonomous IDs, secure chat capabilities, and a variety of mini apps within a single platform. This application emphasizes autonomy, security, and richness in functionality, suitable for anyone looking to enhance their communication while engaging in the Bitcoin ecosystem.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313922058.www-keycha.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Keychat is a chat app designed specifically for Bitcoin enthusiasts. It combines a Bitcoin ecash wallet, autonomous IDs, secure chat capabilities, and a variety of mini apps within a single platform. This application emphasizes autonomy, security, and richness in functionality, suitable for anyone looking to enhance their communication while engaging in the Bitcoin ecosystem.",
     pros: "Built-in Bitcoin ecash wallet|Robust security protocols|Autonomous ID system|Integrated mini apps|Bitcoin ecosystem focus",
     cons: "Limited to cryptocurrency users|Niche market appeal|Smaller user base|May be complex for beginners|Requires Bitcoin knowledge",
   },
   {
     title: "SafeSwiss",
-    url: "https://www.safeswiss.com/",
+    url: "https://www.safeswiss.com",
     custom_redirect: "",
     slug: "safeswiss",
     text: "SafeSwiss is an encrypted messaging app that provides the highest level of security for private communication.",
@@ -2194,16 +1889,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.safeswiss.com/images/logo-safeswiss.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313937973.www-safesw.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "SafeSwiss offers the world's most secure private messaging platform, featuring unbreakable encryption for voice calls, text messages, and data transfers. This innovative app allows users to communicate with absolute privacy, ensuring that all exchanges are protected by military-grade encryption. With comprehensive features for both personal and professional use, SafeSwiss is the leading choice for those who prioritize security in their communications.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313937973.www-safesw.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "SafeSwiss offers the world's most secure private messaging platform, featuring unbreakable encryption for voice calls, text messages, and data transfers. This innovative app allows users to communicate with absolute privacy, ensuring that all exchanges are protected by military-grade encryption. With comprehensive features for both personal and professional use, SafeSwiss is the leading choice for those who prioritize security in their communications.",
     pros: "Military-grade encryption|Comprehensive security features|Voice, text, and data protection|Both personal and professional use|Privacy-first approach",
     cons: "Security focus may limit features|Smaller user base than mainstream apps|May require subscription|Potential learning curve|Less integration with other services",
   },
   {
     title: "Sneek",
-    url: "https://sneek.io/",
+    url: "https://sneek.io",
     custom_redirect: "",
     slug: "sneek",
     text: "Sneek allows users to engage in seamless, instant video chats with their remote teams all day long.",
@@ -2215,10 +1908,8 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://cdn.sneek.io/site/assets/site/img/fb-share.jpg",
     thumbnail: "https://cdn.sneek.io/site/assets/site/img/sneek.logo.white.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313933258.sneek-io.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Sneek is a tool designed for remote and distributed teams that facilitates continuous visual contact. It enables users to see their teammates throughout the day and initiate instant video chats with just one click. This platform provides a reliable presence for digital nomads and enhances remote collaboration.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313933258.sneek-io.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Sneek is a tool designed for remote and distributed teams that facilitates continuous visual contact. It enables users to see their teammates throughout the day and initiate instant video chats with just one click. This platform provides a reliable presence for digital nomads and enhances remote collaboration.",
     pros: "Continuous visual team presence|One-click video chat initiation|Remote team optimization|Digital nomad friendly|Enhanced visual collaboration",
     cons: "Potential privacy concerns|Always-on approach may feel intrusive|Team-focused (less personal)|Subscription required|May consume bandwidth",
   },
@@ -2234,20 +1925,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://framagit.org/uploads/-/system/project/avatar/107616/logo_with_bg.png",
-    thumbnail:
-      "https://framagit.org/uploads/-/system/project/avatar/107616/logo_with_bg.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313938758.framagit-o.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Mostlymatter is a fork of Mattermost that eliminates user limits, providing an open-source platform designed for comprehensive team collaboration. Users can download binaries from the official site. This platform is ideal for organizations looking to enhance their communication capabilities without the constraints of user limits.",
+    images: "https://framagit.org/uploads/-/system/project/avatar/107616/logo_with_bg.png",
+    thumbnail: "https://framagit.org/uploads/-/system/project/avatar/107616/logo_with_bg.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313938758.framagit-o.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Mostlymatter is a fork of Mattermost that eliminates user limits, providing an open-source platform designed for comprehensive team collaboration. Users can download binaries from the official site. This platform is ideal for organizations looking to enhance their communication capabilities without the constraints of user limits.",
     pros: "Unlimited users|Open-source platform|Based on established Mattermost|Free to use|Comprehensive collaboration features",
     cons: "Self-hosting complexity|Technical setup required|Limited support compared to commercial options|Less user-friendly than mainstream alternatives|May require maintenance",
   },
   {
     title: "Web Conferencing Tool",
-    url: "https://paradisosoftware.com/web-conferencing-tool/",
+    url: "https://paradisosoftware.com/web-conferencing-tool",
     custom_redirect: "",
     slug: "web-conferencing-tool",
     text: "The Web Conferencing Tool provides unlimited conferencing and essential features for effective communication and collaboration.",
@@ -2258,18 +1945,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://paradisosoftware.com/wp-content/uploads/2024/06/LMS.png",
-    thumbnail:
-      "https://paradisosoftware.com/wp-content/uploads/2024/06/paradiso_gif.gif",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313964692.paradisoso.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Paradiso's Web Conferencing Tool is a comprehensive video conferencing solution that goes beyond simple face-to-face interactions. It offers features such as screen sharing, breakout room sessions, text chat, file exchange, and digital whiteboarding, making it ideal for collaborative teamwork. The platform also enables the broadcasting of conferences to larger audiences and includes Voice-Over-IP (VOIP) capabilities for seamless communication.",
+    thumbnail: "https://paradisosoftware.com/wp-content/uploads/2024/06/paradiso_gif.gif",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313964692.paradisoso.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Paradiso's Web Conferencing Tool is a comprehensive video conferencing solution that goes beyond simple face-to-face interactions. It offers features such as screen sharing, breakout room sessions, text chat, file exchange, and digital whiteboarding, making it ideal for collaborative teamwork. The platform also enables the broadcasting of conferences to larger audiences and includes Voice-Over-IP (VOIP) capabilities for seamless communication.",
     pros: "Unlimited conferencing|Breakout room functionality|Digital whiteboarding tools|Broadcasting capabilities|Comprehensive file exchange",
     cons: "May require subscription|Less known than major platforms|Potential learning curve|May lack certain integrations|Support may be limited",
   },
   {
     title: "Paltalk",
-    url: "http://www.paltalk.com/",
+    url: "https://www.paltalk.com",
     custom_redirect: "",
     slug: "paltalk",
     text: "Paltalk is a platform that allows users to engage in video, voice, and text group chats across various devices.",
@@ -2281,16 +1965,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "http://www.paltalk.com/f/paltalk.png",
     thumbnail: "http://www.paltalk.com/f/paltalk.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313961179.www-paltal.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Paltalk is a leading platform for video chat that offers the ability to start free video, voice, or text group chats with anyone, irrespective of the device they are using. It boasts thousands of topic-based chatrooms where users can engage, collaborate, and connect with millions of individuals worldwide. Available on iOS, Android, MacOS, and Windows, Paltalk provides a versatile communication solution.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313961179.www-paltal.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Paltalk is a leading platform for video chat that offers the ability to start free video, voice, or text group chats with anyone, irrespective of the device they are using. It boasts thousands of topic-based chatrooms where users can engage, collaborate, and connect with millions of individuals worldwide. Available on iOS, Android, MacOS, and Windows, Paltalk provides a versatile communication solution.",
     pros: "Cross-platform compatibility|Topic-based chatrooms|Free group chat options|Video, voice, and text capabilities|Global user connectivity",
     cons: "May include ads in free version|Some privacy concerns|Interface may feel dated|Premium features require payment|Chatroom moderation varies",
   },
   {
     title: "Huddle",
-    url: "https://www.huddle.live/",
+    url: "https://www.huddle.live",
     custom_redirect: "",
     slug: "huddle",
     text: "Huddle allows users to host free, unlimited group video calling sessions effortlessly.",
@@ -2302,16 +1984,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.huddle.live/img/bright-huddle-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747313957644.www-huddle.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Huddle is a service that enables users to create and host their own free, unlimited minute group video calling sessions using a personalized meeting link. With Huddle, individuals can reserve a dedicated short URL, choose a room name for their meetings, and start sharing links without any complex setup. It's an efficient alternative for those looking to replace their current video conferencing solutions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747313957644.www-huddle.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Huddle is a service that enables users to create and host their own free, unlimited minute group video calling sessions using a personalized meeting link. With Huddle, individuals can reserve a dedicated short URL, choose a room name for their meetings, and start sharing links without any complex setup. It's an efficient alternative for those looking to replace their current video conferencing solutions.",
     pros: "Free unlimited video calling|Personalized meeting links|No complex setup required|Dedicated short URLs|No time restrictions",
     cons: "May lack advanced features|Possibly limited participants|Less established than major platforms|May have quality variations|Limited integration options",
   },
   {
     title: "OOCAM",
-    url: "https://oocam.com/",
+    url: "https://oocam.com",
     custom_redirect: "",
     slug: "oocam",
     text: "OOCAM provides an easy way to meet online by simply sharing a number to connect.",
@@ -2323,16 +2003,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://oocam.com/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747316289183.oocam-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "OOCAM offers a straightforward solution for online meetings, allowing users to easily connect by sharing their phone number. The service is designed to simplify the process of setting up online interactions, focusing on convenience and accessibility for users. With OOCAM, users can get a new number and make calling as simple as clicking a button.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747316289183.oocam-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "OOCAM offers a straightforward solution for online meetings, allowing users to easily connect by sharing their phone number. The service is designed to simplify the process of setting up online interactions, focusing on convenience and accessibility for users. With OOCAM, users can get a new number and make calling as simple as clicking a button.",
     pros: "Simple number-based connection|One-click calling functionality|Straightforward setup process|Phone number integration|Streamlined meeting initiation",
     cons: "Limited feature set|May lack advanced tools|Less established than competitors|Potential privacy concerns with phone numbers|May lack comprehensive support",
   },
   {
     title: "Let's Chat",
-    url: "https://sdelements.github.io/lets-chat/",
+    url: "https://sdelements.github.io/lets-chat",
     custom_redirect: "",
     slug: "lets-chat",
     text: "Let's Chat is a self-hosted messaging application designed for small teams.",
@@ -2344,16 +2022,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://sdelements.github.io/lets-chat/assets/img/devices.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747316300496.sdelements.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Let's Chat is a self-hosted messaging application that runs on Node.js and MongoDB, designed to be easily deployable for small and intimate teams. This application is free and comes with features such as LDAP/Kerberos authentication, a REST-like API, and XMPP support. It stands out as a compelling choice for teams looking for an efficient and personalized chat solution.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747316300496.sdelements.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Let's Chat is a self-hosted messaging application that runs on Node.js and MongoDB, designed to be easily deployable for small and intimate teams. This application is free and comes with features such as LDAP/Kerberos authentication, a REST-like API, and XMPP support. It stands out as a compelling choice for teams looking for an efficient and personalized chat solution.",
     pros: "Self-hosted control|Free to use|LDAP/Kerberos authentication|REST API support|XMPP integration",
     cons: "Technical setup required|Requires Node.js and MongoDB|Self-maintenance needed|Limited features compared to commercial options|Smaller development community",
   },
   {
     title: "0xchat",
-    url: "https://0xchat.com/",
+    url: "https://0xchat.com",
     custom_redirect: "",
     slug: "0xchat",
     text: "0xchat is a secure chat application built on the Nostr protocol that prioritizes user privacy and offers features like encrypted chats.",
@@ -2365,16 +2041,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://0xchat.com/img/logo_net_icon.673ec80a.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747316315077.0xchat-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "0xchat is a secure chat application built on the Nostr protocol. It prioritizes privacy through features such as private key login and encrypted chats, ensuring that conversations remain confidential. The platform fosters open communication via public channels, providing an inclusive and secure messaging environment.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747316315077.0xchat-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "0xchat is a secure chat application built on the Nostr protocol. It prioritizes privacy through features such as private key login and encrypted chats, ensuring that conversations remain confidential. The platform fosters open communication via public channels, providing an inclusive and secure messaging environment.",
     pros: "Nostr protocol foundation|Private key login security|End-to-end encryption|Public channels for open communication|Strong privacy focus",
     cons: "Smaller user base than mainstream apps|Learning curve for new users|Technical knowledge may be required|Potential compatibility issues|Limited advanced features",
   },
   {
     title: "letsBrik",
-    url: "https://www.letsbrik.co/",
+    url: "https://www.letsbrik.co",
     custom_redirect: "",
     slug: "letsbrik",
     text: "letsBrik offers cheap international calls directly from a web browser with no app downloads required.",
@@ -2386,16 +2060,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.letsbrik.co/assets/images/letsBrikog.jpg",
     thumbnail: "https://letsbrik-3744.kxcdn.com/assets/images/logobeta.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314100361.www-letsbr.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "letsBrik provides a revolutionary web browser-based platform for making cheap international calls. Users can effortlessly connect with loved ones, eliminating the need for apps or plugins. This service ensures high-quality calls with no hidden fees or monthly commitments, making it accessible and straightforward for anyone with an internet connection.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314100361.www-letsbr.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "letsBrik provides a revolutionary web browser-based platform for making cheap international calls. Users can effortlessly connect with loved ones, eliminating the need for apps or plugins. This service ensures high-quality calls with no hidden fees or monthly commitments, making it accessible and straightforward for anyone with an internet connection.",
     pros: "Browser-based (no downloads)|Cheap international rates|No hidden fees|No monthly commitments|Simple user experience",
     cons: "Limited to calling features|No video capabilities|Less functionality than full apps|Browser dependency|May have quality variations",
   },
   {
     title: "Connect-EZ",
-    url: "https://www.connect-ez.com/",
+    url: "https://www.connect-ez.com",
     custom_redirect: "",
     slug: "connectez",
     text: "Connect-EZ simplifies corporate telephony with solutions for in-app calling and click-to-call services.",
@@ -2405,14 +2077,10 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.connect-ez.com/wp-content/uploads/2023/04/linphone_logo_orangeNEW-purple.png",
-    thumbnail:
-      "https://www.connect-ez.com/wp-content/uploads/2023/04/linphone_logo_orangeNEW-purple.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314106146.www-connec.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Connect-EZ offers corporate, in-app, and click-to-call telephony solutions that streamline business communications. The service is designed to facilitate seamless calling and messaging within applications, eliminating the need for users to switch apps during calls. With a focus on ease of deployment and management, Connect-EZ enhances organizational communication efficiency.",
+    images: "https://www.connect-ez.com/wp-content/uploads/2023/04/linphone_logo_orangeNEW-purple.png",
+    thumbnail: "https://www.connect-ez.com/wp-content/uploads/2023/04/linphone_logo_orangeNEW-purple.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314106146.www-connec.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Connect-EZ offers corporate, in-app, and click-to-call telephony solutions that streamline business communications. The service is designed to facilitate seamless calling and messaging within applications, eliminating the need for users to switch apps during calls. With a focus on ease of deployment and management, Connect-EZ enhances organizational communication efficiency.",
     pros: "In-app calling integration|Click-to-call functionality|Easy deployment|Streamlined business communications|No app-switching required",
     cons: "Corporate focus limits personal use|Likely requires subscription|May need technical implementation|Limited to specific use cases|Less comprehensive than all-in-one platforms",
   },
@@ -2429,18 +2097,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://relaybeam.com/static/media/RelayBeam.5040bb674e51aa5467a8.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314109052.relaybeam.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "RelayBeam is a cutting-edge messaging platform designed to enhance communication for users, whether they are part of an organization or communicating with others externally. It allows users to create separate ports tailored to various contexts, ensuring that conversations remain organized and relevant. This approach eliminates the need for email and simplifies the communication process, promoting productivity and focus.",
+    thumbnail: "https://relaybeam.com/static/media/RelayBeam.5040bb674e51aa5467a8.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314109052.relaybeam.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "RelayBeam is a cutting-edge messaging platform designed to enhance communication for users, whether they are part of an organization or communicating with others externally. It allows users to create separate ports tailored to various contexts, ensuring that conversations remain organized and relevant. This approach eliminates the need for email and simplifies the communication process, promoting productivity and focus.",
     pros: "Context-specific communication channels|Email alternative|Organized conversation management|External communication support|Productivity enhancement",
     cons: "Learning curve for new concept|May require widespread adoption|Less established than email|Subscription likely required|Potential integration limitations",
   },
   {
     title: "Heymarket",
-    url: "https://www.heymarket.com/",
+    url: "https://www.heymarket.com",
     custom_redirect: "",
     slug: "heymarket",
     text: "Heymarket is a business texting platform that helps teams engage with customers through shared inboxes and messaging apps.",
@@ -2450,20 +2115,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.heymarket.com/wp-content/uploads/2022/03/Heymarket_Black_Icon@2x-copy.png",
-    thumbnail:
-      "https://www.heymarket.com/wp-content/themes/heymarket/dist/images/heymarket_black_logo_new.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747316327821.www-heymar.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Heymarket offers a business SMS platform designed to enhance team communication and customer engagement through personalized messages. This intuitive texting app streamlines communication while enabling users to manage all messages in one secure shared inbox. Businesses can effectively connect with customers by integrating their existing tools and messaging channels.",
+    images: "https://www.heymarket.com/wp-content/uploads/2022/03/Heymarket_Black_Icon@2x-copy.png",
+    thumbnail: "https://www.heymarket.com/wp-content/themes/heymarket/dist/images/heymarket_black_logo_new.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747316327821.www-heymar.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Heymarket offers a business SMS platform designed to enhance team communication and customer engagement through personalized messages. This intuitive texting app streamlines communication while enabling users to manage all messages in one secure shared inbox. Businesses can effectively connect with customers by integrating their existing tools and messaging channels.",
     pros: "Shared inbox functionality|Business SMS platform|Intuitive interface|Customer engagement focus|Existing tool integration",
     cons: "Business-focused (not for personal use)|Subscription required|Limited to texting (not video)|Learning curve for teams|Requires business implementation",
   },
   {
     title: "Edumeet",
-    url: "https://letsmeet.no/",
+    url: "https://letsmeet.no",
     custom_redirect: "",
     slug: "edumeet",
     text: "Edumeet offers simple web meetings for seamless collaboration.",
@@ -2475,16 +2136,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://letsmeet.no/images/logo.edumeet.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314122614.letsmeet-n.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Edumeet provides a straightforward solution for web meetings. It is designed to facilitate easy communication among team members, enhancing collaboration and productivity. With its user-friendly interface, Edumeet allows users to join meetings effortlessly.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314122614.letsmeet-n.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Edumeet provides a straightforward solution for web meetings. It is designed to facilitate easy communication among team members, enhancing collaboration and productivity. With its user-friendly interface, Edumeet allows users to join meetings effortlessly.",
     pros: "Simple web-based meetings|User-friendly interface|Effortless meeting joining|Team collaboration focus|Straightforward design",
     cons: "May lack advanced features|Less established than major platforms|Limited integration options|Possible browser compatibility issues|May have participant limitations",
   },
   {
     title: "0rc",
-    url: "https://github.com/cgm616/0rc/",
+    url: "https://github.com/cgm616/0rc",
     custom_redirect: "",
     slug: "0rc",
     text: "0rc is a tool designed to facilitate local web browsing using the 0net framework.",
@@ -2494,13 +2153,10 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://opengraph.githubassets.com/aad88843ba784d6f2a93a1cef90bc56bda723772316ea6de9b95181db2e52ab4/cgm616/0rc",
+    images: "https://opengraph.githubassets.com/aad88843ba784d6f2a93a1cef90bc56bda723772316ea6de9b95181db2e52ab4/cgm616/0rc",
     thumbnail: "https://github.githubassets.com/favicons/favicon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314243361.github-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "0rc is a tool designed to facilitate local web browsing using the 0net framework. It allows users to leverage the benefits of decentralized hosting while maintaining simplicity and ease of use. The project seeks to enhance accessibility and contribution to the development of self-hosted applications.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314243361.github-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "0rc is a tool designed to facilitate local web browsing using the 0net framework. It allows users to leverage the benefits of decentralized hosting while maintaining simplicity and ease of use. The project seeks to enhance accessibility and contribution to the development of self-hosted applications.",
     pros: "Decentralized framework|Self-hosting capabilities|Open-source development|Privacy-oriented design|Local browsing control",
     cons: "Technical expertise required|Limited mainstream appeal|Smaller user base|May require configuration|Less user-friendly than commercial options",
   },
@@ -2518,39 +2174,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://snikket.org/images/site-thumbnail.png",
     thumbnail: "https://snikket.org/images/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314254436.snikket-or.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Snikket is a simple, secure, and private messaging app developed by the Snikket Community Interest Company, a not-for-profit entity. This project focuses on creating and promoting open-source communication software that empowers individuals to have full control over their communications and personal data. The initiative is rooted in a community purpose, aiming to support users in maintaining their privacy.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314254436.snikket-or.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Snikket is a simple, secure, and private messaging app developed by the Snikket Community Interest Company, a not-for-profit entity. This project focuses on creating and promoting open-source communication software that empowers individuals to have full control over their communications and personal data. The initiative is rooted in a community purpose, aiming to support users in maintaining their privacy.",
     pros: "Not-for-profit development|Strong privacy controls|Open-source transparency|User data control|Community-driven purpose",
     cons: "Smaller user base than mainstream apps|Less feature-rich than commercial options|May require technical setup|Limited integration with other services|May have learning curve",
   },
   {
-    title: "MightyCall",
-    url: "https://www.mightycall.com/",
-    custom_redirect: "",
-    slug: "mightycall",
-    text: "MightyCall provides cloud call center software designed for small and mid-sized businesses, offering advanced customer service and sales tools.",
-    Category: "Business Phone Systems, Team Collaboration, Secure Messaging",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    images:
-      "https://www.mightycall.com/wp-content/uploads/2022/02/MightyCall-logo-G2.png",
-    thumbnail:
-      "https://www.mightycall.com/wp-content/themes/mightycall2021/img/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314263029.www-mighty.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "MightyCall offers cloud call center software aimed at small and mid-sized businesses, enhancing their customer service capabilities. It is recognized as a leading solution due to its reliability, intuitive interface, and superior customer support. The software simplifies setup and operations, making it an excellent choice for businesses looking to improve their call handling.",
-    pros: "Intuitive business interface|Excellent customer support|Easy setup process|SMB-optimized features|Reliable cloud infrastructure",
-    cons: "Business-focused (not for personal use)|Subscription required|Limited video capabilities|Less suitable for large enterprises|Learning curve for advanced features",
-  },
-  {
     title: "Chitchatter",
-    url: "https://chitchatter.im/",
+    url: "https://chitchatter.im",
     custom_redirect: "",
     slug: "chitchatter",
     text: "Chitchatter is a peer-to-peer chat app designed for privacy and security, featuring serverless and decentralized communication.",
@@ -2562,39 +2193,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://chitchatter.im/logo192.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314258069.chitchatte.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Chitchatter is a peer-to-peer chat application that operates without a central server, ensuring that all communications are decentralized and ephemeral. It prioritizes user privacy and security, making it an ideal choice for those looking for a simple, secure messaging solution. As all interactions are encrypted, users can converse without the worry of their messages being stored once the conversation ends.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314258069.chitchatte.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Chitchatter is a peer-to-peer chat application that operates without a central server, ensuring that all communications are decentralized and ephemeral. It prioritizes user privacy and security, making it an ideal choice for those looking for a simple, secure messaging solution. As all interactions are encrypted, users can converse without the worry of their messages being stored once the conversation ends.",
     pros: "Serverless architecture|Decentralized communication|Ephemeral messaging|Strong encryption|Privacy-first design",
     cons: "Possible connection instability|May lack advanced features|Smaller user base|Limited integration options|Requires peer availability",
   },
   {
-    title: "Brosix",
-    url: "https://www.brosix.com/",
-    custom_redirect: "",
-    slug: "brosix",
-    text: "Brosix Instant Messenger enhances business efficiency and reduces costs with its advanced chat features.",
-    Category: "Team Collaboration, Secure Messaging, Personal Communication",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    images:
-      "https://www.brosix.com/wp-content/uploads/2019/02/home-page-image.png",
-    thumbnail:
-      "https://www.brosix.com/wp-content/themes/bootscore-child-main/img/logo/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314272923.www-brosix.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Brosix Instant Messenger is designed to improve business efficiency and lower expenses through its comprehensive chat functionalities. It offers a range of features tailored for smooth communication within teams. Perfect for businesses seeking to streamline their messaging and collaboration processes.",
-    pros: "Cost-efficient business solution|Comprehensive chat features|Team communication optimization|Streamlined messaging|Business efficiency focus",
-    cons: "Business-oriented (less personal use)|Subscription required|May have learning curve|Less known than major platforms|Possibly limited integration options",
-  },
-  {
     title: "Speek!",
-    url: "https://speek.network/",
+    url: "https://speek.network",
     custom_redirect: "",
     slug: "speek",
     text: "Speek! is a decentralized messaging app that ensures user privacy and security through encryption and anonymous usage.",
@@ -2606,16 +2212,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://speek.network/static/img/apple-touch-icon.png",
     thumbnail: "https://speek.network/static/img/speeklogo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314271401.speek-netw.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Speek! is a decentralized messenger that is designed to be anonymous and censorship-resistant. It encrypts all messages, ensuring security and privacy, while allowing users to communicate without revealing their identities. Speek! leverages the Tor network for enhanced security and eliminates the need for personal identifiers, making it a unique choice for secure communication.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314271401.speek-netw.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Speek! is a decentralized messenger that is designed to be anonymous and censorship-resistant. It encrypts all messages, ensuring security and privacy, while allowing users to communicate without revealing their identities. Speek! leverages the Tor network for enhanced security and eliminates the need for personal identifiers, making it a unique choice for secure communication.",
     pros: "Anonymous messaging|Censorship resistance|Tor network integration|No personal identifiers required|Strong encryption",
     cons: "Potentially slower due to Tor|Limited mainstream appeal|Smaller user base|Possible technical complexity|May lack some convenient features",
   },
   {
     title: "Dialpad Meetings",
-    url: "https://www.uberconference.com/",
+    url: "https://www.uberconference.com",
     custom_redirect: "",
     slug: "dialpad-meetings",
     text: "Dialpad Meetings is an HD video conferencing platform that enables face-to-face meetings with clients and teammates from anywhere.",
@@ -2625,14 +2229,10 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://images.ctfassets.net/r6vlh4dr9f5y/18IpKk1FDQx1yHu0q7DTW7/2a91a251f1aedb9ca875610a0f39fd92/dialpad-meta.png",
-    thumbnail:
-      "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747314300825.https-www-uberconference-com-favicon-ico-image.vnd.microsoft.icon",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314290381.www-uberco.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Dialpad Meetings is an HD video conferencing platform that allows users to meet face-to-face with clients and teammates, regardless of their location. The platform includes built-in AI features that enhance the meeting experience, making collaboration more efficient and productive. Users can enjoy high-definition video and a user-friendly interface designed for seamless communication.",
+    images: "https://images.ctfassets.net/r6vlh4dr9f5y/18IpKk1FDQx1yHu0q7DTW7/2a91a251f1aedb9ca875610a0f39fd92/dialpad-meta.png",
+    thumbnail: "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747314300825.https-www-uberconference-com-favicon-ico-image.vnd.microsoft.icon",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314290381.www-uberco.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Dialpad Meetings is an HD video conferencing platform that allows users to meet face-to-face with clients and teammates, regardless of their location. The platform includes built-in AI features that enhance the meeting experience, making collaboration more efficient and productive. Users can enjoy high-definition video and a user-friendly interface designed for seamless communication.",
     pros: "HD video quality|Built-in AI capabilities|Location-independent meetings|User-friendly interface|Efficient collaboration tools",
     cons: "Subscription likely required|May have participant limitations|Less established than major platforms|Possible bandwidth requirements|Learning curve for AI features",
   },
@@ -2648,14 +2248,10 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://store-images.s-microsoft.com/image/apps.55245.13537716651231321.3067a421-6c2f-48a9-b77c-1e38e19146e6.10e2aa49-52ca-4e79-9a61-b6422978afb9",
-    thumbnail:
-      "https://store-images.s-microsoft.com/image/apps.55245.13537716651231321.3067a421-6c2f-48a9-b77c-1e38e19146e6.10e2aa49-52ca-4e79-9a61-b6422978afb9",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314294270.www-micros.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Unigram is a messaging application designed for speed and security, offering simple, fast, and synchronized communication across devices. It boasts features such as unlimited file sharing, group chats with thousands of members, and robust privacy options, including self-destructing messages. With its clean interface and powerful editing tools, Unigram makes instant messaging enjoyable and reliable.",
+    images: "https://store-images.s-microsoft.com/image/apps.55245.13537716651231321.3067a421-6c2f-48a9-b77c-1e38e19146e6.10e2aa49-52ca-4e79-9a61-b6422978afb9",
+    thumbnail: "https://store-images.s-microsoft.com/image/apps.55245.13537716651231321.3067a421-6c2f-48a9-b77c-1e38e19146e6.10e2aa49-52ca-4e79-9a61-b6422978afb9",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314294270.www-micros.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Unigram is a messaging application designed for speed and security, offering simple, fast, and synchronized communication across devices. It boasts features such as unlimited file sharing, group chats with thousands of members, and robust privacy options, including self-destructing messages. With its clean interface and powerful editing tools, Unigram makes instant messaging enjoyable and reliable.",
     pros: "Cross-device synchronization|Unlimited file sharing|Large group chat support|Self-destructing messages option|Telegram network compatibility",
     cons: "Windows-focused (Microsoft Store)|Smaller development team than official app|May lack some official features|Potential update delays|Third-party implementation risks",
   },
@@ -2671,19 +2267,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://opengraph.githubassets.com/8879e063459427dbae0d896a94989de9f2b5ea6c793d4e4c93707afc0a3998fc/yakyak/yakyak",
+    images: "https://opengraph.githubassets.com/8879e063459427dbae0d896a94989de9f2b5ea6c793d4e4c93707afc0a3998fc/yakyak/yakyak",
     thumbnail: "https://github.githubassets.com/favicons/favicon.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314298690.github-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Yakyak is a desktop chat client tailored for Google Hangouts. It allows users to communicate seamlessly through a dedicated application, enhancing the overall messaging experience. This software also supports development contributions via its GitHub repository, promoting community involvement.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314298690.github-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Yakyak is a desktop chat client tailored for Google Hangouts. It allows users to communicate seamlessly through a dedicated application, enhancing the overall messaging experience. This software also supports development contributions via its GitHub repository, promoting community involvement.",
     pros: "Desktop-optimized for Google Hangouts|Open-source development|Community contributions welcome|Enhanced messaging experience|Dedicated application",
     cons: "Limited to Google Hangouts platform|May not support newest features|Hangouts being phased out by Google|Smaller development community|Potential maintenance issues",
   },
   {
     title: "TrueConf",
-    url: "https://trueconf.com/",
+    url: "https://trueconf.com",
     custom_redirect: "",
     slug: "trueconf",
     text: "TrueConf is a cutting-edge team collaboration server that offers personal and group chats along with UltraHD video conferencing, available for free for up to 1,000 users.",
@@ -2695,16 +2288,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://trueconf.com/images/open-graph-img-cyan.png",
     thumbnail: "https://trueconf.com/images/headMenu/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314319341.trueconf-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TrueConf is a state-of-the-art team collaboration server that supports personal and group chats as well as UltraHD video conferencing. It features advanced AI-powered capabilities, making it a powerful tool for team communication. The service is free for up to 1,000 users, ensuring accessibility for teams of all sizes.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314319341.trueconf-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TrueConf is a state-of-the-art team collaboration server that supports personal and group chats as well as UltraHD video conferencing. It features advanced AI-powered capabilities, making it a powerful tool for team communication. The service is free for up to 1,000 users, ensuring accessibility for teams of all sizes.",
     pros: "Free for up to 1,000 users|UltraHD video quality|AI-powered features|Comprehensive team collaboration|Both personal and group chat options",
     cons: "May require technical setup|Enterprise focus may limit casual use|Potential learning curve|Less known globally|May need organizational implementation",
   },
   {
     title: "TeamViewer",
-    url: "https://www.teamviewer.com/",
+    url: "https://www.teamviewer.com",
     custom_redirect: "",
     slug: "teamviewer",
     text: "TeamViewer provides remote desktop access solutions enabling users to connect to remote computers for support and online collaboration.",
@@ -2715,18 +2306,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://www.teamviewer.com/poster.png",
-    thumbnail:
-      "https://s7g10.scene7.com/is/content/teamviewergmbh/logo-teamviewer-2?dpr=off",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314321906.www-teamvi.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TeamViewer is a powerful software tool designed for remote connectivity. It allows users to connect to distant computers, provide remote support, and collaborate online seamlessly. This software is available for free for private use, making it an excellent choice for individuals and businesses alike.",
+    thumbnail: "https://s7g10.scene7.com/is/content/teamviewergmbh/logo-teamviewer-2?dpr=off",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314321906.www-teamvi.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TeamViewer is a powerful software tool designed for remote connectivity. It allows users to connect to distant computers, provide remote support, and collaborate online seamlessly. This software is available for free for private use, making it an excellent choice for individuals and businesses alike.",
     pros: "Free for private use|Remote desktop capabilities|Cross-platform support|Seamless collaboration tools|Widely recognized brand",
     cons: "Commercial use requires license|Performance can vary with connection|Security concerns if misused|Interface can be complex|Bandwidth-intensive for high quality",
   },
   {
     title: "TAURIA",
-    url: "https://tauria.com/",
+    url: "https://tauria.com",
     custom_redirect: "",
     slug: "tauria",
     text: "TAURIA offers a Post-Quantum Cryptography platform that protects critical data and assets from emerging cyber threats.",
@@ -2737,18 +2325,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://cdn.prod.website-files.com/64f0e403720dd4f428ff9d5f/653284a1d617e4e4a163b188_tauria-logo-gradient_DARK.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314320322.tauria-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TAURIA is a leading provider of a Post-Quantum Cryptography (PQC) platform that integrates internal and data software with data systems to maintain quantum-safe capabilities. This platform is designed to protect critical data and intellectual property from constantly evolving cyber threats, including quantum hacking. With unmatched reliability and a focus on innovating solutions, TAURIA demonstrates its leadership in quantum technology through expert knowledge and validated products.",
+    thumbnail: "https://cdn.prod.website-files.com/64f0e403720dd4f428ff9d5f/653284a1d617e4e4a163b188_tauria-logo-gradient_DARK.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314320322.tauria-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TAURIA is a leading provider of a Post-Quantum Cryptography (PQC) platform that integrates internal and data software with data systems to maintain quantum-safe capabilities. This platform is designed to protect critical data and intellectual property from constantly evolving cyber threats, including quantum hacking. With unmatched reliability and a focus on innovating solutions, TAURIA demonstrates its leadership in quantum technology through expert knowledge and validated products.",
     pros: "Post-quantum cryptography protection|Critical data safeguarding|Future-proof security approach|Quantum hacking resistance|Expert-developed platform",
     cons: "Likely expensive|Enterprise-focused (not for personal use)|Complex implementation|Specialized use case|May require technical knowledge",
   },
   {
     title: "Signal-FOSS",
-    url: "https://www.twinhelix.com/apps/signal-foss/",
+    url: "https://www.twinhelix.com/apps/signal-foss",
     custom_redirect: "",
     slug: "signalfoss",
     text: "Signal-FOSS is an open-source messaging application that removes proprietary Google dependencies for enhanced privacy.",
@@ -2760,16 +2345,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.twinhelix.com/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314333496.www-twinhe.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Signal-FOSS is an open-source version of the popular messaging application Signal, modified to remove proprietary Google binary blobs. It utilizes OpenStreetMap for mapping features and employs a websocket server connection instead of Google Maps and Firebase Cloud Messaging, prioritizing user privacy and independence. This fork provides an unofficial client with no guarantees for updates, making it essential for users to consider if they prefer to avoid proprietary dependencies.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314333496.www-twinhe.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Signal-FOSS is an open-source version of the popular messaging application Signal, modified to remove proprietary Google binary blobs. It utilizes OpenStreetMap for mapping features and employs a websocket server connection instead of Google Maps and Firebase Cloud Messaging, prioritizing user privacy and independence. This fork provides an unofficial client with no guarantees for updates, making it essential for users to consider if they prefer to avoid proprietary dependencies.",
     pros: "No Google dependencies|Enhanced privacy focus|Open-source transparency|OpenStreetMap integration|Independence from proprietary services",
     cons: "Unofficial client status|No update guarantees|Potentially less stable than official app|May miss new features|Smaller support community",
   },
   {
     title: "aTalk",
-    url: "https://atalk.sytes.net/atalk/",
+    url: "https://atalk.sytes.net/atalk",
     custom_redirect: "",
     slug: "atalk",
     text: "aTalk is an encrypted instant messaging client with video call and GPS features for Android.",
@@ -2781,16 +2364,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://atalk.sytes.net/atalk/img/logo_atalk.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314338555.atalk-syte.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "aTalk is an encrypted instant messaging client that supports various features, including video calling and GPS functionalities specifically designed for Android users. The application offers End-to-End encryption using protocols like OMEMO and OTR, ensuring secure communication. Additionally, it provides users with versatile file sharing options and enhanced privacy controls.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314338555.atalk-syte.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "aTalk is an encrypted instant messaging client that supports various features, including video calling and GPS functionalities specifically designed for Android users. The application offers End-to-End encryption using protocols like OMEMO and OTR, ensuring secure communication. Additionally, it provides users with versatile file sharing options and enhanced privacy controls.",
     pros: "End-to-end encryption (OMEMO, OTR)|GPS functionality integration|Android optimization|Versatile file sharing|Enhanced privacy controls",
     cons: "Limited to Android platform|Smaller user base|Possible compatibility issues|Less polished than mainstream apps|May have learning curve",
   },
   {
     title: "Everytale",
-    url: "https://www.everytale.net/",
+    url: "https://www.everytale.net",
     custom_redirect: "",
     slug: "everytale",
     text: "Everytale is an all-in-one virtual events platform that allows users to create, promote, and broadcast events worldwide.",
@@ -2801,18 +2382,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://everytale.net/wp-content/uploads/2022/11/3.jpg",
-    thumbnail:
-      "https://everytale.net/wp-content/uploads/2022/11/nsAdNdcHfu5GWnLyVnWmq9iMfLN1642090330229_200x200.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314346764.www-everyt.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Everytale is an all-in-one virtual events platform designed to facilitate interactions among attendees from all over the world. This platform empowers users to create, promote, and broadcast events effortlessly. With comprehensive collaboration tools, it enhances audience engagement and offers features like live sessions, polls, and analytics for deeper insights.",
+    thumbnail: "https://everytale.net/wp-content/uploads/2022/11/nsAdNdcHfu5GWnLyVnWmq9iMfLN1642090330229_200x200.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314346764.www-everyt.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Everytale is an all-in-one virtual events platform designed to facilitate interactions among attendees from all over the world. This platform empowers users to create, promote, and broadcast events effortlessly. With comprehensive collaboration tools, it enhances audience engagement and offers features like live sessions, polls, and analytics for deeper insights.",
     pros: "All-in-one event platform|Global audience reach|Comprehensive engagement tools|Analytics capabilities|Easy promotion features",
     cons: "Event-focused (not for everyday use)|Likely subscription required|May have learning curve|Less suited for small meetings|Potential setup complexity",
   },
   {
     title: "Meta",
-    url: "https://about.meta.com/",
+    url: "https://about.meta.com",
     custom_redirect: "",
     slug: "meta",
     text: "Meta is pioneering social technology, focusing on the future of human connection through immersive experiences and advanced technologies.",
@@ -2822,19 +2400,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://lookaside.fbsbx.com/elementpath/media/?media_id=1586020438937751&version=1746524423",
+    images: "https://lookaside.fbsbx.com/elementpath/media/?media_id=1586020438937751&version=1746524423",
     thumbnail: "https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314361596.about-meta.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Meta is a company that builds the future of human connection and the technologies that facilitate it. Moving beyond traditional 2D screens, it aims to create immersive experiences in virtual and augmented reality, embodying the next evolution of social technology. The company's innovations provide people with new ways to connect and engage.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314361596.about-meta.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Meta is a company that builds the future of human connection and the technologies that facilitate it. Moving beyond traditional 2D screens, it aims to create immersive experiences in virtual and augmented reality, embodying the next evolution of social technology. The company's innovations provide people with new ways to connect and engage.",
     pros: "Cutting-edge immersive technologies|Established global company|Cross-platform integration|Strong financial backing|Advanced research capabilities",
     cons: "Privacy concerns|Data collection practices|Corporate control|Potential hardware requirements|May prioritize profit over user experience",
   },
   {
     title: "Linux",
-    url: "https://www.heinlein-support.de/",
+    url: "https://www.heinlein-support.de",
     custom_redirect: "",
     slug: "linux",
     text: "Heinlein Support GmbH specializes in secure communication and Linux expertise for IT administration and consulting.",
@@ -2844,20 +2419,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.heinlein-support.de/sites/default/files/styles/600x400/public/2021-10/heinlein_support_willkommen_header_2.webp?itok=XeDmjgBu",
-    thumbnail:
-      "https://www.heinlein-support.de/themes/salsa/dist/assets/favicon/favicon-32x32.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314375250.www-heinle.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Heinlein Support GmbH offers expertise in Linux and secure communication, supporting clients with IT administration and consulting. The company is dedicated to ensuring digital sovereignty and provides professional training for IT experts. Their services focus on practical solutions and sustainable IT management.",
+    images: "https://www.heinlein-support.de/sites/default/files/styles/600x400/public/2021-10/heinlein_support_willkommen_header_2.webp?itok=XeDmjgBu",
+    thumbnail: "https://www.heinlein-support.de/themes/salsa/dist/assets/favicon/favicon-32x32.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314375250.www-heinle.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Heinlein Support GmbH offers expertise in Linux and secure communication, supporting clients with IT administration and consulting. The company is dedicated to ensuring digital sovereignty and provides professional training for IT experts. Their services focus on practical solutions and sustainable IT management.",
     pros: "Linux expertise|Secure communication focus|Professional IT training|Digital sovereignty commitment|Practical solution approach",
     cons: "Consulting-focused (not a direct platform)|Service cost|German market orientation|Enterprise-level complexity|Technical knowledge required",
   },
   {
     title: "FreeConferenceCall",
-    url: "https://www.freeconferencecall.com/",
+    url: "https://www.freeconferencecall.com",
     custom_redirect: "",
     slug: "freeconferencecall",
     text: "FreeConferenceCall provides unlimited access to high-quality conference calling and video calling services.",
@@ -2868,18 +2439,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://www.freeconferencecall.com/images/fcc_logo_fb.png",
-    thumbnail:
-      "https://www.freeconferencecall.com/images/application_wide/general/logo/freeconferencecall-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314387061.www-freeco.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "FreeConferenceCall offers a free and high-quality conference call service that allows users to connect and collaborate seamlessly. With unlimited access to both audio and video conferencing, it caters to a wide audience, including businesses and individuals. The platform has been supporting billions of calls for over 25 years, recognized for its reliability and commitment to global communication.",
+    thumbnail: "https://www.freeconferencecall.com/images/application_wide/general/logo/freeconferencecall-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314387061.www-freeco.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "FreeConferenceCall offers a free and high-quality conference call service that allows users to connect and collaborate seamlessly. With unlimited access to both audio and video conferencing, it caters to a wide audience, including businesses and individuals. The platform has been supporting billions of calls for over 25 years, recognized for its reliability and commitment to global communication.",
     pros: "Free to use|Unlimited conferencing|High-quality audio and video|Long-standing reliable service|Both business and personal use",
     cons: "Optional contribution model|Possible quality variations|Limited advanced features|May have connection issues|Basic interface compared to premium options",
   },
   {
     title: "Starleaf",
-    url: "https://www.starleaf.com/",
+    url: "https://www.starleaf.com",
     custom_redirect: "",
     slug: "starleaf",
     text: "Starleaf Blog provides insights and resources focused on remote work, collaboration, team building, and business innovation.",
@@ -2891,16 +2459,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.starleaf.com/a/logo-512.jpg",
     thumbnail: "https://www.starleaf.com/a/logo-512.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314404178.www-starle.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Starleaf Blog serves as a hub for insights and resources pertaining to remote work, collaboration, and team building, offering valuable information on technology and business innovation. It aims to guide readers in enhancing their work processes and teamwork strategies. The content is tailored to empower individuals and organizations, fostering a better understanding of modern work dynamics.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314404178.www-starle.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Starleaf Blog serves as a hub for insights and resources pertaining to remote work, collaboration, and team building, offering valuable information on technology and business innovation. It aims to guide readers in enhancing their work processes and teamwork strategies. The content is tailored to empower individuals and organizations, fostering a better understanding of modern work dynamics.",
     pros: "Remote work expertise|Team collaboration focus|Business innovation insights|Educational resources|Modern work strategy guidance",
     cons: "Blog-focused (not just a platform)|Likely promotes paid services|May require subscription for full features|Less established than major platforms|May have regional limitations",
   },
   {
     title: "Art Etcetera",
-    url: "https://www.hyperoffice.com/",
+    url: "https://www.hyperoffice.com",
     custom_redirect: "",
     slug: "art-etcetera",
     text: "Art Etcetera is a magazine for aspiring artists, offering diverse coverage of the art world.",
@@ -2910,20 +2476,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://artetcetera-magazine.com/isteam/ip/780dcc11-0977-4635-986f-fa9a7b9ac78d/blob-8379d1b.png",
-    thumbnail:
-      "https://img1.wsimg.com/isteam/ip/780dcc11-0977-4635-986f-fa9a7b9ac78d/blob-0139.png/:/rs=w:607",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314413677.www-hypero.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Art Etcetera is a magazine that caters to aspiring artists, presenting an incredibly diverse array of talent from photographers to glassworkers. The magazine aims to shake up the world of art publications through a focus on perspective rather than criticism. With the latest edition available in print and digital formats for just £2.99, interested readers are encouraged to subscribe and explore the world of art in a new way.",
+    images: "https://artetcetera-magazine.com/isteam/ip/780dcc11-0977-4635-986f-fa9a7b9ac78d/blob-8379d1b.png",
+    thumbnail: "https://img1.wsimg.com/isteam/ip/780dcc11-0977-4635-986f-fa9a7b9ac78d/blob-0139.png/:/rs=w:607",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314413677.www-hypero.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Art Etcetera is a magazine that caters to aspiring artists, presenting an incredibly diverse array of talent from photographers to glassworkers. The magazine aims to shake up the world of art publications through a focus on perspective rather than criticism. With the latest edition available in print and digital formats for just £2.99, interested readers are encouraged to subscribe and explore the world of art in a new way.",
     pros: "Diverse artistic coverage|Perspective-focused approach|Affordable subscription|Both print and digital formats|Support for emerging artists",
     cons: "Not a communication platform (art magazine)|Limited relevance as Skype alternative|Art focus instead of connectivity|Media content rather than interactive tool|Not designed for real-time communication",
   },
   {
     title: "Whaller",
-    url: "https://whaller.com/",
+    url: "https://whaller.com",
     custom_redirect: "",
     slug: "whaller",
     text: "Whaller is a comprehensive social and collaboration platform designed to accelerate digital transformation without compromising on cybersecurity.",
@@ -2935,16 +2497,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://whaller.com/images/rs/linkedin/card_Home_en.webp",
     thumbnail: "https://whaller.com/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314423614.whaller-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Whaller is a comprehensive social and collaboration platform that enables organizations to deploy collaborative intranets or corporate social networks. This platform gives users everything they need to accelerate their digital transformation while ensuring a high level of cybersecurity. Whaller is suitable for both small teams and large networks, making it adaptable for various needs.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314423614.whaller-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Whaller is a comprehensive social and collaboration platform that enables organizations to deploy collaborative intranets or corporate social networks. This platform gives users everything they need to accelerate their digital transformation while ensuring a high level of cybersecurity. Whaller is suitable for both small teams and large networks, making it adaptable for various needs.",
     pros: "Strong cybersecurity focus|Digital transformation tools|Adaptable for various team sizes|Corporate social networking|Collaborative intranet capabilities",
     cons: "Likely subscription required|Corporate focus limits personal use|Potential learning curve|Platform-specific features|Less known than major competitors",
   },
   {
     title: "Tixeo",
-    url: "https://www.tixeo.com/",
+    url: "https://www.tixeo.com",
     custom_redirect: "",
     slug: "tixeo",
     text: "Tixeo offers a secure video conferencing solution with end-to-end encryption for audio, video, and data.",
@@ -2954,20 +2514,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.tixeo.com/wp-content/uploads/2024/07/Tixeo_social_media_X_in_stream_fr.png",
-    thumbnail:
-      "https://www.tixeo.com/wp-content/uploads/2024/07/Tixeo_New_Logo-web.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314434801.www-tixeo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Tixeo provides a high-performance video conferencing solution that boasts strong security features. This French technology ensures the confidentiality of meetings with end-to-end encryption for audio, video, and data. Additionally, Tixeo is recognized for its certified secure video conferencing, ensuring reliability for its users.",
+    images: "https://www.tixeo.com/wp-content/uploads/2024/07/Tixeo_social_media_X_in_stream_fr.png",
+    thumbnail: "https://www.tixeo.com/wp-content/uploads/2024/07/Tixeo_New_Logo-web.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314434801.www-tixeo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Tixeo provides a high-performance video conferencing solution that boasts strong security features. This French technology ensures the confidentiality of meetings with end-to-end encryption for audio, video, and data. Additionally, Tixeo is recognized for its certified secure video conferencing, ensuring reliability for its users.",
     pros: "End-to-end encryption|Certified secure platform|High-performance video quality|French technology (EU data protection)|Complete confidentiality focus",
     cons: "Likely subscription required|Less known globally than competitors|May have limited integration options|Potential learning curve|Less feature-rich than major platforms",
   },
   {
     title: "Stork",
-    url: "https://www.stork.ai/",
+    url: "https://www.stork.ai",
     custom_redirect: "",
     slug: "stork",
     text: "Stork helps streamline workflows using various AI tools without monthly fees.",
@@ -2977,20 +2533,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://cdn.prod.website-files.com/5eda9dd581168bac18890269/63591adbe2bb240f24364eb0_OpenGraph%20Image%20-%20v1.jpg",
-    thumbnail:
-      "https://cdn.prod.website-files.com/66460d4ab476aafd53ffb329/66460d4bb476aafd53ffb5fc_logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314438262.www-stork.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Stork is a platform that enables users to streamline their workflows with advanced AI tools such as ChatGPT, Claude, and Midjourney. It offers limitless potential for boosting productivity in teams without imposing any monthly fees. With a focus on facilitating efficient work environments, Stork equips users with a comprehensive directory of useful AI applications.",
+    images: "https://cdn.prod.website-files.com/5eda9dd581168bac18890269/63591adbe2bb240f24364eb0_OpenGraph%20Image%20-%20v1.jpg",
+    thumbnail: "https://cdn.prod.website-files.com/66460d4ab476aafd53ffb329/66460d4bb476aafd53ffb5fc_logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314438262.www-stork.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Stork is a platform that enables users to streamline their workflows with advanced AI tools such as ChatGPT, Claude, and Midjourney. It offers limitless potential for boosting productivity in teams without imposing any monthly fees. With a focus on facilitating efficient work environments, Stork equips users with a comprehensive directory of useful AI applications.",
     pros: "No monthly fees|AI tool integration|Workflow optimization|Team productivity enhancement|Comprehensive AI application directory",
     cons: "Not primarily for communication|AI focus rather than messaging|Different use case than Skype|Limited direct messaging features|May require technical knowledge",
   },
   {
     title: "FreeConference",
-    url: "https://www.freeconference.com/",
+    url: "https://www.freeconference.com",
     custom_redirect: "",
     slug: "freeconference",
     text: "FreeConference offers a free and unlimited conference calling service with HD quality for up to 100 participants.",
@@ -3001,18 +2553,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.freeconference.com/wp-content/uploads/2021/06/freeconference-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314442328.www-freeco.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "FreeConference provides free conference call solutions that allow users to connect via telephone or online with customers, relatives, or colleagues. The service offers features like video and audio calls, screen sharing, and secure meeting options, making it ideal for both personal and professional communication. Users can join meetings easily without the need for downloads, ensuring privacy and security.",
+    thumbnail: "https://www.freeconference.com/wp-content/uploads/2021/06/freeconference-logo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314442328.www-freeco.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "FreeConference provides free conference call solutions that allow users to connect via telephone or online with customers, relatives, or colleagues. The service offers features like video and audio calls, screen sharing, and secure meeting options, making it ideal for both personal and professional communication. Users can join meetings easily without the need for downloads, ensuring privacy and security.",
     pros: "Free service option|Up to 100 participants|HD call quality|No downloads required|Both personal and professional use",
     cons: "Advanced features may require payment|Limited integration options|Possible connection quality issues|Less feature-rich than premium services|May include ads in free version",
   },
   {
     title: "Tencent",
-    url: "https://www.tencent.com/",
+    url: "https://www.tencent.com",
     custom_redirect: "",
     slug: "tencent",
     text: "Tencent is an internet-based platform company that enriches the lives of users and supports digital upgrades for enterprises.",
@@ -3024,16 +2573,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.tencent.com/img/index/tencent_logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314454739.www-tencen.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Tencent, founded in 1998, is an internet-based platform company that utilizes technology to enhance the lives of internet users and facilitate the digital transformation of businesses. Its mission emphasizes a user-centric approach and promotes the idea of technology serving a greater good. Through various technological innovations, Tencent aims to make life more enjoyable and assist businesses in their digital journeys.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314454739.www-tencen.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Tencent, founded in 1998, is an internet-based platform company that utilizes technology to enhance the lives of internet users and facilitate the digital transformation of businesses. Its mission emphasizes a user-centric approach and promotes the idea of technology serving a greater good. Through various technological innovations, Tencent aims to make life more enjoyable and assist businesses in their digital journeys.",
     pros: "Comprehensive technology ecosystem|Established global company|Multiple communication tools|Business transformation support|Extensive user base",
     cons: "Privacy concerns|Regional availability variations|Potential regulatory issues|Complex product suite|Data security questions",
   },
   {
     title: "Mixsii",
-    url: "https://www.mixsii.com/",
+    url: "https://www.mixsii.com",
     custom_redirect: "",
     slug: "mixsii",
     text: "Mixsii offers free video chat services that allow users to connect with friends, family, and new people without any downloads.",
@@ -3045,16 +2592,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314451737.www-mixsii.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Mixsii is a free video chat service that enables users to make new friends and communicate with friends and family effortlessly. With no download required, it provides a smooth experience for video chatting with various people, including strangers. This service is completely free, making it an accessible option for anyone looking to connect privately or in groups. Users can enjoy features like GIF sharing and cross-platform usage.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314451737.www-mixsii.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Mixsii is a free video chat service that enables users to make new friends and communicate with friends and family effortlessly. With no download required, it provides a smooth experience for video chatting with various people, including strangers. This service is completely free, making it an accessible option for anyone looking to connect privately or in groups. Users can enjoy features like GIF sharing and cross-platform usage.",
     pros: "Free to use|No downloads required|Connect with new people option|GIF sharing capability|Group chat functionality",
     cons: "Potential privacy concerns|May include advertisements|Possible quality limitations|Limited security features|Less established than major platforms",
   },
   {
     title: "JAM Software",
-    url: "https://www.jam-software.com/",
+    url: "https://www.jam-software.com",
     custom_redirect: "",
     slug: "jam-software",
     text: "JAM Software develops powerful software solutions for IT professionals, ensuring data resides securely on-premises.",
@@ -3066,16 +2611,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314456472.www-jam-so.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "JAM Software is known for its powerful software solutions catering to the needs of IT professionals. With over 25 years of experience, the company has established a reputation for reliability and excellent vendor support. Their products prioritize data security by allowing users to manage their information without cloud services, maintaining GDPR compliance at all times.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314456472.www-jam-so.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "JAM Software is known for its powerful software solutions catering to the needs of IT professionals. With over 25 years of experience, the company has established a reputation for reliability and excellent vendor support. Their products prioritize data security by allowing users to manage their information without cloud services, maintaining GDPR compliance at all times.",
     pros: "On-premises data security|25+ years of experience|GDPR compliance|Reliable IT solutions|Excellent vendor support",
     cons: "IT professional focus (technical)|Not primarily a communication platform|Likely subscription required|Learning curve for non-IT users|Limited to specific use cases",
   },
   {
     title: "urLive",
-    url: "https://url.live/",
+    url: "https://url.live",
     custom_redirect: "",
     slug: "urlive",
     text: "urLive offers a one-click solution for high-definition video calls and smart routing capabilities, designed to enhance customer engagement.",
@@ -3086,18 +2629,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://info.url.live/wp-content/uploads/2020/10/urlivelogorounded-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314478974.url-live.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "urLive is a video call solution that provides businesses with tools for high-definition video communication. It features universal call activation, smart routing capabilities, concurrent call control, attended call transfer, and post-call redirection. urLive takes pride in its secure, encrypted communications, ensuring users experience the power and reliability of modern video calls.",
+    thumbnail: "https://info.url.live/wp-content/uploads/2020/10/urlivelogorounded-logo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314478974.url-live.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "urLive is a video call solution that provides businesses with tools for high-definition video communication. It features universal call activation, smart routing capabilities, concurrent call control, attended call transfer, and post-call redirection. urLive takes pride in its secure, encrypted communications, ensuring users experience the power and reliability of modern video calls.",
     pros: "One-click HD video calls|Smart routing capabilities|Concurrent call control|Secure encrypted communications|Call transfer features",
     cons: "Business-focused (less personal use)|Likely subscription required|Potential learning curve|Less established than major platforms|Limited integration options",
   },
   {
     title: "Spreed",
-    url: "https://www.spreed.eu/",
+    url: "https://www.spreed.eu",
     custom_redirect: "",
     slug: "spreed",
     text: "Spreed is a powerful browser-based communication and collaboration platform designed for seamless team collaboration with unparalleled audio and video quality.",
@@ -3109,16 +2649,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.spreed.eu/media/SpreedEU_white.png",
     thumbnail: "https://www.spreed.eu/media/SpreedEU_white.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314470847.www-spreed.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Spreed is a powerful browser-based communication and collaboration platform. It offers a remarkable experience with unparalleled audio quality and is designed for efficient team collaboration. Users can chat, share documents, and work together on various projects while enjoying secure and hassle-free communication. This innovative solution allows individuals and teams to easily meet, collaborate, and train from anywhere.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314470847.www-spreed.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Spreed is a powerful browser-based communication and collaboration platform. It offers a remarkable experience with unparalleled audio quality and is designed for efficient team collaboration. Users can chat, share documents, and work together on various projects while enjoying secure and hassle-free communication. This innovative solution allows individuals and teams to easily meet, collaborate, and train from anywhere.",
     pros: "Browser-based (no downloads)|High-quality audio experience|Document sharing capabilities|Secure communication|Location-independent collaboration",
     cons: "Possible browser compatibility issues|Likely subscription required|May have bandwidth requirements|European-focused (may affect global support)|Less mainstream recognition",
   },
   {
     title: "Simply Video",
-    url: "https://simplyvideo.io/",
+    url: "https://simplyvideo.io",
     custom_redirect: "",
     slug: "simply-video",
     text: "SimplyVideo is a collaboration platform designed for XR wearables, enabling seamless communication and advanced video calls.",
@@ -3128,20 +2666,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://lirp.cdn-website.com/93510174/dms3rep/multi/opt/SV-4x-1920w.png",
-    thumbnail:
-      "https://lirp.cdn-website.com/93510174/dms3rep/multi/opt/Simply+Video-4x-1920w.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314476605.simplyvide.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "SimplyVideo is a collaboration platform built specifically for XR wearables, facilitating seamless communication between devices in diverse environments. It provides advanced video calls that allow users to connect effortlessly, even from low-bandwidth locations. Additionally, SimplyVideo enhances the problem-solving process by incorporating XR features to maximize collaboration efficiency.",
+    images: "https://lirp.cdn-website.com/93510174/dms3rep/multi/opt/SV-4x-1920w.png",
+    thumbnail: "https://lirp.cdn-website.com/93510174/dms3rep/multi/opt/Simply+Video-4x-1920w.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314476605.simplyvide.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "SimplyVideo is a collaboration platform built specifically for XR wearables, facilitating seamless communication between devices in diverse environments. It provides advanced video calls that allow users to connect effortlessly, even from low-bandwidth locations. Additionally, SimplyVideo enhances the problem-solving process by incorporating XR features to maximize collaboration efficiency.",
     pros: "XR wearable optimization|Low-bandwidth capability|Advanced collaboration features|Problem-solving enhancement|Cross-device connectivity",
     cons: "XR hardware requirements|Specialized use case|Likely subscription cost|Limited mainstream appeal|Potential complexity for basic users",
   },
   {
     title: "Jitsi",
-    url: "https://jitsi.org/",
+    url: "https://jitsi.org",
     custom_redirect: "",
     slug: "jitsi",
     text: "Jitsi is a free, open-source video conferencing software that offers secure and flexible communication for web and mobile users.",
@@ -3152,12 +2686,9 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://jitsi.org/wp-content/uploads/2020/04/Jitsi_opengraph.jpg",
-    thumbnail:
-      "https://jitsi.org/wp-content/themes/jitsi/images/logo-web-2020.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314490227.jitsi-org.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Jitsi is recognized as a free open-source video conferencing software available for both web and mobile platforms. Users can make calls, manage their conferencing on personal servers, and integrate the software into their applications. This platform emphasizes security and flexibility, providing a reliable solution for virtual meetings.",
+    thumbnail: "https://jitsi.org/wp-content/themes/jitsi/images/logo-web-2020.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314490227.jitsi-org.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Jitsi is recognized as a free open-source video conferencing software available for both web and mobile platforms. Users can make calls, manage their conferencing on personal servers, and integrate the software into their applications. This platform emphasizes security and flexibility, providing a reliable solution for virtual meetings.",
     pros: "Free open-source platform|Self-hosting option|Cross-platform (web and mobile)|Application integration capabilities|Security-focused design",
     cons: "Self-hosting requires technical knowledge|May have quality variations|Less polished than commercial options|Limited advanced features|Community support (less corporate)",
   },
@@ -3174,19 +2705,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.enghousevideo.com/nitropack_static/JPaIYnLbXXEyYqNTBHsyYJLpujqbVdIt/assets/images/source/rev-e76c459/www.enghousevideo.com/wp-content/uploads/2023/09/EV-stacked-color_trimmed.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314495163.www-enghou.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Vidyo provides essential tools for users to master online video conferencing. The platform offers effective video calling and chat solutions, enabling seamless communication regardless of location. Users can learn to utilize these features effectively through Vidyo University.",
+    thumbnail: "https://www.enghousevideo.com/nitropack_static/JPaIYnLbXXEyYqNTBHsyYJLpujqbVdIt/assets/images/source/rev-e76c459/www.enghousevideo.com/wp-content/uploads/2023/09/EV-stacked-color_trimmed.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314495163.www-enghou.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Vidyo provides essential tools for users to master online video conferencing. The platform offers effective video calling and chat solutions, enabling seamless communication regardless of location. Users can learn to utilize these features effectively through Vidyo University.",
     pros: "Comprehensive video conferencing tools|Location-independent communication|Educational resources (Vidyo University)|Chat integration|Established solution provider",
     cons: "Subscription likely required|Corporate focus (less personal)|Potential learning curve|May have bandwidth requirements|Less known than major platforms",
   },
-
   {
     title: "Toasty",
-    url: "https://toasty.ai/",
+    url: "https://toasty.ai",
     custom_redirect: "",
     slug: "toasty",
     text: "Toasty enables businesses to effortlessly collect and display user testimonials to build trust and increase conversions.",
@@ -3198,16 +2725,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://toasty.ai/opengraph-image.png?c356fa4a0893e701",
     thumbnail: "https://toasty.ai/_next/static/media/circle.143c2663.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314505894.toasty-ai.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Toasty facilitates the collection and management of user testimonials, turning customer feedback into a compelling marketing asset. By gathering reviews in multiple formats, such as text, audio, and video, it promotes trust among potential clients and enhances credibility. This powerful tool enables users to create an impressive 'Wall of Love,' showcasing testimonials that can effectively convert visitors into loyal customers.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314505894.toasty-ai.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Toasty facilitates the collection and management of user testimonials, turning customer feedback into a compelling marketing asset. By gathering reviews in multiple formats, such as text, audio, and video, it promotes trust among potential clients and enhances credibility. This powerful tool enables users to create an impressive 'Wall of Love,' showcasing testimonials that can effectively convert visitors into loyal customers.",
     pros: "Multiple format testimonial collection|Marketing asset creation|Trust-building capabilities|Customer feedback management|Conversion optimization",
     cons: "Not primarily a communication platform|Different use case than Skype|Marketing focus rather than messaging|Likely subscription required|Limited direct messaging features",
   },
   {
     title: "Nitrokey",
-    url: "https://www.nitrokey.com/",
+    url: "https://www.nitrokey.com",
     custom_redirect: "",
     slug: "nitrokey",
     text: "Nitrokey offers open source IT security hardware designed to secure digital life.",
@@ -3219,16 +2744,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.nitrokey.com/sites/all/themes/nitrokey/logo.svg",
     thumbnail: "https://www.nitrokey.com/sites/all/themes/nitrokey/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314531517.www-nitrok.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Nitrokey provides a range of open source IT security hardware solutions, designed to enhance the security of digital lives. With a strong commitment to privacy and data protection, Nitrokey products are built in Germany, emphasizing quality and security standards. Users can rely on Nitrokey for innovative and secure digital solutions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314531517.www-nitrok.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Nitrokey provides a range of open source IT security hardware solutions, designed to enhance the security of digital lives. With a strong commitment to privacy and data protection, Nitrokey products are built in Germany, emphasizing quality and security standards. Users can rely on Nitrokey for innovative and secure digital solutions.",
     pros: "Open source security focus|Hardware security approach|German-built quality|Strong privacy protection|Innovative security solutions",
     cons: "Hardware purchase required|Not primarily communication software|Technical knowledge needed|Less user-friendly than mainstream apps|Different use case than typical Skype alternative",
   },
   {
     title: "Nerimity",
-    url: "https://nerimity.com/",
+    url: "https://nerimity.com",
     custom_redirect: "",
     slug: "nerimity",
     text: "Nerimity is an open source chat app that offers extensive customization and server capabilities.",
@@ -3240,16 +2763,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314531996.nerimity-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Nerimity is an open source chat application designed for users seeking a modern and sleek communication platform. It features the ability to create servers and offers a high level of customization, enhancing the user experience. The app aims to provide a unique and elegant interface that caters to the diverse needs of its users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314531996.nerimity-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Nerimity is an open source chat application designed for users seeking a modern and sleek communication platform. It features the ability to create servers and offers a high level of customization, enhancing the user experience. The app aims to provide a unique and elegant interface that caters to the diverse needs of its users.",
     pros: "Open source transparency|Server creation capabilities|High customization options|Modern interface design|User-focused development",
     cons: "Smaller user base than mainstream apps|Potential stability issues|Less established support|May require technical knowledge|Limited integration options",
   },
   {
     title: "Lifesize",
-    url: "https://lifesize.com/",
+    url: "https://lifesize.com",
     custom_redirect: "",
     slug: "lifesize",
     text: "Lifesize offers a suite of enterprise video solutions that transform business communications.",
@@ -3260,18 +2781,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: null,
-    thumbnail:
-      "https://www.enghousevideo.com/nitropack_static/JPaIYnLbXXEyYqNTBHsyYJLpujqbVdIt/assets/images/source/rev-e76c459/www.enghousevideo.com/wp-content/uploads/2023/09/EV-stacked-color_trimmed.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314554963.lifesize-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Lifesize provides a comprehensive suite of enterprise video solutions designed to elevate business communications. These flexible solutions enable organizations to seamlessly connect and collaborate, ensuring that they are at the forefront of corporate communication. Users can discover the potential of modern video technology to enhance their interactions and productivity.",
+    thumbnail: "https://www.enghousevideo.com/nitropack_static/JPaIYnLbXXEyYqNTBHsyYJLpujqbVdIt/assets/images/source/rev-e76c459/www.enghousevideo.com/wp-content/uploads/2023/09/EV-stacked-color_trimmed.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314554963.lifesize-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Lifesize provides a comprehensive suite of enterprise video solutions designed to elevate business communications. These flexible solutions enable organizations to seamlessly connect and collaborate, ensuring that they are at the forefront of corporate communication. Users can discover the potential of modern video technology to enhance their interactions and productivity.",
     pros: "Enterprise-grade video solutions|Seamless connectivity features|Business communication focus|Comprehensive collaboration tools|Modern technology integration",
     cons: "Enterprise focus (less personal use)|Subscription cost|Potential complexity|May require organizational setup|Less suited for casual users",
   },
   {
     title: "Airtime",
-    url: "https://airtime.com/",
+    url: "https://airtime.com",
     custom_redirect: "",
     slug: "airtime",
     text: "Airtime is a lightweight video chat solution available anytime, anywhere.",
@@ -3282,18 +2800,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://cdn.prod.website-files.com/6814e2d8f1d521ec7f8cdc7b/6814e4b7d9953507ea83e87c_AIR_wordmark_black_cmyk.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314553023.airtime-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Airtime is a lightweight video chat solution designed for users to connect anytime and anywhere. The platform aims to facilitate seamless communication through video conferencing, making it accessible for everyone. With an emphasis on user-friendly technology, Airtime is set to enhance personal and professional interactions.",
+    thumbnail: "https://cdn.prod.website-files.com/6814e2d8f1d521ec7f8cdc7b/6814e4b7d9953507ea83e87c_AIR_wordmark_black_cmyk.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314553023.airtime-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Airtime is a lightweight video chat solution designed for users to connect anytime and anywhere. The platform aims to facilitate seamless communication through video conferencing, making it accessible for everyone. With an emphasis on user-friendly technology, Airtime is set to enhance personal and professional interactions.",
     pros: "Lightweight design|Anytime, anywhere accessibility|User-friendly technology|Seamless communication|Versatile for personal and professional use",
     cons: "Possibly less feature-rich than alternatives|May have connection quality issues|Less established than major platforms|Potential limitations on group size|May lack advanced security features",
   },
   {
     title: "Blitzz",
-    url: "https://www.blitzz.co/",
+    url: "https://www.blitzz.co",
     custom_redirect: "",
     slug: "blitzz",
     text: "Blitzz provides enterprise-grade remote visual assistance and video inspection software, designed to save time and improve efficiency.",
@@ -3304,18 +2819,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://blitzz.co/hubfs/Blitzz%20Virtual%20Remote%20Assistant.png",
-    thumbnail:
-      "https://blitzz.co/hs-fs/hubfs/Blitzz%20Full%20Logo.png?width=100&height=37&name=Blitzz%20Full%20Logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314573677.www-blitzz.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Blitzz offers enterprise-grade remote visual assistance and video inspection software. The platform allows users to integrate with popular tools like Zendesk, Salesforce, and Genesys, thereby streamlining operations. Its functionalities aim to save time and enhance overall efficiency in various inspection and support scenarios.",
+    thumbnail: "https://blitzz.co/hs-fs/hubfs/Blitzz%20Full%20Logo.png?width=100&height=37&name=Blitzz%20Full%20Logo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314573677.www-blitzz.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Blitzz offers enterprise-grade remote visual assistance and video inspection software. The platform allows users to integrate with popular tools like Zendesk, Salesforce, and Genesys, thereby streamlining operations. Its functionalities aim to save time and enhance overall efficiency in various inspection and support scenarios.",
     pros: "Enterprise-grade visual assistance|Integration with popular tools|Time-saving features|Inspection-specific functionality|Operational efficiency enhancement",
     cons: "Specialized use case (not general messaging)|Enterprise focus limits personal use|Likely subscription required|Learning curve for full utilization|Less suited for casual communication",
   },
   {
     title: "Airtop",
-    url: "https://www.switchboard.app/",
+    url: "https://www.switchboard.app",
     custom_redirect: "",
     slug: "airtop",
     text: "Airtop provides intelligent browser automation for AI agents, allowing seamless interaction with any website.",
@@ -3325,20 +2837,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://framerusercontent.com/assets/wSFtRNFe54jcI7r8EOJoHdV6UT8.png",
-    thumbnail:
-      "https://framerusercontent.com/images/KlpvjIjk9s0WyZHEVpEm2AT7s1Q.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314575139.www-switch.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Airtop is designed to enable intelligent browser automation for AI agents, facilitating effortless web interaction such as logging in, navigation, and data extraction from any site. This powerful tool supports agents in completing complex tasks and navigating challenging authentication protocols. With Airtop, users can harness the capabilities of cloud browsers effectively and efficiently.",
+    images: "https://framerusercontent.com/assets/wSFtRNFe54jcI7r8EOJoHdV6UT8.png",
+    thumbnail: "https://framerusercontent.com/images/KlpvjIjk9s0WyZHEVpEm2AT7s1Q.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314575139.www-switch.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Airtop is designed to enable intelligent browser automation for AI agents, facilitating effortless web interaction such as logging in, navigation, and data extraction from any site. This powerful tool supports agents in completing complex tasks and navigating challenging authentication protocols. With Airtop, users can harness the capabilities of cloud browsers effectively and efficiently.",
     pros: "Intelligent browser automation|AI agent optimization|Seamless website interaction|Complex task support|Efficient authentication handling",
     cons: "Not primarily a communication tool|Different use case than Skype|Technical knowledge required|Specialized automation focus|Limited direct messaging features",
   },
   {
     title: "8x8 Work",
-    url: "https://8x8.vc/",
+    url: "https://8x8.vc",
     custom_redirect: "",
     slug: "8x8-work",
     text: "A secure and fully-featured video conferencing solution for businesses of any size.",
@@ -3350,16 +2858,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://web-cdn.jitsi.net/8x8.vc/images/jitsilogo.png?v=1",
     thumbnail: "https://web-cdn.jitsi.net/8x8.vc/images/jitsilogo.png?v=1",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314579674.8x8-vc.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "8x8 Work is a secure, fully-featured video conferencing solution designed for businesses of any size. It offers reliability, an array of features, and is extremely user-friendly, making virtual meetings simple and efficient. This platform harnesses the power of WebRTC technology to ensure high-quality meetings for all users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314579674.8x8-vc.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "8x8 Work is a secure, fully-featured video conferencing solution designed for businesses of any size. It offers reliability, an array of features, and is extremely user-friendly, making virtual meetings simple and efficient. This platform harnesses the power of WebRTC technology to ensure high-quality meetings for all users.",
     pros: "Secure video conferencing|Business-size flexibility|User-friendly interface|WebRTC technology for quality|Comprehensive feature set",
     cons: "Likely subscription required|Business focus (less personal)|Possible learning curve|May have bandwidth requirements|Less established than major platforms",
   },
   {
     title: "V.connct",
-    url: "https://vconnct.me/",
+    url: "https://vconnct.me",
     custom_redirect: "",
     slug: "vconnct",
     text: "V.connct provides secure and efficient communication tools to empower teams in the MENA region.",
@@ -3370,18 +2876,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://vconnct.me/_next/image?url=%2Fimages%2Flogoooo.webp&w=384&q=75",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314590816.vconnct-me.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "V.connct offers businesses in the MENA region secure and efficient communication tools. With features like seamless video meetings and integrated collaboration, this product helps organizations innovate, grow, and thrive. It combines AI-powered tools to enhance productivity and drive effective teamwork.",
+    thumbnail: "https://vconnct.me/_next/image?url=%2Fimages%2Flogoooo.webp&w=384&q=75",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314590816.vconnct-me.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "V.connct offers businesses in the MENA region secure and efficient communication tools. With features like seamless video meetings and integrated collaboration, this product helps organizations innovate, grow, and thrive. It combines AI-powered tools to enhance productivity and drive effective teamwork.",
     pros: "MENA region optimization|Secure communication tools|AI-powered features|Integrated collaboration|Business innovation focus",
     cons: "Regional focus limits global appeal|Likely subscription required|Business-oriented (less personal use)|May require organizational setup|Less established than global platforms",
   },
   {
     title: "VNG",
-    url: "https://www.vng.com.vn/",
+    url: "https://www.vng.com.vn",
     custom_redirect: "",
     slug: "vng",
     text: "VNG is a leading technology corporation in Vietnam, known for its innovative products and services.",
@@ -3393,16 +2896,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://img.zing.vn/products/vng/thumb.jpg",
     thumbnail: "https://corp.vcdn.vn/products/vng/icon_fav_vng.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314597361.www-vng-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "VNG is recognized as a top technology corporation in Vietnam, originally established as VinaGame in 2004. The company has developed various prominent products such as Zalo, VNG Cloud, Zing MP3, and ZaloPay, showcasing its commitment to technology and human development. VNG aims to extend its technological reach on a global scale.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314597361.www-vng-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "VNG is recognized as a top technology corporation in Vietnam, originally established as VinaGame in 2004. The company has developed various prominent products such as Zalo, VNG Cloud, Zing MP3, and ZaloPay, showcasing its commitment to technology and human development. VNG aims to extend its technological reach on a global scale.",
     pros: "Established Vietnamese corporation|Multiple technology products|Zalo messaging platform|Cloud service offerings|Long-standing market presence",
     cons: "Regional focus (primarily Vietnam)|Language barriers possible|Less global recognition|Limited international support|Potential regulatory differences",
   },
   {
     title: "Moxo",
-    url: "http://www.moxtra.com/",
+    url: "https://www.moxtra.com",
     custom_redirect: "",
     slug: "moxo",
     text: "Moxo orchestrates complex workflows across organizations, connecting people, systems, and AI to streamline operations.",
@@ -3412,20 +2913,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://cdn.prod.website-files.com/612ecbcc615e87b0b9b38524/678f1c0475a49e554ceb7d71_home-cp-p-1080.jpg",
-    thumbnail:
-      "https://cdn.prod.website-files.com/612ecbcc615e87b0b9b38524/62196fadcbbbd2d5cf2119e0_Moxo-Icon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314603417.www-moxtra.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Moxo orchestrates complex workflows across organizations and departments. It connects people, systems, and AI to streamline operations and drive outcomes, enhancing productivity and efficiency. This solution facilitates collaboration and effective process management, making it a vital tool for modern enterprises.",
+    images: "https://cdn.prod.website-files.com/612ecbcc615e87b0b9b38524/678f1c0475a49e554ceb7d71_home-cp-p-1080.jpg",
+    thumbnail: "https://cdn.prod.website-files.com/612ecbcc615e87b0b9b38524/62196fadcbbbd2d5cf2119e0_Moxo-Icon.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314603417.www-moxtra.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Moxo orchestrates complex workflows across organizations and departments. It connects people, systems, and AI to streamline operations and drive outcomes, enhancing productivity and efficiency. This solution facilitates collaboration and effective process management, making it a vital tool for modern enterprises.",
     pros: "Complex workflow orchestration|AI integration capabilities|Cross-organizational connectivity|Process management efficiency|Enterprise-level collaboration",
     cons: "Likely enterprise pricing|Implementation complexity|Learning curve for users|Business focus limits personal use|Requires organizational commitment",
   },
   {
     title: "VK",
-    url: "https://vk.company/",
+    url: "https://vk.company",
     custom_redirect: "",
     slug: "vk",
     text: "VK is a leading Russian technology company that helps millions of users solve everyday tasks online.",
@@ -3437,16 +2934,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://vk.company/career/static/corp_redesign/img/cover%20VK.png",
     thumbnail: "https://vk.company/static/corp_redesign/img/fav_logo.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747317402287.vk-company.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "VK is a prominent Russian technology company and a leader in audience metrics on the RuNet. It assists millions of individuals daily with communication, entertainment, education, and professional development. With over 95% of the RuNet audience using its services, VK plays a crucial role in the digital lives of many users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747317402287.vk-company.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "VK is a prominent Russian technology company and a leader in audience metrics on the RuNet. It assists millions of individuals daily with communication, entertainment, education, and professional development. With over 95% of the RuNet audience using its services, VK plays a crucial role in the digital lives of many users.",
     pros: "Massive Russian user base|Comprehensive platform ecosystem|Integrated entertainment and communication|Free basic services|Established brand in Eastern Europe",
     cons: "Primarily Russian-focused|Limited global adoption|Potential privacy concerns|Regulatory complications|Language barriers for international users",
   },
   {
     title: "Tempo",
-    url: "https://tempo.ms/",
+    url: "https://tempo.ms",
     custom_redirect: "",
     slug: "tempo",
     text: "Tempo is a messaging app designed to minimize users' time spent on messaging and reduce distractions.",
@@ -3458,16 +2953,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://tempo.ms/assets/img/cover.jpg",
     thumbnail: "https://tempo.ms/assets/img/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314616373.tempo-ms.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Tempo is a messaging app that focuses on reducing the time users spend on messaging while minimizing distractions. The app allows users to take control of their time by letting messages come to them when they are ready. By enabling balanced work and life communication, it enhances productivity and promotes a distraction-free environment.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314616373.tempo-ms.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Tempo is a messaging app that focuses on reducing the time users spend on messaging while minimizing distractions. The app allows users to take control of their time by letting messages come to them when they are ready. By enabling balanced work and life communication, it enhances productivity and promotes a distraction-free environment.",
     pros: "Distraction reduction focus|Balanced communication approach|User time control|Productivity enhancement|Work-life balance promotion",
     cons: "Smaller user base than mainstream apps|May lack some conventional features|Different messaging philosophy|Limited network effect|Potentially less immediate communication",
   },
   {
     title: "TeamLink",
-    url: "https://teamlink.me/",
+    url: "https://teamlink.me",
     custom_redirect: "",
     slug: "teamlink",
     text: "TeamLink is a free solution for video and web meetings, offering crystal clear audio and video with global connectivity.",
@@ -3479,16 +2972,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://teamlink.me/img/logos/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314630781.teamlink-m.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TeamLink is a leading solution for video and web meetings, designed to enable seamless collaboration among teams and partners from anywhere at any time. It features the world's most advanced real-time video technology, ensuring low latency and high-quality audio and video. With its global coverage and ease of use, TeamLink provides a free plan for users to get started effortlessly.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314630781.teamlink-m.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TeamLink is a leading solution for video and web meetings, designed to enable seamless collaboration among teams and partners from anywhere at any time. It features the world's most advanced real-time video technology, ensuring low latency and high-quality audio and video. With its global coverage and ease of use, TeamLink provides a free plan for users to get started effortlessly.",
     pros: "Free plan availability|Crystal clear audio/video quality|Global connectivity|Advanced real-time technology|Low latency performance",
     cons: "Premium features may require payment|Possible bandwidth requirements|Less established than major platforms|May have participant limitations|Limited integration capabilities",
   },
   {
     title: "VSee",
-    url: "https://vsee.com/messenger/",
+    url: "https://vsee.com/messenger",
     custom_redirect: "",
     slug: "vsee",
     text: "VSee Messenger is a secure communication app designed for healthcare professionals, enabling video calls, text chat, and document-sharing.",
@@ -3499,12 +2990,9 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://cdn.prod.website-files.com/6291f71a0e1832d37758e47d/66a7964c0543ee9f80ab5d68_VSee%20logo%20copy.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314662473.vsee-com-m.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "VSee Messenger is a simple and secure healthcare communications application tailored for providers. It provides capabilities for texting, sending images, group chatting, video calling, screen sharing, and more, thereby facilitating seamless interaction in a healthcare environment. Specifically designed to meet the needs of healthcare users, VSee Messenger offers a comprehensive solution for secure communication.",
+    thumbnail: "https://cdn.prod.website-files.com/6291f71a0e1832d37758e47d/66a7964c0543ee9f80ab5d68_VSee%20logo%20copy.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314662473.vsee-com-m.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "VSee Messenger is a simple and secure healthcare communications application tailored for providers. It provides capabilities for texting, sending images, group chatting, video calling, screen sharing, and more, thereby facilitating seamless interaction in a healthcare environment. Specifically designed to meet the needs of healthcare users, VSee Messenger offers a comprehensive solution for secure communication.",
     pros: "Healthcare-optimized security|HIPAA compliance|Document sharing capabilities|Group chat functionality|Screen sharing features",
     cons: "Healthcare focus limits general appeal|Likely subscription required|Industry-specific features|Less suited for casual use|Potential learning curve",
   },
@@ -3522,16 +3010,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.tutorialspoint.com/images/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314679249.www-tutori.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Net Meeting is described as a free and high-quality web conferencing tool, enabling users to engage in audio and video chats anytime and anywhere, using laptops, desktops, mobile phones, or tablets. It offers flexible options for both business and personal use, making online communication accessible and efficient. Users can easily connect through this versatile platform.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314679249.www-tutori.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Net Meeting is described as a free and high-quality web conferencing tool, enabling users to engage in audio and video chats anytime and anywhere, using laptops, desktops, mobile phones, or tablets. It offers flexible options for both business and personal use, making online communication accessible and efficient. Users can easily connect through this versatile platform.",
     pros: "Free to use|Cross-device compatibility|High-quality conferencing|Flexible for business and personal use|Anytime, anywhere accessibility",
     cons: "May have feature limitations|Less established than major platforms|Possible connection quality issues|Limited advanced options|May lack comprehensive support",
   },
   {
     title: "BiP",
-    url: "https://bip.com/",
+    url: "https://bip.com",
     custom_redirect: "",
     slug: "bip",
     text: "BiP is a secure messaging app that offers free messaging, voice, and video calls while ensuring user privacy with an innovative, local platform.",
@@ -3543,16 +3029,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://media.bip.com/apps/bc/assets/fragments/bip-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314682563.bip-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "BiP is a local and innovative secure messaging platform that enables users to communicate freely through messaging, voice, and video calls. It prioritizes personal privacy, ensuring that users' communications remain confidential and protected. With BiP, individuals can connect with others effortlessly while enjoying advanced communication features designed to enhance their experience.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314682563.bip-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "BiP is a local and innovative secure messaging platform that enables users to communicate freely through messaging, voice, and video calls. It prioritizes personal privacy, ensuring that users' communications remain confidential and protected. With BiP, individuals can connect with others effortlessly while enjoying advanced communication features designed to enhance their experience.",
     pros: "Free messaging and calls|Strong privacy focus|Voice and video capabilities|Innovative local platform|User-friendly design",
     cons: "Smaller user base than global platforms|May have regional limitations|Less established ecosystem|Potential compatibility issues|Limited integration options",
   },
   {
     title: "Talk360",
-    url: "https://talk360.com/",
+    url: "https://talk360.com",
     custom_redirect: "",
     slug: "talk360",
     text: "Talk360 is an international calling app that offers affordable calls to any mobile or landline worldwide.",
@@ -3563,18 +3047,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: null,
-    thumbnail:
-      "https://cdn.prod.website-files.com/6655eb465cea157eb29261a9/6659c4fd6702148bc90792b0_Talk360-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314698115.talk360-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Talk360 provides an international calling app that enables users to make calls to any mobile and landline around the globe at low rates. It ensures high-quality communication while allowing receivers to connect without requiring internet access. With various payment options and local currency support, it enhances accessibility for users aiming to stay connected with loved ones across borders.",
+    thumbnail: "https://cdn.prod.website-files.com/6655eb465cea157eb29261a9/6659c4fd6702148bc90792b0_Talk360-logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314698115.talk360-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Talk360 provides an international calling app that enables users to make calls to any mobile and landline around the globe at low rates. It ensures high-quality communication while allowing receivers to connect without requiring internet access. With various payment options and local currency support, it enhances accessibility for users aiming to stay connected with loved ones across borders.",
     pros: "Low international calling rates|No internet required for receivers|High-quality communication|Multiple payment options|Local currency support",
     cons: "Limited to calling (no video features)|Pay-as-you-go model|Less comprehensive than all-in-one platforms|Focused on international calls only|No messaging features",
   },
   {
     title: "Video Service Desk",
-    url: "https://videoservicedesk.com/",
+    url: "https://videoservicedesk.com",
     custom_redirect: "",
     slug: "video-service-desk",
     text: "Video Service Desk is a platform that enables businesses to engage leads and customers through video and voice calls, live chat, an AI chatbot, and more.",
@@ -3586,16 +3067,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314696164.videoservi.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Video Service Desk provides a comprehensive suite for customer interaction that includes video and voice calls, live chat capabilities, and an AI-powered chatbot. This platform allows businesses to effectively engage leads and customers through various communication channels, including online and in-person appointments, email, SMS, and multiple social media messengers. Its user-friendly interface ensures seamless communication to enhance customer relationships and drive conversions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314696164.videoservi.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Video Service Desk provides a comprehensive suite for customer interaction that includes video and voice calls, live chat capabilities, and an AI-powered chatbot. This platform allows businesses to effectively engage leads and customers through various communication channels, including online and in-person appointments, email, SMS, and multiple social media messengers. Its user-friendly interface ensures seamless communication to enhance customer relationships and drive conversions.",
     pros: "Multiple communication channels|AI chatbot integration|Customer engagement tools|Appointment scheduling features|Multi-platform messaging",
     cons: "Business-focused (less personal use)|Likely subscription required|Potential implementation complexity|Less suited for internal team communication|Learning curve for full utilization",
   },
   {
     title: "AtomJump",
-    url: "https://atomjump.com/",
+    url: "https://atomjump.com",
     custom_redirect: "",
     slug: "atomjump",
     text: "AtomJump is a transparent messaging alternative that allows users to delete inappropriate messages immediately.",
@@ -3606,18 +3085,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://atomjump.com/wp/wp-content/uploads/2021/06/catchphrase-final80-1.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314724527.atomjump-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "AtomJump is an innovative messaging solution designed to provide users with a secure and transparent communication experience. This platform empowers users to take control of their messaging environment by enabling them to delete any inappropriate messages instantly. With a focus on safety and user autonomy, AtomJump offers a modern alternative to conventional messaging applications.",
+    thumbnail: "https://atomjump.com/wp/wp-content/uploads/2021/06/catchphrase-final80-1.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314724527.atomjump-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "AtomJump is an innovative messaging solution designed to provide users with a secure and transparent communication experience. This platform empowers users to take control of their messaging environment by enabling them to delete any inappropriate messages instantly. With a focus on safety and user autonomy, AtomJump offers a modern alternative to conventional messaging applications.",
     pros: "Message deletion control|Transparent communication|Safe messaging environment|User autonomy focus|Modern messaging alternative",
     cons: "Smaller user base than mainstream apps|Possibly limited feature set|Less established ecosystem|Potential learning curve|Limited integration options",
   },
   {
     title: "PALXUP",
-    url: "http://palxup.com/",
+    url: "https://palxup.com",
     custom_redirect: "",
     slug: "palxup",
     text: "PALXUP is an ultimate social network that integrates engaging connections and dynamic content.",
@@ -3627,48 +3103,20 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://palxup.com/content/uploads/photos/2024/01/palxup_7617a3747a3716e5a70d782f113ce315.jpg",
-    thumbnail:
-      "https://palxup.com/content/uploads/photos/2024/03/palxup_09018674be4d639d920297b9bf5c2304.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314723415.palxup-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "PALXUP is an innovative social network designed to enhance online interactions and foster genuine connections among users. By blending engaging content with joyous experiences, it provides a platform where every interaction sparks meaningful relationships. With its unique features, PALXUP elevates the social experience to new heights.",
+    images: "https://palxup.com/content/uploads/photos/2024/01/palxup_7617a3747a3716e5a70d782f113ce315.jpg",
+    thumbnail: "https://palxup.com/content/uploads/photos/2024/03/palxup_09018674be4d639d920297b9bf5c2304.jpg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314723415.palxup-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "PALXUP is an innovative social network designed to enhance online interactions and foster genuine connections among users. By blending engaging content with joyous experiences, it provides a platform where every interaction sparks meaningful relationships. With its unique features, PALXUP elevates the social experience to new heights.",
     pros: "Engaging content integration|Relationship-focused design|Innovative social experience|Dynamic interaction features|Meaningful connection promotion",
     cons: "Social network rather than direct messaging|Limited video communication focus|Smaller user base than established networks|Potential learning curve|May lack business-oriented features",
   },
   {
-    title: "RingCentral",
-    url: "https://jamm.app/",
-    custom_redirect: "",
-    slug: "ringcentral",
-    text: "RingCentral provides a unified platform for organizing hybrid and virtual events seamlessly.",
-    Category: "Team Collaboration, Secure Messaging, Video Conferencing",
-    Rank: null,
-    Hide: false,
-    isFree: false,
-    verified: false,
-    premium: false,
-    images:
-      "https://www.ringcentral.com/content/dam/rc-www/en_us/images/content/rc-events/july-2024/og.jpg",
-    thumbnail:
-      "https://www.ringcentral.com/content/dam/rc-www/en_us/images/favicon/ringcentral_2.0_icon_favicon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314734088.jamm-app.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "RingCentral offers a comprehensive solution for organizing hybrid and virtual events, allowing users to manage everything from one platform. The service facilitates a smooth and engaging experience through various engagement features such as chat and polls. It is designed to simplify event management while enhancing user interaction.",
-    pros: "Unified event platform|Hybrid and virtual event capability|Engagement features (chat, polls)|Simplified management|Established brand reputation",
-    cons: "Subscription required|Enterprise pricing model|Event focus rather than everyday communication|Learning curve for full utilization|Complex for casual users",
-  },
-  {
     title: "Yolla",
-    url: "https://yollacalls.com/",
+    url: "https://yollacalls.com",
     custom_redirect: "",
     slug: "yolla",
     text: "Yolla is an app that enables users to make cheap international calls to any mobile or landline phone worldwide.",
-    Category:
-      "International Calling, Personal Communication, Business Phone Systems",
+    Category: "International Calling, Personal Communication, Business Phone Systems",
     Rank: null,
     Hide: false,
     isFree: false,
@@ -3676,16 +3124,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://yollacalls.com/assets/img/Snippet-1200%D1%85600-1.png",
     thumbnail: "https://yollacalls.com/assets/img/Snippet-1200%D1%85600-1.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314742105.yollacalls.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Yolla is an international calling app that allows users to make affordable calls to any mobile or landline. With Yolla, calls start at just $0.004 per minute, offering extensive cost savings for those making international connections. The app shows the user's existing phone number when making calls, ensuring that friends and family always recognize them.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314742105.yollacalls.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Yolla is an international calling app that allows users to make affordable calls to any mobile or landline. With Yolla, calls start at just $0.004 per minute, offering extensive cost savings for those making international connections. The app shows the user's existing phone number when making calls, ensuring that friends and family always recognize them.",
     pros: "Very low calling rates|Displays user's regular number|International coverage|Mobile and landline compatibility|Cost-saving focus",
     cons: "Limited to calling features|Pay-as-you-go model|No video capabilities|Less comprehensive than all-in-one platforms|Limited messaging features",
   },
   {
     title: "Bopup IM",
-    url: "https://www.bopup.com/",
+    url: "https://www.bopup.com",
     custom_redirect: "",
     slug: "bopup-im",
     text: "Bopup IM is an enterprise-level client/server chat software designed for secure and private communication over various networks.",
@@ -3697,16 +3143,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.bopup.com/images/index.png",
     thumbnail: "https://www.bopup.com/images/blabs-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314744381.www-bopup.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Bopup IM is a client/server instant messaging system that provides secure chat and encrypted text messaging tailored for businesses. It is equipped with features that ensure private communication over office LANs and wide-range networks, including the ability to manage user accounts and message logging. The software includes the Bopup Communication Server for management, alongside the Bopup Messenger for real-time chat functionality.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314744381.www-bopup.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Bopup IM is a client/server instant messaging system that provides secure chat and encrypted text messaging tailored for businesses. It is equipped with features that ensure private communication over office LANs and wide-range networks, including the ability to manage user accounts and message logging. The software includes the Bopup Communication Server for management, alongside the Bopup Messenger for real-time chat functionality.",
     pros: "Enterprise-level security|Client/server architecture|User account management|Message logging capabilities|Private network communication",
     cons: "Technical setup required|Business focus limits personal use|Server maintenance needed|Subscription cost|Less user-friendly than consumer apps",
   },
   {
     title: "Just Text",
-    url: "http://just-text.webnode.com/",
+    url: "https://just-text.webnode.com",
     custom_redirect: "",
     slug: "just-text",
     text: "Just Text is a service providing users with functionalities for messaging and communication.",
@@ -3717,20 +3161,17 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://fa93b4df17.cbaul-cdnwnd.com/10ce9fdf6a41bc894f0bc47d80904613/200000000-9d06a9dffa/JT1%20%282%29.jpg?ph=fa93b4df17",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314749624.just-text.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Just Text offers users an accessible platform for messaging and communication needs. It prioritizes user experience, striving to make digital communication easier and more efficient. With Just Text, users can expect a reliable connection to stay in touch with others.",
+    thumbnail: "https://fa93b4df17.cbaul-cdnwnd.com/10ce9fdf6a41bc894f0bc47d80904613/200000000-9d06a9dffa/JT1%20%282%29.jpg?ph=fa93b4df17",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314749624.just-text.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Just Text offers users an accessible platform for messaging and communication needs. It prioritizes user experience, striving to make digital communication easier and more efficient. With Just Text, users can expect a reliable connection to stay in touch with others.",
     pros: "Simple text-focused platform|Accessible communication|User experience priority|Efficient messaging|Reliable connection",
     cons: "Limited feature set|Text-only focus|Smaller user base|Less established than major platforms|Limited integration options",
   },
   {
-    title: "QuickCall",
-    url: "https://quickcall.cc/",
+    title: "QuickCall (Video Meetings)",
+    url: "https://quickcall.cc",
     custom_redirect: "",
-    slug: "quickcall",
+    slug: "quickcall-cc",
     text: "QuickCall provides time-limited video conferencing for efficient meetings.",
     Category: "Video Conferencing, Team Collaboration",
     Rank: null,
@@ -3740,16 +3181,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://quickcall.cc/images/banner.png",
     thumbnail: "https://quickcall.cc/images/logo-square.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314755637.quickcall.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "QuickCall is a video conferencing tool focused on time-limited calls to enhance meeting efficiency. It aims to eliminate the frustration of never-ending calls, making it an ideal solution for those seeking to streamline communication. Users can schedule calls seamlessly, ensuring that meetings stay concise and productive.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314755637.quickcall.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "QuickCall is a video conferencing tool focused on time-limited calls to enhance meeting efficiency. It aims to eliminate the frustration of never-ending calls, making it an ideal solution for those seeking to streamline communication. Users can schedule calls seamlessly, ensuring that meetings stay concise and productive.",
     pros: "Time-limited meeting focus|Meeting efficiency enhancement|Seamless scheduling features|Concise communication approach|Never-ending call prevention",
     cons: "Time limitations may be restrictive|May lack advanced features|Less established than major platforms|Limited integration options|Potentially less flexible than alternatives",
   },
   {
     title: "miingl",
-    url: "https://www.miingl.com/",
+    url: "https://www.miingl.com",
     custom_redirect: "",
     slug: "miingl",
     text: "miingl is a platform that facilitates effortless and meaningful connections in a digital environment, prioritizing user engagement and community building.",
@@ -3760,18 +3199,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://miingl.com/wp-content/uploads/2023/01/miingleprimarylogo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314767962.www-miingl.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "miingl offers a digital space where users can easily connect without the hassle of sign-ins, fostering real conversations and building significant relationships. Designed to elevate virtual experiences, miingl prioritizes the human element and cultivates a vibrant community through tailored events and interactive features. This platform empowers organizations to create engaging events that resonate with their audience and strengthen connections.",
+    thumbnail: "https://miingl.com/wp-content/uploads/2023/01/miingleprimarylogo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314767962.www-miingl.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "miingl offers a digital space where users can easily connect without the hassle of sign-ins, fostering real conversations and building significant relationships. Designed to elevate virtual experiences, miingl prioritizes the human element and cultivates a vibrant community through tailored events and interactive features. This platform empowers organizations to create engaging events that resonate with their audience and strengthen connections.",
     pros: "No sign-in requirements|Human-centered design|Community building focus|Tailored event options|Interactive engagement features",
     cons: "Event focus rather than everyday communication|Newer platform (less established)|Possibly limited feature set|Potential learning curve|May lack integration options",
   },
   {
     title: "Glitch",
-    url: "https://www.glitch.fun/",
+    url: "https://www.glitch.fun",
     custom_redirect: "",
     slug: "glitch",
     text: "Glitch is an all-in-one game marketing platform designed to enhance discoverability and drive sales for game developers.",
@@ -3783,16 +3219,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.glitch.fun/assets/images/logo/glitch_3.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314765939.www-glitch.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Glitch is an all-in-one marketing platform specifically tailored for game developers. It helps to enhance a game's discoverability, driving wishlist additions, building hype, and boosting launch sales. Offering comprehensive tools like influencer outreach, media kits, and social media management, Glitch empowers developers to effectively market their games and reach their audience.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314765939.www-glitch.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Glitch is an all-in-one marketing platform specifically tailored for game developers. It helps to enhance a game's discoverability, driving wishlist additions, building hype, and boosting launch sales. Offering comprehensive tools like influencer outreach, media kits, and social media management, Glitch empowers developers to effectively market their games and reach their audience.",
     pros: "Game marketing specialization|Comprehensive marketing tools|Influencer outreach features|Media kit creation|Social media management",
     cons: "Not a communication platform|Gaming industry focus|Different use case than Skype|Marketing rather than messaging|Limited direct communication features",
   },
   {
     title: "Boomcaster",
-    url: "https://boomcaster.com/",
+    url: "https://boomcaster.com",
     custom_redirect: "",
     slug: "boomcaster",
     text: "Boomcaster empowers creators to podcast, vodcast, and livestream with studio-quality recordings.",
@@ -3803,18 +3237,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.boomcaster.com/wp-content/uploads/2021/05/cropped-logo-1.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314776667.boomcaster.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Boomcaster enables creators to podcast, vodcast, and livestream from a single platform, offering studio-quality recordings of audio and video. This service ensures that creators can produce high-definition content while providing the convenience of live streaming. Boomcaster's unique design prioritizes recording quality, alleviating concerns related to internet connectivity during recordings.",
+    thumbnail: "https://www.boomcaster.com/wp-content/uploads/2021/05/cropped-logo-1.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314776667.boomcaster.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Boomcaster enables creators to podcast, vodcast, and livestream from a single platform, offering studio-quality recordings of audio and video. This service ensures that creators can produce high-definition content while providing the convenience of live streaming. Boomcaster's unique design prioritizes recording quality, alleviating concerns related to internet connectivity during recordings.",
     pros: "Studio-quality recordings|Multi-format support (podcast, vodcast, livestream)|Single platform convenience|High-definition content capability|Connection-resilient design",
     cons: "Creator-focused (less for everyday communication)|Specialized use case|Likely subscription required|Different purpose than typical messaging|Learning curve for full utilization",
   },
   {
     title: "OnePgr",
-    url: "http://onepgr.com/",
+    url: "https://onepgr.com",
     custom_redirect: "",
     slug: "onepgr",
     text: "OnePgr is a unified platform that streamlines sales outreach with tools like Email Sequencer and Parallel Dialer.",
@@ -3826,16 +3257,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314786029.onepgr-com.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "OnePgr is designed to enhance sales teams' productivity by providing a unified platform for sales outreach. It includes features such as Email Sequencer, Parallel Dialer, and advanced integrations for diverse communication methods. This platform offers guaranteed inbox deliverability and AI-driven tools to optimize the sales motion effectively.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314786029.onepgr-com.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "OnePgr is designed to enhance sales teams' productivity by providing a unified platform for sales outreach. It includes features such as Email Sequencer, Parallel Dialer, and advanced integrations for diverse communication methods. This platform offers guaranteed inbox deliverability and AI-driven tools to optimize the sales motion effectively.",
     pros: "Unified sales outreach platform|Email Sequencer functionality|Parallel Dialer feature|Guaranteed inbox deliverability|AI-driven optimization tools",
     cons: "Sales-focused (limited general use)|Different use case than standard messaging|Likely subscription required|Limited video collaboration features|Complex for personal communication",
   },
   {
     title: "Foocall",
-    url: "https://www.foocall.com/",
+    url: "https://www.foocall.com",
     custom_redirect: "",
     slug: "foocall",
     text: "Foocall offers low-cost international calls to anyone, anywhere with a simple mobile app.",
@@ -3847,16 +3276,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314787743.www-foocal.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Foocall provides low-cost calls to users around the world, ensuring a seamless calling experience. The service is designed for individuals wanting to connect with friends and family abroad without any surprise charges on their bills. With the FooCall mobile app, making international calls becomes quick and effective.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314787743.www-foocal.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Foocall provides low-cost calls to users around the world, ensuring a seamless calling experience. The service is designed for individuals wanting to connect with friends and family abroad without any surprise charges on their bills. With the FooCall mobile app, making international calls becomes quick and effective.",
     pros: "Low-cost international calling|No surprise charges|Simple mobile app|Global connectivity|Quick and effective calls",
     cons: "Limited to voice calls|No video capabilities|Less comprehensive than all-in-one platforms|Pay-as-you-go model likely|Limited messaging features",
   },
   {
     title: "Basma AI",
-    url: "https://basma.ai/",
+    url: "https://basma.ai",
     custom_redirect: "",
     slug: "basma-ai",
     text: "Basma AI offers an advanced chatbot solution to enhance visitor engagement across multiple platforms.",
@@ -3868,16 +3295,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://basma.ai/wp-content/uploads/2025/03/option1-1.webp",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314801405.basma-ai.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Basma AI provides natural, human-like chatbot interactions to enhance user engagement and satisfaction across platforms. It interprets queries with precision, delivering context-aware responses that streamline communication and support efforts effectively. It offers robust integration capabilities to connect effortlessly with existing tools, enhancing workflows and boosting productivity.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314801405.basma-ai.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Basma AI provides natural, human-like chatbot interactions to enhance user engagement and satisfaction across platforms. It interprets queries with precision, delivering context-aware responses that streamline communication and support efforts effectively. It offers robust integration capabilities to connect effortlessly with existing tools, enhancing workflows and boosting productivity.",
     pros: "Human-like chatbot interactions|Context-aware response system|Cross-platform engagement|Robust integration capabilities|Productivity enhancement",
     cons: "AI-focused rather than human communication|Different use case than Skype|Not for direct person-to-person calls|Chatbot limitations for complex needs|Requires implementation and setup",
   },
   {
     title: "Sprout",
-    url: "https://sprout.place/",
+    url: "https://sprout.place",
     custom_redirect: "",
     slug: "sprout",
     text: "Sprout allows users to create customizable virtual spaces for meetings and social gatherings without requiring any login.",
@@ -3889,16 +3314,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://sprout.place/assets/opengraph_v1.1.1.jpg",
     thumbnail: "https://sprout.place/assets/sprout-logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314798742.sprout-pla.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Sprout is a platform that enables users to meet, create, and play in customizable virtual spaces. Users can video chat, take notes, browse together, and engage with their favorite people without needing to log in. The platform offers various features to personalize and enhance the experience of online meetings and social interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314798742.sprout-pla.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Sprout is a platform that enables users to meet, create, and play in customizable virtual spaces. Users can video chat, take notes, browse together, and engage with their favorite people without needing to log in. The platform offers various features to personalize and enhance the experience of online meetings and social interactions.",
     pros: "No login required|Customizable virtual spaces|Collaborative browsing|Note-taking capabilities|Social interaction focus",
     cons: "May lack advanced security features|Potential quality variations|Less established than major platforms|Limited integration options|Possible stability issues",
   },
   {
     title: "Honk",
-    url: "https://honk.me/",
+    url: "https://honk.me",
     custom_redirect: "",
     slug: "honk",
     text: "Honk provides real-time messaging for chatting with friends.",
@@ -3910,16 +3333,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: "https://honk.me/favicon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314810170.honk-me.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Honk is a real-time messaging application that enables users to chat with friends as messages appear live while typing. It offers a seamless communication experience and focuses on enhancing the connection between users. This platform is designed for those who value immediate interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314810170.honk-me.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Honk is a real-time messaging application that enables users to chat with friends as messages appear live while typing. It offers a seamless communication experience and focuses on enhancing the connection between users. This platform is designed for those who value immediate interactions.",
     pros: "Real-time live typing visibility|Immediate interaction focus|Seamless messaging experience|Enhanced user connection|Casual communication emphasis",
     cons: "Limited to messaging (no video)|Smaller user base than mainstream apps|May lack advanced features|Limited business applications|Possible privacy concerns with live typing",
   },
   {
     title: "DekkoSecure",
-    url: "https://dekkosecure.com/",
+    url: "https://dekkosecure.com",
     custom_redirect: "",
     slug: "dekkosecure",
     text: "DekkoSecure is a zero-knowledge platform for secure collaboration with end-to-end encryption, designed for organizations managing complex workflows.",
@@ -3931,16 +3352,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.dekkosecure.com/hubfs/Group.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314826466.dekkosecur.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "DekkoSecure offers a zero-knowledge platform that allows organizations to collaborate, share, and manage complex workflows seamlessly. With its emphasis on secure collaboration and end-to-end encryption, the platform ensures that organizations can manage their workflows with confidence. DekkoSecure's features cater particularly to the needs of businesses looking to enhance their operational security.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314826466.dekkosecur.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "DekkoSecure offers a zero-knowledge platform that allows organizations to collaborate, share, and manage complex workflows seamlessly. With its emphasis on secure collaboration and end-to-end encryption, the platform ensures that organizations can manage their workflows with confidence. DekkoSecure's features cater particularly to the needs of businesses looking to enhance their operational security.",
     pros: "Zero-knowledge security architecture|End-to-end encryption|Complex workflow management|Business security focus|Seamless collaboration tools",
     cons: "Enterprise pricing likely|Complex implementation|Organizational focus limits personal use|Learning curve for users|Advanced security may reduce convenience",
   },
   {
     title: "Gem Space",
-    url: "https://gemspace.com/",
+    url: "https://gemspace.com",
     custom_redirect: "",
     slug: "gem-space",
     text: "Gem Space is a secure and private messaging app that offers high-quality audio and video calls.",
@@ -3952,16 +3371,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://gemspace.com/og-image.png",
     thumbnail: "https://gemspace.com/og-image.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314830444.gemspace-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Gem Space is a highly secure and private messaging app designed for effective communication. It provides instant chatting features along with high-quality audio and video calls, as well as screen sharing capabilities. Users can rely on Gem Space for their messaging needs, ensuring their conversations remain private and secure.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314830444.gemspace-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Gem Space is a highly secure and private messaging app designed for effective communication. It provides instant chatting features along with high-quality audio and video calls, as well as screen sharing capabilities. Users can rely on Gem Space for their messaging needs, ensuring their conversations remain private and secure.",
     pros: "Strong privacy focus|High-quality audio/video calls|Screen sharing capabilities|Instant messaging features|Effective communication tools",
     cons: "Less established than major platforms|Possible feature limitations|Smaller user base|Limited integration options|May require subscription",
   },
   {
     title: "AnySend",
-    url: "https://www.anysend.com/",
+    url: "https://www.anysend.com",
     custom_redirect: "",
     slug: "anysend",
     text: "AnySend is an AI-based multimedia messenger that enables users to send anything securely, including messages and payments, anytime and anywhere.",
@@ -3971,20 +3388,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://static.wixstatic.com/media/3b5446_ea3370038361435a934ec45d909db862%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3b5446_ea3370038361435a934ec45d909db862%7Emv2.png",
-    thumbnail:
-      "https://static.wixstatic.com/media/3b5446_e1e14d9c1fde4d0f9765e5246afb4862~mv2.jpg/v1/crop/x_0,y_3,w_1168,h_1168/fill/w_208,h_206,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/AnySend_logo_6_edited.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314839857.www-anysen.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "AnySend is an AI-based multimedia messenger designed to facilitate the secure sending of various types of content, from messages to payments, across different platforms. Users can experience seamless communication features, including secure payments in fiat and cryptocurrencies. This innovative technology allows users to manage all their messaging needs in one place, effectively combating the spread of misinformation.",
+    images: "https://static.wixstatic.com/media/3b5446_ea3370038361435a934ec45d909db862%7Emv2.png/v1/fit/w_2500,h_1330,al_c/3b5446_ea3370038361435a934ec45d909db862%7Emv2.png",
+    thumbnail: "https://static.wixstatic.com/media/3b5446_e1e14d9c1fde4d0f9765e5246afb4862~mv2.jpg/v1/crop/x_0,y_3,w_1168,h_1168/fill/w_208,h_206,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/AnySend_logo_6_edited.jpg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314839857.www-anysen.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "AnySend is an AI-based multimedia messenger designed to facilitate the secure sending of various types of content, from messages to payments, across different platforms. Users can experience seamless communication features, including secure payments in fiat and cryptocurrencies. This innovative technology allows users to manage all their messaging needs in one place, effectively combating the spread of misinformation.",
     pros: "AI-powered multimedia capabilities|Secure payment integration|Cross-platform functionality|Misinformation combat features|All-in-one messaging solution",
     cons: "Likely subscription required|Complex feature set may overwhelm|Less established than major platforms|Potential learning curve|AI dependency concerns",
   },
   {
     title: "Menetalk",
-    url: "http://www.menetalk.com/",
+    url: "https://www.menetalk.com",
     custom_redirect: "",
     slug: "menetalk",
     text: "Menetalk offers a scalable business phone system that grows alongside a business's needs.",
@@ -3996,16 +3409,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://menetalk.com/wp-content/uploads/2023/02/fave.png",
     thumbnail: "https://menetalk.com/wp-content/uploads/2023/02/06.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747317482626.www-meneta.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Menetalk provides a business phone system that adapts to the size of any organization, whether small or large. This system allows businesses to grow without the hassle, ensuring that communications effectively support their success. It is designed to be the right fit at every stage of business development.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747317482626.www-meneta.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Menetalk provides a business phone system that adapts to the size of any organization, whether small or large. This system allows businesses to grow without the hassle, ensuring that communications effectively support their success. It is designed to be the right fit at every stage of business development.",
     pros: "Scalable for business growth|Adaptable to organization size|Hassle-free communication|Business development support|Flexible system design",
     cons: "Business-focused (not for personal use)|Subscription required|Limited video capabilities|Phone-centric rather than comprehensive|Less established than major providers",
   },
   {
     title: "Linkello",
-    url: "https://linkello.com/",
+    url: "https://linkello.com",
     custom_redirect: "",
     slug: "linkello",
     text: "Linkello offers one-click audio and video call services that prioritize data protection and security.",
@@ -4015,20 +3426,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://static.wixstatic.com/media/45760c_9216da20e85242cdba2460d7e6e6d209%7Emv2.png/v1/fit/w_2500,h_1330,al_c/45760c_9216da20e85242cdba2460d7e6e6d209%7Emv2.png",
-    thumbnail:
-      "https://static.wixstatic.com/media/45760c_18d8f39df09a4bf78e86d14e2d1ca1b1%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/45760c_18d8f39df09a4bf78e86d14e2d1ca1b1%7Emv2.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314855653.linkello-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Linkello provides comprehensive audio and video calling solutions that can be accessed with just one click. The platform emphasizes data security, hosting all services in Europe while ensuring compliance with GDPR regulations. It caters to various use cases including web use, mobile devices, and connected objects, making it a versatile choice for all communication needs.",
+    images: "https://static.wixstatic.com/media/45760c_9216da20e85242cdba2460d7e6e6d209%7Emv2.png/v1/fit/w_2500,h_1330,al_c/45760c_9216da20e85242cdba2460d7e6e6d209%7Emv2.png",
+    thumbnail: "https://static.wixstatic.com/media/45760c_18d8f39df09a4bf78e86d14e2d1ca1b1%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/45760c_18d8f39df09a4bf78e86d14e2d1ca1b1%7Emv2.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314855653.linkello-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Linkello provides comprehensive audio and video calling solutions that can be accessed with just one click. The platform emphasizes data security, hosting all services in Europe while ensuring compliance with GDPR regulations. It caters to various use cases including web use, mobile devices, and connected objects, making it a versatile choice for all communication needs.",
     pros: "One-click call initiation|European-hosted security|GDPR compliance|Multi-device compatibility|Versatile use case support",
     cons: "European focus may limit global appeal|Likely subscription required|Less established than major platforms|May have feature limitations|Possible regional restrictions",
   },
   {
     title: "Galene",
-    url: "https://galene.org/",
+    url: "https://galene.org",
     custom_redirect: "",
     slug: "galene",
     text: "Galene is a free and open-source WebRTC videoconference server suitable for various communication needs.",
@@ -4040,16 +3447,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://galene.org/images/nlnet.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314871453.galene-org.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Galene is a free and open-source WebRTC videoconference server designed for easy deployment with modest server resource requirements. It is especially useful for lectures, conferences, and meetings, having been employed in production at major universities for various academic purposes. As a versatile solution, it supports a range of features like audio/video streaming and text chat, making it a valuable tool for team collaboration.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314871453.galene-org.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Galene is a free and open-source WebRTC videoconference server designed for easy deployment with modest server resource requirements. It is especially useful for lectures, conferences, and meetings, having been employed in production at major universities for various academic purposes. As a versatile solution, it supports a range of features like audio/video streaming and text chat, making it a valuable tool for team collaboration.",
     pros: "Free and open-source|Easy deployment|Low resource requirements|Academic production proven|Versatile feature support",
     cons: "Technical knowledge for setup|Self-hosting management needed|May lack commercial support|Less polished than commercial options|Development community limitations",
   },
   {
     title: "Video4sure",
-    url: "https://www.video4sure.com/",
+    url: "https://www.video4sure.com",
     custom_redirect: "",
     slug: "video4sure",
     text: "Video4sure offers easy, free, and secure video calls, allowing users to communicate with loved ones while protecting their identity.",
@@ -4061,10 +3466,8 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314883104.www-video4.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Video4sure simplifies video calls, providing a free and secure way to connect with dear ones without the need for login credentials. It ensures user identities are protected, allowing for communication in a secure environment. This makes video4sure a trusted choice for personal interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314883104.www-video4.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Video4sure simplifies video calls, providing a free and secure way to connect with dear ones without the need for login credentials. It ensures user identities are protected, allowing for communication in a secure environment. This makes video4sure a trusted choice for personal interactions.",
     pros: "Free to use|No login required|Identity protection|Secure communication environment|Simple video calling",
     cons: "May lack advanced features|Possible quality limitations|Less established than major platforms|Limited business applications|May have participant restrictions",
   },
@@ -4080,43 +3483,35 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://cdn.prod.website-files.com/6048e45faa378d2a5d047448/67d23807fe9c0a2db7c54839_OG_Image.jpg",
-    thumbnail:
-      "https://cdn.prod.website-files.com/6048e45faa378d2a5d047448/60c1d4cccd369078acc15a4c_Logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314920673.demodesk-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Demodesk is a cutting-edge Sales AI platform that transforms the way sales teams operate. With AI Sales Agents, it records, transcribes, and analyzes conversations, automating note-taking and CRM updates. The platform provides personalized coaching and real-time insights to help sales representatives increase their efficiency and achieve better results.",
+    images: "https://cdn.prod.website-files.com/6048e45faa378d2a5d047448/67d23807fe9c0a2db7c54839_OG_Image.jpg",
+    thumbnail: "https://cdn.prod.website-files.com/6048e45faa378d2a5d047448/60c1d4cccd369078acc15a4c_Logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314920673.demodesk-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Demodesk is a cutting-edge Sales AI platform that transforms the way sales teams operate. With AI Sales Agents, it records, transcribes, and analyzes conversations, automating note-taking and CRM updates. The platform provides personalized coaching and real-time insights to help sales representatives increase their efficiency and achieve better results.",
     pros: "AI-powered sales assistance|Automated note-taking|CRM integration|Personalized coaching features|Real-time conversation analytics",
     cons: "Sales-specific focus|Different use case than general communication|Likely subscription required|Learning curve for implementation|Complex for personal use",
   },
   {
     title: "Dust",
-    url: "https://usedust.com/",
+    url: "https://usedust.com",
     custom_redirect: "",
     slug: "dust",
     text: "Dust is a secure messenger that provides private communication, web search, and identity theft protection tools.",
-    Category:
-      "Secure Messaging, Personal Communication, Business Phone Systems",
+    Category: "Secure Messaging, Personal Communication, Business Phone Systems",
     Rank: null,
     Hide: false,
     isFree: false,
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://usedust.com/wp-content/themes/dust/favicon/favicon-32x32.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314920824.usedust-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Dust is a suite of digital safety tools designed to ensure private communication, safeguard web searches, and protect against identity theft. The app features encrypted messaging, a watchdog service for data breaches, and stealth search capabilities, all aimed at giving users control over their digital safety. By prioritizing anonymity and security, Dust helps individuals own their world.",
+    thumbnail: "https://usedust.com/wp-content/themes/dust/favicon/favicon-32x32.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314920824.usedust-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Dust is a suite of digital safety tools designed to ensure private communication, safeguard web searches, and protect against identity theft. The app features encrypted messaging, a watchdog service for data breaches, and stealth search capabilities, all aimed at giving users control over their digital safety. By prioritizing anonymity and security, Dust helps individuals own their world.",
     pros: "Strong encryption security|Identity theft protection|Private web search capabilities|Data breach monitoring|Comprehensive digital safety",
     cons: "May require subscription|Smaller user base than mainstream apps|Less established ecosystem|Potentially complex feature set|Limited integration options",
   },
   {
     title: "Orbital",
-    url: "https://orbital.chat/",
+    url: "https://orbital.chat",
     custom_redirect: "",
     slug: "orbital",
     text: "Orbital is an all-in-one communication space builder designed for teams that prioritize connection and creativity.",
@@ -4128,21 +3523,18 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://orbital.chat/images/opengraph-jun2022.jpg",
     thumbnail: "https://orbital.chat/images/2020-11-logo-new-neon.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747314930530.orbital-ch.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Orbital offers a virtual work and play experience that is designed to feel more natural and productive. It is an all-in-one communication space builder meant for teams that value connection, creativity, and fostering a vibrant culture. This platform transforms the way teams collaborate, making it more engaging and human-centered.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747314930530.orbital-ch.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Orbital offers a virtual work and play experience that is designed to feel more natural and productive. It is an all-in-one communication space builder meant for teams that value connection, creativity, and fostering a vibrant culture. This platform transforms the way teams collaborate, making it more engaging and human-centered.",
     pros: "Natural virtual collaboration|Creative space building|Team culture enhancement|Human-centered design|Engaging work environment",
     cons: "May require subscription|Learning curve for full utilization|Less established than major platforms|Possible feature limitations|May need team-wide adoption",
   },
   {
     title: "Jio",
-    url: "https://www.jio.com/",
+    url: "https://www.jio.com",
     custom_redirect: "",
     slug: "jio",
     text: "Jio is India's largest telecom network, providing a range of prepaid and postpaid plans, WiFi services, and mobile apps.",
-    Category:
-      "Business Phone Systems, Personal Communication, Secure Messaging",
+    Category: "Business Phone Systems, Personal Communication, Secure Messaging",
     Rank: null,
     Hide: false,
     isFree: false,
@@ -4150,39 +3542,33 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://jep-asset.akamaized.net/jio/svg-og/jio_logo.png",
     thumbnail: "https://jep-asset.akamaized.net/jio/svg-og/jio_logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315210219.www-jio-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Jio is the leading telecom network in India, catering to both consumers and businesses. It offers a variety of services, including prepaid and postpaid connections, WiFi plans, and mobile applications, making it a comprehensive solution for telecommunications. With the aim of connecting people more effectively, Jio continues to expand its reach and services across the country.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315210219.www-jio-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Jio is the leading telecom network in India, catering to both consumers and businesses. It offers a variety of services, including prepaid and postpaid connections, WiFi plans, and mobile applications, making it a comprehensive solution for telecommunications. With the aim of connecting people more effectively, Jio continues to expand its reach and services across the country.",
     pros: "India's largest telecom network|Comprehensive service range|Both consumer and business options|Mobile app ecosystem|Affordable connectivity",
     cons: "Primarily India-focused|May have regional limitations|Less relevant outside South Asia|Telecom-focused rather than just messaging|May require Jio subscription",
   },
   {
     title: "unremot",
-    url: "https://unremot.com/",
+    url: "https://unremot.com",
     custom_redirect: "",
     slug: "unremot",
     text: "This platform enables users to integrate AI/ML APIs quickly, using minimal to no code.",
-    Category:
-      "Team Collaboration, Personal Communication, Business Phone Systems",
+    Category: "Team Collaboration, Personal Communication, Business Phone Systems",
     Rank: null,
     Hide: false,
     isFree: false,
     verified: false,
     premium: false,
     images: "https://unremot.com/favicon.png",
-    thumbnail:
-      "https://unremot.com/static/media/ft-logo.ffbbecb7f13dfb1a144c942ed417133a.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315215777.unremot-co.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Unremot allows users to build and launch AI applications in a fraction of the time and cost traditionally required. By facilitating the integration of AI and machine learning APIs with minimal coding or no coding at all, it streamlines the development process and enhances productivity. This service offers a user-friendly approach for individuals and businesses looking to harness the power of AI technologies efficiently.",
+    thumbnail: "https://unremot.com/static/media/ft-logo.ffbbecb7f13dfb1a144c942ed417133a.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315215777.unremot-co.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Unremot allows users to build and launch AI applications in a fraction of the time and cost traditionally required. By facilitating the integration of AI and machine learning APIs with minimal coding or no coding at all, it streamlines the development process and enhances productivity. This service offers a user-friendly approach for individuals and businesses looking to harness the power of AI technologies efficiently.",
     pros: "No-code AI integration|Time and cost efficiency|Streamlined development|User-friendly approach|AI technology accessibility",
     cons: "Not primarily a communication platform|Different use case than Skype|Development focus rather than messaging|Technical orientation|Limited direct messaging features",
   },
   {
     title: "ginlo",
-    url: "http://www.ginlo.net/",
+    url: "https://www.ginlo.net",
     custom_redirect: "",
     slug: "ginlo",
     text: "ginlo is a secure messaging platform designed for businesses and private users, ensuring encrypted communication for sensitive information.",
@@ -4193,18 +3579,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: null,
-    thumbnail:
-      "https://www.ginlo.net/wp-content/uploads/cropped-ginlo.net-Logoschriftzug.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315211528.www-ginlo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "ginlo is a secure business messenger made and hosted in Germany. It offers end-to-end encryption, is GDPR-compliant, and is user-friendly, making it suitable for both personal and professional communication. With a focus on privacy, ginlo aims to protect sensitive data and streamline organizational communication.",
+    thumbnail: "https://www.ginlo.net/wp-content/uploads/cropped-ginlo.net-Logoschriftzug.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315211528.www-ginlo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "ginlo is a secure business messenger made and hosted in Germany. It offers end-to-end encryption, is GDPR-compliant, and is user-friendly, making it suitable for both personal and professional communication. With a focus on privacy, ginlo aims to protect sensitive data and streamline organizational communication.",
     pros: "German-hosted security|End-to-end encryption|GDPR compliance|Business and personal options|User-friendly design",
     cons: "May have regional limitations|Subscription likely required|Less global recognition|Limited integration options|Possible feature constraints",
   },
   {
     title: "QuteCom",
-    url: "http://wayback.archive.org/web/20150320151823/http://qutecom.org/",
+    url: "https://wayback.archive.org/web/20150320151823/http://qutecom.org",
     custom_redirect: "",
     slug: "qutecom",
     text: "QuteCom is a software solution for VoIP and embedded services, providing essential tools for community contributions and engagement.",
@@ -4216,39 +3599,33 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "http://qutecom.org/chrome/common/trac.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315233729.qutecom-or.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "QuteCom is a software platform that offers all the necessary resources for community contributions to enhance its services. It is supported by MBDsys, which is a leading solution provider for VoIP and embedded services. Users can access binaries for various operating systems and participate in the development of new features.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315233729.qutecom-or.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "QuteCom is a software platform that offers all the necessary resources for community contributions to enhance its services. It is supported by MBDsys, which is a leading solution provider for VoIP and embedded services. Users can access binaries for various operating systems and participate in the development of new features.",
     pros: "Open for community contributions|VoIP specialization|Multi-OS support|Embedded service capabilities|Community-driven development",
     cons: "Appears archived (not actively maintained)|Limited current support|Likely outdated features|Technical knowledge required|Smaller user base",
   },
   {
     title: "Vast Conference",
-    url: "https://www.conferencecalling.com/",
+    url: "https://www.conferencecalling.com",
     custom_redirect: "",
     slug: "vast-conference",
     text: "Vast Conference provides an easy-to-use conference calling solution with scalable audio, video, and live streaming functionalities for seamless meetings on any device.",
-    Category:
-      "Team Collaboration, Video Conferencing, Conference Call Services",
+    Category: "Team Collaboration, Video Conferencing, Conference Call Services",
     Rank: null,
     Hide: false,
     isFree: false,
     verified: false,
     premium: false,
     images: "https://www.conferencecalling.com/vast-og-image.jpg",
-    thumbnail:
-      "https://www.conferencecalling.com/favicon-32x32.png?v=44a4700e383549783dad687bed0f080c",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315225385.www-confer.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Vast Conference is an intuitive conference calling provider that simplifies meetings with scalable audio, video, and live streaming capabilities. The cloud-based software enhances the quality of conference calls, ensuring teams can connect easily from any device. Its user-friendly interface streamlines the onboarding process and improves overall communication efficiency.",
+    thumbnail: "https://www.conferencecalling.com/favicon-32x32.png?v=44a4700e383549783dad687bed0f080c",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315225385.www-confer.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Vast Conference is an intuitive conference calling provider that simplifies meetings with scalable audio, video, and live streaming capabilities. The cloud-based software enhances the quality of conference calls, ensuring teams can connect easily from any device. Its user-friendly interface streamlines the onboarding process and improves overall communication efficiency.",
     pros: "Intuitive user interface|Cross-device compatibility|Scalable meeting options|Live streaming capability|Cloud-based reliability",
     cons: "Likely subscription required|Conference-focused (less casual)|May have participant limitations|Less established than major platforms|Possible feature constraints",
   },
   {
     title: "FLOOR",
-    url: "https://floor.bz/",
+    url: "https://floor.bz",
     custom_redirect: "",
     slug: "floor",
     text: "FLOOR is an all-in-one community platform designed to build, manage, and host engaging events.",
@@ -4260,16 +3637,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://floor.bz/wp-content/uploads/2022/01/seamo.jpg",
     thumbnail: "https://floor.bz/wp-content/uploads/2021/02/floor_logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315245971.floor-bz.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "FLOOR is an all-in-one community platform that enables users to create, manage, and host various events such as conferences, workshops, and community discussions. It offers tools for engaging experiences and effective communication within communities. The platform is trusted by community creators and is designed to foster connection and interaction among members.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315245971.floor-bz.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "FLOOR is an all-in-one community platform that enables users to create, manage, and host various events such as conferences, workshops, and community discussions. It offers tools for engaging experiences and effective communication within communities. The platform is trusted by community creators and is designed to foster connection and interaction among members.",
     pros: "All-in-one community tools|Event management capabilities|Engagement-focused features|Community building design|Trusted by creators",
     cons: "Event-focused rather than everyday messaging|Likely subscription required|Different use case than direct messaging|Learning curve for hosts|May have feature limitations",
   },
   {
     title: "Smoke",
-    url: "https://textbrowser.github.io/smoke/",
+    url: "https://textbrowser.github.io/smoke",
     custom_redirect: "",
     slug: "smoke",
     text: "Smoke is an open-source communication project designed to facilitate secure and decentralized messaging.",
@@ -4281,16 +3656,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315238899.textbrowse.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Smoke is an open-source communication project that introduces and investigates the Echo protocol on mobile technologies. It boasts multiple features such as encrypted communications, preservation of contacts without registration, and the ability to operate without internet connectivity. This software provides a unique approach to decentralized messaging with minimal dependencies.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315238899.textbrowse.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Smoke is an open-source communication project that introduces and investigates the Echo protocol on mobile technologies. It boasts multiple features such as encrypted communications, preservation of contacts without registration, and the ability to operate without internet connectivity. This software provides a unique approach to decentralized messaging with minimal dependencies.",
     pros: "Open-source transparency|Echo protocol innovation|No registration required|Works without internet|Minimal dependencies",
     cons: "Limited mainstream adoption|Smaller development community|Possible stability issues|Technical knowledge required|Less polished than commercial options",
   },
   {
     title: "Voptop",
-    url: "https://www.voptop.com/",
+    url: "https://www.voptop.com",
     custom_redirect: "",
     slug: "voptop",
     text: "Voptop is a private and anonymous end-to-end encrypted telephony service utilizing a decentralized network.",
@@ -4301,18 +3674,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.voptop.com/user-upload/images/voptop_logo_website.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315245216.www-voptop.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Voptop offers private and anonymous end-to-end encrypted telephony within a decentralized network. The service is designed to allow users to communicate privately and anonymously, preventing eavesdropping on calls. Voptop is free of charge for private users, making it an accessible choice for secure communications.",
+    thumbnail: "https://www.voptop.com/user-upload/images/voptop_logo_website.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315245216.www-voptop.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Voptop offers private and anonymous end-to-end encrypted telephony within a decentralized network. The service is designed to allow users to communicate privately and anonymously, preventing eavesdropping on calls. Voptop is free of charge for private users, making it an accessible choice for secure communications.",
     pros: "Free for private users|End-to-end encryption|Anonymous communication|Decentralized network|Anti-eavesdropping design",
     cons: "Smaller user base than mainstream apps|Possible quality variations|Limited feature set|May lack comprehensive support|Potentially complex for beginners",
   },
   {
     title: "TinyChat",
-    url: "https://tinychat.com/",
+    url: "https://tinychat.com",
     custom_redirect: "",
     slug: "tinychat",
     text: "TinyChat is an anonymous random video chat platform that allows users to connect instantly without any sign-up or downloads.",
@@ -4322,20 +3692,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://tinychat.com/wp-content/uploads/2025/05/tinychat-header-new-1.jpg",
-    thumbnail:
-      "https://tinychat.com/wp-content/uploads/2023/11/Tinychat-logo-1280x284-new-white-1024x227.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315248201.tinychat-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TinyChat makes it easy to meet new people instantly through free, anonymous random video chat—no sign-up, no downloads, and no hassle. With just one click, users can connect face-to-face with strangers from around the world directly in their browsers. The platform is designed to be simple and user-friendly, ensuring a safe space for real connections.",
+    images: "https://tinychat.com/wp-content/uploads/2025/05/tinychat-header-new-1.jpg",
+    thumbnail: "https://tinychat.com/wp-content/uploads/2023/11/Tinychat-logo-1280x284-new-white-1024x227.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315248201.tinychat-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TinyChat makes it easy to meet new people instantly through free, anonymous random video chat—no sign-up, no downloads, and no hassle. With just one click, users can connect face-to-face with strangers from around the world directly in their browsers. The platform is designed to be simple and user-friendly, ensuring a safe space for real connections.",
     pros: "No sign-up required|Browser-based (no downloads)|One-click connection|Anonymous chatting option|Global user connectivity",
     cons: "Random connections may be unpredictable|Limited privacy controls|Potential unwanted interactions|Less suitable for professional use|May include advertisements",
   },
   {
     title: "Corvum",
-    url: "https://corvum.io/",
+    url: "https://corvum.io",
     custom_redirect: "",
     slug: "corvum",
     text: "Corvum offers VoIP phone and texting services tailored for law firms, enabling attorneys to focus on their practice without micromanaging their phone systems.",
@@ -4346,18 +3712,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://corvum.io/wp-content/uploads/2024/10/COR_Wordmark_RGB_Small150PX.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315266096.corvum-io.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Corvum provides VoIP phone and texting services specifically designed for law firms. This service aims to help attorneys regain focus on their legal practice rather than micromanage their phone systems. With a 14-day free trial and numerous features, it caters particularly well to small to medium-sized legal professionals.",
+    thumbnail: "https://corvum.io/wp-content/uploads/2024/10/COR_Wordmark_RGB_Small150PX.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315266096.corvum-io.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Corvum provides VoIP phone and texting services specifically designed for law firms. This service aims to help attorneys regain focus on their legal practice rather than micromanage their phone systems. With a 14-day free trial and numerous features, it caters particularly well to small to medium-sized legal professionals.",
     pros: "Law firm specialization|14-day free trial|Focus on attorney productivity|Phone system simplification|Small to medium firm optimization",
     cons: "Industry-specific (limited general appeal)|Subscription after trial|Limited video capabilities|Niche market focus|May lack features of broader platforms",
   },
   {
     title: "ToTok",
-    url: "https://totok.ai/",
+    url: "https://totok.ai",
     custom_redirect: "",
     slug: "totok",
     text: "ToTok offers free, unlimited HD voice and video calls alongside secure messaging features.",
@@ -4369,16 +3732,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://static.totok.ai/pic/preview/free_unblocked_call.png",
     thumbnail: "https://totok.ai/img/ic_home_totok.fbce05c4.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315263415.totok-ai.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "ToTok provides users with free, unblocked HD voice and video calling, allowing them to connect with loved ones effortlessly. The app supports group calls and conference calls with up to 20 participants, making it ideal for families and friends. With enhanced security and messaging features, ToTok ensures a seamless and enjoyable communication experience for its users.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315263415.totok-ai.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "ToTok provides users with free, unblocked HD voice and video calling, allowing them to connect with loved ones effortlessly. The app supports group calls and conference calls with up to 20 participants, making it ideal for families and friends. With enhanced security and messaging features, ToTok ensures a seamless and enjoyable communication experience for its users.",
     pros: "Free unlimited HD calls|Up to 20 participant groups|Enhanced security features|Unblocked global access|Seamless user experience",
     cons: "Privacy concerns have been raised|Potential regulatory issues|Limited integration options|May face regional restrictions|Less established than major platforms",
   },
   {
     title: "Camfrog",
-    url: "https://www.camshare.com/",
+    url: "https://www.camshare.com",
     custom_redirect: "",
     slug: "camfrog",
     text: "Camfrog provides free video chat rooms and online group chats to meet strangers and connect with friends.",
@@ -4388,19 +3749,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.camfrog.com/images/opengraph/cf_opengraph_profiles_download.png",
+    images: "https://www.camfrog.com/images/opengraph/cf_opengraph_profiles_download.png",
     thumbnail: "https://www.camfrog.com/en/images/level-access-icon-blue.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315265030.www-camsha.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Camfrog offers free video chat rooms, online group chat, and video conferencing capabilities, allowing users to connect with millions of individuals worldwide. As a popular platform, it enables individuals to meet new friends online through live webcams and chat rooms. Camfrog is designed to provide a fun and engaging way to communicate and socialize with others.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315265030.www-camsha.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Camfrog offers free video chat rooms, online group chat, and video conferencing capabilities, allowing users to connect with millions of individuals worldwide. As a popular platform, it enables individuals to meet new friends online through live webcams and chat rooms. Camfrog is designed to provide a fun and engaging way to communicate and socialize with others.",
     pros: "Free video chat rooms|Global user community|Group chat capabilities|Live webcam interactions|No download required",
     cons: "Potential privacy concerns|Variable chat moderation|Possible unwanted interactions|Limited professional features|User interface may feel dated",
   },
   {
     title: "Hostpoint",
-    url: "https://www.hostpoint.ch/",
+    url: "https://www.hostpoint.ch",
     custom_redirect: "",
     slug: "hostpoint",
     text: "Hostpoint is the largest Swiss web hosting provider managing over a million domain names with a stable and modern infrastructure.",
@@ -4412,16 +3770,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.hostpoint.ch/opengraph.de-ch.png",
     thumbnail: "https://www.hostpoint.ch/image/hostpoint-logo-white.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315281417.www-hostpo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Hostpoint is recognized as the largest web hosting provider in Switzerland, overseeing more than one million domain names. The company is committed to providing a stable and modern infrastructure, which ensures a secure environment for hosting services. Hostpoint strives to offer the best support and consultancy to help clients successfully manage their online presence.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315281417.www-hostpo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Hostpoint is recognized as the largest web hosting provider in Switzerland, overseeing more than one million domain names. The company is committed to providing a stable and modern infrastructure, which ensures a secure environment for hosting services. Hostpoint strives to offer the best support and consultancy to help clients successfully manage their online presence.",
     pros: "Leading Swiss hosting provider|Stable modern infrastructure|Over one million domains managed|Strong security focus|Excellence in customer support",
     cons: "Primarily a hosting service (not direct communication)|Swiss focus may limit global appeal|Different core business than messaging|Hosting costs rather than free messaging|Not primarily designed for video calls",
   },
   {
     title: "Collabify",
-    url: "https://collabify.app/",
+    url: "https://collabify.app",
     custom_redirect: "",
     slug: "collabify",
     text: "Collabify serves as a virtual office designed for remote teams, offering features like video meetings, screen sharing, and chat functionalities.",
@@ -4432,18 +3788,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://collabify.app/collabify-opengraph.png",
-    thumbnail:
-      "https://collabify.app/favicon-32x32.png?v=b8069772c7218083d800e39a4bab582f",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315281465.collabify.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Collabify is a collaboration hub designed for remote workers and distributed teams. It integrates various tools such as video meetings, screen sharing, voice channels, and chat functionalities, providing a comprehensive solution for remote collaboration. This platform enables teams to work together efficiently from anywhere, enhancing productivity and communication.",
+    thumbnail: "https://collabify.app/favicon-32x32.png?v=b8069772c7218083d800e39a4bab582f",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315281465.collabify.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Collabify is a collaboration hub designed for remote workers and distributed teams. It integrates various tools such as video meetings, screen sharing, voice channels, and chat functionalities, providing a comprehensive solution for remote collaboration. This platform enables teams to work together efficiently from anywhere, enhancing productivity and communication.",
     pros: "Virtual office environment|Remote team optimization|Integrated collaboration tools|Screen sharing capabilities|Voice channel features",
     cons: "Likely subscription required|May need team-wide adoption|Potential learning curve|Less established than major platforms|Possible feature limitations",
   },
   {
     title: "GetFire",
-    url: "https://getfire.net/",
+    url: "https://getfire.net",
     custom_redirect: "",
     slug: "getfire",
     text: "GetFire is a versatile chat and sharing application that facilitates public and private conversations on both desktop and mobile devices.",
@@ -4455,16 +3808,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.getfire.net/base.jpg",
     thumbnail: "https://www.getfire.net/base.jpg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315282288.getfire-ne.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "GetFire is recognized as one of the world's leading chat and sharing applications. It enables users to engage in both public and private conversations seamlessly, whether on desktop or mobile, without the hassle of downloading or purchasing any software. This innovative solution allows for consistent connectivity with ease of use.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315282288.getfire-ne.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "GetFire is recognized as one of the world's leading chat and sharing applications. It enables users to engage in both public and private conversations seamlessly, whether on desktop or mobile, without the hassle of downloading or purchasing any software. This innovative solution allows for consistent connectivity with ease of use.",
     pros: "No software purchase required|Cross-platform compatibility|Both public and private chat options|Seamless conversation handling|Easy sharing capabilities",
     cons: "Less known than mainstream alternatives|Possible feature limitations|Smaller user community|Limited integration options|May lack advanced security features",
   },
   {
     title: "Rockliffe",
-    url: "https://www.rockliffe.com/",
+    url: "https://www.rockliffe.com",
     custom_redirect: "",
     slug: "rockliffe",
     text: "Rockliffe develops reliable mobile communication software for service providers, enterprises, and consumers.",
@@ -4476,16 +3827,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.rockliffe.com/img/rockliffe.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315296893.www-rockli.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Rockliffe is a privately owned company dedicated to building rock solid mobile communication software designed for service providers, enterprises, and consumers. They specialize in various communication solutions, including secure chat and messaging platforms. With decades of experience, Rockliffe focuses on delivering high-quality email and chat software to enhance user communication.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315296893.www-rockli.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Rockliffe is a privately owned company dedicated to building rock solid mobile communication software designed for service providers, enterprises, and consumers. They specialize in various communication solutions, including secure chat and messaging platforms. With decades of experience, Rockliffe focuses on delivering high-quality email and chat software to enhance user communication.",
     pros: "Decades of industry experience|Enterprise-grade reliability|Mobile-optimized solutions|Multi-audience approach|High-quality email and chat focus",
     cons: "Potentially premium pricing|Less known than major platforms|May have compatibility limitations|Possible technical complexity|Limited consumer recognition",
   },
   {
     title: "Emoty",
-    url: "https://emotyco.github.io/",
+    url: "https://emotyco.github.io",
     custom_redirect: "",
     slug: "emoty",
     text: "Emoty is a messaging application that emphasizes simplicity, freedom, and safety.",
@@ -4497,16 +3846,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://emotyco.github.io/images/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315297670.emotyco-gi.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Emoty is a messaging application designed to prioritize simplicity, freedom, and safety. This application offers a clean interface that caters to user needs, while ensuring full privacy and no censorship. Emoty is truly decentralized and utilizes advanced encryption algorithms for enhanced security.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315297670.emotyco-gi.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Emoty is a messaging application designed to prioritize simplicity, freedom, and safety. This application offers a clean interface that caters to user needs, while ensuring full privacy and no censorship. Emoty is truly decentralized and utilizes advanced encryption algorithms for enhanced security.",
     pros: "Clean, simple interface|Strong privacy focus|Censorship resistance|Advanced encryption security|Decentralized architecture",
     cons: "Smaller user base than mainstream apps|Potentially limited feature set|Less established ecosystem|May require technical knowledge|Limited integration capabilities",
   },
   {
     title: "Phoner",
-    url: "https://www.appsverse.com/",
+    url: "https://www.appsverse.com",
     custom_redirect: "",
     slug: "phoner",
     text: "Phoner provides users with a second phone number for enhanced privacy and business productivity.",
@@ -4518,16 +3865,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.appsverse.com/images/light-logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315309319.www-appsve.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Phoner is a mobile application that offers a second phone number or second line, specifically designed for personal privacy and business productivity. Users can choose from anonymous, disposable, or long-term numbers to protect their personal information while communicating. The app aims to make it easier and safer to share contact details without compromising privacy.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315309319.www-appsve.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Phoner is a mobile application that offers a second phone number or second line, specifically designed for personal privacy and business productivity. Users can choose from anonymous, disposable, or long-term numbers to protect their personal information while communicating. The app aims to make it easier and safer to share contact details without compromising privacy.",
     pros: "Second phone number privacy|Anonymous calling options|Disposable number availability|Personal information protection|Business productivity enhancement",
     cons: "Limited to calling features|Less video-focused than alternatives|Likely subscription required|Not designed for group collaboration|Limited to phone communication",
   },
   {
     title: "RSUPPORT",
-    url: "http://www.rsupport.com/",
+    url: "https://www.rsupport.com",
     custom_redirect: "",
     slug: "rsupport",
     text: "RSUPPORT provides extensive remote solutions for PCs and mobiles via the cloud.",
@@ -4538,18 +3883,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747315318723.https-www-rsupport-com-favicon-ico-image.x-icon",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315312703.www-rsuppo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "RSUPPORT is a leading IoT service provider in Asia, offering extensive remote solutions designed for PCs and mobiles through a cloud platform. Their advanced technology simplifies remote access and control, enhancing workplace efficiency and convenience. As a pioneer in remote technology, RSUPPORT aims to make everyday challenges easier for users.",
+    thumbnail: "https://marscode.s3.eu-north-1.amazonaws.com/assets/img/aiscraper/67b36a28e4cf2bcc1dc5f2d4/1747315318723.https-www-rsupport-com-favicon-ico-image.x-icon",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315312703.www-rsuppo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "RSUPPORT is a leading IoT service provider in Asia, offering extensive remote solutions designed for PCs and mobiles through a cloud platform. Their advanced technology simplifies remote access and control, enhancing workplace efficiency and convenience. As a pioneer in remote technology, RSUPPORT aims to make everyday challenges easier for users.",
     pros: "Cloud-based remote access|Asian market leadership|IoT service integration|Cross-device compatibility|Workplace efficiency focus",
     cons: "Remote control focus rather than communication|Regional emphasis (primarily Asia)|Different core purpose than messaging|May require technical knowledge|Complex for casual users",
   },
   {
     title: "TheONE",
-    url: "https://www.calltheone.com/",
+    url: "https://www.calltheone.com",
     custom_redirect: "",
     slug: "theone",
     text: "TheONE offers direct access to professionals through video calls and webinars.",
@@ -4561,16 +3903,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "https://www.calltheone.com/images/share-theone.jpg",
     thumbnail: "https://www.calltheone.com/images/logo-black.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315454990.www-callth.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "TheONE provides a platform for individuals to connect with experts globally, facilitating knowledge transfer through live video calls and webinars. Users can learn new skills, attend coaching sessions, or receive marketing support, all through a simple and accessible interface. This service promotes accessible and affordable knowledge sharing, making expertise available to anyone in need.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315454990.www-callth.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "TheONE provides a platform for individuals to connect with experts globally, facilitating knowledge transfer through live video calls and webinars. Users can learn new skills, attend coaching sessions, or receive marketing support, all through a simple and accessible interface. This service promotes accessible and affordable knowledge sharing, making expertise available to anyone in need.",
     pros: "Direct expert connections|Global knowledge access|Accessible interface|Skill development focus|Pay-per-minute model",
     cons: "Different use case than general messaging|Cost varies by expert|Focus on professional services|Not designed for casual conversation|Limited to one-on-one consultation",
   },
   {
     title: "NexGen Virtual Office",
-    url: "https://www.walkaboutoffice.com/",
+    url: "https://www.walkaboutoffice.com",
     custom_redirect: "",
     slug: "nexgen-virtual-office",
     text: "NexGen Virtual Office provides a seamless environment for guests to login and communicate effectively.",
@@ -4581,12 +3921,9 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.walkaboutoffice.com/content/favicons/favicon-196x196.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315596699.www-walkab.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "NexGen Virtual Office offers a comprehensive platform that allows guests to log in and participate in meetings and video conferences seamlessly. It facilitates communication through various means, ensuring a smooth and efficient experience for all users. With its user-friendly interface, guests can navigate their login process and access the necessary tools for collaboration.",
+    thumbnail: "https://www.walkaboutoffice.com/content/favicons/favicon-196x196.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315596699.www-walkab.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "NexGen Virtual Office offers a comprehensive platform that allows guests to log in and participate in meetings and video conferences seamlessly. It facilitates communication through various means, ensuring a smooth and efficient experience for all users. With its user-friendly interface, guests can navigate their login process and access the necessary tools for collaboration.",
     pros: "Virtual office environment|Seamless guest access|Comprehensive meeting tools|User-friendly interface|Efficient communication platform",
     cons: "Likely subscription required|Less established than major platforms|Potential learning curve|Limited brand recognition|May have feature constraints",
   },
@@ -4602,20 +3939,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/70/9e/29/709e296c-31c0-8ae0-79c2-58bddf42f109/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
-    thumbnail:
-      "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/70/9e/29/709e296c-31c0-8ae0-79c2-58bddf42f109/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315594002.itunes-app.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Wibrate offers users the ability to order delicious and diverse food items from local restaurants, shops, hotels, and grocery stores. With a focus on convenience, it enables customers to receive deliveries right at their doorsteps through familiar delivery people. This service emphasizes the accessibility of quality food from nearby locations.",
+    images: "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/70/9e/29/709e296c-31c0-8ae0-79c2-58bddf42f109/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    thumbnail: "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/70/9e/29/709e296c-31c0-8ae0-79c2-58bddf42f109/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315594002.itunes-app.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Wibrate offers users the ability to order delicious and diverse food items from local restaurants, shops, hotels, and grocery stores. With a focus on convenience, it enables customers to receive deliveries right at their doorsteps through familiar delivery people. This service emphasizes the accessibility of quality food from nearby locations.",
     pros: "Local food delivery service|Diverse restaurant options|Familiar delivery personnel|Doorstep convenience|Quality food accessibility",
     cons: "Not a communication platform|Food delivery focus (not messaging)|Different use case than Skype|Limited to specific service area|Not designed for video calls",
   },
   {
     title: "WowApp",
-    url: "https://www.wowapp.com/",
+    url: "https://www.wowapp.com",
     custom_redirect: "",
     slug: "wowapp",
     text: "WowApp is a revolutionary communication platform that rewards users uniquely for connecting and sharing.",
@@ -4625,20 +3958,16 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.wowapp.com/images/app-icons/logo200x200.png?1737645968",
-    thumbnail:
-      "https://www.wowapp.com/images/logo-not-logged@2x.png?1737645968",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315595775.www-wowapp.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "WowApp is a revolutionary communication platform designed for smartphones, tablets, and computers where users are rewarded in a unique manner. It facilitates a sharing experience that empowers users to connect, share, and make individual choices. This innovative platform serves to redefine communication by promoting the idea of doing good through sharing.",
+    images: "https://www.wowapp.com/images/app-icons/logo200x200.png?1737645968",
+    thumbnail: "https://www.wowapp.com/images/logo-not-logged@2x.png?1737645968",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315595775.www-wowapp.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "WowApp is a revolutionary communication platform designed for smartphones, tablets, and computers where users are rewarded in a unique manner. It facilitates a sharing experience that empowers users to connect, share, and make individual choices. This innovative platform serves to redefine communication by promoting the idea of doing good through sharing.",
     pros: "User reward system|Cross-device compatibility|Social impact focus|Community-oriented design|Individual empowerment",
     cons: "Less established than major platforms|Reward system may be complex|May include advertisements|Potential privacy concerns|Limited mainstream adoption",
   },
   {
     title: "Globfone",
-    url: "https://globfone.com/",
+    url: "https://globfone.com",
     custom_redirect: "",
     slug: "globfone",
     text: "Globfone offers free internet-based communication services, including calls, texts, and file sharing.",
@@ -4649,41 +3978,34 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://globfone.com/wp-content/themes/globfone/assets/img/svg/logo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315615160.globfone-c.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Globfone is an innovative platform providing telecommunication services like SMS and international calls at no cost. It enables users to make free phone calls, send text messages, and engage in video chats without the need for registration or special software. With a commitment to accessibility, Globfone aims to connect people across the globe effortlessly.",
+    thumbnail: "https://globfone.com/wp-content/themes/globfone/assets/img/svg/logo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315615160.globfone-c.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Globfone is an innovative platform providing telecommunication services like SMS and international calls at no cost. It enables users to make free phone calls, send text messages, and engage in video chats without the need for registration or special software. With a commitment to accessibility, Globfone aims to connect people across the globe effortlessly.",
     pros: "Free international calls|No registration required|No software downloads|Text and video capabilities|Web-based convenience",
     cons: "Quality dependent on internet connection|Limited feature set|Possible regional restrictions|May include advertisements|Less reliable than paid services",
   },
   {
     title: "Virtual Phone",
-    url: "http://www.virtualphone.com/",
+    url: "https://www.virtualphone.com",
     custom_redirect: "",
     slug: "virtual-phone",
     text: "Virtual Phone offers an international toll-free number service to help businesses establish a global presence.",
-    Category:
-      "International Calling, Business Phone Systems, Personal Communication",
+    Category: "International Calling, Business Phone Systems, Personal Communication",
     Rank: null,
     Hide: false,
     isFree: false,
     verified: false,
     premium: false,
     images: "https://virtualphone.com/static/images/vp-og-image.jpg",
-    thumbnail:
-      "http://www.virtualphone.com/static/images/logo-site@2x_f72629b2e0.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315619348.www-virtua.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Virtual Phone provides users with the ability to obtain an international toll-free number, enabling organizations to create a local or global brand presence. This service is designed to assist companies in enhancing their connectivity through easily accessible contact options like a 1800 number. It helps businesses streamline communication and establish a professional image more effectively.",
+    thumbnail: "http://www.virtualphone.com/static/images/logo-site@2x_f72629b2e0.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315619348.www-virtua.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Virtual Phone provides users with the ability to obtain an international toll-free number, enabling organizations to create a local or global brand presence. This service is designed to assist companies in enhancing their connectivity through easily accessible contact options like a 1800 number. It helps businesses streamline communication and establish a professional image more effectively.",
     pros: "International toll-free numbers|Global brand presence|Professional business image|Streamlined customer contact|Local presence in multiple markets",
     cons: "Business-focused (not personal use)|Subscription required|Limited to phone services|Lack of video capabilities|Different use case than general messaging",
   },
   {
     title: "RedcoolMedia",
-    url: "https://www.redcoolmedia.net/",
+    url: "https://www.redcoolmedia.net",
     custom_redirect: "",
     slug: "redcoolmedia",
     text: "RedcoolMedia is an online platform that enables users to edit videos, audios, and various media files for free.",
@@ -4694,42 +4016,34 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.redcoolmedia.net/plugins/system/jat3/jat3/base-themes/default/images/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315612176.www-redcoo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "RedcoolMedia is a comprehensive platform that allows users to edit a variety of media files, including videos, audios, and images, all accessible online. By leveraging innovative software and technologies, RedcoolMedia ensures seamless operation across web browsers and devices, enhancing productivity for its users. With a wide range of available applications, users can easily modify any type of media file to meet their needs.",
+    thumbnail: "https://www.redcoolmedia.net/plugins/system/jat3/jat3/base-themes/default/images/favicon.ico",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315612176.www-redcoo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "RedcoolMedia is a comprehensive platform that allows users to edit a variety of media files, including videos, audios, and images, all accessible online. By leveraging innovative software and technologies, RedcoolMedia ensures seamless operation across web browsers and devices, enhancing productivity for its users. With a wide range of available applications, users can easily modify any type of media file to meet their needs.",
     pros: "Free media editing tools|Cross-browser compatibility|Multi-device support|Comprehensive application range|Online accessibility",
     cons: "Media editing focus (not communication)|Different use case than Skype|Not designed for real-time chat|Limited collaboration features|No video calling functionality",
   },
   {
     title: "BNESIM",
-    url: "https://www.bnesim.com/",
+    url: "https://www.bnesim.com",
     custom_redirect: "",
     slug: "bnesim",
     text: "BNESIM offers affordable and seamless mobile data connectivity in over 200 countries globally.",
-    Category:
-      "International Calling, Personal Communication, Business Phone Systems",
+    Category: "International Calling, Personal Communication, Business Phone Systems",
     Rank: null,
     Hide: false,
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://www.bnesim.com/wp-content/uploads/2021/08/Logo_Neural_300.png",
-    thumbnail:
-      "https://www.bnesim.com/wp-content/uploads/2025/02/BNESIMLOGO.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315651268.www-bnesim.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "BNESIM provides an affordable travel eSIM that ensures seamless mobile data connectivity across more than 200 countries without incurring roaming fees. Instant activation allows users to stay connected, making it an ideal solution for travelers. With BNESIM, users can explore more while worrying less about connectivity costs.",
+    images: "https://www.bnesim.com/wp-content/uploads/2021/08/Logo_Neural_300.png",
+    thumbnail: "https://www.bnesim.com/wp-content/uploads/2025/02/BNESIMLOGO.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315651268.www-bnesim.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "BNESIM provides an affordable travel eSIM that ensures seamless mobile data connectivity across more than 200 countries without incurring roaming fees. Instant activation allows users to stay connected, making it an ideal solution for travelers. With BNESIM, users can explore more while worrying less about connectivity costs.",
     pros: "Global coverage (200+ countries)|No roaming fees|Instant activation|Travel-optimized solution|Affordable connectivity",
     cons: "Mobile data focus rather than messaging|Not primarily for video calls|Different use case than Skype|Requires compatible devices|Service cost for data",
   },
   {
     title: "Peer Calls",
-    url: "https://peercalls.com/",
+    url: "https://peercalls.com",
     custom_redirect: "",
     slug: "peer-calls",
     text: "Peer Calls enables video calls to anyone in the world with a private connection.",
@@ -4741,16 +4055,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315658260.peercalls.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Peer Calls offers a platform for individuals to engage in video calls globally through a secure and private connection. Users can create private rooms, share links, and enjoy group peer-to-peer calls. This service ensures a seamless communication experience with privacy and ease of use.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315658260.peercalls.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Peer Calls offers a platform for individuals to engage in video calls globally through a secure and private connection. Users can create private rooms, share links, and enjoy group peer-to-peer calls. This service ensures a seamless communication experience with privacy and ease of use.",
     pros: "Private secure connections|Global video calling|Private room creation|Group peer-to-peer support|Link sharing capabilities",
     cons: "May have connection quality issues|Less established than major platforms|Potential device compatibility limitations|Limited feature set|May lack robust support",
   },
   {
     title: "VideoChatNow",
-    url: "http://videochatnow.net/",
+    url: "https://videochatnow.net",
     custom_redirect: "",
     slug: "videochatnow",
     text: "VideoChatNow is a live video chat platform that allows users to connect through webcam chat rooms.",
@@ -4762,16 +4074,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "http://videochatnow.net/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315662705.videochatn.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "VideoChatNow is a live video chat service that offers users the ability to engage in webcam chat rooms. With its interactive and community-focused setup, it promotes real-time communication through video, making it ideal for users looking for a social connection online. The platform emphasizes user engagement in a lively environment, highlighting the fun of live video interactions.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315662705.videochatn.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "VideoChatNow is a live video chat service that offers users the ability to engage in webcam chat rooms. With its interactive and community-focused setup, it promotes real-time communication through video, making it ideal for users looking for a social connection online. The platform emphasizes user engagement in a lively environment, highlighting the fun of live video interactions.",
     pros: "Live webcam chat rooms|Real-time video interaction|Social connection focus|No registration required|Community-oriented design",
     cons: "Potential privacy concerns|May include unwanted interactions|Limited security features|Less suitable for professional use|Possible quality variations",
   },
   {
     title: "Webrowse",
-    url: "https://webrow.se/",
+    url: "https://webrow.se",
     custom_redirect: "",
     slug: "webrowse",
     text: "Webrowse is a remote browser SDK that enables real-time collaborative web app usage.",
@@ -4782,18 +4092,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://static.nicegoodthings.com/project/ext/og.png",
-    thumbnail:
-      "https://webrow.se/static/logo-3b78150b3a1e9627ff334233aae997b5.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315666220.webrow-se.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Webrowse offers a remote browser SDK that is compiled to WebAssembly, making it easy to integrate into various platforms. This tool allows teams to collaborate instantly by creating a shared workspace where browser tabs are synchronized in real-time. With Webrowse, multiple agents can operate the browser simultaneously, enhancing productivity and efficiency in collaborative tasks.",
+    thumbnail: "https://webrow.se/static/logo-3b78150b3a1e9627ff334233aae997b5.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315666220.webrow-se.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Webrowse offers a remote browser SDK that is compiled to WebAssembly, making it easy to integrate into various platforms. This tool allows teams to collaborate instantly by creating a shared workspace where browser tabs are synchronized in real-time. With Webrowse, multiple agents can operate the browser simultaneously, enhancing productivity and efficiency in collaborative tasks.",
     pros: "Real-time collaborative browsing|Synchronized workspace|Multi-agent simultaneous operation|WebAssembly integration|Productivity enhancement",
     cons: "Developer-focused tool|Technical implementation required|Different use case than general messaging|Learning curve for setup|Limited to browser collaboration",
   },
   {
     title: "VIPole",
-    url: "https://www.vipole.com/",
+    url: "https://www.vipole.com",
     custom_redirect: "",
     slug: "vipole",
     text: "VIPole is a secure messaging app offering encrypted chats, calls, video, and file sharing for various platforms.",
@@ -4805,16 +4112,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: null,
     thumbnail: null,
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315674010.www-vipole.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "VIPole is a secure messenger compatible with multiple operating systems such as Windows, Mac OS, Android, iOS, and Linux. It provides encrypted chats, calls, video, meetings, and file sharing to ensure user privacy and security. This all-in-one application supports individuals, teams, and enterprises, facilitating secure communication while maintaining high standards of data protection.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315674010.www-vipole.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "VIPole is a secure messenger compatible with multiple operating systems such as Windows, Mac OS, Android, iOS, and Linux. It provides encrypted chats, calls, video, meetings, and file sharing to ensure user privacy and security. This all-in-one application supports individuals, teams, and enterprises, facilitating secure communication while maintaining high standards of data protection.",
     pros: "Strong encryption security|Cross-platform compatibility|Comprehensive communication tools|Enterprise-grade protection|Secure file sharing",
     cons: "Likely subscription required|Less established than major platforms|May have complex security features|Learning curve for full utilization|Limited integration options",
   },
   {
     title: "Srimax",
-    url: "https://www.srimax.com/",
+    url: "https://www.srimax.com",
     custom_redirect: "",
     slug: "srimax",
     text: "Srimax is an offshore outsourcing software development company specializing in web, mobile, and software development solutions.",
@@ -4825,18 +4130,15 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "",
-    thumbnail:
-      "https://www.srimax.com/wp-content/themes/wpex-adapt/images/logo.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315681501.www-srimax.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Srimax is an offshore outsourcing software development company based in India, delivering web development and design services, e-commerce solutions, mobile apps, and more. The company is dedicated to providing innovative product development solutions to enhance business efficiency. Its team offers a range of services that cater to various business needs in the digital space.",
+    thumbnail: "https://www.srimax.com/wp-content/themes/wpex-adapt/images/logo.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315681501.www-srimax.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Srimax is an offshore outsourcing software development company based in India, delivering web development and design services, e-commerce solutions, mobile apps, and more. The company is dedicated to providing innovative product development solutions to enhance business efficiency. Its team offers a range of services that cater to various business needs in the digital space.",
     pros: "Comprehensive development services|Offshore cost advantages|Wide range of digital solutions|Business efficiency focus|Product development expertise",
     cons: "Development company rather than platform|Not primarily a communication tool|Different business model than messaging|Service-based rather than product|Not designed for direct communication",
   },
   {
     title: "MeetFox",
-    url: "http://www.meetfox.com/",
+    url: "https://www.meetfox.com",
     custom_redirect: "",
     slug: "meetfox",
     text: "MeetFox offers a free solution for scheduling meetings, hosting video calls, and collecting payments in one platform.",
@@ -4847,12 +4149,9 @@ export const softwareData: Software[] = [
     verified: false,
     premium: false,
     images: "https://meetfox.com/assets_website/img/meetfox_preview_2.png",
-    thumbnail:
-      "https://cdn.prod.website-files.com/5fb5660c3153246ba4c11f95/5fdfb015a134255f5089315f_MeetFoxLogo.svg",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315688428.www-meetfo.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "MeetFox is a comprehensive platform that facilitates online business management through various features. It allows users to schedule appointments, conduct in-browser video calls, and receive secure payments, all within a single application. Ideal for businesses looking to streamline their operations, MeetFox is accessible without any cost.",
+    thumbnail: "https://cdn.prod.website-files.com/5fb5660c3153246ba4c11f95/5fdfb015a134255f5089315f_MeetFoxLogo.svg",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315688428.www-meetfo.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "MeetFox is a comprehensive platform that facilitates online business management through various features. It allows users to schedule appointments, conduct in-browser video calls, and receive secure payments, all within a single application. Ideal for businesses looking to streamline their operations, MeetFox is accessible without any cost.",
     pros: "Free basic service|All-in-one business platform|Integrated payment collection|Appointment scheduling|In-browser video calling",
     cons: "Business-oriented features|May have premium tiers|Less casual than social platforms|Meeting-focused rather than chat|Potential learning curve",
   },
@@ -4870,16 +4169,14 @@ export const softwareData: Software[] = [
     premium: false,
     images: "",
     thumbnail: "https://www.ring4.com/favicon.ico",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315678503.www-ring4.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Ring4 provides a comprehensive business phone line along with video conferencing capabilities. This solution enables seamless communication and efficient meetings for businesses. Users can easily join meetings and manage their schedules with the included Google Calendar add-on.",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315678503.www-ring4.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Ring4 provides a comprehensive business phone line along with video conferencing capabilities. This solution enables seamless communication and efficient meetings for businesses. Users can easily join meetings and manage their schedules with the included Google Calendar add-on.",
     pros: "Integrated business phone and video|Google Calendar integration|Meeting management features|Seamless communication tools|Business-optimized solution",
     cons: "Business focus limits personal use|Subscription required|Less established than major platforms|May have feature limitations|Learning curve for full utilization",
   },
   {
     title: "Bettermode",
-    url: "https://tribe.so/",
+    url: "https://tribe.so",
     custom_redirect: "",
     slug: "bettermode",
     text: "Bettermode is an all-in-one customer community platform that enables brands to unify customer engagement and support.",
@@ -4889,14 +4186,10 @@ export const softwareData: Software[] = [
     isFree: false,
     verified: false,
     premium: false,
-    images:
-      "https://framerusercontent.com/assets/3BS4atrQQqOYmwQaW86CVSzWmg.jpg",
-    thumbnail:
-      "https://framerusercontent.com/images/A41QySwOnsoUZ6Opju4br3UnUFw.png",
-    screenshotUrl:
-      "https://mars-images.imgix.net/aiscraper/anon/1747315702908.tribe-so.jpeg?auto=format&w=1200&fit=max&w=1000",
-    fullDescription:
-      "Bettermode is an all-in-one customer community platform designed to empower brands with a dynamic space for customer connection, engagement, and growth. It allows businesses to build customized community platforms that include support forums and branded customer portals, all enhanced with AI-powered features. This platform centralizes customer interactions and data to create thriving communities, transforming scattered engagement into actionable insights.",
+    images: "https://framerusercontent.com/assets/3BS4atrQQqOYmwQaW86CVSzWmg.jpg",
+    thumbnail: "https://framerusercontent.com/images/A41QySwOnsoUZ6Opju4br3UnUFw.png",
+    screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1747315702908.tribe-so.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription: "Bettermode is an all-in-one customer community platform designed to empower brands with a dynamic space for customer connection, engagement, and growth. It allows businesses to build customized community platforms that include support forums and branded customer portals, all enhanced with AI-powered features. This platform centralizes customer interactions and data to create thriving communities, transforming scattered engagement into actionable insights.",
     pros: "All-in-one community platform|AI-powered customer engagement|Customizable brand portals|Centralized interaction management|Actionable customer insights",
     cons: "Business-focused rather than personal|Community platform vs. direct messaging|Likely subscription required|Learning curve for implementation|Different use case than traditional messaging",
   },
