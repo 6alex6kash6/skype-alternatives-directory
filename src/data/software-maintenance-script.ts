@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readline from 'readline';
-import {Software, softwareData as originalData} from './software.ts';
+import {Software, softwareData as originalData} from './software';
 import { writeFileSync } from 'fs';
 
 // Create readline interface for interactive CLI
