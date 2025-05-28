@@ -51,7 +51,12 @@ function getMDXData(dir: string) {
 }
 
 export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), 'src', 'content', 'blog'))
+  const posts = getMDXData(path.join(process.cwd(), 'src', 'content', 'blog'));
+  return posts.sort((a, b) => {
+    const dateA = new Date(a.metadata.publishedAt);
+    const dateB = new Date(b.metadata.publishedAt);
+    return dateB.getTime() - dateA.getTime();
+  });
 }
 
 export function formatDate(date: string) {
