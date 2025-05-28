@@ -219,3 +219,12 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.software-card-mdx-wrapper a {
+  display: block;
+  text-decoration: none !important;
+}
+
+.software-card-mdx-wrapper img {
+  margin-right: 1rem !important;
+}

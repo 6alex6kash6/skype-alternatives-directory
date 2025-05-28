@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
+import SoftwareCardMDX from './mdx/SoftwareCardMDX'
 
 function Table({ data, className = "" }) {
   const defaultStyles = "w-full border-collapse border border-gray-300 mb-6";
@@ -107,6 +108,7 @@ let components = {
   a: CustomLink,
   code: Code,
   Table,
+  SoftwareCard: SoftwareCardMDX,
 }
 
 export function SimpleCustomMDX(props) {
