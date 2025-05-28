@@ -2,19 +2,22 @@ import React, { Suspense } from "react";
 import SoftwareList from "@/components/SoftwareList";
 import SearchBar from "@/components/SearchBar";
 import BlogList from "@/components/BlogList";
+import FAQ from "@/components/FAQ";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { getBlogPosts } from "@/app/blog/utils";
 
 const Index = () => {
-  const blogPosts = getBlogPosts().slice(0, 3).map(post => ({
-    id: post.slug,
-    slug: post.slug,
-    title: post.metadata.title,
-    description: post.metadata.description,
-    publishedAt: post.metadata.publishedAt,
-    coverImage: post.metadata.coverImage,
-  }));
+  const blogPosts = getBlogPosts()
+    .slice(0, 3)
+    .map((post) => ({
+      id: post.slug,
+      slug: post.slug,
+      title: post.metadata.title,
+      description: post.metadata.description,
+      publishedAt: post.metadata.publishedAt,
+      coverImage: post.metadata.coverImage,
+    }));
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
@@ -45,19 +48,22 @@ const Index = () => {
         >
           <SoftwareList />
         </Suspense>
-        
+
         {/* Blog section preview */}
         <section className="py-16 px-4 bg-white">
           <div className="container mx-auto max-w-6xl">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Latest from Our Blog</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Latest from Our Blog
+              </h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Discover insights, tips, and the latest trends in communication tools
+                Discover insights, tips, and the latest trends in communication
+                tools
               </p>
             </div>
-            
+
             <BlogList posts={blogPosts} />
-            
+
             <div className="text-center mt-8">
               <Link href="/blog">
                 <Button variant="outline" className="mx-auto">
@@ -67,6 +73,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* FAQ section */}
+        <FAQ />
       </main>
     </div>
   );
