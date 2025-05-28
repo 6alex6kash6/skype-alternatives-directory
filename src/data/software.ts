@@ -1,3 +1,5 @@
+import {bossRevolutionThumbnail} from "@/data/images/bossRevolution";
+
 export interface Software {
   title: string;
   url: string;
@@ -204,6 +206,25 @@ export const softwareData: Software[] = [
     thumbnail: "https://dialanyone.com/assets/img/favicon/apple-touch-icon.png",
     screenshotUrl: "https://mars-images.imgix.net/aiscraper/anon/1748013289836.dialanyone.jpeg?auto=format&w=1200&fit=max&w=1000",
     fullDescription: "Dial Anyone offers a service that enables users to call and text any phone number globally, including landlines and toll-free numbers. The platform supports over 210 countries and provides a free number for users to start calling immediately. With an emphasis on privacy and security, Dial Anyone ensures encrypted conversations and efficient handling of 2FA and OTP messages.",
+  },
+  {
+    title: "Boss Revolution",
+    url: "https://www.bossrevolution.com/en-us",
+    custom_redirect: null,
+    slug: "boss-revolution",
+    text: "Boss Revolution is a comprehensive international calling and money transfer app that offers crystal-clear calls, mobile top-ups, and affordable international communication.",
+    Category: "International Calling, Landline Calling, Internet Telephony",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: true,
+    images: bossRevolutionThumbnail,
+    thumbnail: bossRevolutionThumbnail,
+    screenshotUrl: "https://i.ibb.co/zhCr5kL3/Screenshot-2025-05-28-at-10-15-53-AM.png",
+    fullDescription: "Boss Revolution, owned by IDT Corporation (NYSE: IDT), is a trusted international calling and money transfer service designed to help immigrant communities stay connected with their loved ones worldwide. The platform offers ultra-clear international calls to over 200 countries with competitive per-minute rates and unlimited calling plans. Beyond voice calls, Boss Revolution provides mobile top-up services for 300+ carriers across 100+ countries, international money transfers to 59 destinations, and app-to-app messaging. With over 35,000 retail locations nationwide and highly-rated mobile apps, Boss Revolution combines digital convenience with cash payment options. New users receive $2 free calling credit, and the Savings Pass membership offers 20% discount on all international calls for just $5/month.",
+    pros: "Free app-to-app calls|$2 bonus for new users|20% discount with Savings Pass|Crystal-clear call quality|35,000+ retail locations|Money transfer services included|Mobile top-up for 300+ carriers|No credit card required to start",
+    cons: "1.5¢/min surcharge for toll-free access|App crashes reported after updates|Customer support issues|Limited video calling features|Pay-as-you-go can be expensive without plans",
   },
   {
     title: "Webbphone",
