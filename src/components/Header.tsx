@@ -11,7 +11,7 @@ import {
 
 declare global {
   interface Window {
-    ta?: {
+    $ta?: {
       showPopup: () => void;
     };
   }
@@ -148,8 +148,8 @@ const Header: React.FC<{
             className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-2"
             onClick={(e) => {
               e.preventDefault();
-              if (typeof window !== "undefined" && window.ta) {
-                window.ta.showPopup();
+              if (typeof window !== "undefined" && window.$ta) {
+                window.$ta.showPopup();
               }
             }}
           >
@@ -273,8 +273,8 @@ const Header: React.FC<{
             className="text-2xl bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-3"
             onClick={(e) => {
               e.preventDefault();
-              if (typeof window !== "undefined" && window.ta) {
-                window.ta.showPopup();
+              if (typeof window !== "undefined" && window.$ta) {
+                window.$ta.showPopup();
               }
               setIsMenuOpen(false);
             }}
