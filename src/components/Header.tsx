@@ -3,7 +3,19 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { softwareData } from "@/data/software";
-import { POPULAR_CATEGORIES, getCategoryInfo, isPopularCategory } from "@/lib/categories";
+import {
+  POPULAR_CATEGORIES,
+  getCategoryInfo,
+  isPopularCategory,
+} from "@/lib/categories";
+
+declare global {
+  interface Window {
+    ta?: {
+      showPopup: () => void;
+    };
+  }
+}
 
 const Header: React.FC<{
   children?: React.ReactNode;
@@ -103,7 +115,7 @@ const Header: React.FC<{
                 All Categories
               </div>
               {Array.from(categories)
-                .filter(category => !isPopularCategory(category))
+                .filter((category) => !isPopularCategory(category))
                 .map((category) => {
                   const info = getCategoryInfo(category);
                   return (
@@ -134,6 +146,12 @@ const Header: React.FC<{
           <Link
             href="/"
             className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-2"
+            onClick={(e) => {
+              e.preventDefault();
+              if (typeof window !== "undefined" && window.ta) {
+                window.ta.showPopup();
+              }
+            }}
           >
             <svg
               className="w-5 h-5"
@@ -253,7 +271,13 @@ const Header: React.FC<{
           <Link
             href="/submit-tool"
             className="text-2xl bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-3"
-            onClick={() => setIsMenuOpen(false)}
+            onClick={(e) => {
+              e.preventDefault();
+              if (typeof window !== "undefined" && window.ta) {
+                window.ta.showPopup();
+              }
+              setIsMenuOpen(false);
+            }}
           >
             <svg
               className="w-6 h-6"
@@ -334,7 +358,7 @@ const Header: React.FC<{
                     </h3>
                     <div className="border-t border-gray-200 pt-2 space-y-2">
                       {Array.from(categories)
-                        .filter(category => !isPopularCategory(category))
+                        .filter((category) => !isPopularCategory(category))
                         .map((category) => {
                           const info = getCategoryInfo(category);
                           return (

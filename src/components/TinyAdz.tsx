@@ -9,9 +9,19 @@ export default function TinyAdz() {
 
   return (
     <Script
-      src="https://app.tinyadz.com/scripts/ads.js?siteId=682a3360e17149eacc86fdfb"
-      type="module"
+      id="tinyadz-script"
       strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+          const s = document.createElement("script");
+          s.src = "https://app.tinyadz.com/libs/manager.js";
+          s.onload = () => ta?.init("68383093a43c8f411286091c",
+          {
+            "form-example-key": "example-value"
+          }, false, { theme: "light" });
+          document.head.appendChild(s);
+        `,
+      }}
     />
   );
 }
