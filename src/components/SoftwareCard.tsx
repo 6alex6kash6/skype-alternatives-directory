@@ -19,13 +19,13 @@ export default function SoftwareCard({
   return (
     <div className="relative">
       {software.promoted && (
-        <div className="absolute top-2 right-2 bg-amber-500 text-white text-xs px-2 py-1 rounded-full z-10">
+        <div className="absolute top-4 right-4 bg-amber-500 text-white text-xs px-2 py-1 rounded-full z-10">
           Sponsored
         </div>
       )}
       <Link
         href={`/items/${software.slug}`}
-        className={`block bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden border border-gray-100 ${
+        className={`block h-full bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden border border-gray-100 ${
           software.promoted ? "bg-amber-50" : ""
         } ${className}`}
       >
@@ -71,7 +71,7 @@ export default function SoftwareCard({
 
           <p className="text-gray-700 mb-4 line-clamp-3">{software.text}</p>
 
-          <div className="flex flex-wrap gap-2 mb-4">
+          <div className="flex flex-wrap gap-2 mb-4 mt-auto">
             {software.Category.split(CATEGORY_DELIMITER)
               .slice(0, 3)
               .map((category, index) => (
@@ -89,7 +89,7 @@ export default function SoftwareCard({
             )}
           </div>
 
-          <div className="text-purple-600 font-medium text-sm hover:text-purple-700 mt-auto">
+          <div className="text-purple-600 font-medium text-sm hover:text-purple-700">
             View Details
           </div>
         </div>
