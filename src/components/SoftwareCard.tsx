@@ -9,7 +9,10 @@ interface SoftwareCardProps {
   className?: string;
 }
 
-export default function SoftwareCard({ software, className = "" }: SoftwareCardProps) {
+export default function SoftwareCard({
+  software,
+  className = "",
+}: SoftwareCardProps) {
   const averageRating = getAverageRating(software.slug);
   const reviewCount = getReviewCount(software.slug);
 
@@ -38,19 +41,13 @@ export default function SoftwareCard({ software, className = "" }: SoftwareCardP
         <div className="flex items-center mb-2">
           {reviewCount > 0 ? (
             <>
-              <RatingStars
-                rating={averageRating}
-                size={16}
-                className="mr-2"
-              />
+              <RatingStars rating={averageRating} size={16} className="mr-2" />
               <span className="text-sm text-gray-600">
                 {reviewCount} reviews
               </span>
             </>
           ) : (
-            <span className="text-sm text-gray-500">
-              No reviews yet
-            </span>
+            <span className="text-sm text-gray-500">No reviews yet</span>
           )}
           {software.verified && (
             <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full ml-2">
@@ -64,9 +61,7 @@ export default function SoftwareCard({ software, className = "" }: SoftwareCardP
           )}
         </div>
 
-        <p className="text-gray-700 mb-4 line-clamp-3">
-          {software.text}
-        </p>
+        <p className="text-gray-700 mb-4 line-clamp-3">{software.text}</p>
 
         <div className="flex flex-wrap gap-2 mb-4">
           {software.Category.split(CATEGORY_DELIMITER)
@@ -92,4 +87,4 @@ export default function SoftwareCard({ software, className = "" }: SoftwareCardP
       </div>
     </Link>
   );
-} 
+}
