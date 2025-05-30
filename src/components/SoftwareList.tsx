@@ -84,22 +84,7 @@ const SoftwareList = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {itemsToDisplay.map((software) => (
-          <div
-            key={software.slug}
-            className="relative rounded-xl"
-            style={
-              software.promoted
-                ? { backgroundColor: "rgba(245, 158, 11, 0.1)" }
-                : undefined
-            }
-          >
-            {software.promoted && (
-              <div className="absolute top-2 right-2 bg-amber-500 text-white text-xs px-2 py-1 rounded-full z-10">
-                Sponsored
-              </div>
-            )}
-            <SoftwareCard software={software} />
-          </div>
+          <SoftwareCard key={software.slug} software={software} />
         ))}
       </div>
 
