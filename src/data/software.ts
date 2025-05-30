@@ -275,7 +275,7 @@ export const softwareData: Software[] = [
   },
   {
     title: "Yadaphone",
-    url: "https://www.yadaphone.com/",
+    url: "https://yadaphone.com/?via=aliaksandr",
     custom_redirect: "",
     slug: "yadaphone",
     text: "Yadaphone enables users to make international calls directly from their browser without any hidden fees.",
