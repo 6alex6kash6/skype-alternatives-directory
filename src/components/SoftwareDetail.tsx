@@ -101,7 +101,7 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
           </div>
 
           <a
-            href={getReferralUrl(software.url)}
+            href={software.promoted_url || getReferralUrl(software.url)}
             target="_blank"
             rel="noopener noreferrer"
             className={cn(
@@ -223,9 +223,11 @@ const SoftwareDetail: React.FC<SoftwareDetailProps> = ({ initialIsMobile }) => {
           </div>
 
           {/* Similar Tools */}
-          <SimilarTools 
+          <SimilarTools
             currentSlug={software.slug}
-            categories={software.Category.split(CATEGORY_DELIMITER).map(cat => cat.trim())}
+            categories={software.Category.split(CATEGORY_DELIMITER).map((cat) =>
+              cat.trim()
+            )}
             isMobile={isMobile}
           />
 

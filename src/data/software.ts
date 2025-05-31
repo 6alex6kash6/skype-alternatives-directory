@@ -19,6 +19,7 @@ export interface Software {
   pros?: string | null;
   cons?: string | null;
   promoted?: boolean;
+  promoted_url?: string;
 }
 
 export const softwareData: Software[] = [
@@ -276,6 +277,7 @@ export const softwareData: Software[] = [
   {
     title: "Yadaphone",
     url: "https://yadaphone.com/?via=aliaksandr",
+    promoted_url: "https://yadaphone.com/?via=aliaksandr",
     custom_redirect: "",
     slug: "yadaphone",
     text: "Yadaphone enables users to make international calls directly from their browser without any hidden fees.",
