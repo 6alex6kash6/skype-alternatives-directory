@@ -10,6 +10,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import MicrosoftClarity from "@/components/MicrosoftClarity";
 import TinyAdz from "@/components/TinyAdz";
 import { Analytics } from "@vercel/analytics/next";
+import SubmitToolForm from "@/components/SubmitToolForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             <TooltipProvider>
               <GoogleAnalytics />
               <MicrosoftClarity />
+              <SubmitToolForm />
               <TinyAdz />
               <Analytics />
               <Toaster />

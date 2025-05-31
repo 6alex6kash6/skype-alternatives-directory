@@ -11,17 +11,9 @@ export default function TinyAdz() {
     <Script
       id="tinyadz-script"
       strategy="afterInteractive"
-      dangerouslySetInnerHTML={{
-        __html: `
-          const s = document.createElement("script");
-          s.src = "https://app.tinyadz.com/libs/manager.js";
-          s.onload = () => $ta?.init("68383093a43c8f411286091c",
-          {
-            "form-example-key": "example-value"
-          }, false, { theme: "light" });
-          document.head.appendChild(s);
-        `,
-      }}
+      src="https://app.tinyadz.com/scripts/ads.js"
+      site-id="682a3360e17149eacc86fdfb"
+      async
     />
   );
 }
