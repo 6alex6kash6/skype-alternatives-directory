@@ -9,8 +9,6 @@ export default function TinyAdz() {
 
   return (
     <Script
-      id="tinyadz-script"
-      strategy="afterInteractive"
       src="https://app.tinyadz.com/scripts/ads.js"
       site-id="682a3360e17149eacc86fdfb"
       async
