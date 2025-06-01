@@ -1,7 +1,10 @@
 export interface CategoryInfo {
+  slug: string;
   emoji: string;
   displayName: string;
-  slug: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  H1?: string;
 }
 
 export const POPULAR_CATEGORIES = [
@@ -18,6 +21,9 @@ export const CATEGORY_MAPPING: Record<string, CategoryInfo> = {
     emoji: '🌍',
     displayName: 'International Calling',
     slug: 'international-calling',
+    seoTitle: 'Skype Alternative for International Calls',
+    seoDescription: 'Find the best Skype alternatives for International Calls. Compare features, read reviews, and choose the perfect communication tool for your needs.',
+    H1: 'Best Skype Alternatives for 🌍 International Calls',
   },
   'Internet Telephony': {
     emoji: '📞',
@@ -28,6 +34,9 @@ export const CATEGORY_MAPPING: Record<string, CategoryInfo> = {
     emoji: '🏠',
     displayName: 'Landline Calling',
     slug: 'landline-calling',
+    seoTitle: 'Skype Alternative for Landline Calls',
+    seoDescription: 'Find the best Skype alternatives for Landline Calls. Compare features, read reviews, and choose the perfect communication tool for your needs.',
+    H1: 'Best Skype Alternatives for 🏠 Landline Calls',
   },
   'Personal Communication': {
     emoji: '💬',

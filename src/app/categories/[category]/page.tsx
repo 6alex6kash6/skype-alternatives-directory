@@ -17,20 +17,23 @@ interface CategoryPageProps {
 export async function generateMetadata({ params }: { params: { category: string } }): Promise<Metadata> {
   const category = params.category.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const info = getCategoryInfo(category);
+
+  const title = info.seoTitle || `Skype Alternatives for ${info.displayName}`;
+  const description = info.seoDescription || `Find the best Skype alternatives for ${info.displayName}. Compare features, read reviews, and choose the perfect communication tool for your needs.`;
   
   return {
-    title: `${info.displayName} Alternatives to Skype | Skype Alternatives`,
-    description: `Find the best ${info.displayName.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+    title,
+    description,
     openGraph: {
-      title: `${info.displayName} Alternatives to Skype | Skype Alternatives`,
-      description: `Find the best ${info.displayName.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+      title,
+      description,
       type: "website",
       url: `https://skypealternativelist.com/categories/${info.slug}`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `${info.displayName} Alternatives to Skype | Skype Alternatives`,
-      description: `Find the best ${info.displayName.toLowerCase()} alternatives to Skype. Compare features, read reviews, and choose the perfect communication tool for your needs.`,
+      title,
+      description,
     },
   };
 }
@@ -77,9 +80,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <section className="container mx-auto py-12 px-4">
-      <h2 className="text-3xl font-bold text-center mb-12">
-        {categoryInfo.emoji} {categoryInfo.displayName} Software
-      </h2>
+      <h1 className="text-3xl font-bold text-center mb-12">
+        {categoryInfo.H1 || `Best Skype Alternatives for ${categoryInfo.emoji} ${categoryInfo.displayName}`}
+      </h1>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {categoryItems.map((software) => {
