@@ -5,6 +5,18 @@ import { highlight } from 'sugar-high'
 import React from 'react'
 import SoftwareCardMDX from './mdx/SoftwareCardMDX'
 
+function parseMarkdown(text: string) {
+  if (typeof text !== 'string') return text;
+  
+  // Handle bold text
+  text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  
+  // Handle italic text
+  text = text.replace(/\*(.*?)\*/g, '<em>$1</em>');
+  
+  return text;
+}
+
 function Table({ data, className = "" }) {
   const defaultStyles = "w-full border-collapse border border-gray-300 mb-6";
   const headerStyles = "bg-gray-100 border border-gray-300 px-4 py-2 text-left font-semibold";
@@ -21,7 +33,7 @@ function Table({ data, className = "" }) {
       <tr key={index} className={rowStyles}>
         {row.map((cell, cellIndex) => (
             <td key={cellIndex} className={cellStyles}>
-              {cell}
+              <span dangerouslySetInnerHTML={{ __html: parseMarkdown(cell) }} />
             </td>
         ))}
       </tr>
