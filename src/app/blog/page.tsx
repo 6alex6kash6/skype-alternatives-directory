@@ -4,22 +4,22 @@ import BlogList from "@/components/BlogList";
 import { getBlogPosts } from "@/app/blog/utils";
 import { Metadata } from "next";
 
+const title = "Communication Software Reviews & Guides | Expert Insights";
+const description = "Expert reviews and setup guides for VoIP software, international calling apps, and team communication tools. Unbiased insights to help you choose.";
+
 export const metadata: Metadata = {
-  title: "Blog | Skype Alternatives",
-  description:
-    "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
+  title,
+  description,
   openGraph: {
-    title: "Blog | Skype Alternatives",
-    description:
-      "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
+    title,
+    description,
     type: "website",
     url: "https://skypealternativelist.com/blog",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog | Skype Alternatives",
-    description:
-      "Expert insights, tips, and comparisons to help you choose the perfect communication tools. Find detailed reviews and guides about Skype alternatives.",
+    title,
+    description,
   },
 };
 
@@ -36,11 +36,10 @@ export default async function BlogPage() {
         <div className="bg-gradient-to-r from-purple-700 to-purple-900 text-white py-12 px-4">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Blog & Resources
+              Expert Reviews & Guides
             </h1>
             <p className="text-xl md:text-2xl text-purple-100">
-              Expert insights, tips, and comparisons to help you choose the
-              perfect communication tools
+              Unbiased reviews, detailed comparisons, and setup guides for 200+ communication tools. Make informed decisions with expert insights.
             </p>
           </div>
         </div>

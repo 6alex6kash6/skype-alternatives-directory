@@ -29,8 +29,7 @@ const Index = () => {
               Find the Best Skype Alternatives
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-purple-100">
-              Compare features, read honest reviews, and find the perfect
-              communication tool for your needs
+              Compare features, read honest reviews, and find the perfect communication tool from 200+ alternatives
             </p>
             <Suspense
               fallback={
@@ -39,6 +38,9 @@ const Index = () => {
             >
               <SearchBar />
             </Suspense>
+            <div className="text-center mt-6">
+              <span className="text-purple-200">🏆 Most comprehensive directory • 200+ alternatives • Updated daily</span>
+            </div>
           </div>
         </section>
         <Suspense

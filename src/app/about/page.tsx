@@ -1,19 +1,22 @@
 import React from "react";
 import { Metadata } from "next";
 
+const title = "Our Mission: Building the Complete Skype Alternatives Directory";
+const description = "Learn why we created the most comprehensive directory of Skype alternatives. Our testing process, mission, and commitment to unbiased reviews.";
+
 export const metadata: Metadata = {
-  title: "About Us | Skype Alternatives",
-  description: "Why we created Skype alternatives. We provide unbiased reviews and comparisons of communication tools.",
+  title,
+  description,
   openGraph: {
-    title: "About Us | Skype Alternatives",
-    description: "Why we created Skype alternatives. We provide unbiased reviews and comparisons of communication tools.",
+    title,
+    description,
     type: "website",
     url: "https://skypealternativelist.com/about",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us | Skype Alternatives",
-    description: "Why we created Skype alternatives. We provide unbiased reviews and comparisons of communication tools.",
+    title,
+    description,
   },
 };
 
@@ -22,11 +25,11 @@ export default function AboutPage() {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="bg-white rounded-xl shadow-sm p-6 md:p-8">
-          <h1 className="text-4xl font-bold mb-8 text-center">About Us</h1>
+          <h1 className="text-4xl font-bold mb-8 text-center">Our Mission: The Complete Communication Tools Directory</h1>
 
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-4">
-              Why We Created This Directory
+              Why We built the most comprehensive directory of 200+ tools
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
