@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { softwareData } from "@/data/software";
 import { getBlogPosts } from "@/app/blog/utils";
+import { getAlternatives } from "@/app/alternatives/utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.skypealternativelist.com";
@@ -18,6 +19,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/blog`,
+      lastModified: currentDate,
+    },
+    {
+      url: `${baseUrl}/alternatives`,
       lastModified: currentDate,
     },
   ];
@@ -49,5 +54,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.metadata.publishedAt),
   }));
 
-  return [...mainRoutes, ...itemRoutes, ...categoryRoutes, ...blogRoutes];
+  // Generate routes for each alternative
+  const alternativeRoutes = getAlternatives().map((alternative) => ({
+    url: `${baseUrl}/alternatives/${alternative.slug}`,
+    lastModified: new Date(alternative.metadata.publishedAt),
+  }));
+
+  return [...mainRoutes, ...itemRoutes, ...categoryRoutes, ...blogRoutes, ...alternativeRoutes];
 }
