@@ -39,6 +39,24 @@ const Footer: React.FC<{
 
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-800">
+              Alternatives
+            </h3>
+            <ul className="space-y-2 text-gray-600">
+              <li>
+                <Link href="/alternatives" className="hover:text-purple-600">
+                  All Alternatives
+                </Link>
+              </li>
+              <li>
+                <Link href="/alternatives/magicjack" className="hover:text-purple-600">
+                  MagicJack
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-gray-800">
               Company
             </h3>
             <ul className="space-y-2 text-gray-600">
