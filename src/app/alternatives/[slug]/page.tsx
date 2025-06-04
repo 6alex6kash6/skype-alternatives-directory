@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { SimpleCustomMDX } from '@/components/SimpleCustomMdx';
 import { getAlternatives } from '../utils'
 import AlternativeDetail from '@/components/AlternativeDetail'
+import RelatedAlternatives from '@/components/RelatedAlternatives'
 
 const baseUrl = 'https://skypealternativelist.com';
 
@@ -53,19 +54,25 @@ export function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  const alternative = getAlternatives().find((alt) => alt.slug === params.slug)
+  const alternatives = getAlternatives();
+  const alternative = alternatives.find((alt) => alt.slug === params.slug)
 
   if (!alternative) {
     notFound()
   }
 
   return (
-    <AlternativeDetail
-      alternative={{
-        ...alternative.metadata,
-        slug: alternative.slug,
-        content: <SimpleCustomMDX source={alternative.content} />,
-      }}
-    />
+    <>
+      <AlternativeDetail
+        alternative={{
+          ...alternative.metadata,
+          slug: alternative.slug,
+          content: <SimpleCustomMDX source={alternative.content} />,
+        }}
+      />
+      <div className="container mx-auto px-4 py-16">
+        <RelatedAlternatives currentSlug={params.slug} alternatives={alternatives} />
+      </div>
+    </>
   )
 } 

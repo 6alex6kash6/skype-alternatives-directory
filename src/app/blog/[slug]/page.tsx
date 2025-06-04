@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import { SimpleCustomMDX } from '@/components/SimpleCustomMdx';
 import { getBlogPosts } from '@/app/blog/utils'
 import BlogPostDetail from '@/components/BlogPostDetail'
+import RelatedBlogPosts from '@/components/RelatedBlogPosts'
 
 const baseUrl = 'https://skypealternativelist.com';
 
@@ -53,17 +54,23 @@ export function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  const post = getBlogPosts().find((post) => post.slug === params.slug)
+  const posts = getBlogPosts();
+  const post = posts.find((post) => post.slug === params.slug)
 
   if (!post) {
     notFound()
   }
 
   return (
-    <BlogPostDetail post={{
-      ...post.metadata,
-      slug: post.slug,
-      content: <SimpleCustomMDX source={post.content} />,
-    }} />
+    <>
+      <BlogPostDetail post={{
+        ...post.metadata,
+        slug: post.slug,
+        content: <SimpleCustomMDX source={post.content} />,
+      }} />
+      <div className="container mx-auto px-4 py-16">
+        <RelatedBlogPosts currentSlug={params.slug} posts={posts} />
+      </div>
+    </>
   )
 }

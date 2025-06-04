@@ -52,6 +52,11 @@ const Footer: React.FC<{
                   MagicJack
                 </Link>
               </li>
+              <li>
+                <Link href="/alternatives/8x8" className="hover:text-purple-600">
+                  8x8
+                </Link>
+              </li>
             </ul>
           </div>
 
