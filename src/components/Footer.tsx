@@ -57,6 +57,11 @@ const Footer: React.FC<{
                   8x8
                 </Link>
               </li>
+              <li>
+                <Link href="/alternatives/oocam" className="hover:text-purple-600">
+                  Oocam
+                </Link>
+              </li>
             </ul>
           </div>
 
