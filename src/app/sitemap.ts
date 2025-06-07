@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Generate routes for each software item
   const itemRoutes = softwareData.map((software) => ({
-    url: `${baseUrl}/items/${software.slug}/`,
+    url: `${baseUrl}/items/${software.slug}`,
     lastModified: currentDate,
   }));
 
@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const categoryRoutes = Array.from(categories).map((category) => ({
     url: `${baseUrl}/categories/${category
       .toLowerCase()
-      .replace(/\s+/g, "-")}/`,
+      .replace(/\s+/g, "-")}`,
     lastModified: currentDate,
   }));
 
