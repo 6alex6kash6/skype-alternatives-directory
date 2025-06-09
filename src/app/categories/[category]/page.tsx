@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: { params: { category: string 
       type: "website",
       url: `https://skypealternativelist.com/categories/${info.slug}`,
     },
+    alternates: {
+      canonical: `https://skypealternativelist.com/categories/${info.slug}`,
+    },
     twitter: {
       card: "summary_large_image",
       title,

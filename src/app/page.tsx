@@ -17,6 +17,9 @@ export const generateMetadata = (): Metadata => {
       type: "website",
       siteName: "Video Calling Apps Comparison",
     },
+    alternates: {
+      canonical: "https://skypealternativelist.com",
+    },
     twitter: {
       title,
       description,

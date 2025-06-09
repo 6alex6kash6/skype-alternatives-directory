@@ -50,6 +50,9 @@ export function generateMetadata({ params }) {
       description,
       images: [ogImage],
     },
+    alternates: {
+      canonical: `${baseUrl}/alternatives/${alternative.slug}`,
+    },
   }
 }
 

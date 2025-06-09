@@ -19,6 +19,9 @@ export async function generateMetadata({
   return {
     title: software.text,
     description: `Learn more about ${software.title}, a Skype alternative. Read reviews, compare features, and find out if it's the right choice for you.`,
+    alternates: {
+      canonical: `https://skypealternativelist.com/items/${software.slug}`,
+    },
   };
 }
 

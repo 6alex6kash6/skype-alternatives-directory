@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://skypealternativelist.com/alternatives",
   },
+  alternates: {
+    canonical: "https://skypealternativelist.com/alternatives",
+  },
   twitter: {
     card: "summary_large_image",
     title,
