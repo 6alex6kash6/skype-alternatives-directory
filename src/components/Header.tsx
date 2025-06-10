@@ -67,6 +67,12 @@ const Header: React.FC<{
             <span className="mr-1">🌍</span>
             International Calling
           </Link>
+          <Link
+            href="/alternatives"
+            className="text-gray-600 hover:text-purple-600 font-medium"
+          >
+            Alternatives
+          </Link>
           <div className="relative group">
             <button
               className="text-gray-600 hover:text-purple-600 font-medium flex items-center"
@@ -230,6 +236,13 @@ const Header: React.FC<{
           >
             <span className="mr-1">🌍</span>
             International Calling
+          </Link>
+          <Link
+            href="/alternatives"
+            className="text-2xl text-gray-600 hover:text-purple-600 font-medium"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Alternatives
           </Link>
           <button
             className="text-2xl text-gray-600 hover:text-purple-600 font-medium flex items-center"
