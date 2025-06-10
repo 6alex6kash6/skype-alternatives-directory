@@ -269,7 +269,7 @@ const Header: React.FC<{
             About
           </Link>
           <Link
-            href="/submit-tool"
+            href="/"
             className="text-2xl bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700 font-medium animate-shake flex items-center gap-3"
             onClick={(e) => {
               e.preventDefault();
