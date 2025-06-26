@@ -297,6 +297,27 @@ export const softwareData: Software[] = [
       "Yadaphone provides a flexible platform for making international calls from a web browser. Users can connect with clients, banks, and government offices worldwide with a pay-per-use credit system, ensuring no contracts or hidden fees are involved. This service offers a seamless experience for those needing to communicate globally without the hassle of traditional calling methods.",
   },
   {
+    title: "ZenCall",
+    url: "https://www.zencall.so/",
+    custom_redirect: "",
+    slug: "zencall",
+    text: "ZenCall allows users to make secure, crystal-clear phone calls directly from their browser without downloads or subscriptions.",
+    Category: "International Calling, Personal Communication",
+    Rank: null,
+    Hide: false,
+    isFree: false,
+    verified: false,
+    premium: false,
+    promoted: true,
+    images: null,
+    thumbnail: null,
+    screenshotUrl:
+      "https://mars-images.imgix.net/aiscraper/anon/1750960879375.www-zencal.jpeg?auto=format&w=1200&fit=max&w=1000",
+    fullDescription:
+      "ZenCall enables users to make secure and crystal-clear phone calls directly from their web browsers, eliminating the need for downloads or subscriptions. This modern service is a browser-based replacement for traditional calling methods, providing a simple and effective solution for communication. With its focus on privacy and ease of use, ZenCall offers a reliable option for users seeking efficient ways to connect.",
+    pros: "One-Click Calling|Built-In Contacts|Buy Private Numbers|Pay-As-You-Go|Secure & Private|Fast & Modern",
+  },
+  {
     title: "Tox",
     url: "https://tox.chat",
     custom_redirect: null,
