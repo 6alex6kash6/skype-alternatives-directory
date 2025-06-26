@@ -302,7 +302,7 @@ export const softwareData: Software[] = [
     custom_redirect: "",
     slug: "zencall",
     text: "ZenCall allows users to make secure, crystal-clear phone calls directly from their browser without downloads or subscriptions.",
-    Category: "International Calling, Personal Communication",
+    Category: "International Calling, Personal Communication, Landline Calling",
     Rank: null,
     Hide: false,
     isFree: false,
@@ -310,7 +310,8 @@ export const softwareData: Software[] = [
     premium: false,
     promoted: true,
     images: null,
-    thumbnail: null,
+    thumbnail:
+      "https://mars-images.imgix.net/tinyadz/1750952274175.zencall-04.jpg?auto=format&w=1200&fit=max&w=800",
     screenshotUrl:
       "https://mars-images.imgix.net/aiscraper/anon/1750960879375.www-zencal.jpeg?auto=format&w=1200&fit=max&w=1000",
     fullDescription:
